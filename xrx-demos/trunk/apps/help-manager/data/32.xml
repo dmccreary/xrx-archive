@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+    <id>32</id>
+    <name>mean</name>
+    <category>6</category>
+    <help-text>The result of the sum of all numbers in a data set divided by the number of items in the data set.  Also known as average. </help-text>
+    <resources>
+        <resource>
+            <resource-name>wikipedia</resource-name>
+            <resource-type>url</resource-type>
+            <resource-url>xx</resource-url>
+        </resource>
+        <resource>
+            <resource-name>stat text book </resource-name>
+            <resource-type>google-doc</resource-type>
+            <resource-url>xxx</resource-url>
+        </resource>
+    </resources>
+    <created-by>admin</created-by>
+    <created-datetime>2011-10-24T15:11:17.265Z</created-datetime>
+    <last-modified-by>admin</last-modified-by>
+    <last-modified-datetime>2011-10-24T15:11:52.927Z</last-modified-datetime>
+</help>

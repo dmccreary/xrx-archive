@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+    <head>
+        <title>Test of #nosql search</title>
+    </head>
+    <body>
+        <p>Test of #NoSQL Search with All NoSQL Search behavior=all</p>
+        <script src="http://widgets.twimg.com/j/2/widget.js"/>
+        <script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#nosql',
+  interval: 6000,
+  title: 'All NoSQL Search with behavior=all',
+  subject: 'All Tweets',
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'all'
+  }
+}).render().start();
+</script>
+    </body>
+</html>

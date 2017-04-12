@@ -1,0 +1,23 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="abcd">
+                    <xs:annotation>
+                        <xs:documentation>Sample element abc</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="MWMW">
+                    <xs:annotation>
+                        <xs:documentation>Sample element with wide characters.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ijll">
+                    <xs:annotation>
+                        <xs:documentation>Sample element with narrow characters.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

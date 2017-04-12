@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg-demo>
+    <id>8</id>
+    <name>How price impacts and demand.</name>
+    <description>A range control is used to draw two lines.  It simulates the rubber band line and shows how the quanity of a good sold changes with price changes for
+    a typical consumer good.</description>
+    <category>medium</category>
+    <status>draft</status>
+    <tag>tag-1</tag>
+    <jquery>true</jquery>
+    <style>
+        body {font-family: Helvetica,Ariel,sans-serif;}
+        
+        svg {border: solid 1px black; margin-left: 10px;}
+        .slider, svg {width: 300px;}
+    </style>
+    <script>
+        
+       window.onload = function() {
+           var rbl = document.getElementById('rbl');
+       }
+    
+        $(
+          function() {
+             $('#slider').slider(
+                  {
+                    min: 1,
+                    max: 90,
+                    value: 50,
+                    slide: function(event, ui) {
+                    
+                         $('#amount').val(ui.value);
+                         
+                         $("#rbl").each(function(widget) {
+
+                           this.setAttribute("y", 200 - ui.value * 2);
+                           this.setAttribute("height", ui.value *2);
+                           this.setAttribute("width", 180 - 2* ui.value);
+                           });
+                    }
+             });             
+          });
+    </script>
+    <svg width="300" height="220">
+        <g id="myChart" style="font-family:Helvetica,Arial,sans-serif;" transform="translate(10, 10)">
+            
+            <!-- rubber-band lines -->
+            <rect id="rbl" x="0" y="110" width="90" height="90" style="fill:none;stroke:gray;stroke-width:2;"/>
+            
+            <!-- vertical axis: price -->
+            <line id="price-axis" x1="0" x2="0" y1="200" y2="0" style="stroke:black; stroke-width:3;" marker-end="url(#startMarker)"/>
+            <text x="10" y="15">Price</text>
+            
+            <!-- horizontal axis: quantity -->
+            <line id="quantity-axis" x1="0" x2="200" y1="200" y2="200" style="stroke:black; stroke-width:3;" marker-end="url(#startMarker)"/>
+            <text x="205" y="205">Quantity</text>
+            
+            <!-- demand line -->
+            <path id="demand-line" style="stroke:blue; stroke-width:3" d="M0,20 180,200"/>
+            <text id="demand-text" x="130" y="0" style="stroke:blue" transform="rotate(45)">Demand</text>
+        </g>
+    </svg>
+    <content>
+        <div id="slider" class="slider"/>
+        <p>Move the slider to change the price.</p>
+    </content>
+    <expected-image>hello-world.png</expected-image>
+</svg-demo>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sample-rest-interfaces>
+    <api>
+        <desc>Example of Google REST inteface to geocoding service</desc>
+        <google-geocode>http://maps.google.com/maps/geo?q=St.+Louis+Park+MN&amp;output=xml</google-geocode>
+    </api>
+</sample-rest-interfaces>

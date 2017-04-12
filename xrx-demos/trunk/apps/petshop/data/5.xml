@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animal>
+    <id>5</id>
+    <animal-category-code>reptiles</animal-category-code>
+    <animal-type-code>snake</animal-type-code>
+    <animal-name>Slither</animal-name>
+    <pruchase-amount>150.00</pruchase-amount>
+    <status>available</status>
+    <description>Very quite pet.</description>
+    <image>snake.jpg</image>
+</animal>

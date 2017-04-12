@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <title>Demo of XForms Event Logging</title>
+        <style type="text/css" media="screen">
+          body {font-family: Helvetica, sans-serif;}
+          #log {
+          font-size: 8pt; 
+          color: SlateGray;
+          background-color: lavender; 
+          border: 1px solid SlateGray;			
+          }	
+      </style>
+        <xf:model>
+            <xf:instance id="save">
+                <data xmlns="">
+                    <element1>test</element1>
+                </data>
+            </xf:instance>
+            <xf:instance id="original">
+                <data xmlns="">
+                    <element1/>
+                    <changed>false</changed>
+                </data>
+            </xf:instance>
+            <!-- this is were we log events -->
+            <xf:instance id="log">
+                <data xmlns="">
+                    <event/>
+                </data>
+            </xf:instance>
+            <!-- put the cursor in the first field when the form becomes ready -->
+            <xf:action ev:event="xforms-ready">
+                <xf:setfocus control="field-1"/>
+                <xf:insert nodeset="instance('log')/event" at="last()" position="after"/>
+                <xf:setvalue ref="instance('log')/event[last()]" value="'Running xforms-ready'"/>
+                <xf:setvalue ref="instance('original')/element1" value="instance('save')/element1"/>
+            </xf:action>
+        </xf:model>
+    </head>
+    <body>
+        <h2>Demonstration of XForms Event Logging</h2>
+        <xf:output ref="instance('original')/element1">
+            <xf:label>Original value: </xf:label>
+        </xf:output>
+        <br/>
+        <xf:output ref="instance('original')/changed">
+            <xf:label>Changed value: </xf:label>
+        </xf:output>
+        <br/>
+        <xf:input ref="instance('save')/element1" incremental="true" id="field-1">
+            <xf:label>Input 1:</xf:label>
+            <xf:action ev:event="xforms-value-changed" if="instance('original')/element1 = instance('save')/element1">
+                <xf:insert nodeset="instance('log')/event" at="last()" position="after"/>
+                <xf:setvalue ref="instance('log')/event[last()]" value="'xforms-value-changed in input 1 same'"/>
+                <xf:setvalue ref="instance('original')/changed" value="'false'"/>
+            </xf:action>
+            <xf:action ev:event="xforms-value-changed" if="not(instance('original')/element1 = instance('save')/element1)">
+                <xf:insert nodeset="instance('log')/event" at="last()" position="after"/>
+                <xf:setvalue ref="instance('log')/event[last()]" value="'xforms-value-changed in input 1 different'"/>
+                <xf:setvalue ref="instance('original')/changed" value="'true'"/>
+            </xf:action>
+        </xf:input>
+        <xf:group ref="instance('original')/changed[.='false']">
+            <div>Original Value</div>
+        </xf:group>
+        <br/>
+        <div id="log">
+            <p>Event Log</p>
+            <xf:repeat id="results-repeat" nodeset="instance('log')/event">
+                <xf:output ref="."/>
+            </xf:repeat>
+        </div>
+    </body>
+</html>

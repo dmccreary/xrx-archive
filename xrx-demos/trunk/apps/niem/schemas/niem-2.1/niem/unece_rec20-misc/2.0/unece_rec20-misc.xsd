@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:unece="http://niem.gov/niem/unece_rec20-misc/2.0" targetNamespace="http://niem.gov/niem/unece_rec20-misc/2.0" version="1">
+    <xsd:import schemaLocation="../../structures/2.0/structures.xsd" namespace="http://niem.gov/niem/structures/2.0"/>
+    <xsd:simpleType name="LengthCodeSimpleType">
+        <xsd:restriction base="xsd:token"/>
+    </xsd:simpleType>
+    <xsd:complexType name="LengthCodeType">
+        <xsd:simpleContent>
+            <xsd:extension base="unece:LengthCodeSimpleType">
+                <xsd:attributeGroup ref="s:SimpleObjectAttributeGroup"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:simpleType name="MassCodeSimpleType">
+        <xsd:restriction base="xsd:token"/>
+    </xsd:simpleType>
+    <xsd:complexType name="MassCodeType">
+        <xsd:simpleContent>
+            <xsd:extension base="unece:MassCodeSimpleType">
+                <xsd:attributeGroup ref="s:SimpleObjectAttributeGroup"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:simpleType name="TimeCodeSimpleType">
+        <xsd:restriction base="xsd:token"/>
+    </xsd:simpleType>
+    <xsd:complexType name="TimeCodeType">
+        <xsd:simpleContent>
+            <xsd:extension base="unece:TimeCodeSimpleType">
+                <xsd:attributeGroup ref="s:SimpleObjectAttributeGroup"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+</xsd:schema>

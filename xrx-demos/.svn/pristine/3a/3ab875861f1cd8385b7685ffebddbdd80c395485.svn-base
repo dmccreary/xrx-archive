@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Requirement>
+    <id>63</id>
+    <RequirementParentID>7</RequirementParentID>
+    <RequirementShortName>Event Logging</RequirementShortName>
+    <RequirementDescriptionText>Create centralized XQuery event logging function that allow events to be stored in log files and tools to view these log files.</RequirementDescriptionText>
+    <ProjectID>1</ProjectID>
+    <RequirementLevelCode>0</RequirementLevelCode>
+    <RequirementPriorityCode>medium</RequirementPriorityCode>
+    <RequirementCompletionStatusCode>new</RequirementCompletionStatusCode>
+    <RequirementRequestedBy>dan</RequirementRequestedBy>
+    <RequirementApprovedBy/>
+    <RequirementApprovalDate/>
+    <RequirementTestableCode>unknown</RequirementTestableCode>
+    <RequirementClassifierCode/>
+    <RequirementTag/>
+    <RequirementAssignedToPersonID/>
+    <RequirmentBusinessRuleID/>
+    <RequirmentBusinessAnalists/>
+    <RequirementEstimatedDevelopmentDays>10</RequirementEstimatedDevelopmentDays>
+    <RequirementCostEstimateAmount>2000</RequirementCostEstimateAmount>
+    <RequirementCompletionPercent>0</RequirementCompletionPercent>
+    <RequirementCertaintyLevel>.75</RequirementCertaintyLevel>
+    <RequirementReleaseCode>version-1</RequirementReleaseCode>
+    <RequirementDepends/>
+    <RequirementNoteText/>
+    <Resources>
+        <Resource>
+            <ResourceTypeCode>unit-test</ResourceTypeCode>
+            <ResourceLabelText>Label</ResourceLabelText>
+            <ResourceURL>http://</ResourceURL>
+        </Resource>
+    </Resources>
+    <created-by>dan@danmccreary.com</created-by>
+    <created-datetime>2012-01-26T20:52:45.966Z</created-datetime>
+    <last-modified-by>admin</last-modified-by>
+    <last-modified-datetime>2012-01-26T20:53:18.302Z</last-modified-datetime>
+</Requirement>

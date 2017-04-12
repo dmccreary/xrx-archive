@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id/>
+    <name/>
+    <description>In this lab students will learn about .</description>
+    <level/>
+    <depends>
+        <topic-id/>
+    </depends>
+    <resources>
+        <resource>
+            <name/>
+            <type/>
+            <url/>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+</lab>

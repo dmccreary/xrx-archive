@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<example-queries>
+    <id>2</id>
+    <author>joewiz</author>
+    <description>Sample list of XQueries use in a half hour tutorial for a TEI class.</description>
+    <query>
+        <description>Hello World</description>
+        <code><![CDATA[let $message := 'Hello World!'
+   return $message]]></code>
+    </query>
+    <query>
+        <description>Basic FLWOR</description>
+        <code><![CDATA[for $item in ('a', 'b', 'c', 'd')
+   return $item]]></code>
+    </query>
+    <query>
+        <description>Order By</description>
+        <code><![CDATA[let $my-sequence := ('b', 'a', 'd', 'c', 'x', 'y', 'z', 'b')
+
+for $item in $my-sequence
+order by $item
+return $item]]></code>
+    </query>
+    <query>
+        <description>Distinct Values Sorted</description>
+        <code><![CDATA[let $my-sequence := ('b', 'a', 'c', 'c', 'b', 'a', 'd', 'b')
+let $distinct-items := distinct-values($my-sequence)
+
+for $item in $distinct-items
+order by $item
+return $item]]></code>
+    </query>
+    <query>
+        <description>Adding number in FLWOR</description>
+        <code><![CDATA[for $item in (1, 2, 3)
+let $foo := $item + 10
+return $foo
+]]></code>
+    </query>
+    <query>
+        <description>Counting and Concatinating</description>
+        <code><![CDATA[for $name at $count in ('James', 'Sebastian', 'Lou')
+let $phrase := concat($name, ' is #', $count)
+return
+    <item>{$phrase}</item>]]></code>
+    </query>
+    <query>
+        <description>Count All XML Docs</description>
+        <code><![CDATA[let $docs := collection('/db/dma/apps/tei/data')/*
+return count($docs)]]></code>
+    </query>
+    <query>
+        <description>Count TEI Docs</description>
+        <code><![CDATA[declare namespace tei = "http://www.tei-c.org/ns/1.0";
+
+let $tei-docs := collection('/db/dma/apps/tei/data')/tei:TEI
+return count($tei-docs)]]></code>
+    </query>
+    <query>
+        <description>Count Plays (that have a castlist)</description>
+        <code><![CDATA[xquery version "1.0";
+
+declare namespace tei = "http://www.tei-c.org/ns/1.0";
+
+let $plays := collection('/db/dma/apps/tei/data')/tei:TEI[descendant::tei:castList]
+
+return
+    <results>
+        {count($plays)}
+    </results>]]></code>
+    </query>
+    <query>
+        <description>Count Acts</description>
+        <code><![CDATA[declare namespace tei = "http://www.tei-c.org/ns/1.0";
+
+let $acts := collection('/db/dma/apps/tei/data')/tei:TEI//tei:div[@type="act"]
+
+return
+    count($acts)]]></code>
+    </query>
+    <query>
+        <description>TEI Titles</description>
+        <code><![CDATA[declare namespace tei = "http://www.tei-c.org/ns/1.0";
+
+for $tei-doc in collection('/db/dma/apps/tei/data')/tei:TEI
+return
+    $tei-doc//tei:titleStmt/tei:title/text()]]></code>
+    </query>
+    <query>
+        <description>Ordered TEI Titles (Full Path)</description>
+        <code><![CDATA[declare namespace tei = "http://www.tei-c.org/ns/1.0";
+
+for $work in collection('/db/dma/apps/tei/data')/tei:TEI
+(: Note that the full path is SLOWER than just the leaf elements :)
+(: Use full paths only when necessary - e.g. if you have tei:titles elsewhere in the document that you don't want to select :)
+let $title := $work/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title
+order by $title
+return
+    $title]]></code>
+    </query>
+    <query>
+        <description>TEI Titles Using the Default Namespace</description>
+        <code><![CDATA[declare default element namespace "http://www.tei-c.org/ns/1.0";
+
+for $tei-doc in collection('/db/dma/apps/tei/data')/TEI
+return
+    $tei-doc//titleStmt/title/text()]]></code>
+    </query>
+    <query>
+        <description>All Roles in All Plays</description>
+        <code><![CDATA[declare default element namespace "http://www.tei-c.org/ns/1.0";
+
+for $tei-doc in collection('/db/dma/apps/tei/data')/TEI
+return
+    $tei-doc//role/text()]]></code>
+    </query>
+    <query>
+        <description>Roles in Romeo and Juliet</description>
+        <explanation>We want to demonstrate two new features. The doc() function and adding the
+            XPath predicate to the end of the doc() function.</explanation>
+        <code><![CDATA[declare default element namespace "http://www.tei-c.org/ns/1.0";
+
+for $cast-member in doc('/db/dma/apps/tei/data/shakespeare/roj.xml')//castItem
+return
+   $cast-member]]></code>
+    </query>
+    <query>
+        <description>Roles in Romeo and Juliet Reformatted</description>
+        <explanation>We want to demonstrate two new features. The doc() function and adding the
+            XPath predicate to the end of the doc() function.</explanation>
+        <code><![CDATA[declare default element namespace "http://www.tei-c.org/ns/1.0";
+
+for $cast-member in doc('/db/dma/apps/tei/data/shakespeare/roj.xml')//castItem
+return
+    <cast-member>
+        {$cast-member/role/text()}: {$cast-member/roleDesc/text()}
+    </cast-member>]]></code>
+    </query>
+    <query>
+        <description>Roles in Romeo and Juliet List Item</description>
+        <explanation>We want to demonstrate two new features. The doc() function and adding the
+            XPath predicate to the end of the doc() function.</explanation>
+        <code><![CDATA[declare default element namespace "http://www.tei-c.org/ns/1.0";
+
+for $cast-member in doc('/db/dma/apps/tei/data/shakespeare/roj.xml')//castItem
+return
+    <li>
+        <b>{$cast-member/role/text()}</b>: {$cast-member/roleDesc/text()}
+    </li>]]></code>
+    </query>
+    <query>
+        <description>Acts in Romeo and Juliet - Links</description>
+        <explanation>We want to demonstrate two new features. The doc() function and adding the
+            XPath predicate to the end of the doc() function.</explanation>
+        <code><![CDATA[declare default element namespace "http://www.tei-c.org/ns/1.0";
+
+for $act at $count in doc('/db/dma/apps/tei/data/shakespeare/roj.xml')//div[@type='act']
+return
+    <a href="view-act.xq?play-id=roj&amp;act={$count}">
+        {$act/head/text()}
+    </a>]]></code>
+    </query>
+    <query>
+        <description>Acts and Scenes in Romeo and Juliet</description>
+        <explanation>We want to demonstrate two new features. The doc() function and adding the
+            XPath predicate to the end of the doc() function.</explanation>
+        <code><![CDATA[declare default element namespace "http://www.tei-c.org/ns/1.0";
+
+let $acts := doc('/db/dma/apps/tei/data/shakespeare/roj.xml')//div[@type='act']
+
+return
+    <ol>{
+    for $act in $acts
+    return
+        <li>{$act/head/text()}
+        <ol>{
+            for $scene in $act/div/head/text()
+            return
+            <li>{substring-after($scene, ',')}</li>
+        }</ol>
+        </li>
+    }</ol>]]></code>
+    </query>
+    <created-by>dan</created-by>
+    <created-datetime>2010-06-29T17:04:33.489-05:00</created-datetime>
+    <last-modified-by>editor</last-modified-by>
+    <last-modified-datetime>2010-06-29T17:04:33.489-05:00</last-modified-datetime>
+</example-queries>

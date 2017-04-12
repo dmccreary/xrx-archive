@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>27</id>
+    <Classifier>Message Routing</Classifier>
+    <PatternName>Recipient List</PatternName>
+    <Image>RecipientListIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/RecipientList.html</Reference>
+    <Description>How do we route a message to a list of dynamically specified
+    recipients?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

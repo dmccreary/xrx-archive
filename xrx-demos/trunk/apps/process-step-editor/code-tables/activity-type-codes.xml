@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>activity-type-code</name>
+    <description>A type of activities that can be performed with the process step editor.</description>
+    <items>
+        <item>
+            <label>Authenticate</label>
+            <value>authenticate</value>
+            <definition>Authenticate incomming data set using information in HTTP header</definition>
+        </item>
+        <item>
+            <label>Validate using XML Schema</label>
+            <value>validate-xml-schema</value>
+            <definition>Validate with an XML Schema</definition>
+        </item>
+        <item>
+            <label>Validate with Schematron</label>
+            <value>validate-with-schematron</value>
+            <definition>Validate with an Schematron</definition>
+        </item>
+        <item>
+            <label>Transform with XQuery</label>
+            <value>transform-with-xquery</value>
+            <definition>Transform with XQuery</definition>
+        </item>
+        <item>
+            <label>Transform with XSLT</label>
+            <value>transform-with-xslt</value>
+            <definition>Transform with XSLT</definition>
+        </item>
+        <item>
+            <label>Store</label>
+            <value>store</value>
+            <definition>Store in eXist database</definition>
+        </item>
+    </items>
+</code-table>

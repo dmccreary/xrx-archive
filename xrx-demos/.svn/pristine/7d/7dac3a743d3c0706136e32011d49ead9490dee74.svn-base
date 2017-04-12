@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index>
+        <!-- Disable the old default full text indexs -->
+        <fulltext default="none" attributes="no"/>
+        
+        <!-- Sample Lucene Fulltext Indexes not really appropriate for company names -->
+        <lucene>
+            <text qname="dname"/>
+            <text qname="ename"/>
+        </lucene>
+        <!-- standard range indexes for exact match and sorting -->
+        <create qname="sonum" type="xs:string"/>
+        <create qname="dname" type="xs:string"/>
+        <create qname="ename" type="xs:string"/>
+        
+        <!-- See http://exist-db.org/ngram.html -->
+        <ngram qname="sonum"/>
+        <ngram qname="dname"/>
+        <ngram qname="ename"/>
+    </index>
+</collection>

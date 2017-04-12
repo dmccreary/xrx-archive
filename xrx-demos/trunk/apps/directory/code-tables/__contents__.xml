@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/surescripts/apps/directory/code-tables" owner="admin" group="dba" mode="755" created="2010-10-15T08:13:17-05:00" version="1">
+    <resource type="XMLResource" name="EmployeeContractorStatusCodes.xml" owner="admin" group="dba" mode="755" created="2010-10-15T08:13:31-05:00" modified="2010-10-15T08:14:45-05:00" filename="EmployeeContractorStatusCodes.xml" mimetype="text/xml"/>
+    <resource type="XMLResource" name="EmployeeRoleCodes.xml" owner="admin" group="dba" mode="755" created="2010-10-15T08:23:13-05:00" modified="2010-10-15T08:24:56-05:00" filename="EmployeeRoleCodes.xml" mimetype="text/xml"/>
+    <resource type="XMLResource" name="USStateCodes.xml" owner="admin" group="dba" mode="755" created="2010-10-15T08:18:12-05:00" modified="2010-10-15T08:21:41-05:00" filename="USStateCodes.xml" mimetype="text/xml"/>
+</collection>

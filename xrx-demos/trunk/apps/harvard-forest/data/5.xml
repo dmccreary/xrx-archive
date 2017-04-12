@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archiveFile>
+    <recordID>5</recordID>
+    <itemID>
+        <itemIDType>HF</itemIDType>
+        <itemIDNumber>HF 2.1</itemIDNumber>
+    </itemID>
+    <title>Topographic Map of Harvard Forest</title>
+    <temporalCoverage>
+        <startDate>1952</startDate>
+        <endDate>1952</endDate>
+        <dateDescription>1952</dateDescription>
+    </temporalCoverage>
+    <workType>Maps</workType>
+    <physicalDescription>
+        <media>Paper</media>
+        <extent>numerous copies</extent>
+        <scale>1" = 0.5 mi</scale>
+    </physicalDescription>
+    <abstract>Geology, soils, topography</abstract>
+    <publisher>Harvard Forest</publisher>
+    <date>1952</date>
+    <publicationStatus>Published</publicationStatus>
+    <archivesLocation>Map Room Stack #1</archivesLocation>
+    <relatedMaterial>
+        <relatedItem>H.F.Bulletin No. 24</relatedItem>
+        <link ref="xlink:href">http://harvardforest.fas.harvard.edu/sites/harvardforest.fas.harvard.edu/files/publications/pdfs/HFpubs/b24.pdf</link>
+    </relatedMaterial>
+    <administrativeNotes>duplicates located in same drawer</administrativeNotes>
+    <access>on-site only</access>
+    <repositoryName>Harvard Forest Library</repositoryName>
+    <creator>
+        <nameElement>Stout, B.</nameElement>
+        <role>Researcher</role>
+        <source>Local</source>
+    </creator>
+</archiveFile>

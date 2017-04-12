@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<example-queries>
+    <id>5</id>
+    <author>dan</author>
+    <description>Examples DocBook Queries</description>
+    <query>
+        <description>Hello World</description>
+        <code><![CDATA[let $message := 'Hello World!'
+   return $message]]></code>
+    </query>
+</example-queries>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>34</id>
+    <Classifier>Message Routing</Classifier>
+    <PatternName>Message Broker</PatternName>
+    <Image>MessageBrokerIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessageBroker.html</Reference>
+    <Description>How can you decouple the destination of a message from the sender and maintain
+      central control over the flow of messages?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

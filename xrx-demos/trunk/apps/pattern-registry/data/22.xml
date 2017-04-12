@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>22</id>
+    <Classifier>Message Construction</Classifier>
+    <PatternName>Message Sequence</PatternName>
+    <Image>MessageSequenceIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessageSequence.html</Reference>
+    <Description>How can messaging transmit an arbitrarily large amount of data?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

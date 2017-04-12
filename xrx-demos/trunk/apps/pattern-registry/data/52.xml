@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>52</id>
+    <Classifier>System Management</Classifier>
+    <PatternName>Message Store</PatternName>
+    <Image>MessageStoreIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessageStore.html</Reference>
+    <Description>How can we report against message information without disturbing the loosely
+      coupled and transient nature of a messaging system?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

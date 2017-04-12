@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/45/trunk/03-forecast-subscriptions/edit
+END
+next-id.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/45/trunk/03-forecast-subscriptions/edit/next-id.xml
+END
+update.xq
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/45/trunk/03-forecast-subscriptions/edit/update.xq
+END
+delete.xq
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/45/trunk/03-forecast-subscriptions/edit/delete.xq
+END
+new-instance.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/45/trunk/03-forecast-subscriptions/edit/new-instance.xml
+END
+edit.xq
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/45/trunk/03-forecast-subscriptions/edit/edit.xq
+END
+save-new.xq
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/45/trunk/03-forecast-subscriptions/edit/save-new.xq
+END

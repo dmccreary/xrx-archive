@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Requirement>
+    <id>47</id>
+    <RequirementParentID>45</RequirementParentID>
+    <RequirementShortName>Get ticket status</RequirementShortName>
+    <RequirementDescriptionText>An XQuery function that will return the status of a ticket and send a response to the requester.</RequirementDescriptionText>
+    <ProjectID>1</ProjectID>
+    <RequirementLevelCode>0</RequirementLevelCode>
+    <RequirementPriorityCode>medium</RequirementPriorityCode>
+    <RequirementCompletionStatusCode>new</RequirementCompletionStatusCode>
+    <RequirementRequestedBy>annmkelly1@gmail.com</RequirementRequestedBy>
+    <RequirementApprovedBy/>
+    <RequirementApprovalDate/>
+    <RequirementTestableCode>unknown</RequirementTestableCode>
+    <RequirementClassifierCode/>
+    <RequirementTag/>
+    <RequirementAssignedToPersonID/>
+    <RequirmentBusinessRuleID/>
+    <RequirmentBusinessAnalists/>
+    <RequirementEstimatedDevelopmentDays>10</RequirementEstimatedDevelopmentDays>
+    <RequirementCostEstimateAmount>300</RequirementCostEstimateAmount>
+    <RequirementCompletionPercent>100</RequirementCompletionPercent>
+    <RequirementCertaintyLevel>.75</RequirementCertaintyLevel>
+    <RequirementReleaseCode>version-1</RequirementReleaseCode>
+    <RequirementDepends/>
+    <RequirementNoteText/>
+    <Resources>
+        <Resource>
+            <ResourceTypeCode>unit-test</ResourceTypeCode>
+            <ResourceLabelText>Label</ResourceLabelText>
+            <ResourceURL>http://</ResourceURL>
+        </Resource>
+    </Resources>
+    <created-by>dan@danmccreary.com</created-by>
+    <created-datetime>2012-01-23T10:45:58.79-06:00</created-datetime>
+    <last-modified-by>admin</last-modified-by>
+    <last-modified-datetime>2012-01-26T21:05:31.276Z</last-modified-datetime>
+</Requirement>

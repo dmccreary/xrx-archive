@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+    <id>2</id>
+    <title>Title 2</title>
+    <creator>Creator 2</creator>
+    <subject>Subject 2</subject>
+    <description>Description 2</description>
+    <publisher>Publisher 2</publisher>
+    <contributor>Contributor 2</contributor>
+    <date>1967-08-23</date>
+    <type>Type 2</type>
+    <format>Format 2</format>
+    <identifier>Identifier 2</identifier>
+    <source>Source 2</source>
+    <language>Language 2</language>
+    <relation>Relation 2</relation>
+    <coverage>Coverage 2</coverage>
+    <rights>Rights 2</rights>
+</item>

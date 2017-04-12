@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anychart>
+    <margin all="0"/>
+    <charts>
+        <chart>
+            <chart_settings>
+                <title enabled="false">
+                    <text>Test Chart</text>
+                </title>
+                <chart_background enabled="false"/>
+                <axes>
+                    <x_axis enabled="false">
+                        <major_grid enabled="false"/>
+                        <title enabled="false"/>
+                    </x_axis>
+                    <y_axis enabled="false">
+                        <major_grid enabled="false"/>
+                        <minor_grid enabled="false"/>
+                        <minor_tickmark enabled="false"/>
+                        <labels>
+                            <format>{%Value}{numDecimals:0}</format>
+                        </labels>
+                        <title enabled="false">
+                            <text>Count</text>
+                        </title>
+                    </y_axis>
+                </axes>
+            </chart_settings>
+            <data>
+                <series>
+                    <point name="a" y="1"/>
+                    <point name="b" y="2"/>
+                    <point name="c" y="3"/>
+                </series>
+            </data>
+        </chart>
+    </charts>
+</anychart>

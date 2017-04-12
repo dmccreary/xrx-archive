@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/111/trunk/14-xml-schema-to-xforms/test-input-instances
+END
+22-two-to-five-repeats.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/111/trunk/14-xml-schema-to-xforms/test-input-instances/22-two-to-five-repeats.xml
+END
+21-person-phone-complex.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/111/trunk/14-xml-schema-to-xforms/test-input-instances/21-person-phone-complex.xml
+END
+21-repeat-optional-unbounded.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/111/trunk/14-xml-schema-to-xforms/test-input-instances/21-repeat-optional-unbounded.xml
+END
+18-cardinality-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/111/trunk/14-xml-schema-to-xforms/test-input-instances/18-cardinality-test.xml
+END
+06-requirements.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/93/trunk/14-xml-schema-to-xforms/test-input-instances/06-requirements.xml
+END
+40-esb-subscribe.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/111/trunk/14-xml-schema-to-xforms/test-input-instances/40-esb-subscribe.xml
+END
+10-organization-projects.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/111/trunk/14-xml-schema-to-xforms/test-input-instances/10-organization-projects.xml
+END
+07-enumerations-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/93/trunk/14-xml-schema-to-xforms/test-input-instances/07-enumerations-test.xml
+END
+03-organization-projects.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/93/trunk/14-xml-schema-to-xforms/test-input-instances/03-organization-projects.xml
+END
+23-laura-plays.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/111/trunk/14-xml-schema-to-xforms/test-input-instances/23-laura-plays.xml
+END
+02-typed-elements.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/93/trunk/14-xml-schema-to-xforms/test-input-instances/02-typed-elements.xml
+END
+04-required-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/93/trunk/14-xml-schema-to-xforms/test-input-instances/04-required-test.xml
+END
+20-person-phone-simple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/111/trunk/14-xml-schema-to-xforms/test-input-instances/20-person-phone-simple.xml
+END
+01-simple-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/93/trunk/14-xml-schema-to-xforms/test-input-instances/01-simple-test.xml
+END
+20-root-element.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/111/trunk/14-xml-schema-to-xforms/test-input-instances/20-root-element.xml
+END
+09-repeats.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/111/trunk/14-xml-schema-to-xforms/test-input-instances/09-repeats.xml
+END
+03-contact-demo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/93/trunk/14-xml-schema-to-xforms/test-input-instances/03-contact-demo.xml
+END

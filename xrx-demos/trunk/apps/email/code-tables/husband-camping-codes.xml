@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>husband-camping-codes</code-table-name>
+    <description>These codes classify...the tasks that are required for the husband to go camping.</description>
+    <data-source>KOA America</data-source>
+    <items>
+        <item>
+            <label>tents</label>
+            <numeric-id>1</numeric-id>
+            <value>Tent</value>
+        </item>
+        <item>
+            <label>sleeping-bag</label>
+            <numeric-id>2</numeric-id>
+            <value>Sleeping Bag</value>
+        </item>
+        <item>
+            <label>food</label>
+            <numeric-id>3</numeric-id>
+            <value>Food</value>
+        </item>
+        <item>
+            <label>warm clothing</label>
+            <numeric-id>4</numeric-id>
+            <value>Warm Clothing</value>
+        </item>
+    </items>
+</code-table>

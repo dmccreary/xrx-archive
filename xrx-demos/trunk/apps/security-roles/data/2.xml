@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security-role>
+    <id>2</id>
+    <name>server-admin</name>
+    <label>Server Administrator</label>
+    <description>A person that has full rights to the server.</description>
+    <category>public-web-site</category>
+    <category>intranet</category>
+    <status>draft</status>
+    <tag/>
+    <created-datetime/>
+    <created-by/>
+    <last-modified-datetime/>
+    <last-modified-by/>
+</security-role>

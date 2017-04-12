@@ -1,0 +1,38 @@
+@namespace xf url("http://www.w3.org/2002/xforms");
+body {font-family: Arial, Helvetica; sans-serif;}
+
+/* This line ensures all the separate input controls appear on their own lines */
+.block-form xf|input, .block-form xf|select, .block-form xf|select1, .block-form xf|textarea 
+   {display:block; width:100%; margin:10px 0;}
+
+/* Makes the labels right aligned in a column that floats to the left of the input controls. */
+xf|output > xf|label,
+xf|input > xf|label,
+xf|secret > xf|label,
+xf|select > xf|label,
+xf|select1 > xf|label,
+xf|textarea > xf|label
+{text-align:right; padding-right:10px; width:190px; float:left;}
+
+/* the input values are left aligned */
+xf|value {
+   text-align: left;
+}
+
+.description textarea { 
+     height: 4em; /* a bit less than four lines to demonstrate scrolling */
+     width: 500px;
+}
+
+.repeat {
+   border: 1px solid silver;
+   padding: 5px;
+}
+
+xf|trigger * {
+   display: inline;
+}
+
+.inline * {
+   display: inline;
+}

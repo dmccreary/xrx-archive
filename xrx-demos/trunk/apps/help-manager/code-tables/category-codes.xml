@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>category-code</name>
+    <description>This is a description of a sample set of category codes.</description>
+    <items>
+        <item>
+            <label>Select a Category...</label>
+            <value/>
+        </item>
+        <item>
+            <label>Getting Started</label>
+            <value>1</value>
+        </item>
+        <item>
+            <label>Dashboard</label>
+            <value>2</value>
+        </item>
+        <item>
+            <label>Tab</label>
+            <value>3</value>
+        </item>
+        <item>
+            <label>Chart</label>
+            <value>4</value>
+        </item>
+        <item>
+            <label>Data</label>
+            <value>5</value>
+        </item>
+        <item>
+            <label>Statistics</label>
+            <value>6</value>
+        </item>
+    </items>
+</code-table>

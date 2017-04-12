@@ -1,0 +1,3439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_CITY_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_CTRY_CDE</Column_Name>
+        <Definition>A code indicating the address country.</Definition>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_FMT_CDE</Column_Name>
+        <Definition>Indicates the type of format for the address.</Definition>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_ID_NBR</Column_Name>
+        <Definition>A number that uniquely identifies an occurrence of an address.</Definition>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_LN1</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_LN2</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_LN3</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_LN4</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_STD_CDE</Column_Name>
+        <Definition>Indicates the type of standardization of an address based on address standardizaing software.</Definition>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_STD_DT</Column_Name>
+        <Definition>The date the address standardization code became effective.</Definition>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEG_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BPAS_CDE_1_CDE</Column_Name>
+        <Definition>Indicates whether the address standardization software should process or bypass the record.</Definition>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CARIR_ROUTE_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CITY_NM_SRCH</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CRCT_IND</Column_Name>
+        <Definition>An indicator to identify if the change to the data was a result of a correction.</Definition>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>END_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ST_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ZIP_CODE_CHK_DIGIT</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ZIP2_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ZIP4_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ZIP5_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Address</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_CITY_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_LN1</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_LN2</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_LN3</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_LN4</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_COV_SEQ_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_NBR</Column_Name>
+        <Definition>A number that identifies a benefit contract.
+
+Must be used in conjuction with the 'benefit contract type code' to be unique.</Definition>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_TYP_CDE</Column_Name>
+        <Definition>Indicates the type of benefit contract.</Definition>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_RDER_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_RLTN_BEG_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_RLTN_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_RLTN_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>SEQ_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ST_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TAX_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Telephone Number</Column_Name>
+        <Definition>The telephone number for a person or a financial institution.</Definition>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ZIP2_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ZIP4_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ZIP5_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Adr/Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>CIF Selection</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>CIF Selection</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>CIF Selection</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>CIF Selection</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>CIF Selection</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>SEL_CODE_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>CIF Selection</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>SEL_RSN_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>CIF Selection</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEG_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Client/Cif Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CLNT_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Client/Cif Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CLNT_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Client/Cif Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Client/Cif Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Client/Cif Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>END_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Client/Cif Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Client/Cif Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Client/Cif Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Client/Cif Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEG_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_NBR</Column_Name>
+        <Definition>A number that identifies a benefit contract.
+
+Must be used in conjuction with the 'benefit contract type code' to be unique.</Definition>
+        <Entity_Name>Contract</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_STS_CDE</Column_Name>
+        <Definition>A code indicating the status of the benefit contract.</Definition>
+        <Entity_Name>Contract</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_TYP_CDE</Column_Name>
+        <Definition>Indicates the type of benefit contract.</Definition>
+        <Entity_Name>Contract</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CTRC_STS_EFF_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>END_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>MOSS_CTRC_STS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Contract</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_STS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CNRN_OWNR_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CNRN_OWNR_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CNRN_OWNR_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Contract Relationship Sequence Number</Column_Name>
+        <Definition>A system assigned value to uniquely identify a contract relationship.</Definition>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Contract Relationship Type Code</Column_Name>
+        <Definition>A code indiciating the type of relationship a customer has to a benefit contract.</Definition>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CTRC_RLTN_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Relationship Type Sequence Number</Column_Name>
+        <Definition>Identifies the sequence of the relationship when multiples of a type exist.</Definition>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>SUM_SCRN_REQ_IND</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Owner</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_NBR</Column_Name>
+        <Definition>A number that identifies a benefit contract.
+
+Must be used in conjuction with the 'benefit contract type code' to be unique.</Definition>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_STS_CDE</Column_Name>
+        <Definition>A code indicating the status of the benefit contract.</Definition>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_TYP_CDE</Column_Name>
+        <Definition>Indicates the type of benefit contract.</Definition>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Contract Relationship Sequence Number</Column_Name>
+        <Definition>A system assigned value to uniquely identify a contract relationship.</Definition>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Contract Relationship Type Code</Column_Name>
+        <Definition>A code indiciating the type of relationship a customer has to a benefit contract.</Definition>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CTRC_RLTN_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CTRC_RLTN_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>MEDICR_BENE_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Relationship Type Sequence Number</Column_Name>
+        <Definition>Identifies the sequence of the relationship when multiples of a type exist.</Definition>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>RLTN_TYP_SEQ_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_END_MTH_DAY</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_ID_NBR</Column_Name>
+        <Definition>A number that uniquely identifies an occurrence of an address.</Definition>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_STRT_MTH_DAY</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_NBR</Column_Name>
+        <Definition>A number that identifies a benefit contract.
+
+Must be used in conjuction with the 'benefit contract type code' to be unique.</Definition>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_STS_CDE</Column_Name>
+        <Definition>A code indicating the status of the benefit contract.</Definition>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_TYP_CDE</Column_Name>
+        <Definition>Indicates the type of benefit contract.</Definition>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CTRC_ADR_SEQ_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CTRC_ADR_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ZIP5_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Contract/Adr Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BRKD_OWNR_STS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BRKD_OWNR_STS_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETEN_CNRN_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETEN_CNRN_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETEN_OWN_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETEN_OWN_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_CNRN_STS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_CNRN_STS_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_CUST_RPT_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_CUST_RPT_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_CUST_STS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_CUST_STS_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_CRET_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_DSCR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_STS_IND</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_LST_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BRKD_OWNR_STS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BRKD_OWNR_STS_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CHG_CUST_RPT_RNCD</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETEN_CNRN_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETEN_CNRN_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETEN_OWN_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETEN_OWN_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_CNRN_STS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_CNRN_STS_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_CUST_RPT_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_CUST_RPT_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_MBR_EFF_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_MBR_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Classification</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_GRET_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_GRNM_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_MAIL_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_MLNM_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_NM_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_NM_ENDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Group Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Cust Special Circumstance</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Cust Special Circumstance</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_SPCM_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Special Circumstance</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_SPCM_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Special Circumstance</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_SPCM_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Special Circumstance</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Special Circumstance</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ORIG_DT_TIME_STMP</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Special Circumstance</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Special Circumstance</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Special Circumstance</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>SPCM_ACCM_DSCR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust Special Circumstance</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADDR_TYPE_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_END_MTH_DAY</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_ID_NBR</Column_Name>
+        <Definition>A number that uniquely identifies an occurrence of an address.</Definition>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_STRT_MTH_DAY</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ZIP5_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Address Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BR_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Chapter Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BR_RELATN_BEG_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Chapter Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BR_RELATN_END_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Chapter Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CHPT_ASGN_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Chapter Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_BRLN_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Chapter Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Cust/Chapter Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Cust/Chapter Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Chapter Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Chapter Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Chapter Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CHURCH_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Congregation Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_CONG_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Congregation Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_CONG_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Congregation Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_CRLN_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Congregation Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Cust/Congregation Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Cust/Congregation Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Congregation Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Congregation Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Congregation Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_NBR</Column_Name>
+        <Definition>A number that identifies a benefit contract.
+
+Must be used in conjuction with the 'benefit contract type code' to be unique.</Definition>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_STS_CDE</Column_Name>
+        <Definition>A code indicating the status of the benefit contract.</Definition>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_TYP_CDE</Column_Name>
+        <Definition>Indicates the type of benefit contract.</Definition>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CTRC_OVRD_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CTRC_OVRD_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CTRC_SVC_OVRD_RNCD</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>EMP_SVC_GRP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TERR_ORZN_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TERR_ORZN_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Contract Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ERLN_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Empl Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ERLN_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Empl Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ERLN_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Empl Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Cust/Empl Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Cust/Empl Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>EMPL_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Empl Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Empl Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Empl Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Empl Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRLN_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Group Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRLN_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Group Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRLN_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Group Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRP_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Group Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Cust/Group Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Cust/Group Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Group Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Group Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Group Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ASCT_MBR_XCPT_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_MBR_BAS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_MBR_BAS_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_MBR_EFF_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_MBR_ELIG_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_MBR_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_MBR_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ORIG_MBR_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Membership Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Cust/Org Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ORLN_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Org Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ORLN_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Org Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ORLN_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Org Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Cust/Org Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Org Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Org Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Org Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TERR_ORZN_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Org Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TERR_ORZN_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Org Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEST_DAY_TIME_DSCR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PIRY_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PRIM_TEL_IND</Column_Name>
+        <Definition>Indicates whether the telephone number is the primary number when there are multiple telephone numbers with the same telephone number type code (tel-nbr-typ-cde).</Definition>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TEL_END_DT</Column_Name>
+        <Definition>The date the telephone number is no longer effective.</Definition>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TEL_END_MTH_DAY</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TEL_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TEL_NBR_TYP_CDE</Column_Name>
+        <Definition>A code indicating the type of telephone number.</Definition>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TEL_STRT_DT</Column_Name>
+        <Definition>The date the telephone number became effective.</Definition>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TEL_STRT_MTH_DAY</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TIME_ZONE_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Vendor Verified Date</Column_Name>
+        <Definition>A date which indicates when the data was verified by a vendor.</Definition>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Vendor Verified Status Code</Column_Name>
+        <Definition>A code that indicates if the data has been verified by a vendor and if so at what level.</Definition>
+        <Entity_Name>Cust/Phone Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Cust/Rep Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_OVRD_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Rep Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_OVRD_STRT_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Rep Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Cust/Rep Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_SVC_OVRD_RNCD</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Rep Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>EMP_SVC_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Rep Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Rep Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Rep Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Rep Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TERR_ORZN_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Rep Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TERR_ORZN_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Cust/Rep Override</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEG_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BUSNES_ORGZTN_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CHURCH_BODY</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CNTRY_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CRCT_IND</Column_Name>
+        <Definition>An indicator to identify if the change to the data was a result of a correction.</Definition>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_BIRTH_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_BIRTH_ST_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_BRTH_YR_EST</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_CHK_DIGIT_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_IDVL_RET_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_INIT_ADD_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_SCUR_QST_DSCR</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_SEX_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_TYP_IND</Column_Name>
+        <Definition>Specifies the type of customer.</Definition>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Individual Deceased Date</Column_Name>
+        <Definition>The individual customer's date of death.</Definition>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>EDCT_LVL_CPT_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>END_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>FSCL_YR_END_MTH</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>MARTAL_STATUS_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>MATL_STS_EFF_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>MOSS_CHK_DIGIT</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>MOSS_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ORZN_DSLV_DT</Column_Name>
+        <Definition>The date the organization was dissolved.</Definition>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ORZN_ESTB_DT</Column_Name>
+        <Definition>The date the organization was established.</Definition>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TAX_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TAX_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>US_CTZN_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Dependent Text</Column_Name>
+        <Definition>The number of dependents under age eighteen filled by owner or joint owner during new account and suitability registration Spaces in field means customer did not supply the data 0 in field means the customer has no part time employees 1 or more describes number of part time employees</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Employer Name</Column_Name>
+        <Definition>The employer name as given by customer</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Employment Start Date</Column_Name>
+        <Definition>The date on which the customer employment information was first entered.</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Full Time Employee Text</Column_Name>
+        <Definition>THE NUMBER OF FULL TIME EMPLOYEES AT THE INSURED'S BUSINESS. DOES NOT INCLUDE INSURED OR OTHER OWNERS OF THE BUSINESS Spaces in field means customer did not supply the data 0 in field means the customer has no full time employees 1 or more describes number of full time employees</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Occupation Code</Column_Name>
+        <Definition>A code to indicate the type of occupation held by the customer.</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Owns Business Code</Column_Name>
+        <Definition>A code to identify if the account owner owns a business</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Part Time Employee Text</Column_Name>
+        <Definition>THE NUMBER OF PART TIME EMPLOYEES Spaces in field means customer did not supply the data 0 in field means the customer has no part time employees 1 or more describes number of part time employees</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Operator Identifier Code</Column_Name>
+        <Definition>The operator identifier code of the processor initiating a request.
+
+For most purposes, this is the TSO logon id.</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROCESS DATE</Column_Name>
+        <Definition>The date the record was processed.</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROCESS TIME DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Associated Firm Name</Column_Name>
+        <Definition>Securities firm name of owner or joint owner employed or associated with and duly filled during new account and suitability registration</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Associated Person Code</Column_Name>
+        <Definition>A code to indicate if the person is associated with a broker-dealer. Example is employed by a firm.</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Director Code</Column_Name>
+        <Definition>Clients are in a director position in a company that has publicly traded stock</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Policy Executive Code</Column_Name>
+        <Definition>Clients are in a policy making or executive position in a company that has publicly traded stock</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Public Firm Code</Column_Name>
+        <Definition>Immediate family member of the client own 10% or more of a publicly traded stock and which clients are in a director or officer position in a company that has publicly traded stock.</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Public Firm Name</Column_Name>
+        <Definition>Firm name of the client own 10% or more of a publicly traded stock and which clients are in a director or officer position in a company that has publicly traded stock.</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Public Share Code</Column_Name>
+        <Definition>Clients own 10% or greater of a publicly traded stock</Definition>
+        <Entity_Name>Customer Employment Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Dependent Text</Column_Name>
+        <Definition>The number of dependents under age eighteen filled by owner or joint owner during new account and suitability registration Spaces in field means customer did not supply the data 0 in field means the customer has no part time employees 1 or more describes number of part time employees</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Employer Name</Column_Name>
+        <Definition>The employer name as given by customer</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Employment End Date</Column_Name>
+        <Definition>The date on which the customer employment information was moved to history.</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Employment Start Date</Column_Name>
+        <Definition>The date on which the customer employment information was first entered.</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Full Time Employee Text</Column_Name>
+        <Definition>THE NUMBER OF FULL TIME EMPLOYEES AT THE INSURED'S BUSINESS. DOES NOT INCLUDE INSURED OR OTHER OWNERS OF THE BUSINESS Spaces in field means customer did not supply the data 0 in field means the customer has no full time employees 1 or more describes number of full time employees</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUSTOMER IDENTIFICATION NUMBER</Column_Name>
+        <Definition>A NUMBER WHICH UNIQUELY IDENTIFIES A CUSTOMER.                       
+                                                                     
+THIS DATA ELEMENT IS STORED ON THE CIF (CUSTOMER INFORMATION FILE) DATABASE.  THE VALUE OF CUST-ID-NBR IS ASSIGNED WITHIN THE CIF APPLICATION SYSTEM.                                                  
+                                                                     
+NOTE:                                                                
+THIS ELEMENT MAY ALSO HAVE BEEN USED TO GENERICLY REFERENCE THE ID NUMBER ASSIGNED TO MEMBERS ON THE MOSS DATABASE. ON THE MOSS DATABASE THE ID NUMBER FOR THE MEMBER IS STORED IN MOS-N-ID-NBR.  THE MOSS SYSTEM WILL BE PHASED OUT OF OUR PROCESSING SYSTEMS AND BE REPLACED WITH THE CIF SYSTEM AND DATABASE.  UNTIL THAT CHANGE IS COMPLETED, WE WILL HAVE INFORMATION ABOUT OUR MEMBERS/CUSTOMERS ON THE CIF SYSTEM 
+AND IN THE MOSS SYSTEM.  THEY WILL HAVE AN ID NUMBER ASSIGNED IN EACH OF THESE SYSTEMS AND THE VALUE ASSIGNED WILL NOT BE THE SAME.  EACH MEMBER WILL HAVE A CUST-ID-NBR ASSIGNED IN THE CIF DATABASE AND A MOS-N-ID-NBR ASSIGNED IN THE MOSS DATABASE</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Occupation Code</Column_Name>
+        <Definition>A code to indicate the type of occupation held by the customer.</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Owns Business Code</Column_Name>
+        <Definition>A code to identify if the account owner owns a business</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Part Time Employee Text</Column_Name>
+        <Definition>THE NUMBER OF PART TIME EMPLOYEES Spaces in field means customer did not supply the data 0 in field means the customer has no part time employees 1 or more describes number of part time employees</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Customer Partition Number</Column_Name>
+        <Definition>ERROR: String not found in file</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Operator Identifier Code</Column_Name>
+        <Definition>The operator identifier code of the processor initiating a request.
+
+For most purposes, this is the TSO logon id.</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROCESS DATE</Column_Name>
+        <Definition>The date the record was processed.</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROCESS TIME DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Associated Firm Name</Column_Name>
+        <Definition>Securities firm name of owner or joint owner employed or associated with and duly filled during new account and suitability registration</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Associated Person Code</Column_Name>
+        <Definition>A code to indicate if the person is associated with a broker-dealer. Example is employed by a firm.</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Director Code</Column_Name>
+        <Definition>Clients are in a director position in a company that has publicly traded stock</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Policy Executive Code</Column_Name>
+        <Definition>Clients are in a policy making or executive position in a company that has publicly traded stock</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Public Firm Code</Column_Name>
+        <Definition>Immediate family member of the client own 10% or more of a publicly traded stock and which clients are in a director or officer position in a company that has publicly traded stock.</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Public Firm Name</Column_Name>
+        <Definition>Firm name of the client own 10% or more of a publicly traded stock and which clients are in a director or officer position in a company that has publicly traded stock.</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Suitability Registration Public Share Code</Column_Name>
+        <Definition>Clients own 10% or greater of a publicly traded stock</Definition>
+        <Entity_Name>Customer Employment Info History</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRET_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRET_NM_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRET_NM_EFDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_GRET_NM_ENDT</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Customer Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Customer Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Customer Greeting</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CNTC_TITL_DSCR</Column_Name>
+        <Definition>The contact's title description.</Definition>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CRCT_IND</Column_Name>
+        <Definition>An indicator to identify if the change to the data was a result of a correction.</Definition>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CRTY_TITL_NM</Column_Name>
+        <Definition>The title that precedes the first name (such as Doctor, Reverand, etc.).</Definition>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_BSNS_NM</Column_Name>
+        <Definition>The business name as given by the customer.</Definition>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_FIRST_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_LST_NM</Column_Name>
+        <Definition>The last name of the customer.</Definition>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_MDDL_NM</Column_Name>
+        <Definition>The middle name of the customer.</Definition>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_NM_EFF_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_NM_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_NM_FMT_CDE</Column_Name>
+        <Definition>The type of format applied to the customer name.</Definition>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_NM_TYP_CDE</Column_Name>
+        <Definition>This field specificies which type of name is being viewed or entered.</Definition>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_SUFFIX_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>FRST_NM_SRCH</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>MDDL_NM_SRCH</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>NM_SRCH</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Customer Name</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PRIM_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Ranking Rules</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ROW_RANK_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Ranking Rules</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>VALID_RNG_FROM_VLU</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Ranking Rules</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>VLU_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Ranking Rules</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADDR_TYPE_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_ID_NBR</Column_Name>
+        <Definition>A number that uniquely identifies an occurrence of an address.</Definition>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ADR_STRT_MTH_DAY</Column_Name>
+        <Definition>The month and day the address became effective.</Definition>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CITY_NM_SRCH</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_BIRTH_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_NM_TYP_CDE</Column_Name>
+        <Definition>This field specificies which type of name is being viewed or entered.</Definition>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_TYP_IND</Column_Name>
+        <Definition>Specifies the type of customer.</Definition>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>FRST_NM_SRCH</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>NM_SRCH</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ST_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ZIP5_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Customer Search</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEG_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>DST Client/CIF Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>DST Client/CIF Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>DST Client/CIF Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>DST_ID_NBR_1</Column_Name>
+        <Definition/>
+        <Entity_Name>DST Client/CIF Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>DST_ID_NBR_2</Column_Name>
+        <Definition/>
+        <Entity_Name>DST Client/CIF Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>END_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>DST Client/CIF Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>DST Client/CIF Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>DST Client/CIF Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>DST Client/CIF Rltn</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Enterprise Document</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Enterprise Document</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_DOC_EXPR_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Enterprise Document</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_DOC_RECV_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Enterprise Document</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_DOC_REQ_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Enterprise Document</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_DOC_STS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Enterprise Document</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_DOC_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Enterprise Document</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ETRS_ENTY_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Enterprise Document</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Enterprise Document</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Enterprise Document</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Enterprise Document</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_COV_SEQ_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_NBR</Column_Name>
+        <Definition>A number that identifies a benefit contract.
+
+Must be used in conjuction with the 'benefit contract type code' to be unique.</Definition>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_RDER_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_RLTN_BEG_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_RLTN_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_RLTN_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_STS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_STS_RSN_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_STS_RSN_CDE_2</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_STS_RSN_CDE_3</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_STS_RSN_CDE_4</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_STS_RSN_CDE_5</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_STS_RSN_CDE_6</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CTRC_BENE_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>FREE_FMT_DSCR</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>MORE_DATA_IMAG_IND</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_SRC_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Group Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Hold Interaction</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Hold Interaction</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>INTR_RSTR_EFF_DT</Column_Name>
+        <Definition>The date the interaction restriction preference became effective.</Definition>
+        <Entity_Name>Hold Interaction</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>INTR_RSTR_TYP_CDE</Column_Name>
+        <Definition>A code indicating the type of interactions that are restricted.</Definition>
+        <Entity_Name>Hold Interaction</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Hold Interaction</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Hold Interaction</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Hold Interaction</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>ALL_MBR_IND</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_COV_SEQ_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_NBR</Column_Name>
+        <Definition>A number that identifies a benefit contract.
+
+Must be used in conjuction with the 'benefit contract type code' to be unique.</Definition>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_TYP_CDE</Column_Name>
+        <Definition>Indicates the type of benefit contract.</Definition>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_RDER_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_PCT</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_PROCD_AMT</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_RELATN_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_RLTN_BEG_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_RLTN_END_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_RLTN_OTH_DSCR</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BENE_RLTN_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BUSNES_CITY_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BUSNES_ST_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CRTY_TITL_NM</Column_Name>
+        <Definition>The title that precedes the first name (such as Doctor, Reverand, etc.).</Definition>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_BIRTH_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_BSNS_NM</Column_Name>
+        <Definition>The business name as given by the customer.</Definition>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_FIRST_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_LST_NM</Column_Name>
+        <Definition>The last name of the customer.</Definition>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_MDDL_NM</Column_Name>
+        <Definition>The middle name of the customer.</Definition>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_SUFFIX_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>DCP_DLAY_DAY_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>LIST_NM_IND</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PSTP_IND</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>RLTN_DSCR_1</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>RLTN_DSCR_2</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>SEQ_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>SURV_FUND_DISB_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TAX_ID_NBR_TRUS</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TRUST_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TRUST_NM</Column_Name>
+        <Definition/>
+        <Entity_Name>Individual Bene</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Information Status</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_INFO_REQ_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Information Status</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_INFO_RSPN_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Information Status</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_INFO_STS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Information Status</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Information Status</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Information Status</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Information Status</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Information Status</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>DBASE_PART_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Next Address ID</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>NXT_ADR_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Next Address ID</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>NXT_CUST_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Next Customer ID</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>RNG_BEG_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Next Customer ID</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>RNG_END_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Next Customer ID</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>RNG_SEQ_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Next Customer ID</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>RNG_STS_IND</Column_Name>
+        <Definition/>
+        <Entity_Name>Next Customer ID</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>DBASE_PART_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Next Group ID</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>NXT_GRP_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Next Group ID</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>DBASE_PART_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Next Phone ID</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>NXT_TEL_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Next Phone ID</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Perference Grouping Rules</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Perference Grouping Rules</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Perference Grouping Rules</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>RECV_INFO_PREF_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Perference Grouping Rules</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>SYS_PREF_GRP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Perference Grouping Rules</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>SYS_VIEW_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Perference Grouping Rules</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEG_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Phone</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>END_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Phone</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Phone</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Phone</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Phone</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TEL_EXT_NBR</Column_Name>
+        <Definition>The number of the telephone extension.</Definition>
+        <Entity_Name>Phone</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TEL_FRGN_NBR</Column_Name>
+        <Definition>The full foreign telephone number.</Definition>
+        <Entity_Name>Phone</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TEL_ID_NBR</Column_Name>
+        <Definition/>
+        <Entity_Name>Phone</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TEL_SVC_CDE</Column_Name>
+        <Definition>The type of telephone service.</Definition>
+        <Entity_Name>Phone</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>Telephone Number</Column_Name>
+        <Definition>The telephone number for a person or a financial institution.</Definition>
+        <Entity_Name>Phone</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CMCT_MEDM_CDE</Column_Name>
+        <Definition>A code indicating the channel (communication medium) in which System-1 interacts with a customer.</Definition>
+        <Entity_Name>Receive Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Receive Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Receive Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Receive Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PREF_REQ_SRC_CDE</Column_Name>
+        <Definition>A code indicating the source of the preference request.</Definition>
+        <Entity_Name>Receive Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Receive Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition>The time an entry or transaction is initialized within a system.</Definition>
+        <Entity_Name>Receive Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>RECV_INFO_EFF_DT</Column_Name>
+        <Definition>The date the received information preference became effective.</Definition>
+        <Entity_Name>Receive Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>RECV_INFO_PREF_CDE</Column_Name>
+        <Definition>A code indicating the preference for receiving information that is initiated by System-1 financial its affiliates or approved non-affiliated third parties.</Definition>
+        <Entity_Name>Receive Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_ID_NBR</Column_Name>
+        <Definition>A system assigned value to uniquely identify a customer.</Definition>
+        <Entity_Name>Share Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CUST_PRT_NBR</Column_Name>
+        <Definition>A number used for partitioning the physical database tables in the customer information database.</Definition>
+        <Entity_Name>Share Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Share Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PREF_REQ_SRC_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Share Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Share Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Share Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>SHAR_INFO_EFF_DT</Column_Name>
+        <Definition/>
+        <Entity_Name>Share Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>SHAR_INFO_PREF_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Share Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_ASNE_IND</Column_Name>
+        <Definition/>
+        <Entity_Name>Special Contract Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_NBR</Column_Name>
+        <Definition>A number that identifies a benefit contract.
+
+Must be used in conjuction with the 'benefit contract type code' to be unique.</Definition>
+        <Entity_Name>Special Contract Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_STS_CDE</Column_Name>
+        <Definition>A code indicating the status of the benefit contract.</Definition>
+        <Entity_Name>Special Contract Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_TYP_CDE</Column_Name>
+        <Definition>Indicates the type of benefit contract.</Definition>
+        <Entity_Name>Special Contract Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CNTRC_SPC_ADDR_IND</Column_Name>
+        <Definition/>
+        <Entity_Name>Special Contract Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>CNTRCT_RATING_IND</Column_Name>
+        <Definition/>
+        <Entity_Name>Special Contract Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Special Contract Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Special Contract Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Special Contract Info</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEG_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_NBR</Column_Name>
+        <Definition>A number that identifies a benefit contract.
+
+Must be used in conjuction with the 'benefit contract type code' to be unique.</Definition>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_STS_CDE</Column_Name>
+        <Definition>A code indicating the status of the benefit contract.</Definition>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>BEN_CTRC_TYP_CDE</Column_Name>
+        <Definition>Indicates the type of benefit contract.</Definition>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>END_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OBJ_RSTR_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OBJ_SUPT_SYS_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OBJ_SYS_ID_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OBJ_TYP_CDE</Column_Name>
+        <Definition/>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>OPER_ID_CODE</Column_Name>
+        <Definition/>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_DATE</Column_Name>
+        <Definition/>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>PROC_TIME_DB2</Column_Name>
+        <Definition/>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+    <row>
+        <SystemID>system-1</SystemID>
+        <Column_Name>TECH_OBJ_KEY</Column_Name>
+        <Definition/>
+        <Entity_Name>Technical Key</Entity_Name>
+    </row>
+</root>

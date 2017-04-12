@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <person>
+        <id>1</id>
+        <first-name>Peggy</first-name>
+        <last-name>Anderson</last-name>
+        <ssn>111-45-6789</ssn>
+    </person>
+    <person>
+        <id>2</id>
+        <first-name>Dan</first-name>
+        <last-name>Baker</last-name>
+        <hr-data>
+            <ssn>222-45-6789</ssn>
+        </hr-data>
+    </person>
+    <person>
+        <id>3</id>
+        <first-name>John</first-name>
+        <last-name>Smith</last-name>
+        <private>
+            <ssn>333-45-6789</ssn>
+        </private>
+    </person>
+    <person>
+        <id>3</id>
+        <first-name>John</first-name>
+        <last-name>Smith</last-name>
+        <import>
+            <results>
+                <ssn>333-45-6789</ssn>
+            </results>
+        </import>
+    </person>
+</data>

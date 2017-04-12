@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+    <id/>
+    <headers>
+        <date/>
+        <from>
+            <label/>
+            <address/>
+        </from>
+        <to>
+            <label/>
+            <address/>
+        </to>
+        <cc>
+            <label/>
+            <address/>
+        </cc>
+        <bcc>
+            <label/>
+            <address/>
+        </bcc>
+        <subject/>
+        <categories>
+            <category/>
+        </categories>
+    </headers>
+    <attachments>
+        <attachment filename="" mimetype=""/>
+    </attachments>
+    <body>
+        <text>
+            
+        </text>
+    </body>
+</message>

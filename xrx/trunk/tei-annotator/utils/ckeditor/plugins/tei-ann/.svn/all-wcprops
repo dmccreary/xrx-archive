@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann
+END
+changelog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/changelog.txt
+END
+plugin.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/plugin.js
+END
+example.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/example.xml
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/readme.txt
+END
+init.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/init.js
+END

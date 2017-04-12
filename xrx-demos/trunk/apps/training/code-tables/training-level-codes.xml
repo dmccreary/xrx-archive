@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>training-level-code</name>
+    <items>
+        <item>
+            <label>Beginner</label>
+            <value>beginner</value>
+        </item>
+        <item>
+            <label>Intermediate</label>
+            <value>intermediate</value>
+        </item>
+        <item>
+            <label>Advanced</label>
+            <value>advanced</value>
+        </item>
+    </items>
+</code-table>

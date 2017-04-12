@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+    <id>4</id>
+    <title>Title 4</title>
+    <creator>Creator 4</creator>
+    <subject>Subject 4</subject>
+    <description>Description 4</description>
+    <publisher>Publisher 4</publisher>
+    <contributor>Contributor 4</contributor>
+    <date>1967-08-43</date>
+    <type>Type 4</type>
+    <format>Format 4</format>
+    <identifier>Identifier 4</identifier>
+    <source>Source 4</source>
+    <language>Language 4</language>
+    <relation>Relation 4</relation>
+    <coverage>Coverage 4</coverage>
+    <rights>Rights 4</rights>
+</item>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/xsl
+END
+xsd2json.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/xsl/xsd2json.xsl
+END
+xml2json.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/xsl/xml2json.xsl
+END
+tei2tei-ann.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/xsl/tei2tei-ann.xsl
+END
+xsd2UIxml.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/xsl/xsd2UIxml.xsl
+END
+tei-ann2tei.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/xsl/tei-ann2tei.xsl
+END

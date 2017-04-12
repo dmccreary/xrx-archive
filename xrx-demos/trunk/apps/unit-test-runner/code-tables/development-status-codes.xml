@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>development-status-code</name>
+    <hint>The publication status of a test.  Determines a workflow for migration to a pubic web site.</hint>
+    <description>Publish status codes are used by workflow processes to determine what files should be reviewed, approved and copied to or removed from the public web site.
+    A test may be in one and only on publishing status at any time.</description>
+    <items>
+        <item>
+            <label>New</label>
+            <value>new</value>
+            <definition>A new proposed test that has not begun yet.</definition>
+        </item>
+        <item>
+            <label>Draft</label>
+            <value>draft</value>
+            <definition>An initial draft version of a test.  This test may contain many errors.  This test is yet ready for others to review.</definition>
+        </item>
+        <item>
+            <label>Ready for Review</label>
+            <value>ready-for-review</value>
+            <definition>A test that is now ready for others to review.  Notifications have been sent out to reviewers.</definition>
+        </item>
+        <item>
+            <label>Under Review</label>
+            <value>under-review</value>
+            <definition>A test that is now being checked by reviewers. Not yet being used.</definition>
+        </item>
+        <item>
+            <label>On Hold</label>
+            <value>on-hold</value>
+            <definition>A test that is on hold for some reason.  See the test notes for hold reason.</definition>
+        </item>
+        <item>
+            <label>Approved for Testing</label>
+            <value>approved-for-testing</value>
+            <definition>Tests that have been reviewed for publishing but that have not been copied to the public web site.</definition>
+        </item>
+        <item>
+            <label>Done</label>
+            <value>done</value>
+            <definition>Tests are complete and in use.</definition>
+        </item>
+        <item>
+            <label>Recalled</label>
+            <value>recalled</value>
+            <definition>tests that are being recalled.  There is a process underway to delete this test from the public web site.</definition>
+        </item>
+    </items>
+</code-table>

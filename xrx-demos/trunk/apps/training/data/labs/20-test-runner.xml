@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>15</id>
+    <name>Unit Test Lab</name>
+    <description>In this lab students will create a small file of unit tests and a test runner.
+    </description>
+    <programlisting>
+        
+    </programlisting>
+    <resources>
+        <resource>
+            <name>Google Doc</name>
+            <type>google-doc</type>
+            <url>https://docs.google.com/document/pub?id=1YWzGdWECnVdd8BxIEbKqkBeTmvC3nqBgMiQb83RHC3I</url>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

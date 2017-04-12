@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+    <id>12</id>
+    <headers>
+        <date>2010-05-04T08:00:00</date>
+        <from>
+            <label>Sue Smith</label>
+            <address>sue.smith@example.com</address>
+        </from>
+        <to>
+            <label>John Smith</label>
+            <address>johndoe@example.com</address>
+        </to>
+        <cc>
+            <label>Fred Jones</label>
+            <address>fred.jones@example.com</address>
+        </cc>
+        <subject>Test Message</subject>
+        <categories>
+            <category>SUPM</category>
+        </categories>
+    </headers>
+    <attachments>
+        <attachment filename="mydoc.doc" mimetype="binary/ms-word"/>
+    </attachments>
+    <classifiers>
+        <classifier/>
+    </classifiers>
+    <body>
+        <text>
+            Test Message.
+        </text>
+    </body>
+</message>

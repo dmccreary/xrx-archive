@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <script type="text/javascript">
+			 <!--redirect to xquery based index page-->
+			 window.location = "index.xq";
+		</script>
+        <title>Data Stores</title>
+        <link rel="stylesheet" type="text/css" href="../resources/css/thrivent.css"/>
+        <style type="text/css">
+            body li {line-height: 1.3em;}
+        </style>
+    </head>
+    <body>
+        <img src="../resources/images/thrivent_logo.jpg" alt="logo"/>
+        <hr class="thrivent-red"/>
+        <hr class="thrivent-gold"/>
+        <a class="breadcrumb" href="../index.xhtml">Metadata Registry Home</a>
+        <h3>Data Stores</h3>
+        <p>Please see Dan McCreary if you have any questions about this application.</p>
+        <ul>
+            <li>
+                <a href="views/ted.xq">TED Table</a> TED Table definitions.
+            </li>
+            <li>
+                <a href="index.xq">Registered Data Stores</a> Navigate Table definitions.
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>40</id>
+    <Classifier>Messaging Endpoints</Classifier>
+    <PatternName>Messaging Gateway</PatternName>
+    <Image>MessagingGatewayIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessagingGateway.html</Reference>
+    <Description>How do you encapsulate access to the messaging system from the rest of the
+      application?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

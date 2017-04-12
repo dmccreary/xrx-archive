@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" finalDefault="" blockDefault="">
+    <xs:element name="ProjectDocument" nillable="false" abstract="false">
+        <xs:annotation>
+            <xs:documentation>An XML Structure that describes a project.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType mixed="false">
+            <xs:sequence minOccurs="1" maxOccurs="1">
+                <xs:element name="id" minOccurs="1" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>The ID associated with this project.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ProjectName" minOccurs="1" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>A short name of the project as it appears on lists and links.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ProjectManagerID" minOccurs="0" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>The ID of the project manager - usually a username.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ProjectDescriptionText" minOccurs="0" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>A description of the project.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="ProjectBudgetAmount" minOccurs="0" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>The total budget associated with this project.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="BusinessObjectives" minOccurs="0" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>A list of business objectives of this project.  Used to justify the project resources.</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType mixed="false">
+                        <xs:sequence minOccurs="1" maxOccurs="1">
+                            <xs:element name="BusinessObjectiveText" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:annotation>
+                                    <xs:documentation>A text element that describes the business objective of this project.</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ProjectStages" minOccurs="0" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>A listing of all the stages of the project (concept, approved, in-development,  test, deployed) and the date for each stage.</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType mixed="false">
+                        <xs:sequence minOccurs="1" maxOccurs="1">
+                            <xs:element name="Stage" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType mixed="false">
+                                    <xs:sequence minOccurs="1" maxOccurs="1">
+                                        <xs:element name="ProjectStatusCode" minOccurs="1" maxOccurs="1" nillable="false">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="concept"/>
+                                                    <xs:enumeration value="proposed"/>
+                                                    <xs:enumeration value="approved"/>
+                                                    <xs:enumeration value="in-developement"/>
+                                                    <xs:enumeration value="in-testing"/>
+                                                    <xs:enumeration value="complete"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="ProjectStatusDate" type="xs:date" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ProjectTeamMembers" minOccurs="0" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>A list of all the project team members and their role on the project.</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType mixed="false">
+                        <xs:sequence minOccurs="1" maxOccurs="1">
+                            <xs:element name="Person" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType mixed="false">
+                                    <xs:sequence minOccurs="1" maxOccurs="1">
+                                        <xs:element name="PersonID" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                        <xs:element name="PersonRoleCode" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ProjectRisks" minOccurs="0" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>A listing of all the known project risks and a mitigation plan to prevent these risks.</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType mixed="false">
+                        <xs:sequence minOccurs="1" maxOccurs="1">
+                            <xs:element name="ProjectRisk" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType mixed="false">
+                                    <xs:sequence minOccurs="1" maxOccurs="1">
+                                        <xs:element name="RiskName" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                        <xs:element name="RiskDescriptionText" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                        <xs:element name="RiskMiticationPlan" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ProjectDecisions" minOccurs="0" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>A list of all the key decisions on this project and the date of the decision.</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType mixed="false">
+                        <xs:sequence minOccurs="1" maxOccurs="1">
+                            <xs:element name="ProjectDecision" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType mixed="false">
+                                    <xs:sequence minOccurs="1" maxOccurs="1">
+                                        <xs:element name="ProjectDecisionName" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                        <xs:element name="ProjectDecisionText" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                        <xs:element name="ProjectDecisionDate" type="xs:date" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ProjectActionItems" minOccurs="0" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>A list of all the action items assigned to this project.</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType mixed="false">
+                        <xs:sequence minOccurs="1" maxOccurs="1">
+                            <xs:element name="ProjectActionItem" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType mixed="false">
+                                    <xs:sequence minOccurs="1" maxOccurs="1">
+                                        <xs:element name="ActionItemName" minOccurs="1" maxOccurs="1" nillable="false">
+                                            <xs:annotation>
+                                                <xs:documentation>The name of the action item associated with this project.</xs:documentation>
+                                            </xs:annotation>
+                                        </xs:element>
+                                        <xs:element name="AssignedToPersonID" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                        <xs:element name="AssignedDate" type="xs:date" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                        <xs:element name="CompleationStatusCode" type="xs:string" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                        <xs:element name="ClosedDate" type="xs:date" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ProjectDocs" minOccurs="0" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>A list of all the documents associated with this project.</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType mixed="false">
+                        <xs:sequence minOccurs="1" maxOccurs="1">
+                            <xs:element name="ProjectDoc" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:annotation>
+                                    <xs:documentation>A single document related to the project.</xs:documentation>
+                                </xs:annotation>
+                                <xs:complexType mixed="false">
+                                    <xs:sequence minOccurs="1" maxOccurs="1">
+                                        <xs:element name="DocumentTypeCode" minOccurs="1" maxOccurs="1" nillable="false">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="project-justification"/>
+                                                    <xs:enumeration value="project-scope"/>
+                                                    <xs:enumeration value="project--high-level-requirements"/>
+                                                    <xs:enumeration value="project-detailed-requirements"/>
+                                                    <xs:enumeration value="project-design"/>
+                                                    <xs:enumeration value="project-test-plan"/>
+                                                    <xs:enumeration value="project-deployment-plan"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="DocumentURL" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                        <xs:element name="DocumentPublishedDate" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                        <xs:element name="DocumentNotesText" minOccurs="0" maxOccurs="1" nillable="false"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ProjectTasks" minOccurs="0" maxOccurs="1" nillable="false">
+                    <xs:annotation>
+                        <xs:documentation>A list of all the tasks associated with this project.</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType mixed="false">
+                        <xs:sequence minOccurs="1" maxOccurs="1">
+                            <xs:element name="TaskID" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:annotation>
+                                    <xs:documentation>A reference to the XRX task manager ID.</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

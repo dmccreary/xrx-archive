@@ -1,0 +1,278 @@
+/* default XRX style sheet */
+
+empty {display: none;}
+
+body {
+   background-color: #DDD;
+   font-family: arial, helvetica, verdana, sans-serif;
+   margin:0;
+   padding:0; 
+}
+
+h1 {margin: 0 0 10px 0;}
+
+h2 {margin: 0 0 8px 0;}
+h3 {margin: 0 0 6px 0;}
+h4 {margin: 0 0 0 0 ;}
+.container {
+    background-color: white;
+    border: solid blue 1px;
+    padding: 10px;
+    position:absolute; /* added by DGM on Oct 28th 2010 to get around recenter after XSLT on FF on the mac.  */
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+#breadcrumb {
+   color: blue;
+   border: solid blue 1px;
+   padding: 4px 6px;
+   height: 25px;
+   text-decoration: none;
+}
+
+.label {
+    color: blue;
+    font-weight: bold;
+}
+
+img {
+   border: none;
+}
+
+.actionbox {
+	background-color: #cacee2;
+	border: 1px solid #a6abc0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 3px 1px 2px 1px; /* Padding, font size, font weight, and color added so input.gobox would look like a link - JW, 5/27/08*/
+	font-size: 1em;
+	font-weight: bold;
+	color: #496690;}
+	
+.actionbox a, .edit-controls a {
+	text-align: center; 
+	text-decoration: none;}
+
+.edit-controls {
+   font-family: arial, helvetica, sans-serif;
+   padding: 10px 0;    
+}
+/* The control "buttons" (links) used to edit, delete or publish records - added by Dan McCreary on March 1st, 2010.
+   Designed to be consisten with the actionbox. To use just wrap the contols in a div with a class="edit-controls".  */
+.edit-controls a {
+   /* use the same color and border as the actionbox */
+   background-color: #C3D9FF;
+   color: black;
+   border: solid #496690 1px;
+   /* the spacing inside the boxes */
+   padding: 3px 4px;
+   /* the horizontal spacing between the boxes */
+   margin: 0 3px;
+   font-weight: bold;
+   border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   -webkit-border-radius: 5px;
+}
+
+.edit-controls a:hover {color: gray;}  /* mouse over link */
+
+#banner-header-text {
+    font-size: 14pt; font-weight: bold;
+    margin-left: 10pt;
+}
+
+#banner-search {
+    float: right;
+    text-align: right;
+}
+
+#banner-login {
+    clear: both;
+    float: right;
+}
+
+#header a {
+   text-decoration: none;
+}
+
+.banner-seperator-bar {
+   display: block;
+   height: 12px;
+   background-color: lightblue;
+}
+
+#footer {
+   font-size: 10pt;
+   text-align: center;
+   color: gray;
+}
+
+.left-nav {
+   margin-left: 15px;
+   font-size: 12pt;
+}
+
+.left-nav a {
+   line-height: 25px;
+   /* border: solid 1px blue; */
+}
+
+.header-text {
+   font-weight: bold;
+   font-size: 24pt;
+}
+
+.prev-next {
+    padding: 2px; margin: 2px;
+}
+
+.prev-next a  {
+    border: groove gray;
+    padding: 2px; margin: 2px;
+    text-decoration: none;
+    background-color: silver;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    
+}
+
+
+/* delete confirm */
+.warn  {background-color: pink; color: red; font-size: 16pt; line-height: 24pt; padding: 5pt; border:solid 2px black;}
+.cancel  {background-color: lightgreen; color: green; font-size: 16pt; line-height: 24pt; padding: 5pt; border:solid 2px black;}
+
+/* for unit tests */
+.pass {background:#E6EFC2;color:#264409;}
+.fail {background-color: pink; color: red; }
+
+/* app menu status */
+.status-0 {background-color: pink;}
+.status-25 {background-color: gold;}
+.status-50 {background-color: yellow;}
+.status-75 {background-color: lightblue;}
+.status-100 {background-color: lightgreen;}
+
+
+/* all the attributes of each tab, except the background color */
+.tabs xf|trigger, tags a {
+    border-left: black solid 1px;
+    border-top: black solid 1px;
+    border-right: black solid 1px;
+    border-bottom: 0px;
+    font-size: .9em;
+    margin-right: 5px;
+    padding: 3px;
+    /* the following only works under FireFox */
+    -moz-border-radius: .5em .5em 0em 0em;
+    border-radius-topright: .5em;
+    border-radius-topleft: .5em;
+}
+
+/* this is use to show that the currently selected tab will not do anything 
+.tabs .selected xf|label {
+    color: gray !important;
+}
+*/
+
+.tab1 {background-color: pink !important;}
+
+.tab2 {background-color: orange !important;}
+
+.tab3 {background-color: yellow !important;}
+
+.tab4 {background-color: lightgreen !important;}
+
+.tab5 {background-color: lightblue !important;}
+/* the attributes of each div inside of a case */
+.swap-view {
+    position: absolute;
+    top: 30px;
+    border-left: solid black 1px;
+    border-top: solid black 0px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+/* XForms specific things here */
+@namespace xf url("http://www.w3.org/2002/xforms");
+
+
+/* this fixes the problems with XForms decenders for the lowercase letters gjpqy in the select1 values */
+xf|select1 .xf-value {
+    height: 1.65em;
+}
+
+/* this is used for all the view-item.xq scripts to display the field label values in a table */
+.field-label {
+   text-align: right;
+   font-weight: bold;
+}
+
+
+/* Differentiate between required fields and non-required fields */
+xf|input:required {font-weight: bold;}
+
+/* Make the background be a light yellow **/
+xf|input:required .xf-value {background-color:#fff6af;}
+/* This adds a red asterisk after the required input fields */
+*:required::after {font-weight:bold; font-size:1.5em; content: "*"; color: red; }
+
+
+xf|group {
+   border: solid silver 1px;
+   padding: 5px;
+}
+
+/* standard data type specific formatting */
+
+.name .xf-value, .title .xf-value {width: 40ex;}
+
+/* make a URI wide for long URLs */
+.url .xforms-value, .anyURI .xforms-value, .xs\:anyURI .xforms-value {width: 80ex;}
+.byte .xforms-value, .xs\:byte .xforms-value {width: 4ex;}
+.date .xforms-value, .xs\:date .xforms-value {width: 11ex;}
+.dateTime .xforms-value, .xs\:dateTime .xforms-value {width: 23ex;}
+.short .xforms-value, .xs\:short .xforms-value {width: 6ex;}
+.unsignedByte .xforms-value, .xs\:unsignedByte .xforms-value {width: 4ex;}
+
+/* align all the numerics to the right */
+.amount .xforms-value, .decimal .xforms-value, .xs\:decimal .xforms-value, 
+.integer .xforms-value, .xs\:integer .xforms-value, 
+.positiveInteger .xforms-value, .xs\:positiveInteger .xforms-value
+{text-align: right;}
+
+
+
+/* This allows you to create a div with class="block-form" that will put all controls on their own line.  */
+.block-form xf|input,
+.block-form xf|select1,
+.block-form xf|select,
+.block-form xf|textarea,
+.block-form xf|output,
+.block-form xf|secret
+{ display: block; margin: 1ex; }
+
+.block-form xf|label {
+   display: inline-block; 
+   width: 15ex; 
+   float: left; 
+   text-align: right; 
+   margin-right: 1ex; 
+   font-weight: bold;
+}
+
+/* the default for blueprint */
+textarea {
+    width: 930px;
+    height: 5em;
+}
+
+/* the default for blueprint */
+.description .xforms-width {width: 830px}
+.desc .xforms-width {width: 830px}

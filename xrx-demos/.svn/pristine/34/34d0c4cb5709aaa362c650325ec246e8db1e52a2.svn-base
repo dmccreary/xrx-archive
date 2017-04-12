@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<training-topics>
+    <id>xml</id>
+    <name>XML</name>
+    <description>General XML topics that do not include XForms, XQuery and XRX.</description>
+    <topic>
+    <id>x-1</id>
+    <name>Review of XML Elements and Attributes</name>
+    <length>30</length>
+    <description>Review of XML and XHTML for beginners.</description>
+    <resources>
+        <resource>
+            <resource-name>Powerpoint Slides</resource-name>
+            <resource-type>ppt</resource-type>
+            <resource-description>Powerpoint slides to review basic XML and XHTML structures.</resource-description>
+            <resource-url>http://www.danmccreary.com/training/xquery/01-Review-of-XML-HTML.ppt</resource-url>
+        </resource>
+    </resources>
+</topic>
+    <topic>
+        <id>x-2</id>
+        <name>Basic XPath with Books Examples</name>
+        <length>30</length>
+        <description>Review of XML and XHTML for beginners.</description>
+        <resources>
+            <resource>
+                <resource-name>Books XML Sample</resource-name>
+                <resource-type>sample-data</resource-type>
+                <resource-description>Sample XML data file of books for XPath.</resource-description>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/books-sample.xml</resource-url>
+            </resource>
+        </resources>
+    </topic>
+</training-topics>

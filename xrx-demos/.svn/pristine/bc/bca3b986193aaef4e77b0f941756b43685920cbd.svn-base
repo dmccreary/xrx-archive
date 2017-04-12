@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>28</id>
+    <Classifier>Message Routing</Classifier>
+    <PatternName>Splitter</PatternName>
+    <Image>SplitterIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/Sequencer.html</Reference>
+    <Description>How can we process a message if it contains multiple elements, each of which may
+      have to be processed in a different way?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

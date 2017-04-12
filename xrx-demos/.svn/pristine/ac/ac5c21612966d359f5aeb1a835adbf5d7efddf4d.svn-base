@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>person-name-code</code-table-name>
+    <description>List of classifiers use to classify E-mail messages.</description>
+    <data-source>Mockup for testing</data-source>
+    <items>
+        <item>
+            <label>John Smith</label>
+            <value>john.smith@example.com</value>
+        </item>
+        <item>
+            <label>Sue Jones</label>
+            <value>sue.jones@example.com</value>
+        </item>
+        <item>
+            <label>Bob Anderson</label>
+            <value>bob.anderson@example.com</value>
+        </item>
+    </items>
+</code-table>

@@ -1,0 +1,12 @@
+/* CSS file for person search results table */
+@namespace xf url("http://www.w3.org/2002/xforms");
+
+
+/* Makes the labels right aligned in a 200px wide column that floats to the left of the input controls. */
+xf|input > xf|label, xf|select > xf|label, xf|select1 > xf|label, xf|textarea > xf|label,  xf|output > xf|label,  xf|secret > xf|label 
+{padding-right:10px; width:200px; float:left; text-align:right;}
+
+.question textarea, .answer textarea { 
+   height: 6em;
+   width: 50ex;
+}

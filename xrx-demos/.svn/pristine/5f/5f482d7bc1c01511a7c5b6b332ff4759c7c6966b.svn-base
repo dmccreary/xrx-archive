@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xf="http://www.w3.org/2002/xforms" mods:dummy1="dummy1" dc:dummy2="dummy2">
+    <xf:trigger class="add" appearance="minimal">
+        <xf:label>
+            <img src="../styles/images/add.gif" alt="Add"/>
+        </xf:label>
+        <xf:insert ev:event="DOMActivate" context="instance('metadata')" nodeset="instance('metadata')/mods:titleInfo[last()]" at="index('titleInfo')" position="after" origin="instance('basic')/mods:titleInfo[2]"/>
+    </xf:trigger>
+    <xf:repeat nodeset="instance('metadata')/mods:titleInfo" id="titleInfo">
+        <div class="section">
+            <p class="deleteSection">
+                <xf:trigger appearance="minimal" ref="self::node()[count(../mods:titleInfo) &gt; 1]">
+                    <xf:label>
+                        <img src="../styles/images/remove.gif" alt="Remove"/>
+                    </xf:label>
+                    <xf:delete ev:event="DOMActivate" nodeset="." at="index('titleInfo')"/>
+                </xf:trigger>
+            </p>
+            <div class="left">
+            <!-- Title type should only appear on subsequent titles, and authority should be inserted if value of type is either uniform or abbriviated -->
+                <p>
+                    <xf:select1 ref="@type" id="titleType">
+                        <xf:label class="mods-label">Type:     </xf:label>
+                        <xf:item>
+                            <xf:label>Abbreviated</xf:label>
+                            <xf:value>abbreviated</xf:value>
+                        </xf:item>
+                        <xf:item>
+                            <xf:label>Alternative</xf:label>
+                            <xf:value>alternative </xf:value>
+                        </xf:item>
+                        <xf:item>
+                            <xf:label>Translated</xf:label>
+                            <xf:value>translated</xf:value>
+                        </xf:item>
+                        <xf:item>
+                            <xf:label>Uniform</xf:label>
+                            <xf:value>uniform</xf:value>
+                        </xf:item>
+                    </xf:select1>
+                    <xf:trigger class="delete" appearance="minimal" ref="self::node()[@type]">
+                        <xf:label>
+                            <img src="../styles/images/remove.gif" alt="Remove"/>
+                        </xf:label>
+                        <xf:delete ev:event="DOMActivate" nodeset="self::node()/@type" at="index('titleInfo')"/>
+                    </xf:trigger>
+                </p>
+                <p>
+                    <xf:input ref="@authority" class="attribute">
+                        <xf:label class="mods-label">Authority: </xf:label>
+                    </xf:input>
+                </p>
+                <p>
+                    <xf:input ref="mods:nonSort">
+                        <xf:label class="mods-label">Non-sort:</xf:label>
+                    </xf:input>
+                    <xf:trigger class="delete" appearance="minimal" ref="self::node()[count(mods:nonSort) &gt; 0]">
+                        <xf:label>
+                            <img src="../styles/images/remove.gif" alt="Remove"/>
+                        </xf:label>
+                        <xf:delete ev:event="DOMActivate" nodeset="mods:nonSort" at="index('titleInfo')"/>
+                    </xf:trigger>
+                </p>
+                <p class="longItem">
+                    <xf:input ref="mods:title">
+                        <xf:label class="mods-label">Title:    </xf:label>
+                    </xf:input>
+                </p>
+                <p class="longItem">
+                    <xf:input ref="mods:subTitle">
+                        <xf:label class="mods-label">Sub-title: </xf:label>
+                    </xf:input>
+                    <xf:trigger class="delete" appearance="minimal" ref="self::node()[count(mods:subTitle) &gt; 0]">
+                        <xf:label>
+                            <img src="../styles/images/remove.gif" alt="Remove"/>
+                        </xf:label>
+                        <xf:delete ev:event="DOMActivate" nodeset="mods:subTitle" at="index('titleInfo')"/>
+                    </xf:trigger>
+                </p>
+                <p>
+                    <xf:input ref="mods:partNumber">
+                        <xf:label class="mods-label">Part Number: </xf:label>
+                    </xf:input>
+                    <xf:trigger class="delete" appearance="minimal" ref="self::node()[count(mods:partNumber) &gt; 0]">
+                        <xf:label>
+                            <img src="../styles/images/remove.gif" alt="Remove"/>
+                        </xf:label>
+                        <xf:delete ev:event="DOMActivate" nodeset="mods:partNumber" at="index('titleInfo')"/>
+                    </xf:trigger>
+                </p>
+                <p>
+                    <xf:input ref="mods:partName">
+                        <xf:label class="mods-label">Part Name:  </xf:label>
+                    </xf:input>
+                    <xf:trigger class="delete" appearance="minimal" ref="self::node()[count(mods:partName) &gt; 0]">
+                        <xf:label>
+                            <img src="../styles/images/remove.gif" alt="Remove"/>
+                        </xf:label>
+                        <xf:delete ev:event="DOMActivate" nodeset="mods:partName" at="index('titleInfo')"/>
+                    </xf:trigger>
+                </p>
+                <p>
+                    <xf:input ref="@displayLabel">
+                        <xf:label class="mods-label">Display Label: </xf:label>
+                        <xf:trigger class="delete" appearance="minimal" ref=".">
+                            <xf:label>
+                                <img src="../styles/images/remove.gif" alt="Remove"/>
+                            </xf:label>
+                            <xf:delete ev:event="DOMActivate" nodeset="." at="index('titleInfo')"/>
+                        </xf:trigger>
+                    </xf:input>
+                </p>
+            </div>
+            <dl class="optionalElements">
+                <dt>Optional Fields</dt>
+                <dd>
+                    <xf:trigger appearance="minimal" ref="self::node()[count(mods:nonSort) = 0]">
+                        <xf:label>
+                            <img src="../styles/images/add.gif"/>NonSort </xf:label>
+                        <xf:insert ev:event="DOMActivate" context="instance('metadata')" nodeset="instance('metadata')/mods:titleInfo[index('titleInfo')]/child::*" at="index('titleInfo')" position="after" origin="instance('template')/mods:titleInfo/mods:nonSort"/>
+                    </xf:trigger>
+                </dd>
+                <dd>
+                    <xf:trigger class="add" appearance="minimal" ref="self::node()[count(mods:subTitle) = 0]">
+                        <xf:label>
+                            <img src="../styles/images/add.gif"/>SubTitle</xf:label>
+                        <xf:insert ev:event="DOMActivate" context="instance('metadata')" nodeset="instance('metadata')/mods:titleInfo[index('titleInfo')]/child::*" at="index('titleInfo')" position="after" origin="instance('template')/mods:titleInfo/mods:subTitle"/>
+                    </xf:trigger>
+                </dd>
+                <dd>
+                    <xf:trigger class="add" appearance="minimal" ref="self::node()[count(mods:partNumber) = 0]">
+                        <xf:label>
+                            <img src="../styles/images/add.gif"/> Part Number</xf:label>
+                        <xf:insert ev:event="DOMActivate" context="instance('metadata')" nodeset="instance('metadata')/mods:titleInfo[index('titleInfo')]/child::*" at="index('titleInfo')" position="after" origin="instance('template')/mods:titleInfo/mods:partNumber"/>
+                    </xf:trigger>
+                </dd>
+                <dd>
+                    <xf:trigger class="add" appearance="minimal" ref="self::node()[count(mods:partName) = 0]">
+                        <xf:label>
+                            <img src="../styles/images/add.gif"/> Part Name</xf:label>
+                        <xf:insert ev:event="DOMActivate" context="instance('metadata')" nodeset="instance('metadata')/mods:titleInfo[index('titleInfo')]/child::*" at="index('titleInfo')" position="after" origin="instance('template')/mods:titleInfo/mods:partName"/>
+                    </xf:trigger>
+                </dd>
+                <dd>
+                    <xf:trigger appearance="minimal" ref="self::node()[not(@displayLabel)]">
+                        <xf:label>
+                            <img src="../styles/images/add.gif"/>Display Label</xf:label>
+                        <xf:insert ev:event="DOMActivate" context="instance('metadata')" nodeset="instance('metadata')/mods:titleInfo[index('titleInfo')]" at="index('titleInfo')" position="after" origin="instance('template')/mods:titleInfo/@displayLabel"/>
+                    </xf:trigger>
+                </dd>
+            </dl>
+            <br class="clear"/>
+        </div>
+    </xf:repeat>
+</html>

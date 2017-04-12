@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>10</id>
+    <Classifier>Messaging Channels</Classifier>
+    <PatternName>Invalid Message Channel</PatternName>
+    <Image>InvalidMessageChannelIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/InvalidMessageChannel.html</Reference>
+    <Description>How can a messaging receiver gracefully handle receiving a message that makes no
+      sense?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

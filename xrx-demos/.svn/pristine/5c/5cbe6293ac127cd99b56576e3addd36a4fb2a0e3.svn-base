@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>2</id>
+    <Classifier>Messaging Systems</Classifier>
+    <PatternName>Message</PatternName>
+    <Image>MessageIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/Message.html</Reference>
+    <Description>How can two applications connected by a message channel exchange a piece of
+      information?</Description>
+    <Question/>
+    <Answer/>
+    <Usages>
+        <Usage>
+            <ProjectCode>project-1</ProjectCode>
+            <ProjectUsageText>This is how the pattern is used on project 1.</ProjectUsageText>
+        </Usage>
+        <Usage>
+            <ProjectCode>project-2</ProjectCode>
+            <ProjectUsageText>This is how the pattern is used on project 2.</ProjectUsageText>
+        </Usage>
+    </Usages>
+    <NoteText/>
+</Pattern>

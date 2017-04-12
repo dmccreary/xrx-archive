@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-info xmlns="http://code.google.com/p/xrx">
+    <app-id>email</app-id>
+    <app-name>Message Manager</app-name>
+    <classifier>web-content</classifier>
+    <app-version-id>1.0</app-version-id>
+    <app-description-text>Search and Classify E-mail Messages</app-description-text>
+    <app-creator-text>Dan McCreary</app-creator-text>
+    <app-license-type-code>apache-2.0</app-license-type-code>
+    <app-license-uri>http://www.apache.org/licenses/LICENSE-2.0.html</app-license-uri>
+    <breadcrumb-label>E-mail</breadcrumb-label>
+    <data-collection>data</data-collection>
+    <app-icon-path>images/email.jpg</app-icon-path>
+    <main-menu-order>2</main-menu-order>
+    <include-in-search-indicator>true</include-in-search-indicator>
+    <doc-root-path>requirement</doc-root-path>
+    <doc-id-path>id/text()</doc-id-path>
+    <doc-title>name/text()</doc-title>
+    <doc-viewer-path>views/view-item.xq</doc-viewer-path>
+    <search-order-weight>1</search-order-weight>
+    <app-notes-text>This is a sample app-info.xml file used in the template.</app-notes-text>
+    <classifiers>
+        <classifier>content-management</classifier>
+    </classifiers>
+</app-info>

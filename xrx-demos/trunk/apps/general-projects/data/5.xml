@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InformationSharingProject>
+    <id>5</id>
+    <ProjectName>Project Five</ProjectName>
+    <ProjectDescriptionText>This is the description of project five</ProjectDescriptionText>
+    <ProjectScopeText/>
+    <ProjectBusinessObjectivesText/>
+    <ProjectBusinessGoalsText/>
+    <ProjectHowToUseText/>
+    <ProjectImplementationStratagyText/>
+    <ProjectMemoOfUnderstandingsText/>
+    <ProjectSponsorUserID/>
+    <ProjectOwnerUserID/>
+    <ProjectContactUserID/>
+    <ProjectApproverUserID/>
+    <PersonRoles>
+        <Role>
+            <UserID>betty</UserID>
+            <PersonRoleCode>pm</PersonRoleCode>
+        </Role>
+    </PersonRoles>
+    <DevelopmentStatusCode>test</DevelopmentStatusCode>
+</InformationSharingProject>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anychart>
+    <margin all="0"/>
+    <charts>
+        <chart plot_type="CategorizedVertical">
+            <styles>
+                <line_style name="benchmark">
+                    <line thickness="5" color="green"/>
+                </line_style>
+                <line_style name="review">
+                    <line thickness="5" color="blue"/>
+                </line_style>
+                <tooltip_style name="yellow">
+                    <background enabled="true">
+                        <fill color="yellow" type="solid" opacity="0.75"/>
+                        <border type="solid" color="gray" opacity="0.8"/>
+                        <corners type="rounded" all="3"/>
+                    </background>
+                    <font color="black" bold="false"/>
+                    <format>{%SeriesName} in {%Name} was {%Value}{numDecimals:0}</format>
+                </tooltip_style>
+            </styles>
+            <chart_settings>
+                <chart_background enabled="false"/>
+                <title>
+                    <text>Score Range</text>
+                </title>
+                <axes>
+                    <x_axis>
+                        <labels rotation="90"/>
+                        <title enabled="false">
+                            <text>Score Range</text>
+                        </title>
+                        <major_grid enabled="false"/>
+                        <minor_grid enabled="false"/>
+                    </x_axis>
+                    <y_axis>
+                        <title>
+                            <text>Percent</text>
+                        </title>
+                        <major_grid enabled="false"/>
+                        <minor_grid enabled="false"/>
+                        <scale minimum="0" maximum="50"/>
+                        <labels>
+                            <format>{%Value}{numDecimals:0}</format>
+                        </labels>
+                    </y_axis>
+                </axes>
+                <legend enabled="true">
+                    <title enabled="false"/>
+                </legend>
+            </chart_settings>
+            <data_plot_settings default_series_type="line">
+                <line_series>
+                    <tooltip_settings enabled="true" style="yellow"/>
+                </line_series>
+                <effects enabled="false"/>
+            </data_plot_settings>
+            <data>
+                <series id="benchmark" name="Benchmark" style="benchmark">
+                    <point name="100-199" y="5"/>
+                    <point name="200-299" y="10"/>
+                    <point name="300-399" y="25"/>
+                    <point name="400-499" y="35"/>
+                    <point name="500-599" y="20"/>
+                    <point name="600-699" y="10"/>
+                    <point name="700-799" y="5"/>
+                </series>
+                <series id="review" name="Review" style="review">
+                    <point name="100-199" y="6"/>
+                    <point name="200-299" y="12"/>
+                    <point name="300-399" y="27"/>
+                    <point name="400-499" y="33"/>
+                    <point name="500-599" y="22"/>
+                    <point name="600-699" y="12"/>
+                    <point name="700-799" y="7"/>
+                </series>
+                <series id="Jan-10" name="Jan 2010">
+                    <point name="100-199" y="8"/>
+                    <point name="200-299" y="15"/>
+                    <point name="300-399" y="29"/>
+                    <point name="400-499" y="39"/>
+                    <point name="500-599" y="18"/>
+                    <point name="600-699" y="12"/>
+                    <point name="700-799" y="3"/>
+                </series>
+                <series id="Feb-10" name="Feb 2010">
+                    <point name="100-199" y="7"/>
+                    <point name="200-299" y="12"/>
+                    <point name="300-399" y="27"/>
+                    <point name="400-499" y="38"/>
+                    <point name="500-599" y="27"/>
+                    <point name="600-699" y="15"/>
+                    <point name="700-799" y="6"/>
+                </series>
+                <series id="Mar-10" name="Mar 2010">
+                    <point name="100-199" y="8"/>
+                    <point name="200-299" y="15"/>
+                    <point name="300-399" y="27"/>
+                    <point name="400-499" y="30"/>
+                    <point name="500-599" y="25"/>
+                    <point name="600-699" y="16"/>
+                    <point name="700-799" y="7"/>
+                </series>
+                <series id="Apr-10" name="Apr 2010">
+                    <point name="100-199" y="3"/>
+                    <point name="200-299" y="17"/>
+                    <point name="300-399" y="29"/>
+                    <point name="400-499" y="33"/>
+                    <point name="500-599" y="24"/>
+                    <point name="600-699" y="12"/>
+                    <point name="700-799" y="5"/>
+                </series>
+                <series id="May-10" name="May 2010">
+                    <point name="100-199" y="2"/>
+                    <point name="200-299" y="18"/>
+                    <point name="300-399" y="25"/>
+                    <point name="400-499" y="30"/>
+                    <point name="500-599" y="22"/>
+                    <point name="600-699" y="14"/>
+                    <point name="700-799" y="7"/>
+                </series>
+                <series id="Jun-10" name="Jun 2010">
+                    <point name="100-199" y="4"/>
+                    <point name="200-299" y="13"/>
+                    <point name="300-399" y="20"/>
+                    <point name="400-499" y="34"/>
+                    <point name="500-599" y="26"/>
+                    <point name="600-699" y="18"/>
+                    <point name="700-799" y="10"/>
+                </series>
+                <series id="Jul-10" name="Jun 2010">
+                    <point name="100-199" y="`0"/>
+                    <point name="200-299" y="13"/>
+                    <point name="300-399" y="20"/>
+                    <point name="400-499" y="34"/>
+                    <point name="500-599" y="36"/>
+                    <point name="600-699" y="15"/>
+                    <point name="700-799" y="10"/>
+                </series>
+                <series id="Aug-10" name="Aug 2010">
+                    <point name="100-199" y="14"/>
+                    <point name="200-299" y="23"/>
+                    <point name="300-399" y="20"/>
+                    <point name="400-499" y="40"/>
+                    <point name="500-599" y="26"/>
+                    <point name="600-699" y="18"/>
+                    <point name="700-799" y="9"/>
+                </series>
+                <series id="Sep-10" name="Sep 2010">
+                    <point name="100-199" y="9"/>
+                    <point name="200-299" y="23"/>
+                    <point name="300-399" y="20"/>
+                    <point name="400-499" y="44"/>
+                    <point name="500-599" y="26"/>
+                    <point name="600-699" y="18"/>
+                    <point name="700-799" y="8"/>
+                </series>
+                <series id="Oct-10" name="Oct 2010">
+                    <point name="100-199" y="10"/>
+                    <point name="200-299" y="10"/>
+                    <point name="300-399" y="20"/>
+                    <point name="400-499" y="34"/>
+                    <point name="500-599" y="26"/>
+                    <point name="600-699" y="13"/>
+                    <point name="700-799" y="14"/>
+                </series>
+                <series id="Nov-10" name="Nov 2010">
+                    <point name="100-199" y="15"/>
+                    <point name="200-299" y="19"/>
+                    <point name="300-399" y="20"/>
+                    <point name="400-499" y="34"/>
+                    <point name="500-599" y="26"/>
+                    <point name="600-699" y="15"/>
+                    <point name="700-799" y="8"/>
+                </series>
+                <series id="Dec-10" name="Dec 2010">
+                    <point name="100-199" y="20"/>
+                    <point name="200-299" y="20"/>
+                    <point name="300-399" y="25"/>
+                    <point name="400-499" y="44"/>
+                    <point name="500-599" y="23"/>
+                    <point name="600-699" y="16"/>
+                    <point name="700-799" y="14"/>
+                </series>
+            </data>
+        </chart>
+    </charts>
+</anychart>

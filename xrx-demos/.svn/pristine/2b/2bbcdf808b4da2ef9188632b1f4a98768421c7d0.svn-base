@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>5</id>
+    <Classifier>Messaging Systems</Classifier>
+    <PatternName>Message Translator</PatternName>
+    <Image>MessageTranslatorIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessageTranslator.html</Reference>
+    <Description>How can systems using different data formats communicate with each other using
+      messaging?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

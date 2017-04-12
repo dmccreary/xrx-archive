@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <filename>laura-test.xml</filename>
+    <element>
+        <name>Super</name>
+        <prefix>uc</prefix>
+        <definition>The root of all data elements.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonName</name>
+        <definition>A combination of names and/or titles by which a person is known.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>Email</name>
+        <definition>An electronic form of communication that can be exchanged asynchronously.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailSubjectText</name>
+        <definition>A summary of the contents on an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailSentDate</name>
+        <definition>A date on which an email message is sent.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>AircraftFuselageColor</name>
+        <definition>A color of the main body of an aircraft.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>AircraftWingColor</name>
+        <definition>A color of the wings on an aircraft.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonEyeColorCode</name>
+        <definition>A color of the eyes of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>JewelryStoneColorText</name>
+        <definition>A color of jewelry stone.</definition>
+    </element>
+</data>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+    <id>5</id>
+    <title>Title 5</title>
+    <creator>Creator 5</creator>
+    <subject>Subject 5</subject>
+    <description>Description 5</description>
+    <publisher>Publisher 5</publisher>
+    <contributor>Contributor 5</contributor>
+    <date>1967-08-53</date>
+    <type>Type 5</type>
+    <format>Format 5</format>
+    <identifier>Identifier 5</identifier>
+    <source>Source 5</source>
+    <language>Language 5</language>
+    <relation>Relation 5</relation>
+    <coverage>Coverage 5</coverage>
+    <rights>Rights 5</rights>
+</item>

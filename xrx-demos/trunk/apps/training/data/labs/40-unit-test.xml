@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>40</id>
+    <name>Unit Test Lab</name>
+    <description>In this lab students will create a small unit test runner to execute simple unit tests.
+    </description>
+    <programlisting>
+        
+    </programlisting>
+    <resources>
+        <resource>
+            <name>Unit Test Lab</name>
+            <type>google-doc</type>
+            <url>https://docs.google.com/document/d/1YWzGdWECnVdd8BxIEbKqkBeTmvC3nqBgMiQb83RHC3I/edit?hl=en#</url>
+        </resource>
+        <resource>
+            <name>Unit Test Samples</name>
+            <type>sample-documents</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/index.xq?collection=unit-test</url>
+        </resource>
+        <resource>
+            <name>XML Sample File</name>
+            <type>xml-sample</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/unit-test/unit-tests.xml</url>
+        </resource>
+        <resource>
+            <name>Run Unit Tests with XML Output</name>
+            <type>xquery-executable</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/unit-test/test-runner.xq</url>
+        </resource>
+        <resource>
+            <name>Run Unit Tests with HTML Output</name>
+            <type>xquery-executable</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/unit-test/test-runner-html.xq</url>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

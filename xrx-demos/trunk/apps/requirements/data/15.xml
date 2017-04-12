@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Requirement>
+    <id>15</id>
+    <RequirementParentID>5</RequirementParentID>
+    <RequirementShortName>Transform Incomming Message Based On Message Type</RequirementShortName>
+    <RequirementDescriptionText>Look at the incoming message type and perform a transform of the message.  The resulting output will execute a workflow.</RequirementDescriptionText>
+    <ProjectID>1</ProjectID>
+    <RequirementLevelCode>0</RequirementLevelCode>
+    <RequirementPriorityCode>medium</RequirementPriorityCode>
+    <RequirementCompletionStatusCode>new</RequirementCompletionStatusCode>
+    <RequirementRequestedBy>dan</RequirementRequestedBy>
+    <RequirementApprovedBy/>
+    <RequirementApprovalDate/>
+    <RequirementTestableCode>yes-unit</RequirementTestableCode>
+    <RequirementClassifierCode/>
+    <RequirementTag/>
+    <RequirementAssignedToPersonID/>
+    <RequirmentBusinessRuleID/>
+    <RequirmentBusinessAnalists/>
+    <RequirementEstimatedDevelopmentDays>10</RequirementEstimatedDevelopmentDays>
+    <RequirementCostEstimateAmount>1000</RequirementCostEstimateAmount>
+    <RequirementCompletionPercent>65</RequirementCompletionPercent>
+    <RequirementCertaintyLevel>75</RequirementCertaintyLevel>
+    <RequirementReleaseCode>version-1</RequirementReleaseCode>
+    <RequirementDepends/>
+    <RequirementNoteText/>
+    <Resources>
+        <Resource>
+            <ResourceTypeCode>unit-test</ResourceTypeCode>
+            <ResourceLabelText>Label</ResourceLabelText>
+            <ResourceURL>http://</ResourceURL>
+        </Resource>
+    </Resources>
+    <created-by>dan@danmccreary.com</created-by>
+    <created-datetime>2012-01-19T21:27:29.899Z</created-datetime>
+    <last-modified-by>admin</last-modified-by>
+    <last-modified-datetime>2012-01-23T13:39:00.066-06:00</last-modified-datetime>
+</Requirement>

@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/accident.rdf#" xmlns:accident="http://www.semanticweb.org/ontologies/accident.rdf#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="http://www.semanticweb.org/ontologies/accident.rdf">
+    <owl:Ontology rdf:about=""/>
+    <owl:ObjectProperty rdf:about="#Liste"/>
+    <owl:ObjectProperty rdf:about="#listePar">
+        <owl:inverseOf rdf:resource="#Liste"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#resouds"/>
+    <owl:Class rdf:about="#Accidents_Potentiels">
+        <owl:disjointWith rdf:resource="#Mesures_Preventives_et_Correctives"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Categorie_d_accident">
+        <rdfs:subClassOf rdf:resource="#Contexte_General"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Categorie_d_accident"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class rdf:about="#Causes_Possibles"/>
+    <owl:Class rdf:about="#Causes_liees_a_l_environnement">
+        <rdfs:subClassOf rdf:resource="#Causes_Possibles"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Causes_Possibles"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Causes_liees_au_systeme -->
+    <owl:Class rdf:about="#Causes_liees_au_systeme">
+        <rdfs:subClassOf rdf:resource="#Causes_Possibles"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Causes_Possibles"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Causes_liees_aux_facteurs_humains -->
+    <owl:Class rdf:about="#Causes_liees_aux_facteurs_humains">
+        <rdfs:subClassOf rdf:resource="#Causes_Possibles"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Causes_Possibles"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Collision -->
+    <owl:Class rdf:about="#Collision">
+        <rdfs:subClassOf rdf:resource="#Accidents_Potentiels"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Accidents_Potentiels"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Collision_avec_d_autres_Circulations -->
+    <owl:Class rdf:about="#Collision_avec_d_autres_Circulations">
+        <rdfs:subClassOf rdf:resource="#Collision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Collision"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Collision_avec_d_autres_Vehicules_ou_Exploitations -->
+    <owl:Class rdf:about="#Collision_avec_d_autres_Vehicules_ou_Exploitations">
+        <rdfs:subClassOf rdf:resource="#Collision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Collision"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Collision_avec_des_Obstacles_Fixes -->
+    <owl:Class rdf:about="#Collision_avec_des_Obstacles_Fixes">
+        <rdfs:subClassOf rdf:resource="#Collision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Collision"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Contexte_General -->
+    <owl:Class rdf:about="#Contexte_General">
+        <owl:disjointWith rdf:resource="#Mesures_Preventives_et_Correctives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Defaillance_de_l_agent_au_PCC -->
+    <owl:Class rdf:about="#Defaillance_de_l_agent_au_PCC">
+        <rdfs:subClassOf rdf:resource="#Erreurs_des_Operateurs_Humains"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Erreurs_des_Operateurs_Humains"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Defaillance_de_l_agent_de_conduite -->
+    <owl:Class rdf:about="#Defaillance_de_l_agent_de_conduite">
+        <rdfs:subClassOf rdf:resource="#Erreurs_des_Operateurs_Humains"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Erreurs_des_Operateurs_Humains"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Defaillance_de_l_operateur_de_Maintenance -->
+    <owl:Class rdf:about="#Defaillance_de_l_operateur_de_Maintenance">
+        <rdfs:subClassOf rdf:resource="#Erreurs_des_Operateurs_Humains"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Erreurs_des_Operateurs_Humains"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Deraillement -->
+    <owl:Class rdf:about="#Deraillement">
+        <rdfs:subClassOf rdf:resource="#Accidents_Potentiels"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Accidents_Potentiels"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Electrocution -->
+    <owl:Class rdf:about="#Electrocution">
+        <rdfs:subClassOf rdf:resource="#Accidents_Potentiels"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Accidents_Potentiels"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Elements_Dangereux -->
+    <owl:Class rdf:about="#Elements_Dangereux">
+        <owl:disjointWith rdf:resource="#Mesures_Preventives_et_Correctives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Environnement -->
+    <owl:Class rdf:about="#Environnement">
+        <rdfs:subClassOf rdf:resource="#Elements_Dangereux"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Elements_Dangereux"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Environnement_Externe -->
+    <owl:Class rdf:about="#Environnement_Externe">
+        <rdfs:subClassOf rdf:resource="#Causes_liees_a_l_environnement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Causes_liees_a_l_environnement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Environnement_Interne -->
+    <owl:Class rdf:about="#Environnement_Interne">
+        <rdfs:subClassOf rdf:resource="#Causes_liees_a_l_environnement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Causes_liees_a_l_environnement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Equipements_Fixes -->
+    <owl:Class rdf:about="#Equipements_Fixes">
+        <rdfs:subClassOf rdf:resource="#Systeme"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Systeme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Equipements_Mobiles -->
+    <owl:Class rdf:about="#Equipements_Mobiles">
+        <rdfs:subClassOf rdf:resource="#Systeme"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Systeme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Equipements_Mobiles_Fixes -->
+    <owl:Class rdf:about="#Equipements_Mobiles_Fixes">
+        <rdfs:subClassOf rdf:resource="#Systeme"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Systeme"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Erreurs_des_Operateurs_Humains -->
+    <owl:Class rdf:about="#Erreurs_des_Operateurs_Humains">
+        <rdfs:subClassOf rdf:resource="#Causes_liees_aux_facteurs_humains"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Causes_liees_aux_facteurs_humains"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Erreurs_lies_a_l_Interaction -->
+    <owl:Class rdf:about="#Erreurs_lies_a_l_Interaction">
+        <rdfs:subClassOf rdf:resource="#Causes_liees_aux_facteurs_humains"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Causes_liees_aux_facteurs_humains"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Facteurs_Humains -->
+    <owl:Class rdf:about="#Facteurs_Humains">
+        <rdfs:subClassOf rdf:resource="#Elements_Dangereux"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Elements_Dangereux"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Fonctions_en_Rapport_avec_l_Accident -->
+    <owl:Class rdf:about="#Fonctions_en_Rapport_avec_l_Accident">
+        <rdfs:subClassOf rdf:resource="#Contexte_General"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Contexte_General"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Gravite_des_domages_engendres -->
+    <owl:Class rdf:about="#Gravite_des_domages_engendres">
+        <rdfs:subClassOf rdf:resource="#Niveaux_de_Risques"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Niveaux_de_Risques"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Heure_d_Accident -->
+    <owl:Class rdf:about="#Heure_d_Accident">
+        <rdfs:subClassOf rdf:resource="#Contexte_General"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Contexte_General"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Intervention_des_Passagers -->
+    <owl:Class rdf:about="#Intervention_des_Passagers">
+        <rdfs:subClassOf rdf:resource="#Causes_liees_aux_facteurs_humains"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Causes_liees_aux_facteurs_humains"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Mesures_Preventives_et_Correctives -->
+    <owl:Class rdf:about="#Mesures_Preventives_et_Correctives">
+        <owl:disjointWith rdf:resource="#Niveaux_de_Risques"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Causes_Possibles"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#resouds"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Accidents_Potentiels"/>
+                                    <rdf:Description rdf:about="#Causes_Possibles"/>
+                                    <rdf:Description rdf:about="#Contexte_General"/>
+                                    <rdf:Description rdf:about="#Elements_Dangereux"/>
+                                    <rdf:Description rdf:about="#Niveaux_de_Risques"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Mode_de_Conduite -->
+    <owl:Class rdf:about="#Mode_de_Conduite">
+        <rdfs:subClassOf rdf:resource="#Contexte_General"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Contexte_General"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Modes_Degrades -->
+    <owl:Class rdf:about="#Modes_Degrades">
+        <rdfs:subClassOf rdf:resource="#Mode_de_Conduite"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Mode_de_Conduite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Modes_Nominaux -->
+    <owl:Class rdf:about="#Modes_Nominaux">
+        <rdfs:subClassOf rdf:resource="#Mode_de_Conduite"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Mode_de_Conduite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Niveaux_de_Risques -->
+    <owl:Class rdf:about="#Niveaux_de_Risques"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Operateurs_Humains -->
+    <owl:Class rdf:about="#Operateurs_Humains">
+        <rdfs:subClassOf rdf:resource="#Facteurs_Humains"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Facteurs_Humains"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Personnel_d_exploitation -->
+    <owl:Class rdf:about="#Personnel_d_exploitation">
+        <rdfs:subClassOf rdf:resource="#Operateurs_Humains"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Operateurs_Humains"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Personnel_de_maintenance -->
+    <owl:Class rdf:about="#Personnel_de_maintenance">
+        <rdfs:subClassOf rdf:resource="#Operateurs_Humains"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Operateurs_Humains"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Principe_de_Cantonnement -->
+    <owl:Class rdf:about="#Principe_de_Cantonnement">
+        <rdfs:subClassOf rdf:resource="#Contexte_General"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Contexte_General"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Probabilite_d_occurence_de_l_accident -->
+    <owl:Class rdf:about="#Probabilite_d_occurence_de_l_accident">
+        <rdfs:subClassOf rdf:resource="#Niveaux_de_Risques"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Niveaux_de_Risques"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Procedures_et_Consignes_d_Exploitation -->
+    <owl:Class rdf:about="#Procedures_et_Consignes_d_Exploitation">
+        <rdfs:subClassOf rdf:resource="#Elements_Dangereux"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Elements_Dangereux"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Systeme -->
+    <owl:Class rdf:about="#Systeme">
+        <rdfs:subClassOf rdf:resource="#Elements_Dangereux"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Elements_Dangereux"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Type_d_accident -->
+    <owl:Class rdf:about="#Type_d_accident">
+        <rdfs:subClassOf rdf:resource="#Contexte_General"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Contexte_General"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Voyageurs -->
+    <owl:Class rdf:about="#Voyageurs">
+        <rdfs:subClassOf rdf:resource="#Facteurs_Humains"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Facteurs_Humains"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Zone_Geographique -->
+    <owl:Class rdf:about="#Zone_Geographique">
+        <rdfs:subClassOf rdf:resource="#Contexte_General"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#listePar"/>
+                <owl:allValuesFrom rdf:resource="#Contexte_General"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+    <owl:Class rdf:about="Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Acte_de_vandilisme -->
+    <Intervention_des_Passagers rdf:about="#Acte_de_vandilisme">
+        <rdf:type rdf:resource="Thing"/>
+    </Intervention_des_Passagers>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Action_sur_les_alarmes -->
+    <owl:Thing rdf:about="#Action_sur_les_alarmes">
+        <rdf:type rdf:resource="#Intervention_des_Passagers"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Action_sur_les_sloquets_de_commande_d_ouverture_des_portes -->
+    <owl:Thing rdf:about="#Action_sur_les_sloquets_de_commande_d_ouverture_des_portes">
+        <rdf:type rdf:resource="#Intervention_des_Passagers"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Ambiance_Conflits -->
+    <Erreurs_lies_a_l_Interaction rdf:about="#Ambiance_Conflits">
+        <rdf:type rdf:resource="Thing"/>
+    </Erreurs_lies_a_l_Interaction>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Autres -->
+    <owl:Thing rdf:about="#Autres">
+        <rdf:type rdf:resource="#Environnement_Interne"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Blocage_de_l_essieu_supportant_la_roue_phonique -->
+    <owl:Thing rdf:about="#Blocage_de_l_essieu_supportant_la_roue_phonique">
+        <rdf:type rdf:resource="#Causes_liees_au_systeme"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Bousculade_et_poussee_des_voyageurs -->
+    <Intervention_des_Passagers rdf:about="#Bousculade_et_poussee_des_voyageurs">
+        <rdf:type rdf:resource="Thing"/>
+    </Intervention_des_Passagers>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Caracteristiques_de_la_tache -->
+    <Erreurs_lies_a_l_Interaction rdf:about="#Caracteristiques_de_la_tache">
+        <rdf:type rdf:resource="Thing"/>
+    </Erreurs_lies_a_l_Interaction>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Caracteristiques_du_travail -->
+    <Erreurs_lies_a_l_Interaction rdf:about="#Caracteristiques_du_travail">
+        <rdf:type rdf:resource="Thing"/>
+    </Erreurs_lies_a_l_Interaction>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Chaleur -->
+    <Environnement_Externe rdf:about="#Chaleur">
+        <rdf:type rdf:resource="Thing"/>
+    </Environnement_Externe>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Chute_de_Personnes -->
+    <Accidents_Potentiels rdf:about="#Chute_de_Personnes">
+        <rdf:type rdf:resource="Thing"/>
+    </Accidents_Potentiels>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Communication -->
+    <owl:Thing rdf:about="#Communication">
+        <rdf:type rdf:resource="#Erreurs_lies_a_l_Interaction"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Conditions_de_Travail -->
+    <owl:Thing rdf:about="#Conditions_de_Travail">
+        <rdf:type rdf:resource="#Environnement_Interne"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Coordination_Cooperation -->
+    <Erreurs_lies_a_l_Interaction rdf:about="#Coordination_Cooperation">
+        <rdf:type rdf:resource="Thing"/>
+    </Erreurs_lies_a_l_Interaction>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Defaillance_des_barres_de_guidage_et_des_isolateurs -->
+    <owl:Thing rdf:about="#Defaillance_des_barres_de_guidage_et_des_isolateurs">
+        <rdf:type rdf:resource="#Causes_liees_au_systeme"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Defaillance_des_pistes_de_roulement -->
+    <owl:Thing rdf:about="#Defaillance_des_pistes_de_roulement">
+        <rdf:type rdf:resource="#Causes_liees_au_systeme"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Defaut_d'isolement_du_vehicule_par_rapport_a_la_terre -->
+    <owl:Thing rdf:about="#Defaut_d'isolement_du_vehicule_par_rapport_a_la_terre">
+        <rdf:type rdf:resource="#Causes_liees_au_systeme"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Depots_d_objets_encombrants_longs_metalliques -->
+    <Intervention_des_Passagers rdf:about="#Depots_d_objets_encombrants_longs_metalliques">
+        <rdf:type rdf:resource="Thing"/>
+    </Intervention_des_Passagers>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Eclatement_d'un_circuit_pneumatique -->
+    <owl:Thing rdf:about="#Eclatement_d'un_circuit_pneumatique">
+        <rdf:type rdf:resource="#Causes_liees_au_systeme"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Environement_Naturel -->
+    <owl:Thing rdf:about="#Environement_Naturel">
+        <rdf:type rdf:resource="#Environnement"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Ergonomie -->
+    <Environnement_Interne rdf:about="#Ergonomie">
+        <rdf:type rdf:resource="Thing"/>
+    </Environnement_Interne>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Evacuation_mal_Controlee -->
+    <owl:Thing rdf:about="#Evacuation_mal_Controlee">
+        <rdf:type rdf:resource="#Accidents_Potentiels"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Explosion -->
+    <owl:Thing rdf:about="#Explosion">
+        <rdf:type rdf:resource="#Accidents_Potentiels"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Foudre -->
+    <owl:Thing rdf:about="#Foudre">
+        <rdf:type rdf:resource="#Environnement_Externe"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Glissement-mouvement_imprevisible_du_terrain -->
+    <owl:Thing rdf:about="#Glissement-mouvement_imprevisible_du_terrain">
+        <rdf:type rdf:resource="#Environnement_Externe"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Guigage_ou_roulement_defectueux_(fixe_ou_embarque) -->
+    <Causes_liees_au_systeme rdf:about="#Guigage_ou_roulement_defectueux_(fixe_ou_embarque)">
+        <rdf:type rdf:resource="Thing"/>
+    </Causes_liees_au_systeme>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Humidite -->
+    <owl:Thing rdf:about="#Humidite">
+        <rdf:type rdf:resource="#Environnement_Externe"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Inadvetance_d_un_voyageur_ne_descendant_pas_au_terminus -->
+    <Intervention_des_Passagers rdf:about="#Inadvetance_d_un_voyageur_ne_descendant_pas_au_terminus">
+        <rdf:type rdf:resource="Thing"/>
+    </Intervention_des_Passagers>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Insuffisance_de_Commandements -->
+    <owl:Thing rdf:about="#Insuffisance_de_Commandements">
+        <rdf:type rdf:resource="#Erreurs_lies_a_l_Interaction"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Interaction_Homme_Systeme -->
+    <owl:Thing rdf:about="#Interaction_Homme_Systeme">
+        <rdf:type rdf:resource="#Erreurs_lies_a_l_Interaction"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Interface-Homme-Machine -->
+    <owl:Thing rdf:about="#Interface-Homme-Machine">
+        <rdf:type rdf:resource="#Erreurs_lies_a_l_Interaction"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Intervention_au_telephone_dans_le_véhicule -->
+    <Intervention_des_Passagers rdf:about="#Intervention_au_telephone_dans_le_véhicule">
+        <rdf:type rdf:resource="Thing"/>
+    </Intervention_des_Passagers>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Magnetisme_terrestre -->
+    <Environnement_Externe rdf:about="#Magnetisme_terrestre">
+        <rdf:type rdf:resource="Thing"/>
+    </Environnement_Externe>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Neige-Glace-gel-grêle-verglas -->
+    <owl:Thing rdf:about="#Neige-Glace-gel-grêle-verglas">
+        <rdf:type rdf:resource="#Environnement_Externe"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Non_respect_des_prescriptions_reglementaires -->
+    <Intervention_des_Passagers rdf:about="#Non_respect_des_prescriptions_reglementaires">
+        <rdf:type rdf:resource="Thing"/>
+    </Intervention_des_Passagers>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Panne_de_convertisseur_statique_ventilation_réduite -->
+    <owl:Thing rdf:about="#Panne_de_convertisseur_statique_ventilation_réduite">
+        <rdf:type rdf:resource="#Causes_liees_au_systeme"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Panne_de_regulation_de_l'alimentation_pneumatique -->
+    <Causes_liees_au_systeme rdf:about="#Panne_de_regulation_de_l'alimentation_pneumatique">
+        <rdf:type rdf:resource="Thing"/>
+    </Causes_liees_au_systeme>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Panne_du_systeme_de_regulation_de_traction -->
+    <Causes_liees_au_systeme rdf:about="#Panne_du_systeme_de_regulation_de_traction">
+        <rdf:type rdf:resource="Thing"/>
+    </Causes_liees_au_systeme>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Passagers -->
+    <Facteurs_Humains rdf:about="#Passagers">
+        <rdf:type rdf:resource="Thing"/>
+    </Facteurs_Humains>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Perte_d_adherance_en_raison_d_intemperies -->
+    <Environnement_Externe rdf:about="#Perte_d_adherance_en_raison_d_intemperies">
+        <rdf:type rdf:resource="Thing"/>
+    </Environnement_Externe>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Perte_de_visibilite_en_raison_du_brouillard -->
+    <Environnement_Externe rdf:about="#Perte_de_visibilite_en_raison_du_brouillard">
+        <rdf:type rdf:resource="Thing"/>
+    </Environnement_Externe>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Pluie -->
+    <Environnement_Externe rdf:about="#Pluie">
+        <rdf:type rdf:resource="Thing"/>
+    </Environnement_Externe>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Pollution_atmospherique -->
+    <Environnement_Externe rdf:about="#Pollution_atmospherique">
+        <rdf:type rdf:resource="Thing"/>
+    </Environnement_Externe>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Radiations_solaires -->
+    <Environnement_Externe rdf:about="#Radiations_solaires">
+        <rdf:type rdf:resource="Thing"/>
+    </Environnement_Externe>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Rupture_pieces_mécaniques_du_vehicule -->
+    <Causes_liees_au_systeme rdf:about="#Rupture_pieces_mécaniques_du_vehicule">
+        <rdf:type rdf:resource="Thing"/>
+    </Causes_liees_au_systeme>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Temperatures_et_ses_variants -->
+    <owl:Thing rdf:about="#Temperatures_et_ses_variants">
+        <rdf:type rdf:resource="#Environnement_Externe"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Tentative_de_suicide_ou_suicide -->
+    <owl:Thing rdf:about="#Tentative_de_suicide_ou_suicide">
+        <rdf:type rdf:resource="#Intervention_des_Passagers"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Terrorisme -->
+    <Intervention_des_Passagers rdf:about="#Terrorisme">
+        <rdf:type rdf:resource="Thing"/>
+    </Intervention_des_Passagers>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Transport_de_produits_inflammables_ou_explosifs -->
+    <owl:Thing rdf:about="#Transport_de_produits_inflammables_ou_explosifs">
+        <rdf:type rdf:resource="#Intervention_des_Passagers"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Tremblement_de_terre -->
+    <Environnement_Externe rdf:about="#Tremblement_de_terre">
+        <rdf:type rdf:resource="Thing"/>
+    </Environnement_Externe>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Usure_des_plaquettes_de_frein -->
+    <owl:Thing rdf:about="#Usure_des_plaquettes_de_frein">
+        <rdf:type rdf:resource="#Causes_liees_au_systeme"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Vent-anormal-_Turbulence -->
+    <Environnement_Externe rdf:about="#Vent-anormal-_Turbulence">
+        <rdf:type rdf:resource="Thing"/>
+    </Environnement_Externe>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Victime_coincee_par_portes_ou_entrainee_lors_du_demarrage -->
+    <Intervention_des_Passagers rdf:about="#Victime_coincee_par_portes_ou_entrainee_lors_du_demarrage">
+        <rdf:type rdf:resource="Thing"/>
+    </Intervention_des_Passagers>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#Voyageur_sur_la_voie_en_tunnel -->
+    <Intervention_des_Passagers rdf:about="#Voyageur_sur_la_voie_en_tunnel">
+        <rdf:type rdf:resource="Thing"/>
+    </Intervention_des_Passagers>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#interface-Homme-Environnement -->
+    <Erreurs_lies_a_l_Interaction rdf:about="#interface-Homme-Environnement">
+        <rdf:type rdf:resource="Thing"/>
+    </Erreurs_lies_a_l_Interaction>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/accident.rdf#voyageur_sur_la_voie_en_station -->
+    <owl:Thing rdf:about="#voyageur_sur_la_voie_en_station">
+        <rdf:type rdf:resource="#Intervention_des_Passagers"/>
+    </owl:Thing>
+</rdf:RDF><!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->

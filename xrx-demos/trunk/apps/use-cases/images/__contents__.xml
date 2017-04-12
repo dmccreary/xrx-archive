@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/surescripts/apps/use-cases/images" owner="admin" group="dba" mode="755" created="2010-09-28T08:26:07-05:00" version="1">
+    <resource type="BinaryResource" name="use-case.png" owner="admin" group="dba" mode="755" created="2010-09-21T12:38:54-05:00" modified="2010-09-21T12:38:54-05:00" filename="use-case.png" mimetype="image/png"/>
+</collection>

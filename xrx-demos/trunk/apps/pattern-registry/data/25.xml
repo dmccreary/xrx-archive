@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>25</id>
+    <Classifier>Message Routing</Classifier>
+    <PatternName>Message Filter</PatternName>
+    <Image>MessageFilterIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/Filter.html</Reference>
+    <Description>How can a component avoid receiving uninteresting messages?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

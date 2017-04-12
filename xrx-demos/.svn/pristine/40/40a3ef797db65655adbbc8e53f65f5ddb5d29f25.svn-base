@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-map xmlns="http://code.google.com/p/xrx">
+    <app-menu-categories>
+        <app-menu-category id="default" order="1">Default</app-menu-category>
+        <app-menu-category id="web-service" order="2">Web Services</app-menu-category>
+    </app-menu-categories>
+    <page>
+        <path>edit/delete-confirm</path>
+        <param/>
+        <label>Delete Role Confirmation</label>
+        <app-menu>
+            <show>no</show>
+            <category order="">default</category>
+            <description/>
+            <development-stage>75%</development-stage>
+        </app-menu>
+    </page>
+    <page>
+        <path>edit/delete</path>
+        <param name="" value=""/>
+        <label>Delete Role Result</label>
+        <app-menu>
+            <show>no</show>
+            <category order="">default</category>
+            <description/>
+            <development-stage>75%</development-stage>
+        </app-menu>
+    </page>
+    <page>
+        <path>edit/edit</path>
+        <param name="new" value="true"/>
+        <label>Create New Role</label>
+        <app-menu>
+            <show>yes</show>
+            <category order="2">default</category>
+            <description>Create New Role</description>
+            <development-stage>75%</development-stage>
+        </app-menu>
+    </page>
+    <page>
+        <path>edit/edit</path>
+        <param name="" value=""/>
+        <label>Edit Role</label>
+        <app-menu>
+            <show>no</show>
+            <category order="">default</category>
+            <description/>
+            <development-stage>75%</development-stage>
+        </app-menu>
+    </page>
+    <page>
+        <path>edit/save-new</path>
+        <param name="" value=""/>
+        <label>Save New Role Result</label>
+        <app-menu>
+            <show>no</show>
+            <category order="">default</category>
+            <description/>
+            <development-stage>75%</development-stage>
+        </app-menu>
+    </page>
+    <page>
+        <path>edit/update</path>
+        <param name="" value=""/>
+        <label>Update Role Result</label>
+        <app-menu>
+            <show>no</show>
+            <category order="">default</category>
+            <description/>
+            <development-stage>75%</development-stage>
+        </app-menu>
+    </page>
+    <page>
+        <path>edit/all-codes</path>
+        <param name="" value=""/>
+        <label>All Codes for Form</label>
+        <app-menu>
+            <show>yes</show>
+            <category order="1">web-services</category>
+            <description>XML Web Service that is used to load all codes into the form.</description>
+            <development-stage>75%</development-stage>
+        </app-menu>
+    </page>
+    <page>
+        <path>search/search</path>
+        <param name="" value=""/>
+        <label>Search Roles</label>
+        <app-menu>
+            <show>yes</show>
+            <category order="3">default</category>
+            <description>Search for Roles</description>
+            <development-stage>75%</development-stage>
+        </app-menu>
+    </page>
+    <page>
+        <path>views/list-items</path>
+        <param name="" value=""/>
+        <label>List Roles</label>
+        <app-menu>
+            <show>yes</show>
+            <category order="1">default</category>
+            <description>List of all Roles</description>
+            <development-stage>75%</development-stage>
+        </app-menu>
+    </page>
+    <page>
+        <path>views/metrics</path>
+        <param name="" value=""/>
+        <label>Metrics</label>
+        <app-menu>
+            <show>yes</show>
+            <category order="5">default</category>
+            <description>Counts of various Role Metrics</description>
+            <development-stage>75%</development-stage>
+        </app-menu>
+    </page>
+    <page>
+        <path>views/view-item</path>
+        <param name="" value=""/>
+        <label>View Role</label>
+        <app-menu>
+            <show>no</show>
+            <category order="">default</category>
+            <description/>
+            <development-stage>75%</development-stage>
+        </app-menu>
+    </page>
+    <page>
+        <path>views/list-apps-and-actions</path>
+        <param name="" value=""/>
+        <label>Listing of all Apps and Actions</label>
+        <app-menu>
+            <show>yes</show>
+            <category order="5">default</category>
+            <description>List of Application and the Actions with one column for each role.</description>
+            <development-stage>25%</development-stage>
+        </app-menu>
+    </page>
+</app-map>

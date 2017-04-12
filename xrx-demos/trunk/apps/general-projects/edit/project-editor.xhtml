@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <title>XForms application generated from constraint schema.</title>
+        <link type="text/css" rel="stylesheet" href="../../../resources/css/crossflo.css"/>
+        <link type="text/css" rel="stylesheet" href="edit.css"/>
+        <xf:model>
+         <!-- this instance holds the data we save -->
+            <xf:instance xmlns="" id="save-data" src="new-instance.xml"/>
+         <!-- Instance to hold conditional view bindings. -->
+            <xf:instance xmlns="" id="views">
+                <data>
+                    <BusinessObjectiveText-delete-trigger/>
+                    <Stage-delete-trigger/>
+                    <Person-delete-trigger/>
+                    <ProjectRisk-delete-trigger/>
+                    <ProjectDecision-delete-trigger/>
+                    <ProjectActionItem-delete-trigger/>
+                    <ProjectDoc-delete-trigger/>
+                    <TaskID-delete-trigger/>
+                    <BusinessObjectiveText-add-trigger/>
+                    <Stage-add-trigger/>
+                    <Person-add-trigger/>
+                    <ProjectRisk-add-trigger/>
+                    <ProjectDecision-add-trigger/>
+                    <ProjectActionItem-add-trigger/>
+                    <ProjectDoc-add-trigger/>
+                    <TaskID-add-trigger/>
+                </data>
+            </xf:instance>
+         <!-- required fields -->
+            <xf:bind nodeset="//id" required="true()"/>
+            <xf:bind nodeset="//ProjectName" required="true()"/>
+            <xf:bind nodeset="//BusinessObjectiveText" required="true()"/>
+            <xf:bind nodeset="//ProjectStatusCode" required="true()"/>
+            <xf:bind nodeset="//ProjectStatusDate" required="true()"/>
+            <xf:bind nodeset="//PersonID" required="true()"/>
+            <xf:bind nodeset="//PersonRoleCode" required="true()"/>
+            <xf:bind nodeset="//RiskName" required="true()"/>
+            <xf:bind nodeset="//RiskDescriptionText" required="true()"/>
+            <xf:bind nodeset="//RiskMiticationPlan" required="true()"/>
+            <xf:bind nodeset="//ProjectDecisionName" required="true()"/>
+            <xf:bind nodeset="//ProjectDecisionText" required="true()"/>
+            <xf:bind nodeset="//ProjectDecisionDate" required="true()"/>
+            <xf:bind nodeset="//ActionItemName" required="true()"/>
+            <xf:bind nodeset="//AssignedToPersonID" required="true()"/>
+            <xf:bind nodeset="//AssignedDate" required="true()"/>
+            <xf:bind nodeset="//CompleationStatusCode" required="true()"/>
+            <xf:bind nodeset="//ClosedDate" required="true()"/>
+            <xf:bind nodeset="//DocumentTypeCode" required="true()"/>
+            <xf:bind nodeset="//DocumentURL" required="true()"/>
+            <xf:bind nodeset="//DocumentPublishedDate" required="true()"/>
+            <xf:bind nodeset="//TaskID" required="true()"/>
+         <!-- bindings for dates -->
+            <xf:bind nodeset="//ProjectStatusDate" type="xs:date"/>
+            <xf:bind nodeset="//ProjectDecisionDate" type="xs:date"/>
+            <xf:bind nodeset="//AssignedDate" type="xs:date"/>
+            <xf:bind nodeset="//ClosedDate" type="xs:date"/>
+            <xf:bind nodeset="//DocumentPublishedDate" type="xs:date"/>
+         <!-- binds for add/delete trigger visability -->
+            <xf:bind id="BusinessObjectiveText-delete-trigger" nodeset="instance('views')/BusinessObjectiveText-delete-trigger" relevent="instance('save-data')//BusinessObjectiveText[]"/>
+            <xf:bind id="Stage-delete-trigger" nodeset="instance('views')/Stage-delete-trigger" relevent="instance('save-data')//Stage[]"/>
+            <xf:bind id="Person-delete-trigger" nodeset="instance('views')/Person-delete-trigger" relevent="instance('save-data')//Person[]"/>
+            <xf:bind id="ProjectRisk-delete-trigger" nodeset="instance('views')/ProjectRisk-delete-trigger" relevent="instance('save-data')//ProjectRisk[]"/>
+            <xf:bind id="ProjectDecision-delete-trigger" nodeset="instance('views')/ProjectDecision-delete-trigger" relevent="instance('save-data')//ProjectDecision[]"/>
+            <xf:bind id="ProjectActionItem-delete-trigger" nodeset="instance('views')/ProjectActionItem-delete-trigger" relevent="instance('save-data')//ProjectActionItem[]"/>
+            <xf:bind id="ProjectDoc-delete-trigger" nodeset="instance('views')/ProjectDoc-delete-trigger" relevent="instance('save-data')//ProjectDoc[]"/>
+            <xf:bind id="TaskID-delete-trigger" nodeset="instance('views')/TaskID-delete-trigger" relevent="instance('save-data')//TaskID[]"/>
+         <!-- <run xq="import-code-tables"/> -->
+         <!-- put the server-side call to save your form data here using -->
+            <xf:submission id="save" method="post" action="save-new.xq" instance="save-data"/>
+        </xf:model>
+    </head>
+    <body>
+
+
+      <!-- start at the base and schema and generate all groups.  The second is the starting point. -->
+        <xf:group ref="/ProjectDocument">
+            <xf:output ref="id" class="id">
+                <xf:label>id : </xf:label>
+            </xf:output>
+            <xf:input ref="ProjectName" class="ProjectName">
+                <xf:label>Project Name : </xf:label>
+            </xf:input>
+            <xf:input ref="ParentProjectID" class="ParentProjectID">
+                <xf:label>Parent Project ID : </xf:label>
+            </xf:input>
+            <xf:input ref="ProjectManagerID" class="ProjectManagerID">
+                <xf:label>Project Manager : </xf:label>
+            </xf:input>
+            <xf:textarea ref="ProjectDescriptionText" class="ProjectDescriptionText">
+                <xf:label>Project Description : </xf:label>
+            </xf:textarea>
+            <xf:input ref="ProjectBudgetAmount" class="ProjectBudgetAmount">
+                <xf:label>Project Budget: </xf:label>
+            </xf:input>
+            <xf:group ref="/ProjectDocument/BusinessObjectives">
+                <div class="repeat">
+                    <xf:label class="group-label">Business Objectives:</xf:label>
+                    <xf:repeat nodeset="instance('save-data')/BusinessObjectives/BusinessObjectiveText" id="BusinessObjectiveText-repeat">
+                        <xf:textarea ref="BusinessObjectiveText" class="BusinessObjectiveText">
+                            <xf:label>Business Objective: </xf:label>
+                        </xf:textarea>
+                        <xf:trigger bind="BusinessObjectiveText-delete-trigger">
+                            <xf:label>Delete</xf:label>
+                            <xf:delete nodeset="instance('save-data')/BusinessObjectives/BusinessObjectiveText[index('BusinessObjectiveText-repeat')]" ev:event="DOMActivate"/>
+                        </xf:trigger>
+                    </xf:repeat>
+                    <xf:trigger>
+                        <xf:label>Add Business Objective</xf:label>
+                        <xf:action ev:event="DOMActivate">
+                            <xf:insert nodeset="instance('save-data')/BusinessObjectives/BusinessObjectiveText" at="last()" position="after"/>
+                     <!-- this puts the cursor in the first field of the new row we just added -->
+                            <xf:setfocus control="-id"/>
+                        </xf:action>
+                    </xf:trigger>
+                </div>
+            </xf:group>
+            <xf:group ref="/ProjectDocument/ProjectStages">
+                <div class="repeat">
+                    <xf:label class="group-label">Project Stages</xf:label>
+                    <xf:repeat nodeset="instance('save-data')/ProjectStages/Stage" id="Stage-repeat">
+                        <xf:select1>
+                            <xf:label>Project Status: </xf:label>
+                            <xf:item>
+                                <xf:label>concept</xf:label>
+                                <xf:value>concept</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>proposed</xf:label>
+                                <xf:value>proposed</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>approved</xf:label>
+                                <xf:value>approved</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>in-developement</xf:label>
+                                <xf:value>in-developement</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>in-testing</xf:label>
+                                <xf:value>in-testing</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>complete</xf:label>
+                                <xf:value>complete</xf:value>
+                            </xf:item>
+                        </xf:select1>
+                        <xf:input ref="ProjectStatusDate" class="ProjectStatusDate">
+                            <xf:label>Projected Date : </xf:label>
+                        </xf:input>
+                        <xf:trigger bind="Stage-delete-trigger">
+                            <xf:label>Delete</xf:label>
+                            <xf:delete nodeset="instance('save-data')/ProjectStages/Stage[index('Stage-repeat')]" ev:event="DOMActivate"/>
+                        </xf:trigger>
+                    </xf:repeat>
+                    <xf:trigger>
+                        <xf:label>Add Stage</xf:label>
+                        <xf:action ev:event="DOMActivate">
+                            <xf:insert nodeset="instance('save-data')/ProjectStages/Stage" at="last()" position="after"/>
+                            <xf:setvalue ref="instance('save-data')/ProjectStages/ProjectStatusCode[index('ProjectStatusCode-repeat')]/ProjectStatusCode" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectStages/ProjectStatusDate[index('ProjectStatusDate-repeat')]/ProjectStatusDate" value=""/>
+                     <!-- this puts the cursor in the first field of the new row we just added -->
+                            <xf:setfocus control="ProjectStatusCode-id"/>
+                        </xf:action>
+                    </xf:trigger>
+                </div>
+            </xf:group>
+            <xf:group ref="/ProjectDocument/ProjectTeamMembers">
+                <div class="repeat">
+                    <xf:label class="group-label">Project Team Members:</xf:label>
+                    <xf:repeat nodeset="instance('save-data')/ProjectTeamMembers/Person" id="Person-repeat">
+                        <xf:select1 ref="PersonID" class="PersonID">
+                            <xf:label>Person: </xf:label>
+                            <xf:item>
+                                <xf:label>Dan McCreary</xf:label>
+                                <xf:value>dan-mccreary</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Joe Mierwa</xf:label>
+                                <xf:value>joe-mierwa</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Tom Kooy</xf:label>
+                                <xf:value>tom-kooy</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Igor</xf:label>
+                                <xf:value>igor</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Steve Kiroff</xf:label>
+                                <xf:value>steve-kiroff</xf:value>
+                            </xf:item>
+                        </xf:select1>
+                        <xf:select1>
+                            <xf:label>PersonRoleCode</xf:label>
+                            <xf:item>
+                                <xf:label>Project Manager</xf:label>
+                                <xf:value>project-manager</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Developer</xf:label>
+                                <xf:value>developer</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Testing</xf:label>
+                                <xf:value>testing</xf:value>
+                            </xf:item>
+                        </xf:select1>
+                        <xf:trigger bind="Person-delete-trigger">
+                            <xf:label>Delete</xf:label>
+                            <xf:delete nodeset="instance('save-data')/ProjectTeamMembers/Person[index('Person-repeat')]" ev:event="DOMActivate"/>
+                        </xf:trigger>
+                    </xf:repeat>
+                    <xf:trigger>
+                        <xf:label>Add Person</xf:label>
+                        <xf:action ev:event="DOMActivate">
+                            <xf:insert nodeset="instance('save-data')/ProjectTeamMembers/Person" at="last()" position="after"/>
+                            <xf:setvalue ref="instance('save-data')/ProjectTeamMembers/PersonID[index('PersonID-repeat')]/PersonID" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectTeamMembers/PersonRoleCode[index('PersonRoleCode-repeat')]/PersonRoleCode" value=""/>
+                     <!-- this puts the cursor in the first field of the new row we just added -->
+                            <xf:setfocus control="PersonID-id"/>
+                        </xf:action>
+                    </xf:trigger>
+                </div>
+            </xf:group>
+            <xf:group ref="/ProjectDocument/ProjectRisks">
+                <div class="repeat">
+                    <xf:label class="group-label">Project Risks:</xf:label>
+                    <xf:repeat nodeset="instance('save-data')/ProjectRisks/ProjectRisk" id="ProjectRisk-repeat">
+                        <xf:input ref="RiskName" class="RiskName">
+                            <xf:label>Risk Name: </xf:label>
+                        </xf:input>
+                        <xf:textarea ref="RiskDescriptionText" class="RiskDescriptionText">
+                            <xf:label>Risk Description: </xf:label>
+                        </xf:textarea>
+                        <xf:textarea ref="RiskMitigationPlan" class="RiskMitigationPlan">
+                            <xf:label>Risk Mitigation Plan: </xf:label>
+                        </xf:textarea>
+                        <xf:trigger bind="ProjectRisk-delete-trigger">
+                            <xf:label>Delete</xf:label>
+                            <xf:delete nodeset="instance('save-data')/ProjectRisks/ProjectRisk[index('ProjectRisk-repeat')]" ev:event="DOMActivate"/>
+                        </xf:trigger>
+                    </xf:repeat>
+                    <xf:trigger>
+                        <xf:label>Add Project Risk</xf:label>
+                        <xf:action ev:event="DOMActivate">
+                            <xf:insert nodeset="instance('save-data')/ProjectRisks/ProjectRisk" at="last()" position="after"/>
+                            <xf:setvalue ref="instance('save-data')/ProjectRisks/RiskName[index('RiskName-repeat')]/RiskName" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectRisks/RiskDescriptionText[index('RiskDescriptionText-repeat')]/RiskDescriptionText" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectRisks/RiskMiticationPlan[index('RiskMiticationPlan-repeat')]/RiskMiticationPlan" value=""/>
+                     <!-- this puts the cursor in the first field of the new row we just added -->
+                            <xf:setfocus control="RiskName-id"/>
+                        </xf:action>
+                    </xf:trigger>
+                </div>
+            </xf:group>
+            <xf:group ref="/ProjectDocument/ProjectDecisions">
+                <div class="repeat">
+                    <xf:label class="group-label">Project Decisions:</xf:label>
+                    <xf:repeat nodeset="instance('save-data')/ProjectDecisions/ProjectDecision" id="ProjectDecision-repeat">
+                        <xf:input ref="ProjectDecisionName" class="ProjectDecisionName">
+                            <xf:label>Project Decision Name : </xf:label>
+                        </xf:input>
+                        <xf:textarea ref="ProjectDecisionText" class="ProjectDecisionText">
+                            <xf:label>Project Decision Text : </xf:label>
+                        </xf:textarea>
+                        <xf:input ref="ProjectDecisionDate" class="ProjectDecisionDate">
+                            <xf:label>Project Decision Date : </xf:label>
+                        </xf:input>
+                        <xf:trigger bind="ProjectDecision-delete-trigger">
+                            <xf:label>Delete</xf:label>
+                            <xf:delete nodeset="instance('save-data')/ProjectDecisions/ProjectDecision[index('ProjectDecision-repeat')]" ev:event="DOMActivate"/>
+                        </xf:trigger>
+                    </xf:repeat>
+                    <xf:trigger>
+                        <xf:label>Add Project Decision</xf:label>
+                        <xf:action ev:event="DOMActivate">
+                            <xf:insert nodeset="instance('save-data')/ProjectDecisions/ProjectDecision" at="last()" position="after"/>
+                            <xf:setvalue ref="instance('save-data')/ProjectDecisions/ProjectDecisionName[index('ProjectDecisionName-repeat')]/ProjectDecisionName" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectDecisions/ProjectDecisionText[index('ProjectDecisionText-repeat')]/ProjectDecisionText" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectDecisions/ProjectDecisionDate[index('ProjectDecisionDate-repeat')]/ProjectDecisionDate" value=""/>
+                     <!-- this puts the cursor in the first field of the new row we just added -->
+                            <xf:setfocus control="ProjectDecisionName-id"/>
+                        </xf:action>
+                    </xf:trigger>
+                </div>
+            </xf:group>
+            <xf:group ref="/ProjectDocument/ProjectActionItems">
+                <div class="repeat">
+                    <xf:label class="group-label">Project Action Items:</xf:label>
+                    <xf:repeat nodeset="instance('save-data')/ProjectActionItems/ProjectActionItem" id="ProjectActionItem-repeat">
+                        <xf:input ref="ActionItemName" class="ActionItemName">
+                            <xf:label>Action Item Name : </xf:label>
+                        </xf:input>
+                        <xf:input ref="AssignedToPersonID" class="AssignedToPersonID">
+                            <xf:label>Assigned To Person: </xf:label>
+                        </xf:input>
+                        <xf:input ref="AssignedDate" class="AssignedDate">
+                            <xf:label>Assigned Date: </xf:label>
+                        </xf:input>
+                        <xf:select1>
+                            <xf:label>Compleation Status Code</xf:label>
+                            <xf:item>
+                                <xf:label>Assigned</xf:label>
+                                <xf:value>assigned</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>In Process</xf:label>
+                                <xf:value>in-process</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Complete</xf:label>
+                                <xf:value>complete</xf:value>
+                            </xf:item>
+                        </xf:select1>
+                        <xf:input ref="ClosedDate" class="ClosedDate">
+                            <xf:label>Closed Date: </xf:label>
+                        </xf:input>
+                        <xf:trigger bind="ProjectActionItem-delete-trigger">
+                            <xf:label>Delete</xf:label>
+                            <xf:delete nodeset="instance('save-data')/ProjectActionItems/ProjectActionItem[index('ProjectActionItem-repeat')]" ev:event="DOMActivate"/>
+                        </xf:trigger>
+                    </xf:repeat>
+                    <xf:trigger>
+                        <xf:label>Add ProjectActionItem</xf:label>
+                        <xf:action ev:event="DOMActivate">
+                            <xf:insert nodeset="instance('save-data')/ProjectActionItems/ProjectActionItem" at="last()" position="after"/>
+                            <xf:setvalue ref="instance('save-data')/ProjectActionItems/ActionItemName[index('ActionItemName-repeat')]/ActionItemName" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectActionItems/AssignedToPersonID[index('AssignedToPersonID-repeat')]/AssignedToPersonID" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectActionItems/AssignedDate[index('AssignedDate-repeat')]/AssignedDate" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectActionItems/CompleationStatusCode[index('CompleationStatusCode-repeat')]/CompleationStatusCode" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectActionItems/ClosedDate[index('ClosedDate-repeat')]/ClosedDate" value=""/>
+                     <!-- this puts the cursor in the first field of the new row we just added -->
+                            <xf:setfocus control="ActionItemName-id"/>
+                        </xf:action>
+                    </xf:trigger>
+                </div>
+            </xf:group>
+            <xf:group ref="/ProjectDocument/ProjectDocs">
+                <xf:label class="group-label">ProjectDocs</xf:label>
+                <div class="repeat">
+                    <xf:repeat nodeset="instance('save-data')/ProjectDocs/ProjectDoc" id="ProjectDoc-repeat">
+                        <xf:select1>
+                            <xf:label>Document Type Code</xf:label>
+                            <xf:item>
+                                <xf:label>Project Justification</xf:label>
+                                <xf:value>project-justification</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Project Scope</xf:label>
+                                <xf:value>project-scope</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>High Level Requirements</xf:label>
+                                <xf:value>project--high-level-requirements</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Detailed Requirements</xf:label>
+                                <xf:value>project-detailed-requirements</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Project Design</xf:label>
+                                <xf:value>project-design</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Project Test Plan</xf:label>
+                                <xf:value>project-test-plan</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>Project Deployment Plan</xf:label>
+                                <xf:value>project-deployment-plan</xf:value>
+                            </xf:item>
+                        </xf:select1>
+                        <xf:input ref="DocumentURL" class="DocumentURL">
+                            <xf:label>DocumentURL : </xf:label>
+                        </xf:input>
+                        <xf:input ref="DocumentPublishedDate" class="DocumentPublishedDate">
+                            <xf:label>Document Published Date : </xf:label>
+                        </xf:input>
+                        <xf:textarea ref="DocumentNotesText" class="DocumentNotesText">
+                            <xf:label>Document Notes Text : </xf:label>
+                        </xf:textarea>
+                        <xf:trigger bind="ProjectDoc-delete-trigger">
+                            <xf:label>Delete</xf:label>
+                            <xf:delete nodeset="instance('save-data')/ProjectDocs/ProjectDoc[index('ProjectDoc-repeat')]" ev:event="DOMActivate"/>
+                        </xf:trigger>
+                    </xf:repeat>
+                    <xf:trigger>
+                        <xf:label>Add ProjectDoc</xf:label>
+                        <xf:action ev:event="DOMActivate">
+                            <xf:insert nodeset="instance('save-data')/ProjectDocs/ProjectDoc" at="last()" position="after"/>
+                            <xf:setvalue ref="instance('save-data')/ProjectDocs/DocumentTypeCode[index('DocumentTypeCode-repeat')]/DocumentTypeCode" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectDocs/DocumentURL[index('DocumentURL-repeat')]/DocumentURL" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectDocs/DocumentPublishedDate[index('DocumentPublishedDate-repeat')]/DocumentPublishedDate" value=""/>
+                            <xf:setvalue ref="instance('save-data')/ProjectDocs/DocumentNotesText[index('DocumentNotesText-repeat')]/DocumentNotesText" value=""/>
+                     <!-- this puts the cursor in the first field of the new row we just added -->
+                            <xf:setfocus control="DocumentTypeCode-id"/>
+                        </xf:action>
+                    </xf:trigger>
+                </div>
+            </xf:group>
+            <xf:group ref="/ProjectDocument/ProjectTasks">
+                <xf:label class="group-label">ProjectTasks</xf:label>
+                <div class="repeat">
+                    <xf:repeat nodeset="instance('save-data')/ProjectTasks/TaskID" id="TaskID-repeat">
+                        <xf:input ref="TaskID" class="TaskID">
+                            <xf:label>TaskID : </xf:label>
+                        </xf:input>
+                        <xf:trigger bind="TaskID-delete-trigger">
+                            <xf:label>Delete</xf:label>
+                            <xf:delete nodeset="instance('save-data')/ProjectTasks/TaskID[index('TaskID-repeat')]" ev:event="DOMActivate"/>
+                        </xf:trigger>
+                    </xf:repeat>
+                    <xf:trigger>
+                        <xf:label>Add TaskID</xf:label>
+                        <xf:action ev:event="DOMActivate">
+                            <xf:insert nodeset="instance('save-data')/ProjectTasks/TaskID" at="last()" position="after"/>
+                     <!-- this puts the cursor in the first field of the new row we just added -->
+                            <xf:setfocus control="-id"/>
+                        </xf:action>
+                    </xf:trigger>
+                </div>
+            </xf:group>
+        </xf:group>
+        <xf:submit submission="save">
+            <xf:label>Save</xf:label>
+        </xf:submit>
+        <div class="footer">
+            <div class="horiz-bar-orange"/>
+            <div class="horiz-bar-blue"/>
+            <p class="footer-text">XRX Test Stylesheet</p>
+        </div>
+    </body>
+</html>

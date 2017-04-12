@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>message-classification-code</code-table-name>
+    <description>List of classifiers use to classify E-mail messages.</description>
+    <data-source>Sent via email messages from Hank in May of 2010.</data-source>
+    <file>../schemas/e-mail-v0.1.xsd</file>
+    <items>
+        <item>
+            <label>Urgent Message</label>
+            <numeric-id>1</numeric-id>
+            <value>urgent</value>
+        </item>
+        <item>
+            <label>Customer Message</label>
+            <numeric-id>2</numeric-id>
+            <value>customer</value>
+        </item>
+        <item>
+            <label>Billing</label>
+            <numeric-id>3</numeric-id>
+            <value>billing</value>
+        </item>
+        <item>
+            <label>Customer Question</label>
+            <numeric-id>4</numeric-id>
+            <value>customer-question</value>
+        </item>
+        <item>
+            <label>Customer Response</label>
+            <numeric-id>5</numeric-id>
+            <value>customer-response</value>
+        </item>
+        <item>
+            <label>Requires Followup</label>
+            <numeric-id>6</numeric-id>
+            <value>followup</value>
+        </item>
+        <item>
+            <label>Archive Message</label>
+            <numeric-id>7</numeric-id>
+            <value>archive</value>
+        </item>
+        <item>
+            <label>Spam</label>
+            <numeric-id>8</numeric-id>
+            <value>spam</value>
+        </item>
+        <item>
+            <label>Low Priority Message</label>
+            <numeric-id>9</numeric-id>
+            <value>low-priority</value>
+        </item>
+    </items>
+</code-table>

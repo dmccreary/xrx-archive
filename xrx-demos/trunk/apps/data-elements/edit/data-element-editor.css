@@ -1,0 +1,27 @@
+/* CSS file for person search results table */
+@namespace xf url("http://www.w3.org/2002/xforms");
+
+/* All fonts in tables are 10px.  All columns are text-align: left by default */
+.date {width: 80px}
+
+.DataElementName  .xf-value  {width: 50ex;}
+.DataElementObjectClassName  .xf-value  {width: 35ex;}
+
+.Definition textarea {
+   height: 6em;
+   width: 700px;
+}
+
+.DataElementNoteText textarea {
+   height: 6em;
+   width: 700px;
+}
+
+/* Table widths for Enumerations Table */
+.CodeID {width: 3ex;}
+.Code {width: 20ex;}
+.LegacyCode {width: 7ex;}
+.ScreenLabelText {width: 20ex;}
+.Description {width: 150ex;}
+
+.cell * {display: inline; padding: 1px 1px;}

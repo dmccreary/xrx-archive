@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/surescripts/apps/use-cases/views" owner="admin" group="dba" mode="755" created="2010-09-20T15:59:56-05:00" version="1">
+    <resource type="BinaryResource" name="list-items.xq" owner="admin" group="dba" mode="755" created="2010-11-04T14:55:59-05:00" modified="2010-11-04T14:58:10-05:00" filename="list-items.xq" mimetype="application/xquery"/>
+    <resource type="BinaryResource" name="metrics.xq" owner="admin" group="dba" mode="755" created="2010-11-04T15:40:24-05:00" modified="2010-11-04T15:42:19-05:00" filename="metrics.xq" mimetype="application/xquery"/>
+    <resource type="BinaryResource" name="ooxml-metrics.xq" owner="admin" group="dba" mode="755" created="2010-09-20T16:00:17-05:00" modified="2010-09-20T16:14:54-05:00" filename="ooxml-metrics.xq" mimetype="application/xquery"/>
+    <resource type="BinaryResource" name="view-item.xq" owner="admin" group="dba" mode="755" created="2010-11-04T14:59:29-05:00" modified="2010-11-04T15:02:35-05:00" filename="view-item.xq" mimetype="application/xquery"/>
+</collection>

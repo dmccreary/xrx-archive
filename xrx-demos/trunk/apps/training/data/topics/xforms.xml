@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<training-topics>
+    <id>xf-basics</id>
+    <name>XForms Basics</name>
+    <description>How to create and maintain XForms web applications.</description>
+    <topic>
+        <id>xf-overview</id>
+        <name>Overview of Basics</name>
+        <length>60</length>
+        <description>An overview of XForms and how XForms can be used to create/read-write applications.</description>
+        <resources>
+            <resource>
+                <name>XForms Basics</name>
+                <type>ppt</type>
+                <description>Powerpoint slides to review basic XForms concepts.</description>
+                <url>http://www.danmccreary.com/training/xforms/10-XForms-Basics.ppt</url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>xf-css</id>
+        <name>How to Style XForms</name>
+        <length>60</length>
+        <description>How to style XForms with CSS.  Including styling of required fields, block forms, inline forms, field widths and repeating elements.</description>
+        <resources>
+            <resource>
+                <name>XForms Slides</name>
+                <type>ppt</type>
+                <description>Powerpoint slides to review basic XForms concepts.</description>
+                <url>http://www.danmccreary.com/training/xquery/10-XForms-Basics.ppt</url>
+            </resource>
+        </resources>
+    </topic>
+</training-topics>

@@ -1,0 +1,172 @@
+10
+
+dir
+138
+http://xrx.googlecode.com/svn/trunk/tei-annotator
+http://xrx.googlecode.com/svn
+
+
+
+2011-01-01T22:02:50.811110Z
+131
+dan.mccreary@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6320693c-9152-0410-bde9-ad18456409ae
+
+edit
+dir
+
+scripts
+dir
+
+admin
+dir
+
+docs
+dir
+
+css
+dir
+
+views
+dir
+
+index.xq
+file
+
+
+
+
+2016-02-13T05:09:29.649629Z
+e80f834fd4c66924aeb4cb28cbe35770
+2011-01-01T22:02:50.811110Z
+131
+dan.mccreary@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1646
+
+import-scripts
+dir
+
+utils
+dir
+
+images
+dir
+
+features.xq
+file
+
+
+
+
+2016-02-13T05:09:29.649629Z
+d41d8cd98f00b204e9800998ecf8427e
+2011-01-01T22:02:50.811110Z
+131
+dan.mccreary@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+modules
+dir
+
+app-info.xml
+file
+
+
+
+
+2016-02-13T05:09:29.649629Z
+baf15c9652c8fbb628687d224ba1f401
+2011-01-01T22:02:50.811110Z
+131
+dan.mccreary@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1658
+
+data
+dir
+
+unit-tests
+dir
+
+import-data
+dir
+
+services
+dir
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>3</id>
+    <name>FLOWR Expressions</name>
+    <description>Get a basic FLOWR expression to run on your data.</description>
+    <depends>
+        <topic-id/>
+    </depends>
+    <resources>
+        <resource>
+            <name>Slides in Import From Excel</name>
+            <type>ppt</type>
+            <url/>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Requirement>
+    <id>64</id>
+    <RequirementParentID>1</RequirementParentID>
+    <RequirementShortName>Software Update Management</RequirementShortName>
+    <RequirementDescriptionText>Develop a set of tools that will allow us to create software updates for our customers.  This would include the process of creating update distribution packages and installing these update packages on customer systems.  If a customer has "customizations" beyond standard configuration files and code tables these need to be taken into account when updates are installed.</RequirementDescriptionText>
+    <ProjectID>1</ProjectID>
+    <RequirementLevelCode>0</RequirementLevelCode>
+    <RequirementPriorityCode>medium</RequirementPriorityCode>
+    <RequirementCompletionStatusCode>new</RequirementCompletionStatusCode>
+    <RequirementRequestedBy>dan</RequirementRequestedBy>
+    <RequirementApprovedBy/>
+    <RequirementApprovalDate/>
+    <RequirementTestableCode>unknown</RequirementTestableCode>
+    <RequirementClassifierCode/>
+    <RequirementTag/>
+    <RequirementAssignedToPersonID/>
+    <RequirmentBusinessRuleID/>
+    <RequirmentBusinessAnalists/>
+    <RequirementEstimatedDevelopmentDays>10</RequirementEstimatedDevelopmentDays>
+    <RequirementCostEstimateAmount>5000</RequirementCostEstimateAmount>
+    <RequirementCompletionPercent>0</RequirementCompletionPercent>
+    <RequirementCertaintyLevel>.75</RequirementCertaintyLevel>
+    <RequirementReleaseCode>version-1</RequirementReleaseCode>
+    <RequirementDepends/>
+    <RequirementNoteText/>
+    <Resources>
+        <Resource>
+            <ResourceTypeCode>unit-test</ResourceTypeCode>
+            <ResourceLabelText>Label</ResourceLabelText>
+            <ResourceURL>http://</ResourceURL>
+        </Resource>
+    </Resources>
+    <created-by>dan@danmccreary.com</created-by>
+    <created-datetime>2012-01-26T21:04:18.941Z</created-datetime>
+    <last-modified-by>dan@danmccreary.com</last-modified-by>
+    <last-modified-datetime/>
+</Requirement>

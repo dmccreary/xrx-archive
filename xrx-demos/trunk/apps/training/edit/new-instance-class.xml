@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+    <id/>
+    <name/>
+    <description/>
+    <category/>
+    <length/>
+    <schedule>
+        <day>
+            <topic>
+                <topic-id/>
+                <adjusted-length/>
+                <notes/>
+            </topic>
+            <labs>
+                <length/>
+            </labs>
+        </day>
+    </schedule>
+    <status/>
+    <tag/>
+    <tag/>
+</class>

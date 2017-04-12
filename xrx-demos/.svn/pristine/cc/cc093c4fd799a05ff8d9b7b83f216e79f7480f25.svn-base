@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>31</id>
+    <Classifier>Message Routing</Classifier>
+    <PatternName>Composed Message Processor</PatternName>
+    <Image>DistributionAggregateIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/DistributionAggregate.html</Reference>
+    <Description>How can you maintain the overall message flow when processing a message consisting
+      of multiple elements, each of which may require different processing?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

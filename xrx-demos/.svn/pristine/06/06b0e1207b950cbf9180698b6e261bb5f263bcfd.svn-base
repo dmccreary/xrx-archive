@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg-demo>
+    <id>17</id>
+    <name>Fahrenheit to Celsius Temperature Conversion</name>
+    <description>Demonstration teaching tool for temperature conversion.</description>
+    <category>medium</category>
+    <status>draft</status>
+    <tag>tag-1</tag>
+    <jquery>true</jquery>
+    <style>
+        body {font-family: Helvetica,Ariel,sans-serif;}
+        .content input, .content label {font-weight:bold; font-size: 2em;}
+        svg {border: solid 1px black; margin-left: 10px;}
+        .slider, svg {width: 300px;}
+    </style>
+    <script>
+        var f, fRect;
+        var c, cRect;
+        var height = 300;
+        
+    window.onload = function() {
+           fRect = document.getElementById('fahrenheit-rect');
+           fText = document.getElementById('fahrenheit-text');
+           cRect = document.getElementById('celsius-rect');
+           cText = document.getElementById('celsius-text');
+       }
+    
+        $(
+          function() {
+             $('#slider').slider(
+                  {
+                    min: -50,
+                    max: 250,
+                    value: 32,
+                    slide: function(event, ui) {
+                         f = $('#slider').slider('value');
+                         y = 250 - $('#slider').slider('value');
+                         fRect.setAttribute('y', y);
+                         fRect.setAttribute('height', height - y);
+                         cRect.setAttribute('y', y);
+                         cRect.setAttribute('height', height - y);
+                         fText.lastChild.nodeValue = f;
+                         cText.lastChild.nodeValue = Math.round((f-32)*5/9 * 10) / 10;
+                    }
+             });
+             
+          });
+
+    </script>
+    <svg width="80px" height="90" style="border: solid 1px blue; margin-left: 10px;">
+        <g transform="translate(10, 10)">
+            <g id="fahrenheit-gauge">
+                <rect x="45" y="0" height="300" width="20" fill="silver"/>
+                <rect id="fahrenheit-rect" x="50" y="218" height="82" width="10" fill="red"/>
+                <text id="fahrenheit-text" x="45" y="310">32</text>
+                <text id="fahrenheit-text" x="66" y="310">F</text>
+            </g>
+            <g id="celcius-gauge">
+                <rect x="95" y="0" height="300" width="20" fill="silver"/>
+                <rect id="celsius-rect" x="100" y="218" height="82" width="10" fill="red"/>
+                <text id="celsius-text" x="94" y="310">0</text>
+                <text id="celsius-text" x="125" y="310">C</text>
+            </g>
+            <g>
+                <g id="markers">
+            <!-- 250 - 212 -->
+                    <line x1="115" x2="125" y1="38" y2="38" stroke="black"/>
+                    <text x="128" y="42">100 (water boils at sea level)</text>
+                
+                <!-- 250 - 122 -->
+                    <line x1="115" x2="125" y1="128" y2="128" stroke="black"/>
+                    <text x="128" y="133">50</text>
+            
+            <!-- 250 - 98.6 -->
+                    <line x1="115" x2="125" y1="151.4" y2="151.4" stroke="black"/>
+                    <text x="128" y="156">37.0 (body temperature)</text>
+            
+            <!-- 250 - 32 -->
+                    <line x1="115" x2="125" y1="218" y2="218" stroke="black"/>
+                    <text x="128" y="222">0 (water freezes)</text>
+                </g>
+                <g id="axis-labels">
+                    <line x1="40" x2="45" y1="50" y2="50" stroke="black"/>
+                    <text x="17" y="54">200</text>
+                    <line x1="40" x2="45" y1="100" y2="100" stroke="black"/>
+                    <text x="17" y="154">150</text>
+                    <line x1="40" x2="45" y1="150" y2="150" stroke="black"/>
+                    <text x="17" y="104">100</text>
+                    <line x1="40" x2="45" y1="200" y2="200" stroke="black"/>
+                    <text x="25" y="204">50</text>
+                    <line x1="40" x2="45" y1="250" y2="250" stroke="black"/>
+                    <text x="32" y="254">0</text>
+                    <line x1="40" x2="45" y1="300" y2="300" stroke="black"/>
+                    <text x="17" y="304">-50</text>
+                </g>
+            </g>
+        </g>
+    </svg>
+    <content>
+        <div id="slider" class="slider"/>
+        <p>Move the slider to change the temperature.</p>
+    </content>
+    <expected-image>hello-world.png</expected-image>
+</svg-demo>

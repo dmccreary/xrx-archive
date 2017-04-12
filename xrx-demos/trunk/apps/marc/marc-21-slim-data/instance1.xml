@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim file:/C:/Documents%20and%20Settings/Dan%20McCreary/My%20Documents/Projects/Library/Schemas/MARC21slim.xsd">
+    <record>
+        <leader>      0   22        4500</leader>
+        <controlfield tag="001">controlfield0</controlfield>
+        <controlfield tag="001">controlfield1</controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="!">subfield0</subfield>
+            <subfield code="!">subfield1</subfield>
+        </datafield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="!">subfield2</subfield>
+            <subfield code="!">subfield3</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>      0   22        4500</leader>
+        <controlfield tag="001">controlfield2</controlfield>
+        <controlfield tag="001">controlfield3</controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="!">subfield4</subfield>
+            <subfield code="!">subfield5</subfield>
+        </datafield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="!">subfield6</subfield>
+            <subfield code="!">subfield7</subfield>
+        </datafield>
+    </record>
+</collection>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>12</id>
+    <Classifier>Messaging Channels</Classifier>
+    <PatternName>Guaranteed Delivery</PatternName>
+    <Image>GuaranteedMessagingIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/GuaranteedMessaging.html</Reference>
+    <Description>How can the sender make sure that a message will be delivered, even if the
+      messaging system fails?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

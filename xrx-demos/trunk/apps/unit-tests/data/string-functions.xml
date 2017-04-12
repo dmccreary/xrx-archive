@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-set>
+    <test-set-name>String functions</test-set-name>
+    <description>
+        <p>Tests for string functions</p>
+        <author>Dan McCreary</author>
+        <version>1</version>
+    </description>
+    <test>
+        <tast-name>Concat</tast-name>
+        <code>concat('a', 'b')</code>
+        <expected desc="a and b concated together">ab</expected>
+    </test>
+    <test>
+        <test-name>String Length</test-name>
+        <code>string-length('123')</code>
+        <expected desc="the integer 3">3</expected>
+    </test>
+    <test>
+        <test-name>Substring 1</test-name>
+        <description>get the first char and only 1 char</description>
+        <function-under-test>substring('abcdefg', 1, 1)</function-under-test>
+        <expected>a</expected>
+    </test>
+    <test>
+        <test-name>Substring 2</test-name>
+        <description>get the first char and all remaining chars</description>
+        <function-under-test>substring('abcdefg', 1)</function-under-test>
+        <expected>abcdefg</expected>
+    </test>
+    <test>
+        <test-name>Substring 3</test-name>
+        <description>get the 2nd, and next three</description>
+        <function-under-test>substring('abcdefg', 2, 3)</function-under-test>
+        <expected>bcd</expected>
+    </test>
+</test-set>

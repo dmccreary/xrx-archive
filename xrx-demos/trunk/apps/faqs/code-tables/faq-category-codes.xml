@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>faq-category-codes</code-table-name>
+    <items>
+        <item>
+            <label>Select an item...</label>
+            <value/>
+        </item>
+        <item>
+            <label>XForms</label>
+            <value>1</value>
+        </item>
+        <item>
+            <label>XQuery</label>
+            <value>2</value>
+        </item>
+        <item>
+            <label>eXist</label>
+            <value>3</value>
+        </item>
+        <item>
+            <label>XRX</label>
+            <value>4</value>
+        </item>
+        <item>
+            <label>TEI</label>
+            <value>5</value>
+        </item>
+        <item>
+            <label>XML Schema</label>
+            <value>6</value>
+        </item>
+        <item>
+            <label>XPath</label>
+            <value>7</value>
+        </item>
+        <item>
+            <label>JQuery</label>
+            <value>8</value>
+        </item>
+        <item>
+            <label>Architecture</label>
+            <value>9</value>
+        </item>
+        <item>
+            <label>CSS</label>
+            <value>10</value>
+        </item>
+    </items>
+</code-table>

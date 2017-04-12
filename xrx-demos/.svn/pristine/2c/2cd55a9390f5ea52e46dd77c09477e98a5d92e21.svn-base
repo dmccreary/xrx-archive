@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>6</id>
+    <Classifier>Messaging Systems</Classifier>
+    <PatternName>Message Endpoint</PatternName>
+    <Image>MessageEndpointIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessageEndpoint.html</Reference>
+    <Description>How does an application connect to a messaging channel to send and receive
+      messages?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

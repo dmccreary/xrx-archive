@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML xmlns="http://www.dmg.org/PMML-4_0" version="2.0">
+    <Header copyright="www.cs.bris.ac.uk" description="weka tree model">
+        <Application name="Weka" version="3-3-5"/>
+    </Header>
+    <DataDictionary numberOfFields="26">
+        <DataField name="normalized-losses" optype="continuous"/>
+        <DataField name="make" optype="categorical">
+            <Value value="alfa-romero"/>
+            <Value value="audi"/>
+            <Value value="bmw"/>
+            <Value value="chevrolet"/>
+            <Value value="dodge"/>
+            <Value value="honda"/>
+            <Value value="isuzu"/>
+            <Value value="jaguar"/>
+            <Value value="mazda"/>
+            <Value value="mercedes-benz"/>
+            <Value value="mercury"/>
+            <Value value="mitsubishi"/>
+            <Value value="nissan"/>
+            <Value value="peugot"/>
+            <Value value="plymouth"/>
+            <Value value="porsche"/>
+            <Value value="renault"/>
+            <Value value="saab"/>
+            <Value value="subaru"/>
+            <Value value="toyota"/>
+            <Value value="volkswagen"/>
+            <Value value="volvo"/>
+        </DataField>
+        <DataField name="fuel-type" optype="categorical">
+            <Value value="diesel"/>
+            <Value value="gas"/>
+        </DataField>
+        <DataField name="aspiration" optype="categorical">
+            <Value value="std"/>
+            <Value value="turbo"/>
+        </DataField>
+        <DataField name="num-of-doors" optype="categorical">
+            <Value value="four"/>
+            <Value value="two"/>
+        </DataField>
+        <DataField name="body-style" optype="categorical">
+            <Value value="hardtop"/>
+            <Value value="wagon"/>
+            <Value value="sedan"/>
+            <Value value="hatchback"/>
+            <Value value="convertible"/>
+        </DataField>
+        <DataField name="drive-wheels" optype="categorical">
+            <Value value="4wd"/>
+            <Value value="fwd"/>
+            <Value value="rwd"/>
+        </DataField>
+        <DataField name="engine-location" optype="categorical">
+            <Value value="front"/>
+            <Value value="rear"/>
+        </DataField>
+        <DataField name="wheel-base" optype="continuous"/>
+        <DataField name="length" optype="continuous"/>
+        <DataField name="width" optype="continuous"/>
+        <DataField name="height" optype="continuous"/>
+        <DataField name="curb-weight" optype="continuous"/>
+        <DataField name="engine-type" optype="categorical">
+            <Value value="dohc"/>
+            <Value value="dohcv"/>
+            <Value value="l"/>
+            <Value value="ohc"/>
+            <Value value="ohcf"/>
+            <Value value="ohcv"/>
+            <Value value="rotor"/>
+        </DataField>
+        <DataField name="num-of-cylinders" optype="categorical">
+            <Value value="eight"/>
+            <Value value="five"/>
+            <Value value="four"/>
+            <Value value="six"/>
+            <Value value="three"/>
+            <Value value="twelve"/>
+            <Value value="two"/>
+        </DataField>
+        <DataField name="engine-size" optype="continuous"/>
+        <DataField name="fuel-system" optype="categorical">
+            <Value value="1bbl"/>
+            <Value value="2bbl"/>
+            <Value value="4bbl"/>
+            <Value value="idi"/>
+            <Value value="mfi"/>
+            <Value value="mpfi"/>
+            <Value value="spdi"/>
+            <Value value="spfi"/>
+        </DataField>
+        <DataField name="bore" optype="continuous"/>
+        <DataField name="stroke" optype="continuous"/>
+        <DataField name="compression-ratio" optype="continuous"/>
+        <DataField name="horsepower" optype="continuous"/>
+        <DataField name="peak-rpm" optype="continuous"/>
+        <DataField name="city-mpg" optype="continuous"/>
+        <DataField name="highway-mpg" optype="continuous"/>
+        <DataField name="price" optype="continuous"/>
+        <DataField name="symboling" optype="categorical">
+            <Value value="-3"/>
+            <Value value="-2"/>
+            <Value value="-1"/>
+            <Value value="0"/>
+            <Value value="1"/>
+            <Value value="2"/>
+            <Value value="3"/>
+        </DataField>
+    </DataDictionary>
+    <TreeModel modelName="autos" functionName="classification" algorithmName="weka.classification.tree.j48" splitCharacteristic="multiSplit">
+        <MiningSchema>
+            <MiningField name="normalized-losses" usageType="active" outliers="asIs"/>
+            <MiningField name="make" usageType="active" outliers="asIs"/>
+            <MiningField name="fuel-type" usageType="active" outliers="asIs"/>
+            <MiningField name="aspiration" usageType="active" outliers="asIs"/>
+            <MiningField name="num-of-doors" usageType="active" outliers="asIs"/>
+            <MiningField name="body-style" usageType="active" outliers="asIs"/>
+            <MiningField name="drive-wheels" usageType="active" outliers="asIs"/>
+            <MiningField name="engine-location" usageType="active" outliers="asIs"/>
+            <MiningField name="wheel-base" usageType="active" outliers="asIs"/>
+            <MiningField name="length" usageType="active" outliers="asIs"/>
+            <MiningField name="width" usageType="active" outliers="asIs"/>
+            <MiningField name="height" usageType="active" outliers="asIs"/>
+            <MiningField name="curb-weight" usageType="active" outliers="asIs"/>
+            <MiningField name="engine-type" usageType="active" outliers="asIs"/>
+            <MiningField name="num-of-cylinders" usageType="active" outliers="asIs"/>
+            <MiningField name="engine-size" usageType="active" outliers="asIs"/>
+            <MiningField name="fuel-system" usageType="active" outliers="asIs"/>
+            <MiningField name="bore" usageType="active" outliers="asIs"/>
+            <MiningField name="stroke" usageType="active" outliers="asIs"/>
+            <MiningField name="compression-ratio" usageType="active" outliers="asIs"/>
+            <MiningField name="horsepower" usageType="active" outliers="asIs"/>
+            <MiningField name="peak-rpm" usageType="active" outliers="asIs"/>
+            <MiningField name="city-mpg" usageType="active" outliers="asIs"/>
+            <MiningField name="highway-mpg" usageType="active" outliers="asIs"/>
+            <MiningField name="price" usageType="active" outliers="asIs"/>
+            <MiningField name="symboling" usageType="predicted"/>
+        </MiningSchema>
+        <Node score="0" recordCount="185">
+            <True/>
+            <ScoreDistribution value="-2" recordCount="3"/>
+            <ScoreDistribution value="-1" recordCount="20"/>
+            <ScoreDistribution value="0" recordCount="61"/>
+            <ScoreDistribution value="1" recordCount="48"/>
+            <ScoreDistribution value="2" recordCount="29"/>
+            <ScoreDistribution value="3" recordCount="24"/>
+            <Node score="0" recordCount="106">
+                <SimplePredicate field="num-of-doors" operator="equal" value="four"/>
+                <ScoreDistribution value="-2" recordCount="3"/>
+                <ScoreDistribution value="-1" recordCount="20"/>
+                <ScoreDistribution value="0" recordCount="56"/>
+                <ScoreDistribution value="1" recordCount="19"/>
+                <ScoreDistribution value="2" recordCount="8"/>
+                <Node score="-3" recordCount="0">
+                    <SimplePredicate field="make" operator="equal" value="alfa-romero"/>
+                </Node>
+                <Node score="1" recordCount="3">
+                    <SimplePredicate field="make" operator="equal" value="audi"/>
+                    <ScoreDistribution value="1" recordCount="2"/>
+                    <ScoreDistribution value="2" recordCount="1"/>
+                </Node>
+                <Node score="0" recordCount="4">
+                    <SimplePredicate field="make" operator="equal" value="bmw"/>
+                    <ScoreDistribution value="0" recordCount="3"/>
+                    <ScoreDistribution value="1" recordCount="1"/>
+                </Node>
+                <Node score="0" recordCount="1">
+                    <SimplePredicate field="make" operator="equal" value="chevrolet"/>
+                    <ScoreDistribution value="0" recordCount="1"/>
+                </Node>
+                <Node score="1" recordCount="4">
+                    <SimplePredicate field="make" operator="equal" value="dodge"/>
+                    <ScoreDistribution value="1" recordCount="4"/>
+                </Node>
+                <Node score="0" recordCount="4">
+                    <SimplePredicate field="make" operator="equal" value="honda"/>
+                    <ScoreDistribution value="0" recordCount="4"/>
+                </Node>
+                <Node score="0" recordCount="2">
+                    <SimplePredicate field="make" operator="equal" value="isuzu"/>
+                    <ScoreDistribution value="0" recordCount="2"/>
+                </Node>
+                <Node score="0" recordCount="2">
+                    <SimplePredicate field="make" operator="equal" value="jaguar"/>
+                    <ScoreDistribution value="0" recordCount="2"/>
+                </Node>
+                <Node score="0" recordCount="7">
+                    <SimplePredicate field="make" operator="equal" value="mazda"/>
+                    <ScoreDistribution value="0" recordCount="5"/>
+                    <ScoreDistribution value="1" recordCount="2"/>
+                    <Node score="1" recordCount="2">
+                        <SimplePredicate field="wheel-base" operator="lessOrEqual" value="95.9"/>
+                        <ScoreDistribution value="1" recordCount="2"/>
+                    </Node>
+                    <Node score="0" recordCount="5">
+                        <SimplePredicate field="wheel-base" operator="greaterThan" value="95.9"/>
+                        <ScoreDistribution value="0" recordCount="5"/>
+                    </Node>
+                </Node>
+                <Node score="-1" recordCount="5">
+                    <SimplePredicate field="make" operator="equal" value="mercedes-benz"/>
+                    <ScoreDistribution value="-1" recordCount="4"/>
+                    <ScoreDistribution value="0" recordCount="1"/>
+                </Node>
+                <Node score="-3" recordCount="0">
+                    <SimplePredicate field="make" operator="equal" value="mercury"/>
+                </Node>
+                <Node score="1" recordCount="3">
+                    <SimplePredicate field="make" operator="equal" value="mitsubishi"/>
+                    <ScoreDistribution value="-1" recordCount="1"/>
+                    <ScoreDistribution value="1" recordCount="2"/>
+                </Node>
+                <Node score="0" recordCount="9">
+                    <SimplePredicate field="make" operator="equal" value="nissan"/>
+                    <ScoreDistribution value="0" recordCount="5"/>
+                    <ScoreDistribution value="1" recordCount="4"/>
+                    <Node score="1" recordCount="4">
+                        <SimplePredicate field="wheel-base" operator="lessOrEqual" value="95.7"/>
+                        <ScoreDistribution value="1" recordCount="4"/>
+                    </Node>
+                    <Node score="0" recordCount="5">
+                        <SimplePredicate field="wheel-base" operator="greaterThan" value="95.7"/>
+                        <ScoreDistribution value="0" recordCount="5"/>
+                    </Node>
+                </Node>
+                <Node score="0" recordCount="11">
+                    <SimplePredicate field="make" operator="equal" value="peugot"/>
+                    <ScoreDistribution value="0" recordCount="11"/>
+                </Node>
+                <Node score="1" recordCount="4">
+                    <SimplePredicate field="make" operator="equal" value="plymouth"/>
+                    <ScoreDistribution value="-1" recordCount="1"/>
+                    <ScoreDistribution value="1" recordCount="3"/>
+                </Node>
+                <Node score="-3" recordCount="0">
+                    <SimplePredicate field="make" operator="equal" value="porsche"/>
+                </Node>
+                <Node score="0" recordCount="1">
+                    <SimplePredicate field="make" operator="equal" value="renault"/>
+                    <ScoreDistribution value="0" recordCount="1"/>
+                </Node>
+                <Node score="2" recordCount="2">
+                    <SimplePredicate field="make" operator="equal" value="saab"/>
+                    <ScoreDistribution value="2" recordCount="2"/>
+                </Node>
+                <Node score="0" recordCount="8">
+                    <SimplePredicate field="make" operator="equal" value="subaru"/>
+                    <ScoreDistribution value="0" recordCount="8"/>
+                </Node>
+                <Node score="0" recordCount="18">
+                    <SimplePredicate field="make" operator="equal" value="toyota"/>
+                    <ScoreDistribution value="-1" recordCount="7"/>
+                    <ScoreDistribution value="0" recordCount="10"/>
+                    <ScoreDistribution value="1" recordCount="1"/>
+                    <Node score="0" recordCount="11">
+                        <SimplePredicate field="wheel-base" operator="lessOrEqual" value="98.8"/>
+                        <ScoreDistribution value="0" recordCount="10"/>
+                        <ScoreDistribution value="1" recordCount="1"/>
+                    </Node>
+                    <Node score="-1" recordCount="7">
+                        <SimplePredicate field="wheel-base" operator="greaterThan" value="98.8"/>
+                        <ScoreDistribution value="-1" recordCount="7"/>
+                    </Node>
+                </Node>
+                <Node score="2" recordCount="8">
+                    <SimplePredicate field="make" operator="equal" value="volkswagen"/>
+                    <ScoreDistribution value="0" recordCount="3"/>
+                    <ScoreDistribution value="2" recordCount="5"/>
+                    <Node score="2" recordCount="5">
+                        <SimplePredicate field="wheel-base" operator="lessOrEqual" value="98.8"/>
+                        <ScoreDistribution value="2" recordCount="5"/>
+                    </Node>
+                    <Node score="0" recordCount="3">
+                        <SimplePredicate field="wheel-base" operator="greaterThan" value="98.8"/>
+                        <ScoreDistribution value="0" recordCount="3"/>
+                    </Node>
+                </Node>
+                <Node score="-1" recordCount="10">
+                    <SimplePredicate field="make" operator="equal" value="volvo"/>
+                    <ScoreDistribution value="-2" recordCount="3"/>
+                    <ScoreDistribution value="-1" recordCount="7"/>
+                    <Node score="-1" recordCount="7">
+                        <SimplePredicate field="normalized-losses" operator="lessOrEqual" value="98"/>
+                        <ScoreDistribution value="-1" recordCount="7"/>
+                    </Node>
+                    <Node score="-2" recordCount="3">
+                        <SimplePredicate field="normalized-losses" operator="greaterThan" value="98"/>
+                        <ScoreDistribution value="-2" recordCount="3"/>
+                    </Node>
+                </Node>
+            </Node>
+            <Node score="1" recordCount="80">
+                <SimplePredicate field="num-of-doors" operator="equal" value="two"/>
+                <ScoreDistribution value="0" recordCount="5"/>
+                <ScoreDistribution value="1" recordCount="30"/>
+                <ScoreDistribution value="2" recordCount="21"/>
+                <ScoreDistribution value="3" recordCount="24"/>
+                <Node score="3" recordCount="30">
+                    <SimplePredicate field="city-mpg" operator="lessOrEqual" value="22"/>
+                    <ScoreDistribution value="0" recordCount="4"/>
+                    <ScoreDistribution value="1" recordCount="5"/>
+                    <ScoreDistribution value="2" recordCount="1"/>
+                    <ScoreDistribution value="3" recordCount="20"/>
+                    <Node score="3" recordCount="20">
+                        <SimplePredicate field="wheel-base" operator="lessOrEqual" value="99.1"/>
+                        <ScoreDistribution value="1" recordCount="2"/>
+                        <ScoreDistribution value="3" recordCount="18"/>
+                    </Node>
+                    <Node score="0" recordCount="10">
+                        <SimplePredicate field="wheel-base" operator="greaterThan" value="99.1"/>
+                        <ScoreDistribution value="0" recordCount="4"/>
+                        <ScoreDistribution value="1" recordCount="3"/>
+                        <ScoreDistribution value="2" recordCount="1"/>
+                        <ScoreDistribution value="3" recordCount="2"/>
+                        <Node score="3" recordCount="2">
+                            <SimplePredicate field="engine-type" operator="equal" value="dohc"/>
+                            <ScoreDistribution value="3" recordCount="2"/>
+                        </Node>
+                        <Node score="-3" recordCount="0">
+                            <SimplePredicate field="engine-type" operator="equal" value="dohcv"/>
+                        </Node>
+                        <Node score="-3" recordCount="0">
+                            <SimplePredicate field="engine-type" operator="equal" value="l"/>
+                        </Node>
+                        <Node score="0" recordCount="5">
+                            <SimplePredicate field="engine-type" operator="equal" value="ohc"/>
+                            <ScoreDistribution value="0" recordCount="3"/>
+                            <ScoreDistribution value="1" recordCount="1"/>
+                            <ScoreDistribution value="2" recordCount="1"/>
+                        </Node>
+                        <Node score="-3" recordCount="0">
+                            <SimplePredicate field="engine-type" operator="equal" value="ohcf"/>
+                        </Node>
+                        <Node score="1" recordCount="3">
+                            <SimplePredicate field="engine-type" operator="equal" value="ohcv"/>
+                            <ScoreDistribution value="0" recordCount="1"/>
+                            <ScoreDistribution value="1" recordCount="2"/>
+                        </Node>
+                        <Node score="-3" recordCount="0">
+                            <SimplePredicate field="engine-type" operator="equal" value="rotor"/>
+                        </Node>
+                    </Node>
+                </Node>
+                <Node score="1" recordCount="50">
+                    <SimplePredicate field="city-mpg" operator="greaterThan" value="22"/>
+                    <ScoreDistribution value="0" recordCount="1"/>
+                    <ScoreDistribution value="1" recordCount="25"/>
+                    <ScoreDistribution value="2" recordCount="20"/>
+                    <ScoreDistribution value="3" recordCount="4"/>
+                    <Node score="1" recordCount="38">
+                        <SimplePredicate field="bore" operator="lessOrEqual" value="3.39"/>
+                        <ScoreDistribution value="0" recordCount="1"/>
+                        <ScoreDistribution value="1" recordCount="25"/>
+                        <ScoreDistribution value="2" recordCount="8"/>
+                        <ScoreDistribution value="3" recordCount="4"/>
+                        <Node score="1" recordCount="30">
+                            <SimplePredicate field="engine-size" operator="lessOrEqual" value="98"/>
+                            <ScoreDistribution value="1" recordCount="22"/>
+                            <ScoreDistribution value="2" recordCount="8"/>
+                            <Node score="1" recordCount="26">
+                                <SimplePredicate field="width" operator="lessOrEqual" value="64.2"/>
+                                <ScoreDistribution value="1" recordCount="22"/>
+                                <ScoreDistribution value="2" recordCount="4"/>
+                                <Node score="2" recordCount="3">
+                                    <SimplePredicate field="wheel-base" operator="lessOrEqual" value="89.5"/>
+                                    <ScoreDistribution value="2" recordCount="3"/>
+                                </Node>
+                                <Node score="1" recordCount="23">
+                                    <SimplePredicate field="wheel-base" operator="greaterThan" value="89.5"/>
+                                    <ScoreDistribution value="1" recordCount="22"/>
+                                    <ScoreDistribution value="2" recordCount="1"/>
+                                </Node>
+                            </Node>
+                            <Node score="2" recordCount="4">
+                                <SimplePredicate field="width" operator="greaterThan" value="64.2"/>
+                                <ScoreDistribution value="2" recordCount="4"/>
+                            </Node>
+                        </Node>
+                        <Node score="3" recordCount="8">
+                            <SimplePredicate field="engine-size" operator="greaterThan" value="98"/>
+                            <ScoreDistribution value="0" recordCount="1"/>
+                            <ScoreDistribution value="1" recordCount="3"/>
+                            <ScoreDistribution value="3" recordCount="4"/>
+                            <Node score="3" recordCount="4">
+                                <SimplePredicate field="compression-ratio" operator="lessOrEqual" value="8.5"/>
+                                <ScoreDistribution value="3" recordCount="4"/>
+                            </Node>
+                            <Node score="1" recordCount="4">
+                                <SimplePredicate field="compression-ratio" operator="greaterThan" value="8.5"/>
+                                <ScoreDistribution value="0" recordCount="1"/>
+                                <ScoreDistribution value="1" recordCount="3"/>
+                            </Node>
+                        </Node>
+                    </Node>
+                    <Node score="2" recordCount="12">
+                        <SimplePredicate field="bore" operator="greaterThan" value="3.39"/>
+                        <ScoreDistribution value="2" recordCount="12"/>
+                    </Node>
+                </Node>
+            </Node>
+        </Node>
+    </TreeModel>
+</PMML>

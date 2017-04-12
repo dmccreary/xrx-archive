@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<training-topics>
+    <id>exist</id>
+    <name>eXist-db</name>
+    <description>eXist native XML database training topics.</description>
+    <topic>
+        <id>e1</id>
+        <name>Collections eXist</name>
+        <length>30</length>
+        <description>Collections</description>
+        <resources>
+            <resource>
+                <resource-name>Powerpoint Slides</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>Powerpoint slides to review basic XML terms.</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xquery/01-Collections.ppt</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>e-lucene</id>
+        <name>Using Lucene Search in eXist</name>
+        <length>60</length>
+        <description>How to use the eXist KWIC module.</description>
+        <resources>
+            <resource>
+                <resource-name>Lucene Module</resource-name>
+                <resource-type>module-link</resource-type>
+                <resource-description>eXist keyword in context module.</resource-description>
+                <resource-url>http://demo.exist-db.org/exist/functions/kwic</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>e-kwic</id>
+        <name>Using Keyword in Context Module</name>
+        <length>30</length>
+        <description>How to highlight Keywords in search results.</description>
+        <resources>
+            <resource>
+                <resource-name>KWIC Module</resource-name>
+                <resource-type>module-link</resource-type>
+                <resource-description>eXist keyword in context module.</resource-description>
+                <resource-url>http://demo.exist-db.org/exist/functions/kwic</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>e-update</id>
+        <name>XQuery Update Functions</name>
+        <length>30</length>
+        <description>How to highlight Keywords in search results.</description>
+        <resources>
+            <resource>
+                <resource-name>Update Lab</resource-name>
+                <resource-type>google-doc</resource-type>
+                <resource-description>eXist keyword in context module.</resource-description>
+                <resource-url>https://docs.google.com/document/pub?id=1Xl0PBD7YaH1smjXfkZ24Lsz7gOlLjVNO7ABZcg2wZmc</resource-url>
+            </resource>
+        </resources>
+    </topic>
+</training-topics>

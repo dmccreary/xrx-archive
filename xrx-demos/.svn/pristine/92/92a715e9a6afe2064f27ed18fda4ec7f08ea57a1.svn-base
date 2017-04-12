@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Requirement>
+    <id>42</id>
+    <RequirementParentID>3</RequirementParentID>
+    <RequirementShortName>Delete a Partner Profile </RequirementShortName>
+    <RequirementDescriptionText>Mark a Partner Profile record as deleted.  There is currently a delete function for the basic partner profile.  If we opt to mark the partner record as deleted and not actually delete it, changes will have to be made. We may not want to physically delete the record as it would impact metrics and historical reporting. </RequirementDescriptionText>
+    <ProjectID>1</ProjectID>
+    <RequirementLevelCode>0</RequirementLevelCode>
+    <RequirementPriorityCode>medium</RequirementPriorityCode>
+    <RequirementCompletionStatusCode>in-development</RequirementCompletionStatusCode>
+    <RequirementRequestedBy>annmkelly1@gmail.com</RequirementRequestedBy>
+    <RequirementApprovedBy/>
+    <RequirementApprovalDate/>
+    <RequirementTestableCode>yes-unit</RequirementTestableCode>
+    <RequirementClassifierCode/>
+    <RequirementTag/>
+    <RequirementAssignedToPersonID/>
+    <RequirmentBusinessRuleID/>
+    <RequirmentBusinessAnalists/>
+    <RequirementEstimatedDevelopmentDays>2</RequirementEstimatedDevelopmentDays>
+    <RequirementCostEstimateAmount>200</RequirementCostEstimateAmount>
+    <RequirementCompletionPercent>75</RequirementCompletionPercent>
+    <RequirementCertaintyLevel>.75</RequirementCertaintyLevel>
+    <RequirementReleaseCode>version-1</RequirementReleaseCode>
+    <RequirementDepends/>
+    <RequirementNoteText/>
+    <Resources>
+        <Resource>
+            <ResourceTypeCode>unit-test</ResourceTypeCode>
+            <ResourceLabelText>Label</ResourceLabelText>
+            <ResourceURL>http://</ResourceURL>
+        </Resource>
+    </Resources>
+    <created-by>dan@danmccreary.com</created-by>
+    <created-datetime>2012-01-19T16:06:17.254-06:00</created-datetime>
+    <last-modified-by>admin</last-modified-by>
+    <last-modified-datetime>2012-01-25T22:24:54.484Z</last-modified-datetime>
+</Requirement>

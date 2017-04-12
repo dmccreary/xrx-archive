@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>42</id>
+    <Classifier>Messaging Endpoints</Classifier>
+    <PatternName>Polling Consumer</PatternName>
+    <Image>PollingConsumerIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/PollingConsumer.html</Reference>
+    <Description>How can an application consume a message when the application is
+    ready?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

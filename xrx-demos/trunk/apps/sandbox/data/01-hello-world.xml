@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<example-queries>
+    <id>1</id>
+    <description>Beginner Hello World XQuery Examples</description>
+    <author>dan</author>
+    <category>Beginner</category>
+    <status>test</status>
+    <tag>test</tag>
+    <query>
+        <description>Hello World 1</description>
+        <code><![CDATA[let $message := 'Hello World!'
+   return $message]]></code>
+    </query>
+    <query>
+        <description>Hello World 2</description>
+        <explanation>Wrap the results in a results root element.</explanation>
+        <code><![CDATA[let $message := 'Hello World!'
+   return
+   <results>
+     {$message}
+   </results>]]></code>
+    </query>
+    <created-by>dan</created-by>
+    <created-datetime>2010-06-29T17:04:33.489-05:00</created-datetime>
+    <last-modified-by>editor</last-modified-by>
+    <last-modified-datetime>2010-06-29T17:04:33.489-05:00</last-modified-datetime>
+</example-queries>

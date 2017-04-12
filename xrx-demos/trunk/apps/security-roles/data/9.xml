@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security-role>
+    <id>9</id>
+    <name>risk-management-specialist</name>
+    <label>Risk Management Specialist</label>
+    <description>A role played by person in the centralized model management group that is a specialist in
+        the risk management of predictive models. These roles approve and audit the models for use by the business.</description>
+    <category>intranet</category>
+    <status>draft</status>
+    <tag/>
+    <created-datetime/>
+    <created-by/>
+    <last-modified-datetime/>
+    <last-modified-by/>
+</security-role>

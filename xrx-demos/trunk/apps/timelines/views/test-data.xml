@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data date-time-format="iso8601">
+    <timeline-id>2</timeline-id>
+    <count>14</count>
+    <event start="1844-01-01" end="1871-01-01" is-duration="true"/>
+    <event start="1865-01-01" end="1867-01-01" is-duration="true"/>
+    <event start="1867-01-01" end="1888-01-01" is-duration="true"/>
+    <event start="1881-01-01" end="1886-01-01" is-duration="true"/>
+    <event start="1881-01-01" end="1882-01-01" is-duration="true"/>
+    <event start="1882-01-01" end="1883-01-01" is-duration="true"/>
+    <event start="1883-01-01" end="1890-01-01" is-duration="true"/>
+    <event start="1887-01-01" end="1888-01-01" is-duration="true"/>
+    <event start="1888-01-01" end="1888-12-31" is-duration="true"/>
+    <event start="1888-01-01" end="1888-12-31" is-duration="true"/>
+    <event start="1896-01-01" end="1897-12-31" is-duration="true"/>
+    <event start="1897-01-01" end="1900-01-01" is-duration="true"/>
+    <event start="1900-01-01" end="2004-01-01" is-duration="true"/>
+    <event start="2004-01-01" end="2011-01-01" is-duration="true"/>
+</data>

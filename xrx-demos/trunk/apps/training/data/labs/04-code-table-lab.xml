@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>04a</id>
+    <name>Code Table Lab</name>
+    <description>In this lab students create a code table lookup service.</description>
+    <depends>
+        <topic-id/>
+    </depends>
+    <resources>
+        <resource>
+            <name>Code Table Lab</name>
+            <type>google-doc</type>
+            <url>https://docs.google.com/document/pub?id=15_CZ8sHjd_yGC2B83oKGCIQtXQJtqyowy7v3KtSzbvc</url>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

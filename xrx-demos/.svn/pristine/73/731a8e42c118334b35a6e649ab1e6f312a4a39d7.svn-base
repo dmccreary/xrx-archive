@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<review-quizes>
+    <review-quiz>
+        <id>1</id>
+        <desc>This quiz covers background material for the class.</desc>
+        <body>
+            <a href="https://docs.google.com/document/pub?id=1iGMk3alN_0jpdYl0TTQaq1EXk7v3rEaG4fG82Tt0tIk">Day 1 Review Questions on Google Doc</a>
+        </body>
+        <url>https://docs.google.com/document/pub?id=1iGMk3alN_0jpdYl0TTQaq1EXk7v3rEaG4fG82Tt0tIk</url>
+    </review-quiz>
+    <review-quiz>
+        <id>2</id>
+        <desc>Covers material for day 1.</desc>
+        <body>
+            <a href="https://docs.google.com/document/pub?id=1iGMk3alN_0jpdYl0TTQaq1EXk7v3rEaG4fG82Tt0tIk">Day 1 Review Questions on Google Doc</a>
+        </body>
+        <url>https://docs.google.com/document/pub?id=1iGMk3alN_0jpdYl0TTQaq1EXk7v3rEaG4fG82Tt0tIk</url>
+    </review-quiz>
+    <review-quiz>
+        <id>3</id>
+        <desc>Covers material for days 1 and 2.</desc>
+        <body>
+            <a href="https://docs.google.com/document/pub?id=1iGMk3alN_0jpdYl0TTQaq1EXk7v3rEaG4fG82Tt0tIk">Day 1 Review Questions on Google Doc</a>
+        </body>
+        <url>https://docs.google.com/document/pub?id=1iGMk3alN_0jpdYl0TTQaq1EXk7v3rEaG4fG82Tt0tIk</url>
+    </review-quiz>
+    <review-quiz>
+        <id>4</id>
+        <desc>Covers materials for days 1, 2 and 3.</desc>
+        <body>
+            <a href="https://docs.google.com/document/pub?id=1iGMk3alN_0jpdYl0TTQaq1EXk7v3rEaG4fG82Tt0tIk">Day 1 Review Questions on Google Doc</a>
+        </body>
+        <url>https://docs.google.com/document/pub?id=1iGMk3alN_0jpdYl0TTQaq1EXk7v3rEaG4fG82Tt0tIk</url>
+    </review-quiz>
+    <review-quiz>
+        <id>5</id>
+        <desc>Covers materials for days 1, 2, 3 and 4.</desc>
+        <body>
+            <a href="https://docs.google.com/document/pub?id=1iGMk3alN_0jpdYl0TTQaq1EXk7v3rEaG4fG82Tt0tIk">Day 1 Review Questions on Google Doc</a>
+        </body>
+        <url>https://docs.google.com/document/pub?id=1iGMk3alN_0jpdYl0TTQaq1EXk7v3rEaG4fG82Tt0tIk</url>
+    </review-quiz>
+</review-quizes>

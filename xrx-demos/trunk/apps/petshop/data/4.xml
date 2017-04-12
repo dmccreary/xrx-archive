@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animal>
+    <id>4</id>
+    <animal-category-code>dogs</animal-category-code>
+    <animal-type-code>German Shepard</animal-type-code>
+    <animal-name>Rover</animal-name>
+    <pruchase-amount>300.00</pruchase-amount>
+    <status>available</status>
+    <description>A very friendly.  Good with kids.</description>
+    <image>german-shepherd-dog.jpg</image>
+</animal>

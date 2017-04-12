@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>39</id>
+    <Classifier>Message Transformation</Classifier>
+    <PatternName>Normalizer</PatternName>
+    <Image>NormalizerIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/Normalizer.html</Reference>
+    <Description>How do you process messages that are semantically equivalent, but arrive in a
+      different format?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

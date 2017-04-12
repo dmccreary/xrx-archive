@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>45</id>
+    <Classifier>Messaging Endpoints</Classifier>
+    <PatternName>Message Dispatcher</PatternName>
+    <Image>MessageDispatcherIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessageDispatcher.html</Reference>
+    <Description>How can multiple consumers on a single channel coordinate their message
+    processing?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>23</id>
+    <Classifier>Message Construction</Classifier>
+    <PatternName>Message Expiration</PatternName>
+    <Image>MessageExpirationIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessageExpiration.html</Reference>
+    <Description>How can a sender indicate when a message should be considered stale and thus
+      shouldn’t be processed?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

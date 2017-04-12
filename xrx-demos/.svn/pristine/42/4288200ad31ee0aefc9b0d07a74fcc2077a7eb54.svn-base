@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:kert="http://kuberam.ro/ns/kert">
+    <head>
+        <title>Kert - testing automaton</title>
+        <style type="text/css">
+		<![CDATA[
+		div.field {font-family: tahoma, arial, helvetica; font-size: 10pt; display: inline-block; width: 500px;}
+		div.field label {margin-right: 0.4em;}
+		#test-plan-tree {width: 40%; margin-left: 15px;}
+		]]></style>
+        <script type="text/javascript" charset="utf-8" src="../jquery/core/jquery.js">/**/</script>
+	<!--dependencies for dynatree plugin-->
+        <link rel="stylesheet" type="text/css" href="../jquery/dynatree/skin/ui.dynatree.css"/>
+        <script type="text/javascript" charset="utf-8" src="../jquery/ui/jquery-ui-1.8.12.custom.min.js">/**/</script>
+        <script type="text/javascript" charset="utf-8" src="../jquery/core/jquery.cookie.js">/**/</script>
+        <script type="text/javascript" charset="utf-8" src="../jquery/dynatree/jquery.dynatree.js">/**/</script>
+	<!--depedencies for superfish menu plugin-->
+        <link rel="stylesheet" type="text/css" href="../jquery/superfish/css/superfish.css"/>
+        <script type="text/javascript" charset="utf-8" src="../jquery/superfish/js/hoverIntent.js">/**/</script>
+        <script type="text/javascript" charset="utf-8" src="../jquery/superfish/js/superfish.js">/**/</script>
+	<!--dependencies for dialog plugin-->
+        <link rel="stylesheet" type="text/css" href="../jquery/ui/themes/base/jquery-ui.css"/>
+        <script type="text/javascript" charset="utf-8" src="../jquery/ui/jquery.ui.core.min.js">/**/</script>
+        <script type="text/javascript" charset="utf-8" src="../jquery/ui/jquery.ui.position.js">/**/</script>
+        <script type="text/javascript" charset="utf-8" src="../jquery/ui/jquery.ui.widget.min.js">/**/</script>
+        <script type="text/javascript" charset="utf-8" src="../jquery/ui/jquery.ui.dialog.js">/**/</script>
+	<!--dependencies for kert plugin-->
+        <script type="text/javascript" charset="utf-8" src="core/jquery.kert.js">/**/</script>
+	<!--dependencies for simpath module-->
+        <script type="text/javascript" charset="utf-8" src="../simpath/simpath.js">/**/</script>
+    </head>
+    <body>
+        <div style="width: 100%; height: 50px;">
+            <ul class="sf-menu">
+                <li class="current">
+                    <a href="#a">Test plan</a>
+                    <ul>
+                        <li>
+                            <a href="#">New</a>
+                        </li>
+                        <li>
+                            <a id="open-test" href="#">Open</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Configure</a>
+                    <ul>
+                        <li>
+                            <a href="#">Theme roller</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </div>
+        <h2 id="plan-description"/>
+        <div class="ui-widget ui-widget-content">
+            <div id="test-plan-tree"/>
+        </div>
+        <div id="results-summary" class="ui-widget ui-widget-content">
+            <div id="all-tests" class="field">
+                <label>Total no. of tests:</label>
+                <output>0</output>
+            </div>
+            <div id="custom-tests"/>
+        </div>
+        <div id="dynatree-data" style="display: none;"/>
+        <div id="iframes-host" style="display: none;"/>
+        <div id="open-test-dialog" title="Open test plan">
+            <p>Enter test plan URL:</p>
+            <input type="text" id="plan-uri" class="text ui-widget-content ui-corner-all" size="60" value=""/>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+    <event>
+        <id/>
+        <creator_student/>
+        <event-date/>
+        <event_end_date/>
+        <event-location/>
+        <lat/>
+        <long/>
+        <scale/>
+        <Event_Type/>
+        <Event_Type_2/>
+        <Event_Type_3/>
+        <__of_AA/>
+        <Excerpt_Description/>
+        <Notes/>
+        <Shorter_description_for_map/>
+        <Army/>
+        <Report_Author/>
+        <Author_Rank/>
+        <Report_or_Article_Date/>
+        <Report_or_Article_Location/>
+        <Report_recipient/>
+        <Recipient_Rank/>
+        <Article_Title/>
+        <Newspaper_Name/>
+        <Database/>
+        <Citation__File__Series.Vol.Part__Pages_/>
+        <URL/>
+        <Name_of_Ship_s__involved/>
+        <Names_of_African_Americans_involved/>
+        <Name_of_slaveowners/>
+        <created-datetime/>
+        <created-by/>
+        <last-modified-datetime/>
+        <last-modified-by/>
+    </event>
+</events>

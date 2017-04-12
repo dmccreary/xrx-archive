@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animal>
+    <id>2</id>
+    <animal-category-code>birds</animal-category-code>
+    <animal-type-code>parrot</animal-type-code>
+    <animal-name>Sally</animal-name>
+    <pruchase-amount>150.00</pruchase-amount>
+    <status>available</status>
+    <description>A nice pet but a bit loud.</description>
+    <image>parrot.jpg</image>
+</animal>

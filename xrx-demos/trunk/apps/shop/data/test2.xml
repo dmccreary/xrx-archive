@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wantlist>
+    <element>
+        <prefix>uc</prefix>
+        <element-name>PersonGenderCode</element-name>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <element-name>PersonGivenName</element-name>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <element-name>PersonSurName</element-name>
+    </element>
+</wantlist>

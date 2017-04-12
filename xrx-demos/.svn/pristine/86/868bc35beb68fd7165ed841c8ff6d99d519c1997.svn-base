@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security-role>
+    <id>11</id>
+    <name>sync-agent</name>
+    <label>Sync Agent</label>
+    <description>An agent (automated program) authorized to "publish" (to move approved content from the Intranet) to the Public Website.</description>
+    <category>intranet</category>
+    <status>draft</status>
+    <tag/>
+    <created-datetime/>
+    <created-by/>
+    <last-modified-datetime/>
+    <last-modified-by/>
+</security-role>

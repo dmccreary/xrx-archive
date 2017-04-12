@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process-steps>
+    <id>2</id>
+    <process-name>Authenticate, Validate and Store</process-name>
+    <process-description>Sample three step process.</process-description>
+    <activity>
+        <activity-name>Authenticate</activity-name>
+        <activity-type-code>authenticate</activity-type-code>
+        <webservice-id>ws111</webservice-id>
+        <ruleset-id>r111</ruleset-id>
+        <schema-id>s111</schema-id>
+    </activity>
+    <activity>
+        <activity-name>Validate</activity-name>
+        <activity-type-code>validate</activity-type-code>
+        <webservice-id>ws222</webservice-id>
+        <ruleset-id>r222</ruleset-id>
+        <schema-id>s222</schema-id>
+    </activity>
+    <activity>
+        <activity-name>Store</activity-name>
+        <activity-type-code>store</activity-type-code>
+        <webservice-id>ws222</webservice-id>
+        <ruleset-id>r222</ruleset-id>
+        <schema-id>s222</schema-id>
+    </activity>
+    <created-by>admin</created-by>
+    <created-datetime>2011-12-08T20:49:33.243Z</created-datetime>
+    <last-modified-by>admin</last-modified-by>
+    <last-modified-datetime>2011-12-08T20:49:33.243Z</last-modified-datetime>
+</process-steps>

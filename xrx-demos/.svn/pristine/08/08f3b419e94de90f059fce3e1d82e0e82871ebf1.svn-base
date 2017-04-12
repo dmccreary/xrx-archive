@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <title>XForms trigger and message</title>
+        <xf:model>
+            <instance xmlns=""/>
+        </xf:model>
+    </head>
+    <body>
+        <p>A simple model button that brings up a message in a window:
+		<br/>
+            <xf:trigger>
+                <xf:label>Simple Button</xf:label>
+                <xf:message level="modal" ev:event="DOMActivate">Hello World!</xf:message>
+            </xf:trigger>
+            <br/>
+        </p>
+    </body>
+</html>

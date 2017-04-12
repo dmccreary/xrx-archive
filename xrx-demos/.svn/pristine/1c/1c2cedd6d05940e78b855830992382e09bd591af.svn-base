@@ -1,0 +1,184 @@
+<project xmlns:xdb="http://exist-db.org/ant" default="upload-all-local" name="Upload All XRX Demos Files">
+    <description>This is a build file used to copy files from a local subversion checkout into
+    an eXist server using the xdb:store function.  A base collection and all sub-collections
+    will be loaded.</description>
+    
+    <!-- this is where we set our exist-home, user, password and the place that we will load the docs -->
+    <property file="local.properties"/>
+    
+    <!-- this tells us where to find the key jar files relative to the ${exist-home} property
+         The key here is that the jar files on your local system used by this build script
+         MUST be at the same level as your server.
+    -->
+    <path id="classpath.core">
+        <fileset dir="${exist-home}/lib/core">
+            <include name="*.jar"/>
+        </fileset>
+        <pathelement path="${exist-home}/exist.jar"/>
+        <pathelement path="${exist-home}/exist-optional.jar"/>
+    </path>
+    
+    <typedef resource="org/exist/ant/antlib.xml" uri="http://exist-db.org/ant">
+        <classpath refid="classpath.core"/>
+    </typedef>
+    
+    <!-- upload app -->
+    <target name="upload-all-local">
+        <echo message="Loading All XRX Demos on local system.  Warning!  This will delete any existing data you have on the server!!!"/>
+        <echo message="Local Server = ${local-server}"/>
+        <echo message="Local URI=${local-uri}"/>
+        <xdb:store uri="${local-uri}/dma" createcollection="true" createsubcollections="true"
+            user="${local-user}" password="${local-password}">
+            <fileset dir="${local-xrx-demos-trunk-checkout}">
+                <include name="**/*.*"/>
+                <exclude name="build"/>
+            </fileset>
+        </xdb:store>
+    </target>
+    
+    <target name="upload-all-remote">
+        <echo message="Loading All XRX Demos to Remote Server.  Warning!  This will delete any existing data you have on the server!!!"/>
+        <echo message="Remote Server=${remote-server}"/>
+        <echo message="Remote URI=${remote-uri}"/>
+        <xdb:store uri="${remote-uri}/dma" createcollection="true" createsubcollections="true" 
+            user="${remote-user}" password="${remote-password}">
+            <fileset dir="${local-xrx-demos-trunk-checkout}">
+                <include name="**/*.*"/>
+                <exclude name="build"/>
+            </fileset>
+        </xdb:store>
+    </target>
+    
+    <!-- upload shared modules -->
+    <target name="upload-modules-remote">
+        <echo message="Loading XRX Shared Modules to Remote Server."/>
+        <echo message="Remote Server=${remote-server}"/>
+        <echo message="Remote URI=${remote-uri}"/>
+        <xdb:store uri="${remote-uri}/dma/modules" createcollection="true" createsubcollections="true" 
+            user="${remote-user}" password="${remote-password}">
+            <fileset dir="${local-xrx-demos-trunk-checkout}/modules">
+                <include name="**/*.*"/>
+            </fileset>
+        </xdb:store>
+    </target>
+    
+    <!-- upload shared resources -->
+    <target name="upload-resources-local">
+        <echo message="Loading Remote Shared Resources."/>
+        <echo message="Remote Server=${remote-server}"/>
+        <echo message="Remote URI=${remote-uri}"/>
+        <xdb:store uri="${uri}/dma/resources" createcollection="true" createsubcollections="true" 
+            user="${remote-user}" password="${remote-password}">
+            <fileset dir="${local-xrx-demos-trunk-checkout}/resources">
+                <include name="**/*.*"/>
+            </fileset>
+        </xdb:store>
+    </target>
+    
+    <!-- upload all apps -->
+    <target name="upload-apps-local">
+        <echo message="Loading All XRX Apps."/>
+        <echo message="Server Name = ${server-name}"/>
+        <echo message="Local Point URI=${uri}"/>
+        <xdb:store uri="${uri}/apps" createcollection="true" createsubcollections="true" user="${user}" password="${password}">
+            <fileset dir="${local-xrx-demos-trunk-checkout}/dma/apps">
+                <include name="**/*.*"/>
+            </fileset>
+        </xdb:store>
+    </target>
+    
+    <!-- upload all xsltforms -->
+    <target name="upload-xsltforms-local">
+        <echo message="Loading All XSLTForms."/>
+        <echo message="Local Server = ${local-server}"/>
+        <echo message="Local Point URI=${uri}"/>
+        <xdb:store uri="${local-uri}/xforms/xsltforms" createcollection="true" createsubcollections="true" 
+            user="${local-user}" password="${local-password}">
+            <fileset dir="${xsltforms-home}">
+                <include name="**/*.*"/>
+            </fileset>
+        </xdb:store>
+    </target>
+    
+    <!-- upload all remote
+        remote-server=23.23.188.57
+        remote-uri=xmldb:exist://${remote-server}/xmlrpc/db/dma
+        remote-user=admin
+        remote-password=admin123
+        xsltforms-home=D:\\Apps\\xsltforms
+    -->
+    <target name="upload-xsltforms-remote">
+        <echo message="Loading XSLTForms to Remote Server"/>
+        <echo message="Local XSLTForms = ${xsltforms-home}"/>
+        <echo message="Server Name = ${remote-server}"/>
+        <echo message="Remote URI=${remote-uri}"/>
+        <xdb:store uri="${remote-uri}/xforms/xsltforms" createcollection="true" createsubcollections="true" 
+            user="${remote-user}" password="${remote-password}">
+            <fileset dir="${xsltforms-home}">
+                <include name="**/*.*"/>
+            </fileset>
+        </xdb:store>
+    </target>
+    
+    <target name="show-properties">
+        <echo message="Make sure these settings are correct and you have no double backslashes in the paths."/>
+        <echo message="Local EXIST_HOME=${exist-home}"/>
+        <echo message="xsltforms-home=${xsltforms-home}"/>
+        <echo message="Local XRX Demos Subversion Checkout=${local-xrx-demos-trunk-checkout}"/>
+        <echo message=""/>
+        <echo message="Local Server=${local-server}"/>
+        <echo message="Local URI=${local-uri}"/>
+        <echo message="Local User=${local-user}"/>
+        <echo message="Local Password=${local-password}"/>
+        <echo message=""/>
+        <echo message="Remote Server=${remote-server}"/>
+        <echo message="Remote URI=${remote-uri}"/>
+        <echo message="Remote User=${remote-user}"/>
+        <echo message="Remote Password=${remote-password}"/>
+    </target>
+    
+    <target name="create-install-dir">
+        <echo message="making installer from ${local-xrx-demos-trunk-checkout}"/>
+        <copy todir="D:\tmp\xrx-demos\db\dma">
+            <fileset dir="${local-xrx-demos-trunk-checkout}">
+                <!-- don't inclde the svn files -->
+                <exclude name="**/.svn"/>
+            </fileset>
+        </copy>
+    </target>
+    
+    <target name="zip-install-dir">
+        <echo message="Creating zip file from {D:\tmp\xrx-demos}"/>
+        <zip destfile="D:\tmp\xrx-demos\exist-package.zip" basedir="D:\tmp\xrx-demos"/>
+    </target>
+    
+    <!--
+    app-name - the name of your application
+    source-dir - the place you keep your source code
+    temp-dir - a temp dir such as /tmp/my-package to store temporary files
+    
+    app-version - the version of your application
+    -->
+    <target name="xar" description="Generate Application xar archive file">
+        <property name="app-name" value="template"/>
+        <property name="app-version" value="0.1"/>
+        <property name="source-dir" value="D:\ws\xrx-demos\trunk\apps\template"/>
+        <property name="temp-dir" value="D:\tmp\pkg\template"/>
+        <mkdir dir="${temp-dir}"/>
+        <echo>Making Package for ${app-name} use source at ${source-dir}</echo>
+        <copy todir="D:\tmp\pkg\template" verbose="true">
+            <fileset dir="${source-dir}">
+                <include name="**/*.*" />
+                <exclude name="**/.svn" />
+            </fileset>
+        </copy>
+        <zip destfile="${temp-dir}/packages/${app-name}-${app-version}.xar">
+            <fileset dir="D:\ws\xrx-demos\trunk\apps\template">
+                <include name="**/*.*" />
+                <exclude name="**/.svn" />
+            </fileset>
+        </zip>
+    </target>
+    
+    
+</project>

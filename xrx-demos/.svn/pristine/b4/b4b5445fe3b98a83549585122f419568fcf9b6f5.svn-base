@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeline>
+    <id>2</id>
+    <desc>Railroads of the Midwest US 1844 to 2011</desc>
+    <notes>From table on page 213 of "Train Pictures" by Charles B. McCreary</notes>
+    <events>
+        <event>
+            <id>1</id>
+            <name>Erie Extension Canal</name>
+            <abbr>EEC</abbr>
+            <start-date>1844-01-01</start-date>
+            <end-date>1871-01-01</end-date>
+        </event>
+        <event>
+            <id>2</id>
+            <name>Bear Creek Railroad</name>
+            <abbr>BCRR</abbr>
+            <start-date>1865-01-01</start-date>
+            <end-date>1867-01-01</end-date>
+        </event>
+        <event>
+            <id>3</id>
+            <name>Shenango &amp; Allegheny</name>
+            <abbr>S&amp;A</abbr>
+            <start-date>1867-01-01</start-date>
+            <end-date>1888-01-01</end-date>
+        </event>
+        <event>
+            <id>4</id>
+            <name>Ohio River &amp; Lake Erie</name>
+            <abbr>OR&amp;LE</abbr>
+            <start-date>1881-01-01</start-date>
+            <end-date>1886-01-01</end-date>
+        </event>
+        <event>
+            <id>5</id>
+            <name>Connoquenessig Vally</name>
+            <abbr>CV</abbr>
+            <start-date>1881-01-01</start-date>
+            <end-date>1882-01-01</end-date>
+        </event>
+        <event>
+            <id>6</id>
+            <name>West Penn &amp; Shennango Connecting</name>
+            <abbr>WP&amp;C</abbr>
+            <start-date>1882-01-01</start-date>
+            <end-date>1883-01-01</end-date>
+        </event>
+        <event>
+            <id>7</id>
+            <name>Pittsburg, Butler &amp; Shennango</name>
+            <abbr>WP&amp;SC</abbr>
+            <start-date>1883-01-01</start-date>
+            <end-date>1890-01-01</end-date>
+        </event>
+        <event>
+            <id>8</id>
+            <name>Erie, Shennango &amp;Pittsburg</name>
+            <abbr>SW&amp;P</abbr>
+            <start-date>1887-01-01</start-date>
+            <end-date>1888-01-01</end-date>
+        </event>
+        <event>
+            <id>9</id>
+            <name>North-Easten Ohio Railroad</name>
+            <abbr>NEO</abbr>
+            <start-date>1888-01-01</start-date>
+            <end-date>1888-12-31</end-date>
+        </event>
+        <event>
+            <id>10</id>
+            <name>Pittsburg, Shennango &amp; Lake Erie</name>
+            <abbr>PS&amp;LE</abbr>
+            <start-date>1888-01-01</start-date>
+            <end-date>1888-12-31</end-date>
+        </event>
+        <event>
+            <id>11</id>
+            <name>Butler &amp; Pittsburg</name>
+            <abbr>B&amp;P</abbr>
+            <start-date>1896-01-01</start-date>
+            <end-date>1897-12-31</end-date>
+        </event>
+        <event>
+            <id>12</id>
+            <name>Pittsburg, Butler &amp; Lake Erie</name>
+            <abbr>PB&amp;LE</abbr>
+            <start-date>1897-01-01</start-date>
+            <end-date>1900-01-01</end-date>
+        </event>
+        <event>
+            <id>13</id>
+            <name>Bessmer &amp; Lake Erie</name>
+            <abbr>B&amp;LE</abbr>
+            <wilipedia>http://en.wikipedia.org/wiki/Bessemer_and_Lake_Erie_Railroad</wilipedia>
+            <start-date>1900-01-01</start-date>
+            <end-date>2004-01-01</end-date>
+        </event>
+        <event>
+            <id>14</id>
+            <name>Canadian Noational</name>
+            <abbr>CN</abbr>
+            <start-date>2004-01-01</start-date>
+            <end-date>2011-01-01</end-date>
+        </event>
+    </events>
+</timeline>

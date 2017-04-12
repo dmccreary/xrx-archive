@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>54</id>
+    <Classifier>System Management</Classifier>
+    <PatternName>Test Message</PatternName>
+    <Image>TestMessageIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/TestMessage.html</Reference>
+    <Description>What happens, though, if a component is actively processing messages, but garbles
+      outgoing messages due to an internal fault?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

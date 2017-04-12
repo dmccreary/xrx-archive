@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeline>
+    <id>1</id>
+    <events>
+        <event>
+            <id>1</id>
+            <name>Proposed</name>
+            <start-date>2011-01-15</start-date>
+        </event>
+        <event>
+            <id>2</id>
+            <name>ROI Analysis</name>
+            <start-date>2011-02-01</start-date>
+            <end-date>2011-02-07</end-date>
+        </event>
+        <event>
+            <id>3</id>
+            <name>Project Approved</name>
+            <start-date>2011-03-01</start-date>
+        </event>
+        <event>
+            <id>4</id>
+            <name>Project Kickoff</name>
+            <start-date>2011-03-07</start-date>
+        </event>
+        <event>
+            <id>5</id>
+            <name>Requirements</name>
+            <start-date>2011-03-07</start-date>
+            <end-date>2011-04-07</end-date>
+        </event>
+        <event>
+            <id>6</id>
+            <name>Architecture Tradeoff Analysis</name>
+            <start-date>2011-04-07</start-date>
+            <end-date>2011-04-21</end-date>
+        </event>
+        <event>
+            <id>7</id>
+            <name>Architecture Approved</name>
+            <desc>Selected XRX Architecture</desc>
+            <type>milestone</type>
+            <start-date>2011-04-21</start-date>
+        </event>
+        <event>
+            <id>8</id>
+            <name>User Interface Design</name>
+            <start-date>2011-04-21</start-date>
+            <end-date>2011-05-21</end-date>
+        </event>
+        <event>
+            <id>9</id>
+            <name>XML Schema Design</name>
+            <start-date>2011-04-21</start-date>
+            <end-date>2011-05-07</end-date>
+        </event>
+        <event>
+            <id>10</id>
+            <name>XML Sample Data Generated</name>
+            <start-date>2011-04-21</start-date>
+            <end-date>2011-05-07</end-date>
+        </event>
+        <event>
+            <id>11</id>
+            <name>XQuery Development</name>
+            <start-date>2011-04-21</start-date>
+            <end-date>2011-05-21</end-date>
+        </event>
+        <event>
+            <id>12</id>
+            <name>Integration Testing</name>
+            <start-date>2011-05-21</start-date>
+            <end-date>2011-06-21</end-date>
+        </event>
+        <event>
+            <id>13</id>
+            <name>Beta Testing</name>
+            <start-date>2011-06-21</start-date>
+            <end-date>2011-07-28</end-date>
+        </event>
+        <event>
+            <id>14</id>
+            <name>First Customer Ship</name>
+            <type>milestone</type>
+            <start-date>2011-08-01</start-date>
+        </event>
+    </events>
+</timeline>

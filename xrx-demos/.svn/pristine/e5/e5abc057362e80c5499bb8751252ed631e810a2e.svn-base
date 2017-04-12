@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security-role>
+    <id>3</id>
+    <name>etl-developer</name>
+    <label>ETL Developer</label>
+    <description>The person in the predictive models group responsible for doing extraction, transformation and loading of data from operational source systems into the business intelligence staging area. </description>
+    <category>public-web-site</category>
+    <category>intranet</category>
+    <status>draft</status>
+    <tag/>
+    <created-datetime/>
+    <created-by/>
+    <last-modified-datetime/>
+    <last-modified-by/>
+</security-role>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>17</id>
+    <Classifier>Message Construction</Classifier>
+    <PatternName>Document Message</PatternName>
+    <Image>DocumentMessageIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/DocumentMessage.html</Reference>
+    <Description>How can messaging be used to transfer data between applications?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

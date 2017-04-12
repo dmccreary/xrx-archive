@@ -1,0 +1,62 @@
+@namespace xf url("http://www.w3.org/2002/xforms");
+/* CSS file for pattern edit */
+
+/* Makes the labels right aligned in a column that floats to the left of the input controls. */
+xf|output > xf|label,
+xf|input > xf|label,
+xf|secret > xf|label,
+xf|select > xf|label,
+xf|select1 > xf|label,
+xf|textarea > xf|label
+{text-align:right; padding-right:10px; width:100px; float:left;}
+
+/* Makes the labels right aligned in a 200px wide column that floats to the left of the input controls. */
+xf\:input  xf\:label, xf\:select  xf\:label, xf\:select1 xf\:label, xf\:textarea xf|label {
+   text-align:right;
+   padding-right:10px;
+   width:100px;
+   float:left;
+   text-align:right;
+   font-weight: bold;
+}
+
+.group-label {text-align:left;font-weight:bold;font-size:10pt; background-color: #D6D6DA; margin: 0px; padding 0px; top: 5px;}
+
+/* this sets the with of the input text boxes */
+.Reference  .xf-value  {width: 50ex;}
+
+xf\:repeat  xf:trigger {display: inline; border: solid red 1px; position: relative;}
+
+/* add this to all inputs where you do not  want the delete to appear on a new line */
+
+.inline-delete {display: inline;}
+
+.Description textarea { 
+   height: 4em;
+   width: 680px;
+}
+
+.Question textarea { 
+   height: 4em;
+   width: 680px;
+}
+
+.Answer textarea { 
+   height: 4em;
+   width: 680px;
+}
+.NoteText textarea { 
+   height: 8em;
+   width: 680px;
+}
+
+.link {
+  text-decoration: underline;
+  color: blue;
+}
+
+.warning {
+ color: red;
+ font-weight: bold;
+ font-size: 1.2em;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Search Test</title>
+    </head>
+    <body>
+        <form method="get" action="../../docs/search/echo-url-parameters.xq">
+            <input type="checkbox" name="iso-27001" value="risk-assessment">Risk Assessment</input>
+            <input type="submit" value="Search"/>
+        </form>
+    </body>
+</html>

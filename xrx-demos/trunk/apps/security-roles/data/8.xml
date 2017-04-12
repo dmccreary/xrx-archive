@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security-role>
+    <id>8</id>
+    <name>quality-assurer</name>
+    <label>Quality Assurer</label>
+    <description>A user who is authorized to review data for quality assurance checks
+Approver
+</description>
+    <category>intranet</category>
+    <status>draft</status>
+    <tag/>
+    <created-datetime/>
+    <created-by/>
+    <last-modified-datetime/>
+    <last-modified-by/>
+</security-role>

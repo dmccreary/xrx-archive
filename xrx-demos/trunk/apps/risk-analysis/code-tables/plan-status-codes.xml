@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>plan-status-codes</name>
+    <description>This is a description of a sample set of category codes.</description>
+    <items>
+        <item>
+            <label>Select a plan...</label>
+            <value>0</value>
+            <definition>Select a status plan code.</definition>
+        </item>
+        <item>
+            <label>Avoid</label>
+            <value>1</value>
+            <definition>Risk is eliminated.</definition>
+        </item>
+        <item>
+            <label>Transfer</label>
+            <value>2</value>
+            <definition>Risk is shifted to a third party.</definition>
+        </item>
+        <item>
+            <label>Mitigate</label>
+            <value>3</value>
+            <definition>Take action to reduce the probability of occurrence.</definition>
+        </item>
+        <item>
+            <label>Passive Accept</label>
+            <value>4</value>
+            <definition>Risk is acknowledged but no action is taken.</definition>
+        </item>
+        <item>
+            <label>Active Accept</label>
+            <value>5</value>
+            <definition>Risk is acknowledged and contingency plan created.</definition>
+        </item>
+    </items>
+</code-table>

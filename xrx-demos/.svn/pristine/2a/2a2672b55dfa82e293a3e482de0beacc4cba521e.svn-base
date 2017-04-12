@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archiveFile>
+    <recordID>1</recordID>
+    <itemID>
+        <itemIDType>HF</itemIDType>
+        <itemIDNumber>HF 1.1</itemIDNumber>
+    </itemID>
+    <title>Compartments and properties</title>
+    <creator>
+        <nameElement persCorp="personal">Cline, A.C.</nameElement>
+        <role>Researcher</role>
+        <source>Local</source>
+    </creator>
+    <creator>
+        <nameElement persCorp="personal">J.D.C.</nameElement>
+        <role>Researcher</role>
+        <source>Local</source>
+    </creator>
+    <temporalCoverage>
+        <startDate>1934</startDate>
+        <endDate>1934</endDate>
+        <dateDescription>1934</dateDescription>
+    </temporalCoverage>
+    <spatialCoverage>
+        <geographicDescription>Tom Swamp I, Petersham, MA</geographicDescription>
+    </spatialCoverage>
+    <keyword>Harvard Forest properties</keyword>
+    <keyword>keyword 2</keyword>
+    <keyword>keyword 3</keyword>
+    <workType>Maps</workType>
+    <physicalDescription>
+        <media>Paper</media>
+        <physicalDescriptionNote/>
+        <extent>2 (original and 1 Copy)</extent>
+        <scale>1" = 0.5 mi. (approx)</scale>
+    </physicalDescription>
+    <abstract>Boundaries, base maps, surveys</abstract>
+    <placeOfCreation>Harvard Forest</placeOfCreation>
+    <publisher/>
+    <date>
+        <startDate>1934</startDate>
+    </date>
+    <publicationStatus>unpublished</publicationStatus>
+    <archivesLocation>Map Room Stack #1</archivesLocation>
+    <administrativeNotes>dupllicates in same drawer</administrativeNotes>
+    <access>on-site only</access>
+    <repositoryName>Harvard Forest Library</repositoryName>
+</archiveFile>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>task-priority-code</name>
+    <item>
+        <label>Low</label>
+        <value>d</value>
+    </item>
+    <item>
+        <label>Medium</label>
+        <value>c</value>
+    </item>
+    <item>
+        <label>High</label>
+        <value>b</value>
+    </item>
+    <item>
+        <label>Critical (Blocker)</label>
+        <value>a</value>
+    </item>
+</code-table>

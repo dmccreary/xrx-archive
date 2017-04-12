@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+    <head>
+        <title>Javascript for loop</title>
+        <script type="text/javascript">
+            function calc(n) {
+                t = 0;
+                for (i=1; i!=n; i++)
+                {
+                    t = t + i;
+                    document.write("After " + i + " t=" + t);
+                    document.write("<br/>");
+                };
+            return n
+            }
+            </script>
+    </head>
+    <body>
+        <p>The sum all the integers between 1 and 20 is:</p>
+        <input type="button" onclick="calc(20)" value="Calculate"/>
+    </body>
+</html>

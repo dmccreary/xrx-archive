@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/surescripts/apps/use-cases/edit" owner="admin" group="dba" mode="755" created="2010-11-04T15:03:43-05:00" version="1">
+    <resource type="BinaryResource" name="edit.xq" owner="admin" group="dba" mode="755" created="2010-11-04T15:04:01-05:00" modified="2010-11-04T15:34:43-05:00" filename="edit.xq" mimetype="application/xquery"/>
+    <resource type="BinaryResource" name="get-instance.xq" owner="admin" group="dba" mode="755" created="2010-11-04T15:07:54-05:00" modified="2010-11-04T15:08:23-05:00" filename="get-instance.xq" mimetype="application/xquery"/>
+    <resource type="XMLResource" name="new-instance.xml" owner="admin" group="dba" mode="755" created="2010-11-04T15:25:04-05:00" modified="2010-11-04T15:25:04-05:00" filename="new-instance.xml" mimetype="text/xml"/>
+    <resource type="XMLResource" name="next-id.xml" owner="admin" group="dba" mode="755" created="2010-11-04T15:29:55-05:00" modified="2010-11-04T16:06:57-05:00" filename="next-id.xml" mimetype="text/xml"/>
+    <resource type="BinaryResource" name="save-new.xq" owner="admin" group="dba" mode="755" created="2010-11-04T15:26:55-05:00" modified="2010-11-04T15:29:28-05:00" filename="save-new.xq" mimetype="application/xquery"/>
+    <resource type="BinaryResource" name="update.xq" owner="admin" group="dba" mode="755" created="2010-11-04T15:31:00-05:00" modified="2010-11-04T15:38:48-05:00" filename="update.xq" mimetype="application/xquery"/>
+</collection>

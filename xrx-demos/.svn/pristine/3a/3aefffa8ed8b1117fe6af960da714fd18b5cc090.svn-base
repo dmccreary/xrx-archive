@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>19</id>
+    <Classifier>Message Construction</Classifier>
+    <PatternName>Request-Reply</PatternName>
+    <Image>RequestReplyIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/RequestReply.html</Reference>
+    <Description>When an application sends a message, how can it get a response from the
+    receiver?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

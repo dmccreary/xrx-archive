@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/97/trunk/13-xml-schema-to-instance/test-schemas
+END
+type-library.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/97/trunk/13-xml-schema-to-instance/test-schemas/type-library.xsd
+END
+include-type-library.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/97/trunk/13-xml-schema-to-instance/test-schemas/include-type-library.xsd
+END

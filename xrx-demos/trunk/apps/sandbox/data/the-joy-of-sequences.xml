@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<example-queries>
+    <id>4</id>
+    <author>dan</author>
+    <description>XQuery Examples from the Joy of Sequences Article</description>
+    <query>
+        <description>Sequences are fun!</description>
+        <code><![CDATA[let $message := 'Sequences are fun!!'
+   return $message]]></code>
+    </query>
+    <query>
+        <description>Well Formed XML</description>
+        <code><![CDATA[let $sequence := ('a', 'b', 'c', 1, 2, 3)
+
+   return
+   <result>
+      {$sequence}
+   </result>]]></code>
+    </query>
+    <query>
+        <description>Sequences are fun!</description>
+        <code><![CDATA[xquery version "1.0";
+ 
+   let $sequence := ('a', 'b', 'c', 'd', 'e', 'f')
+ 
+   let $count := count($sequence)
+ 
+   return
+   <results>
+      {for $item in $sequence
+       return
+          <item>{$item}</item>
+      }
+     <count>{$count}</count>
+   </results>
+]]></code>
+    </query>
+</example-queries>

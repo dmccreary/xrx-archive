@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="test-set" type="test-setType"/>
+    <xs:complexType name="test-setType">
+        <xs:sequence>
+            <xs:element name="id"/>
+            <xs:element name="test-set-name" minOccurs="0"/>
+            <xs:element name="description" minOccurs="0"/>
+            <xs:element minOccurs="0" name="author"/>
+            <xs:element minOccurs="0" name="version"/>
+            <xs:element name="namespace">
+                <xs:complexType>
+                    <xs:attribute name="prefix"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="imports"/>
+            <xs:element maxOccurs="unbounded" name="test" type="testType"/>
+            <xs:element name="test-set" type="test-setType" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="testType">
+        <xs:sequence>
+            <xs:element name="id"/>
+            <xs:element name="test-name"/>
+            <xs:element name="code"/>
+            <xs:element name="expected"/>
+            <xs:element name="xpath">
+                <xs:complexType>
+                    <xs:attribute name="desc"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

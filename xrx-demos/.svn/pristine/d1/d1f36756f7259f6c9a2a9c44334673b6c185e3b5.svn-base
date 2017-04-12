@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>41</id>
+    <Classifier>Messaging Endpoints</Classifier>
+    <PatternName>Transactional Client</PatternName>
+    <Image>TransactionalClientIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/TransactionalClient.html</Reference>
+    <Description>How can a client control its transactions with the messaging system?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

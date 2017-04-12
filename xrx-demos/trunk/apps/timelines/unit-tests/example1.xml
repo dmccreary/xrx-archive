@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data date-time-format="iso8601">
+    <event isDuration="false" start="2011-01-15" title="Event 1"/>
+    <event isDuration="false" start="2011-02-15" title="Event 2"/>
+    <event isDuration="false" start="2011-03-15" title="Event 3"/>
+    <event isDuration="true" start="2011-04-15" end="2011-05-15" title="Event 4"/>
+    <event isDuration="true" start="2011-05-15" end="2011-06-15" title="Event 5"/>
+    <event isDuration="true" start="2011-06-15" end="2011-07-15" title="Event 6"/>
+</data>

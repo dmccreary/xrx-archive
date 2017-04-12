@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:record>
+        <marc:leader>04141cgm a2200637Ia 45x0</marc:leader>
+        <marc:controlfield tag="001">638093</marc:controlfield>
+        <marc:controlfield tag="005">20060720160217.0</marc:controlfield>
+        <marc:controlfield tag="007">vd mgaizs</marc:controlfield>
+        <marc:controlfield tag="008">011001p20011941cau232 g          vleng d</marc:controlfield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">(OCoLC)ocm48060040</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">TLM</marc:subfield>
+            <marc:subfield code="c">TLM</marc:subfield>
+            <marc:subfield code="d">VRU</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">0780635205</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="028" ind1="0" ind2="2">
+            <marc:subfield code="a">T6565</marc:subfield>
+            <marc:subfield code="b">Turner Entertainment</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041" ind1="1" ind2=" ">
+            <marc:subfield code="a">eng</marc:subfield>
+            <marc:subfield code="b">engfrespapor</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="092" ind1=" " ind2=" ">
+            <marc:subfield code="a">DVD Fiction</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="090" ind1=" " ind2=" ">
+            <marc:subfield code="a">PN1997</marc:subfield>
+            <marc:subfield code="b">.C5 2001</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">VRUF[DVD]</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="0" ind2="0">
+            <marc:subfield code="a">Citizen Kane</marc:subfield>
+            <marc:subfield code="h">[videorecording]</marc:subfield>
+            <marc:subfield code="c">/ RKO Radio Pictures ; a Mercury production ; director/producer, Orson Welles ; screenplay, Herman J. Mankiewicz, Orson Welles. The battle over Citizen Kane / produced by Thomas Lennon, Michael Epstein ; written by Richard Ben Cramer &amp; Thomas Lennon ; a Lennon Documentary Group film for the American experience ; WGBH Boston.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="246" ind1="3" ind2="0">
+            <marc:subfield code="a">Citizen Kane</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="250" ind1=" " ind2=" ">
+            <marc:subfield code="a">Standard format.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">[S.l.] :</marc:subfield>
+            <marc:subfield code="b">Turner Entertainment,</marc:subfield>
+            <marc:subfield code="c">2001.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">2 videodiscs (119 min., 113 min.):</marc:subfield>
+            <marc:subfield code="b">sd., b&amp;w, col. with b&amp;w sequences ;</marc:subfield>
+            <marc:subfield code="c">4 3/4 in.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">DVD.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="546" ind1=" " ind2=" ">
+            <marc:subfield code="a">Closed-captioned for the hearing impaired.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="546" ind1=" " ind2=" ">
+            <marc:subfield code="a">Soundtrack in English ; English, French, Spanish and Portugese subtitles available on feature film disc ; English subtitles available on documentary disc.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="511" ind1="1" ind2=" ">
+            <marc:subfield code="a">Feature film: Orson Welles, Joseph Cotton, Dorothy Comingore, Agnes Moorehead, Everett Sloane. Documentary: host, David McCullough ; narrated by Richard Ben Cramer.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508" ind1=" " ind2=" ">
+            <marc:subfield code="a">Feature film: Photography, Gregg Toland ; editor, Robert Wise ; music, Bernard Herrmann. Documentary: Directors of photography, Greg Andracke, Michael Chin ; edited by Ken Eluto ; music, Brian Keane..</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Feature film: Originally produced as a motion picture in 1941. Documentary: Originally broadcast as part of the PBS series the American experience in 1996.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="538" ind1=" " ind2=" ">
+            <marc:subfield code="a">DVD format; newly remastered picture and sound.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="538" ind1=" " ind2=" ">
+            <marc:subfield code="a">Dolby digital; feature film: English mono.; documentary: English stereo.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">Special features: Feature film: interactive menus ; scene selection ; theatrical trailer ; production notes ; filmmaker postscripts and awards data ; two feature-length audio commentaries ; one by Roger Ebert ; the other by Peter Bogdanovich ; 1941 movie premiere newsreel ; gallery of storyboards ; rare photos ; alternative ad campaigns ; studio correspondence ; call sheets, and other memorabilia. Documentary: Welles filmography.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1=" " ind2=" ">
+            <marc:subfield code="a">Feature film: An all-powerful press magnate, Kane, dies in his fabulous castle Xanadu, his last word being "Rosebud", which leads a reporter to seek the meaning behind the word and find the meaning of Kane. Prominant publisher, William Randolph Hearst, saw the film as a thinly disguised version of his career and attempted to suppress it. Documentary: Looks at the lives and careers of Orson Welles and William Randolph Hearst, and how Hearst tried to surpress the film Citizen Kane and destroy Welles.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="505" ind1="0" ind2=" ">
+            <marc:subfield code="a">Citizen Kane (119 min.) -- The battle over Citizen Kane (113 min.)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="630" ind1="0" ind2="0">
+            <marc:subfield code="a">Citizen Kane (Motion picture)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Welles, Orson,</marc:subfield>
+            <marc:subfield code="d">1915-1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Hearst, William Randolph,</marc:subfield>
+            <marc:subfield code="d">1863-1951.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Motion pictures</marc:subfield>
+            <marc:subfield code="x">Censorship</marc:subfield>
+            <marc:subfield code="z">United States</marc:subfield>
+            <marc:subfield code="v">Case studies.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Motion picture industry</marc:subfield>
+            <marc:subfield code="z">California</marc:subfield>
+            <marc:subfield code="z">Hollywood</marc:subfield>
+            <marc:subfield code="x">History.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Feature films.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="740" ind1="0" ind2="2">
+            <marc:subfield code="a">Battle over Citizen Kane</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Welles, Orson,</marc:subfield>
+            <marc:subfield code="d">1915-1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Mankiewicz, Herman J.</marc:subfield>
+            <marc:subfield code="q">(Herman Jacob),</marc:subfield>
+            <marc:subfield code="d">1897-1953.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Cotten, Joseph,</marc:subfield>
+            <marc:subfield code="d">1905-1994.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Comingore, Dorothy,</marc:subfield>
+            <marc:subfield code="d">1913-1971.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Moorehead, Agnes,</marc:subfield>
+            <marc:subfield code="d">1906-1974.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Sloane, Everett,</marc:subfield>
+            <marc:subfield code="d">1909-1965.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Cramer, Richard Ben.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Lennon, Thomas.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="710" ind1="2" ind2=" ">
+            <marc:subfield code="a">Lennon Documentary Group.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="710" ind1="2" ind2=" ">
+            <marc:subfield code="a">WGBH (Television station : Boston, Mass.)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="710" ind1="2" ind2=" ">
+            <marc:subfield code="a">RKO Radio Pictures, inc.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="710" ind1="2" ind2=" ">
+            <marc:subfield code="a">Mercury Productions.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="730" ind1="0" ind2=" ">
+            <marc:subfield code="a">American experience (Television program)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="856" ind1="4" ind2="2">
+            <marc:subfield code="u">http://www.mrqe.com/lookup?^Citizen+Kane+(1941)</marc:subfield>
+            <marc:subfield code="y">Connect to reviews of this title online.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="910" ind1=" " ind2=" ">
+            <marc:subfield code="a">lw 12/12/01</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="994" ind1=" " ind2=" ">
+            <marc:subfield code="a">X0</marc:subfield>
+            <marc:subfield code="b">VRU</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01031cam a2200301   4500</marc:leader>
+        <marc:controlfield tag="001">6512</marc:controlfield>
+        <marc:controlfield tag="005">20070123101526.0</marc:controlfield>
+        <marc:controlfield tag="008">711117s1971    maua     b    00100 eng  </marc:controlfield>
+        <marc:datafield tag="010" ind1=" " ind2=" ">
+            <marc:subfield code="a">72149462</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="9">221174</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">(OCoLC)00209252</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">ocm00209252</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">DLC</marc:subfield>
+            <marc:subfield code="c">DLC</marc:subfield>
+            <marc:subfield code="d">KLG</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1="1" ind2="1">
+            <marc:subfield code="a">VRUU</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="050" ind1="0" ind2=" ">
+            <marc:subfield code="a">PN1997</marc:subfield>
+            <marc:subfield code="b">.C5117</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="082" ind1=" " ind2=" ">
+            <marc:subfield code="a">791.43/7</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="0" ind2="4">
+            <marc:subfield code="a">The Citizen Kane book:</marc:subfield>
+            <marc:subfield code="b">Raising Kane,</marc:subfield>
+            <marc:subfield code="c">by Pauline Kael. The shooting script, by Herman J. Mankiewicz and Orson Welles, and the cutting continuity of the completed film.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="250" ind1=" " ind2=" ">
+            <marc:subfield code="a">[1st ed.]</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1="0" ind2=" ">
+            <marc:subfield code="a">Boston,</marc:subfield>
+            <marc:subfield code="b">Little, Brown</marc:subfield>
+            <marc:subfield code="c">[1971]</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">440 p.</marc:subfield>
+            <marc:subfield code="b">illus.</marc:subfield>
+            <marc:subfield code="c">29 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="350" ind1=" " ind2=" ">
+            <marc:subfield code="a">$15.00</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">"An Atlantic Monthly Press book."</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="504" ind1=" " ind2=" ">
+            <marc:subfield code="a">"The credits of Herman J. Mankiewicz": p. 427-433.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="630" ind1="0" ind2="0">
+            <marc:subfield code="a">Citizen Kane (Motion picture)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2="0">
+            <marc:subfield code="a">Kael, Pauline.</marc:subfield>
+            <marc:subfield code="t">Raising Kane. 1971.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2="0">
+            <marc:subfield code="a">Mankiewicz, Herman J.</marc:subfield>
+            <marc:subfield code="q">(Herman Jacob),</marc:subfield>
+            <marc:subfield code="d">1897-1953.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2="0">
+            <marc:subfield code="a">Welles, Orson,</marc:subfield>
+            <marc:subfield code="d">1915-1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="730" ind1="0" ind2=" ">
+            <marc:subfield code="a">Citizen Kane (Motion picture)</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>00925pam a2200289 a 4500</marc:leader>
+        <marc:controlfield tag="001">390759</marc:controlfield>
+        <marc:controlfield tag="005">20060501162023.0</marc:controlfield>
+        <marc:controlfield tag="008">841030s1985    njua     b   s000 0 eng  </marc:controlfield>
+        <marc:datafield tag="010" ind1=" " ind2=" ">
+            <marc:subfield code="a">84024918</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">0813510961 :</marc:subfield>
+            <marc:subfield code="c">$26.00</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="020" ind1=" " ind2=" ">
+            <marc:subfield code="a">081351097X (pbk.) :</marc:subfield>
+            <marc:subfield code="c">$9.95</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="9">354397</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">ocm11397303 </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">DLC</marc:subfield>
+            <marc:subfield code="c">DLC</marc:subfield>
+            <marc:subfield code="d">m/c</marc:subfield>
+            <marc:subfield code="d">VRU</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">VRUU</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="050" ind1="0" ind2=" ">
+            <marc:subfield code="a">PN1997.T6353</marc:subfield>
+            <marc:subfield code="b">T6 1985</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="082" ind1="0" ind2=" ">
+            <marc:subfield code="a">791.43/72</marc:subfield>
+            <marc:subfield code="2">19</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="0" ind2="0">
+            <marc:subfield code="a">Touch of evil :</marc:subfield>
+            <marc:subfield code="b">Orson Welles, director /</marc:subfield>
+            <marc:subfield code="c">Terry Comito, editor.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260" ind1=" " ind2=" ">
+            <marc:subfield code="a">New Brunswick, N.J. :</marc:subfield>
+            <marc:subfield code="b">Rutgers University Press,</marc:subfield>
+            <marc:subfield code="c">c1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">viii, 280 p. :</marc:subfield>
+            <marc:subfield code="b">ill. ;</marc:subfield>
+            <marc:subfield code="c">21 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="440" ind1=" " ind2="0">
+            <marc:subfield code="a">Rutgers films in print ;</marc:subfield>
+            <marc:subfield code="v">v. 3</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="504" ind1=" " ind2=" ">
+            <marc:subfield code="a">Filmography: p. [277]-278.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="504" ind1=" " ind2=" ">
+            <marc:subfield code="a">Bibliography: p. [279]-280.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="600" ind1="1" ind2="0">
+            <marc:subfield code="a">Welles, Orson,</marc:subfield>
+            <marc:subfield code="d">1915-1985</marc:subfield>
+            <marc:subfield code="w">cn</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="630" ind1="0" ind2="0">
+            <marc:subfield code="a">Touch of evil (Motion picture)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2="0">
+            <marc:subfield code="a">Comito, Terry,</marc:subfield>
+            <marc:subfield code="d">1935-</marc:subfield>
+            <marc:subfield code="w">cn</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="730" ind1="0" ind2="1">
+            <marc:subfield code="a">Touch of evil (Motion picture)</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+</marc:collection>

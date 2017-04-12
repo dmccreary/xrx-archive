@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-info xmlns="http://code.google.com/p/xrx">
+    <app-id>use-cases</app-id>
+    <app-name>User Stories Manager</app-name>
+    <app-version-id>1.1</app-version-id>
+    <app-description-text>A list of user stories that describe how users will interact with a
+        system.</app-description-text>
+    <app-creator-text>Dan McCreary</app-creator-text>
+    <app-license-type-code>Apache 2.0</app-license-type-code>
+    <app-license-uri>http://www.apache.org/license.htm</app-license-uri>
+    <breadcrumb-label>Template</breadcrumb-label>
+    <data-collection>data</data-collection>
+    <app-icon-path>images/case-study.png</app-icon-path>
+    <main-menu-order>5</main-menu-order>
+    <include-in-search-indicator>true</include-in-search-indicator>
+    <doc-root-path>UseCase</doc-root-path>
+    <doc-id-path>id/text()</doc-id-path>
+    <doc-title>UseCaseName/text()</doc-title>
+    <doc-viewer-path>views/view-item.xq</doc-viewer-path>
+    <search-order-weight>5</search-order-weight>
+    <app-notes-text>The structure of the Use Case manager was taken from the Wikipedia page for Use
+    Case.</app-notes-text>
+    <classifiers>
+        <classifier>software-development-lifecycle</classifier>
+    </classifiers>
+</app-info>

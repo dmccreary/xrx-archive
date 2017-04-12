@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/54/trunk/04-terms/views
+END
+view-item.xq
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/50/trunk/04-terms/views/view-item.xq
+END
+app-base.xq
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/47/trunk/04-terms/views/app-base.xq
+END
+10-getting-n-more-items.xq
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/53/trunk/04-terms/views/10-getting-n-more-items.xq
+END
+06-table.css
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/54/trunk/04-terms/views/06-table.css
+END
+09-adding-links.xq
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/49/trunk/04-terms/views/09-adding-links.xq
+END
+05-html-table.xq
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/47/trunk/04-terms/views/05-html-table.xq
+END
+08-shading-odd-rows.xq
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/48/trunk/04-terms/views/08-shading-odd-rows.xq
+END
+01-list-terms.xq
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/47/trunk/04-terms/views/01-list-terms.xq
+END
+06-html-table-css.xq
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/54/trunk/04-terms/views/06-html-table-css.xq
+END
+04-list-terms-defs.xq
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/47/trunk/04-terms/views/04-list-terms-defs.xq
+END
+03-list-terms-subsequence.xq
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/04-terms/views/03-list-terms-subsequence.xq
+END
+07-html-row-count.xq
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/48/trunk/04-terms/views/07-html-row-count.xq
+END
+02-list-terms-html.xq
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/47/trunk/04-terms/views/02-list-terms-html.xq
+END

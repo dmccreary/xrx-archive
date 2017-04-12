@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="300" version="1.1">
+    <style type="text/css">
+        svg {border: solid blue 1px}
+        g:hover .svg_nav {fill: khaki}
+        g:hover .nav_text {fill: blue}
+        .svg_nav {fill: silver}
+        .nav_text {fill: black; font-family: Arial-narrow,sans-serif; font-size:10pt}
+    </style>
+    <g transform="translate(50 200)">
+        <a xlink:href="view-details.xq?id=2010-01" xlink:title="Jan 10">
+            <rect width="44" height="200" x="-22" y="-22" class="svg_nav"/>
+            <text class="nav_text" text-anchor="middle" dominant-baseline="mathematical">Jan 10</text>
+        </a>
+    </g>
+    <g transform="translate(100 180) ">
+        <a xlink:href="view-details.xq?id=2010-02" xlink:title="Feb 10">
+            <rect width="44" height="220" x="-22" y="-22" class="svg_nav"/>
+            <text class="nav_text" text-anchor="middle" dominant-baseline="mathematical">Feb 10</text>
+        </a>
+    </g>
+    <g transform="translate(150 160) ">
+        <a xlink:href="view-details.xq?id=2010-03" xlink:title="Mar 10">
+            <rect width="44" height="240" x="-22" y="-22" class="svg_nav"/>
+            <text class="nav_text" text-anchor="middle" dominant-baseline="mathematical">Mar 10</text>
+        </a>
+    </g>
+    <g transform="translate(200 100) ">
+        <a xlink:href="view-details.xq?id=2010-04" xlink:title="Apr 10">
+            <rect width="44" height="300" x="-22" y="-22" class="svg_nav"/>
+            <text class="nav_text" text-anchor="middle" dominant-baseline="mathematical">Apr 10</text>
+        </a>
+    </g>
+    <g transform="translate(250 50) ">
+        <a xlink:href="view-details.xq?id=2010-05" xlink:title="This is the data for May of 2010.  Loans were up due to our Spring marketing promotions.">
+            <rect width="44" height="350" x="-22" y="-22" class="svg_nav"/>
+            <text class="nav_text" text-anchor="middle" dominant-baseline="mathematical">May 10</text>
+        </a>
+    </g>
+    <g transform="translate(300 100) ">
+        <a xlink:href="view-details.xq?id=2010-06" xlink:title="Jun 10">
+            <rect width="44" height="300" x="-22" y="-22" class="svg_nav"/>
+            <text class="nav_text" text-anchor="middle" dominant-baseline="mathematical">Jun 10</text>
+        </a>
+    </g>
+    <g transform="translate(350 160) ">
+        <a xlink:href="view-details.xq?id=2010-07" xlink:title="Jun 10">
+            <rect width="44" height="240" x="-22" y="-22" class="svg_nav"/>
+            <text class="nav_text" text-anchor="middle" dominant-baseline="mathematical">Jun 10</text>
+        </a>
+    </g>
+</svg>

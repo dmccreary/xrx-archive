@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <description>A list of books useful for people first learning how to build web XML web applications.</description>
+    <book>
+    <id>2</id>
+    <title>XQuery Examples</title>
+    <author>Chris Wallace</author>
+    <author>Dan McCreary</author>
+    <description>This book provides a variety of XQuery example programs and is designed to work with the eXist open-source native XML application server.</description>
+    <format>wikibook</format>
+    <license>Creative Commons Sharealike 3.0 Attribution-Non-commercial</license>
+    <list-price>0</list-price>
+    <created-by/>
+    <created-datetime/>
+    <last-modified-by>admin</last-modified-by>
+    <last-modified-datetime>2011-10-24T16:48:18.862Z</last-modified-datetime>
+</book>
+    <book>
+        <id>3</id>
+        <title>XForms Tutorial and Cookbook</title>
+        <author>Dan McCreary</author>
+        <description>This book is an excellent guide for anyone that is just beginning to learn the XForms standard.  The book is focused on providing the reader with simple, but complete examples of how to create XForms web applications.</description>
+        <format>wikibook</format>
+        <license>Creative Commons Sharealike 3.0 Attribution-Non-commercial</license>
+        <list-price>0</list-price>
+        <created-by/>
+        <created-datetime/>
+        <last-modified-by>admin</last-modified-by>
+        <last-modified-datetime>2011-10-24T16:48:18.862Z</last-modified-datetime>
+    </book>
+    <book>
+        <id>10</id>
+        <title>test book</title>
+        <author>ann kelly</author>
+        <description>test insert new book</description>
+        <format>softcover</format>
+        <publisher>self</publisher>
+        <publish-date>10/20/11</publish-date>
+        <license>xxx</license>
+        <list-price>5.00</list-price>
+        <created-by>admin</created-by>
+        <created-datetime>2011-10-20T15:31:22.393Z</created-datetime>
+        <last-modified-by>admin</last-modified-by>
+        <last-modified-datetime>2011-10-24T16:48:18.862Z</last-modified-datetime>
+    </book>
+</books>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <title>Getting Selection List Data From the XForms Model</title>
+        <style type="text/css">
+            body {font-family: Helvetica, Verdanan, sans-serif;}
+        </style>
+        <xf:model>
+
+            <!-- this instance holds the data you send to the server on save -->
+            <xf:instance xmlns="" id="my-item">
+                <data>
+                    <!-- the default color is red -->
+                    <ItemColorCode>red</ItemColorCode>
+                </data>
+            </xf:instance>
+
+            <!-- this instance holds the code tables used for all selection lists -->
+            <xf:instance xmlns="" id="code-tables">
+                <code-tables>
+                    <code-table>
+                        <code-table-id>ItemColorCode</code-table-id>
+                        <item>
+                            <label>Red</label>
+                            <value>red</value>
+                        </item>
+                        <item>
+                            <label>Orange</label>
+                            <value>orange</value>
+                        </item>
+                        <item>
+                            <label>Yellow</label>
+                            <value>yellow</value>
+                        </item>
+                        <item>
+                            <label>Green</label>
+                            <value>green</value>
+                        </item>
+                        <item>
+                            <label>Blue</label>
+                            <value>blue</value>
+                        </item>
+                    </code-table>
+                </code-tables>
+            </xf:instance>
+        </xf:model>
+    </head>
+    <body>
+        <h1>Getting Selection List Data From the XForms Model</h1>
+        <xf:select ref="ItemColorCode" appearance="full">
+            <xf:itemset nodeset="instance('code-tables')/code-table[code-table-id='ItemColorCode']/item">
+                <xf:label ref="label"/>
+                <xf:value ref="value"/>
+            </xf:itemset>
+        </xf:select>
+        <br/> Output: <xf:output ref="ItemColorCode"/>
+    </body>
+</html>

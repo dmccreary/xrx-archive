@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Person>
+    <PersonGivenName>Dan</PersonGivenName>
+    <PersonSurName>McCreary</PersonSurName>
+    <StreetFullText>123 Main St.</StreetFullText>
+    <LocationCityName>Anytown</LocationCityName>
+    <LocationStateName>MN</LocationStateName>
+    <LocationPostalCodeID>55426-1234</LocationPostalCodeID>
+    <ContactEmailID>dan@danmccreary.com</ContactEmailID>
+    <TelephoneNumberFullID>(612) 555-1212</TelephoneNumberFullID>
+</Person>

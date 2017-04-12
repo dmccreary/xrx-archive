@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>RequirementTestableCode</code-table-name>
+    <file-name>RequirementReleaseCodes.xml</file-name>
+    <items>
+        <item>
+            <label>Yes Unit Testable By Developer</label>
+            <value>yes-unit</value>
+        </item>
+        <item>
+            <label>Yes System Testable By Integration Test</label>
+            <value>yes-system</value>
+        </item>
+        <item>
+            <label>No</label>
+            <value>false</value>
+        </item>
+        <item>
+            <label>Unknown</label>
+            <value>unknown</value>
+        </item>
+    </items>
+</code-table>

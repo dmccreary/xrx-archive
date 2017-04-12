@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kpi-range>
+    <id>3</id>
+    <name>100 Point Student Assessment A, B, C, D and F</name>
+    <description>Tyicpally used in test grading where A is above 90% and F is below 60%.</description>
+    <intervals>
+        <interval>
+            <relationship>lt</relationship>
+            <!-- note the fist value is always null -->
+            <value/>
+            <label>Fail</label>
+            <color>red</color>
+        </interval>
+        <interval>
+            <relationship>gt</relationship>
+            <value>60</value>
+            <label>D</label>
+            <color>orange</color>
+        </interval>
+        <interval>
+            <relationship>gt</relationship>
+            <value>70</value>
+            <label>C</label>
+            <color>yellow</color>
+        </interval>
+        <interval>
+            <relationship>gt</relationship>
+            <value>80</value>
+            <label>B</label>
+            <color>green</color>
+        </interval>
+        <interval>
+            <relationship>gt</relationship>
+            <value>90</value>
+            <label>A</label>
+            <color>blue</color>
+        </interval>
+    </intervals>
+</kpi-range>

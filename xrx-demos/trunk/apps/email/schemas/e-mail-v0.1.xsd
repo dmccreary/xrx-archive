@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mail-messages" type="MailMessagesType"/>
+    <xs:annotation>
+        <xs:documentation>An XML Schema to validate an XML-encoded SMTP e-mail message based on RFC 5321 http://www.rfc-editor.org/rfc/rfc5321.txt All element names are based on the SMTP keyword.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType name="MailMessagesType">
+        <xs:annotation>
+            <xs:documentation>A collection of one or more e-mail messages.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="message">
+                <xs:annotation>
+                    <xs:documentation>A single e-mail message.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="headers">
+                            <xs:annotation>
+                                <xs:documentation>e-mail headers such as to, from, date, etc.</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="date" type="xs:date">
+                                        <xs:annotation>
+                                            <xs:documentation>The date and time the message was sent by the sender.</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                    <xs:element name="from" type="xs:string">
+                                        <xs:annotation>
+                                            <xs:documentation>Who the message is from.  Also known as the sender.</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                    <xs:element maxOccurs="unbounded" name="to" type="xs:string">
+                                        <xs:annotation>
+                                            <xs:documentation>A collection of one or more people or agents the message has been sent to.  Also known as the recipients.</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                    <xs:element maxOccurs="unbounded" name="cc" minOccurs="0" type="xs:string">
+                                        <xs:annotation>
+                                            <xs:documentation>Zero or more carbon copy recipients. Anyone that has also been sent a "carbon copy", in other words a person that is not the intended recipeient.</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                    <xs:element maxOccurs="unbounded" name="bcc" minOccurs="0" type="xs:string">
+                                        <xs:annotation>
+                                            <xs:documentation>Blind Carbon Copy.  Zero or more people that will get a copy of the message but the other recipients will not see this person has been sent a copy.</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                    <xs:element name="subject" type="xs:string">
+                                        <xs:annotation>
+                                            <xs:documentation>The subject of the message.</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="attachments">
+                            <xs:annotation>
+                                <xs:documentation>Zero to many attachements.</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element maxOccurs="unbounded" name="attachment" minOccurs="0">
+                                        <xs:annotation>
+                                            <xs:documentation>A single attachement.</xs:documentation>
+                                        </xs:annotation>
+                                        <xs:complexType>
+                                            <xs:attribute name="filename">
+                                                <xs:annotation>
+                                                    <xs:documentation>The name of the file for this attachment.</xs:documentation>
+                                                </xs:annotation>
+                                            </xs:attribute>
+                                            <xs:attribute name="mimetype">
+                                                <xs:annotation>
+                                                    <xs:documentation>The mime-type of this attachment.</xs:documentation>
+                                                </xs:annotation>
+                                            </xs:attribute>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="body">
+                            <xs:annotation>
+                                <xs:documentation>The message body.  The body must be either text or html.  HTML messages must be well-formed HTML.</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                                <xs:choice>
+                                    <xs:element name="text">
+                                        <xs:annotation>
+                                            <xs:documentation>The plain text body of the message.</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                    <xs:element name="html">
+                                        <xs:annotation>
+                                            <xs:documentation>The html structure of the body.  Must be well-formed HTML.</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                </xs:choice>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

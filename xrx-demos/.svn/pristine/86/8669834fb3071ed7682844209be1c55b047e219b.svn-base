@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>37</id>
+    <Classifier>Message Transformation</Classifier>
+    <PatternName>Content Filter</PatternName>
+    <Image>ContentFilterIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/ContentFilter.html</Reference>
+    <Description>How do you simplify dealing with a large message, when you are interested only in a
+      few data items?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

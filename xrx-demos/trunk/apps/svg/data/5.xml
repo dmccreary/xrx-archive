@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg-demo>
+    <id>5</id>
+    <name>Dual Range Controls of rect element</name>
+    <description>Demonstration of spline function.</description>
+    <category>medium</category>
+    <status>draft</status>
+    <tag>tag-1</tag>
+    <jquery>true</jquery>
+    <style>
+        body {font-family: Helvetica,Ariel,sans-serif;}
+        input, label {font-weight:bold; font-size: 2em;}
+        svg {border: solid 1px black; margin-left: 10px;}
+        .slider, svg {width: 300px;}
+    </style>
+    <script>
+       window.onload = function() {
+           var circle = document.getElementById('myCircle');
+           circle.setAttribute('r',$('#slider').slider('value'));
+       }
+    
+        $(
+          function() {
+             $('#slider1').slider(
+                  {
+                    min: 1,
+                    max: 250,
+                    value: 50,
+                    slide: function(event, ui) {                      
+                         document.getElementById('myRect').setAttribute('x', $('#slider1').slider('value'));                         
+                    }
+             });
+             
+             $('#slider2').slider(
+                  {
+                    min: 1,
+                    max: 150,
+                    value: 50,
+                    slide: function(event, ui) {                      
+                         document.getElementById('myRect').setAttribute('y', $('#slider2').slider('value'));                        
+                    }
+             });
+             
+             $('#slider3').slider(
+                  {
+                    min: 1,
+                    max: 150,
+                    value: 50,
+                    slide: function(event, ui) {                      
+                         document.getElementById('myRect').setAttribute('height', $('#slider3').slider('value'));                          
+                    }
+             });
+             
+             $('#slider4').slider(
+                  {
+                    min: 1,
+                    max: 250,
+                    value: 50,
+                    slide: function(event, ui) {                      
+                         document.getElementById('myRect').setAttribute('width', $('#slider4').slider('value'));                         
+                    }
+             });
+             
+          });
+
+    </script>
+    <svg width="300" height="200">
+        <g id="myGroup" fill="blue">
+            <rect id="myRect" x="50" y="50" height="50" width="50"/>
+        </g>
+    </svg>
+    <content>
+        <span class="label">x:</span>
+        <div id="slider1" class="slider"/>
+        <span class="label">y:</span>
+        <div id="slider2" class="slider"/>
+        <span class="label">height:</span>
+        <div id="slider3" class="slider"/>
+        <span class="label">width:</span>
+        <div id="slider4" class="slider"/>
+        <p>Move the slider to change the position and size of the rectangle.</p>
+    </content>
+    <expected-image>hello-world.png</expected-image>
+</svg-demo>

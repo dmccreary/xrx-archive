@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animal>
+    <id>6</id>
+    <animal-category-code>fish</animal-category-code>
+    <animal-type-code>goldfish</animal-type-code>
+    <animal-name>Goldy</animal-name>
+    <pruchase-amount>1.00</pruchase-amount>
+    <status>available</status>
+    <description>A quite pet.</description>
+    <image>goldfish.gif</image>
+</animal>

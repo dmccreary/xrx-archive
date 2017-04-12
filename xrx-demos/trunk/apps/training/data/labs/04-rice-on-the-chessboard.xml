@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>4a</id>
+    <name>Rice on the Chessboard</name>
+    <description>The purpose of this lab is to draw a 8X8 grid with various numbers in
+    each cell.</description>
+    <classes>
+        <id>2</id>
+    </classes>
+    <resources>
+        <resource>
+            <name>Google Doc</name>
+            <type>google-doc</type>
+            <url>https://docs.google.com/document/pub?id=1bOi5zMlP35eIa7J30irmMKG8FNbE9PIL9X-KMmS2RRU</url>
+        </resource>
+        <resource>
+            <name>8x8 Chessboard With Cell Number</name>
+            <description>This generates a 8X8 HTML table with each cell containing the cell count.</description>
+            <type>xquery-example</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/chess-board/01-chess-board.xq</url>
+        </resource>
+        <resource>
+            <name>8x8 Chessboard With Cell Squared</name>
+            <description>This generates a 8X8 HTML table with each cell showing the number of squared.</description>
+            <type>xquery-example</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/chess-board/02-chess-board-squared.xq</url>
+        </resource>
+        <resource>
+            <name>8x8 Chessboard With Rice Grain Counts</name>
+            <description>This generates a 8X8 HTML table with each cell showing the of grains of rice on the square.</description>
+            <type>xquery-example</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/chess-board/04-chess-board-double.xq</url>
+        </resource>
+        <resource>
+            <name>8x8 Chessboard In SVG</name>
+            <description>This generates a 8X8 HTML using SVG.</description>
+            <type>xquery-example</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/chess-board/chessboard-svg.xq</url>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

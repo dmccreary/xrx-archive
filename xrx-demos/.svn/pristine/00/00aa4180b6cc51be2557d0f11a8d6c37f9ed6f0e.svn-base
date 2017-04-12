@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>53</id>
+    <Classifier>System Management</Classifier>
+    <PatternName>Smart Proxy</PatternName>
+    <Image>SmartProxyIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/SmartProxy.html</Reference>
+    <Description>How can you track messages on a service that publishes reply messages to the Return
+      Address specified by the requestor?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

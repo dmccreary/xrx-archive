@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim file:/C:/Documents%20and%20Settings/Dan%20McCreary/My%20Documents/Projects/Library/Schemas/MARC21slim.xsd" id="ID001">
+    <record type="Bibliographic" id="ID003">
+        <leader id="ID005">      0   22        4500</leader>
+        <controlfield id="ID007" tag="001">controlfield0</controlfield>
+        <controlfield id="ID009" tag="001">controlfield1</controlfield>
+        <datafield id="ID011" tag="010" ind1=" " ind2=" ">
+            <subfield id="ID013" code="!">subfield0</subfield>
+            <subfield id="ID015" code="!">subfield1</subfield>
+        </datafield>
+        <datafield id="ID017" tag="010" ind1=" " ind2=" ">
+            <subfield id="ID019" code="!">subfield2</subfield>
+            <subfield id="ID021" code="!">subfield3</subfield>
+        </datafield>
+    </record>
+    <record type="Bibliographic" id="ID023">
+        <leader id="ID025">      0   22        4500</leader>
+        <controlfield id="ID027" tag="001">controlfield2</controlfield>
+        <controlfield id="ID029" tag="001">controlfield3</controlfield>
+        <datafield id="ID031" tag="010" ind1=" " ind2=" ">
+            <subfield id="ID033" code="!">subfield4</subfield>
+            <subfield id="ID035" code="!">subfield5</subfield>
+        </datafield>
+        <datafield id="ID037" tag="010" ind1=" " ind2=" ">
+            <subfield id="ID039" code="!">subfield6</subfield>
+            <subfield id="ID041" code="!">subfield7</subfield>
+        </datafield>
+    </record>
+</collection>

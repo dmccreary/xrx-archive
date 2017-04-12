@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<terms>
+    <term>
+        <id>100</id>
+        <term-name>Activity</term-name>
+        <definition>An element of work performed during the course of a project</definition>
+    </term>
+    <term>
+        <id>101</id>
+        <term-name>Activity Definitiont</term-name>
+        <definition>Identifying and documenting the specific activities that must be performed to produce the deliverables and sub-deliverables
+            identified in the work breakdown structure (WBS) and to ensure
+            that project objectives will be met.</definition>
+    </term>
+    <term>
+        <id>102</id>
+        <term-name>Approach</term-name>
+        <definition>A description of the project management strategies or summary of other management plans for achieving project objectives and deliverables.</definition>
+    </term>
+    <term>
+        <id>103</id>
+        <term-name>Assumptions</term-name>
+        <definition>Factors that, for planning purposes, will be considered true, real or certain.</definition>
+    </term>
+    <term>
+        <id>104</id>
+        <term-name>Change Control</term-name>
+        <definition>The process of controlling changes to the project schedule, cost, and scope.</definition>
+    </term>
+    <term>
+        <id>105</id>
+        <term-name>Communication Plan</term-name>
+        <definition>Determining what information needs to be given to which project stakeholders, and the method and frequency of disseminating that information.</definition>
+    </term>
+    <term>
+        <id>106</id>
+        <term-name>Constraints</term-name>
+        <definition>Factors that will limit the project team’s options.</definition>
+    </term>
+    <term>
+        <id>107</id>
+        <term-name>Critical Path</term-name>
+        <definition>The sequence of tasks that form the longest duration of the project.  Any task that lies on the critical path, if delayed, will delay the entire project.</definition>
+    </term>
+    <term>
+        <id>108</id>
+        <term-name>Decomposition</term-name>
+        <definition>Subdividing the major project deliverables into smaller, more manageable components.</definition>
+    </term>
+    <term>
+        <id>109</id>
+        <term-name>Duration</term-name>
+        <definition>The span of time over which the effort takes place.  Duration establishes the schedule for a project.</definition>
+    </term>
+    <term>
+        <id>110</id>
+        <term-name>Milestone</term-name>
+        <definition>A significant event in the project usually associated with the completion of a major deliverable (artifact). .</definition>
+    </term>
+    <term>
+        <id>111</id>
+        <term-name>Project Charter</term-name>
+        <definition>A document that formally recognizes the existence of a project. </definition>
+    </term>
+    <term>
+        <id>112</id>
+        <term-name>Project Control</term-name>
+        <definition>Comparing actual performance with planned performance, analyzing variances, evaluating possible alternatives and taking appropriate corrective action as needed. </definition>
+    </term>
+    <term>
+        <id>113</id>
+        <term-name>Project Requirements</term-name>
+        <definition>Conditions or capabilities that must be met or possessed by the deliverables of the project. </definition>
+    </term>
+</terms>

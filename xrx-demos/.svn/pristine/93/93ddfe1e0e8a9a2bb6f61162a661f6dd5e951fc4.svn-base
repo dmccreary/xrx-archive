@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>11</id>
+    <Classifier>Messaging Channels</Classifier>
+    <PatternName>Dead Letter Channel</PatternName>
+    <Image>DeadLetterChannelIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/DeadLetterChannel.html</Reference>
+    <Description>What will the messaging system do with a message it cannot deliver?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

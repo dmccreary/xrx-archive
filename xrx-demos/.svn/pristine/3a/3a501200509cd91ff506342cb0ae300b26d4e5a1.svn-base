@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="Requirement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="id"/>
+                <xs:element ref="RequirementParentID" maxOccurs="unbounded"/>
+                <xs:element ref="RequirementShortName"/>
+                <xs:element ref="RequirementDescriptionText"/>
+                <xs:element ref="ProjectID"/>
+                <xs:element ref="RequirementLevelCode"/>
+                <xs:element ref="RequirementPriorityCode"/>
+                <xs:element ref="RequirementCompletionStatusCode"/>
+                <xs:element ref="RequirementRequestedBy"/>
+                <xs:element ref="RequirementApprovedBy"/>
+                <xs:element ref="RequirementApprovalDate"/>
+                <xs:element ref="RequirementTestableCode"/>
+                <xs:element ref="RequirementClassifierCode"/>
+                <xs:element ref="RequirementTag"/>
+                <xs:element ref="RequirementAssignedToPersonID"/>
+                <xs:element ref="RequirmentBusinessRuleID"/>
+                <xs:element ref="RequirmentBusinessAnalists"/>
+                <xs:element ref="RequirementEstimatedDevelopmentDays"/>
+                <xs:element ref="RequirementCostEstimateAmount"/>
+                <xs:element ref="RequirementCompletionPercent"/>
+                <xs:element ref="RequirementCertaintyLevel"/>
+                <xs:element ref="RequirementReleaseCode"/>
+                <xs:element ref="RequirementDepends"/>
+                <xs:element ref="RequirementNoteText"/>
+                <xs:element ref="Resources"/>
+                <xs:element ref="created-by"/>
+                <xs:element ref="created-datetime"/>
+                <xs:element ref="last-modified-by"/>
+                <xs:element ref="last-modified-datetime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="id" type="xs:integer"/>
+    <xs:element name="RequirementParentID" type="xs:integer"/>
+    <xs:element name="RequirementShortName" type="xs:string"/>
+    <xs:element name="RequirementDescriptionText">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element minOccurs="0" ref="ol"/>
+                <xs:element minOccurs="0" ref="ul"/>
+                <xs:element minOccurs="0" ref="b"/>
+                <xs:element minOccurs="0" name="br"/>
+                <xs:element minOccurs="0" ref="i"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ol">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="li"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ul">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="li"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="b">
+        <xs:complexType mixed="true"/>
+    </xs:element>
+    <xs:element name="i">
+        <xs:complexType mixed="true"/>
+    </xs:element>
+    <xs:element name="li" type="xs:string"/>
+    <xs:element name="ProjectID" type="xs:integer"/>
+    <xs:element name="RequirementLevelCode" type="xs:integer"/>
+    <xs:element name="RequirementPriorityCode" type="xs:string"/>
+    <xs:element name="RequirementCompletionStatusCode" type="xs:string"/>
+    <xs:element name="RequirementRequestedBy" type="xs:string"/>
+    <xs:element name="RequirementApprovedBy">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="RequirementApprovalDate">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="RequirementTestableCode" type="xs:string"/>
+    <xs:element name="RequirementClassifierCode">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="RequirementTag">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="RequirementAssignedToPersonID">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="RequirmentBusinessRuleID">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="RequirmentBusinessAnalists">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="RequirementEstimatedDevelopmentDays" type="xs:integer"/>
+    <xs:element name="RequirementCostEstimateAmount" type="xs:integer"/>
+    <xs:element name="RequirementCompletionPercent" type="xs:integer"/>
+    <xs:element name="RequirementCertaintyLevel" type="xs:decimal"/>
+    <xs:element name="RequirementReleaseCode" type="xs:string"/>
+    <xs:element name="RequirementDepends">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="RequirementNoteText">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="Resources">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Resource"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Resource">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ResourceTypeCode"/>
+                <xs:element ref="ResourceLabelText"/>
+                <xs:element ref="ResourceURL"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ResourceTypeCode" type="xs:string"/>
+    <xs:element name="ResourceLabelText">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="ResourceURL">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="created-by" type="xs:string"/>
+    <xs:element name="created-datetime">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="last-modified-by" type="xs:string"/>
+    <xs:element name="last-modified-datetime">
+        <xs:complexType/>
+    </xs:element>
+</xs:schema>

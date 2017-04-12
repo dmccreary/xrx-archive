@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<training-topics>
+    <id>xquery</id>
+    <name>XQuery</name>
+    <description>General XQuery training topics that are not eXist specific.</description>
+    <topic>
+        <id>0</id>
+        <name>Class Intro</name>
+        <length>30</length>
+        <description>Class Structure and Background</description>
+        <depends-on>
+            <topic-id/>
+        </depends-on>
+        <resources>
+            <resource>
+                <resource-name>Class Intro</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>Powerpoint slides for Introduction</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xquery/01-Class-Intro.ppt</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>1</id>
+        <name>XML Review</name>
+        <length>15</length>
+        <description>A review of XML syntax including element and attributes.</description>
+        <depends-on>
+            <topic-id/>
+        </depends-on>
+        <resources>
+            <resource>
+                <resource-name>XML Review Slides</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>Powerpoint slides to review basic XML
+                    terms.</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xquery/xml-review.ppt</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>2</id>
+        <name>Review of XHTML</name>
+        <length>15</length>
+        <description>A review of XHTML elements used in this class including div, span, lists and
+            tables.</description>
+        <depends-on>
+            <topic-id/>
+        </depends-on>
+    </topic>
+    <topic>
+        <id>3</id>
+        <name>XQuery Syntax</name>
+        <length>45</length>
+        <description>The basic syntax of an XQuery file including variables and return
+            results.</description>
+        <depends-on>
+            <topic-id>1</topic-id>
+        </depends-on>
+        <resources>
+            <resource>
+                <resource-name>XQuery Syntax Slides</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>Powerpoint slides on XQuery Basic
+                    Syntax.</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xquery/01-XQuery-Basic-Syntax.ppt</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>4</id>
+        <name>Sequences</name>
+        <length>60</length>
+        <description>The foundation of the XQuery language and many other programming languages is
+            the efficient management of sequences. This topic includes the presentation of examples
+            of sequences and a review of major functions that process sequences.</description>
+        <depends-on>
+            <topic-id>1</topic-id>
+        </depends-on>
+        <resources>
+            <resource>
+                <resource-name>Sequences Slides</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>Powerpoint slides on sequences.</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xquery/03-Sequences.ppt</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Sequences Wikibook</resource-name>
+                <resource-type>wikibook</resource-type>
+                <resource-description>Wikibook on Sequences</resource-description>
+                <resource-url>http://en.wikibooks.org/wiki/XQuery/Sequences</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>xml-to-html</id>
+        <name>Transforming Books to an HTML Table</name>
+        <length>60</length>
+        <description>In this topic we transform XML into HTML. We will use the books sample and
+            transform the books into HTML lists and tables. We will also describe how to add links
+            in HTML that will call back HTML XQuery pages with different sort order.</description>
+        <depends-on>
+            <topic-id>1</topic-id>
+        </depends-on>
+        <status>done</status>
+        <resources>
+            <resource>
+                <resource-name>Books Lab</resource-name>
+                <resource-type>google-doc</resource-type>
+                <resource-description>Books Lab</resource-description>
+                <resource-url>https://docs.google.com/document/pub?id=1QF574YqrpLjfcYhFdchFjJWPQrKhKwPA1xvQxy4tGuE</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Books Sample Resources</resource-name>
+                <resource-type>sample-resources</resource-type>
+                <resource-description>Books XML Sample</resource-description>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/index.xq?collection=books</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Books Sample XML Data</resource-name>
+                <resource-type>sample-xml-data</resource-type>
+                <resource-description>Books XML Sample</resource-description>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/books/books-sample.xml</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Books Sample Table Listing</resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description>XQuery Listing Books in HTML Table</resource-description>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/books/list-books.xq</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Books Sample Table Listing Extra Credit</resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description>XQuery Listing Books in HTML Table</resource-description>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/books/list-books.xq</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>5</id>
+        <name>Basic XPath</name>
+        <length>60</length>
+        <description>XPath is the way that we select nodes in trees. There are also 90/10 rules in
+            that well over 90% of the time you are only selecting items using child path expressions
+            and simple predicates with equality tests.</description>
+        <depends-on>
+            <topic-id>1</topic-id>
+        </depends-on>
+        <resources>
+            <resource>
+                <resource-name>XPath Lab</resource-name>
+                <resource-type>google-doc</resource-type>
+                <resource-description>XPath Lab</resource-description>
+                <resource-url>https://docs.google.com/document/pub?id=106sITDEG3FRVe9G2mBgQt0guTZpIpVsVcsOZdwGOBx4</resource-url>
+            </resource>
+            <resource>
+                <resource-name>XPath Wikibook</resource-name>
+                <resource-type>wikibook-article</resource-type>
+                <resource-description>XPath Wikibook with Books Examples</resource-description>
+                <resource-url>http://en.wikibooks.org/wiki/XQuery/XPath_examples</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>6</id>
+        <name>Collections</name>
+        <length>30</length>
+        <description>What are native XML collections?</description>
+        <depends-on>
+            <topic-id>1</topic-id>
+        </depends-on>
+        <resources>
+            <resource>
+                <resource-name/>
+                <resource-type/>
+                <resource-description/>
+                <resource-url/>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>7</id>
+        <name>Functional Programming</name>
+        <length>60</length>
+        <description>Functional programming is a core concept that has a focus on independent
+            operations on items. Unlike procedural programming where each iteration of a loop allows
+            communication between iterations, in functional programming each loop in an independent
+            thread of execution. Related to this is the concept of higher-order functions or HOF
+            that pass functions and parameters to other functions. We touch on HOF but do not spend
+            much time with it.</description>
+        <depends-on>
+            <topic-id/>
+        </depends-on>
+        <resources>
+            <resource>
+                <resource-name>PPT slides on Functional Programming</resource-name>
+                <resource-type>pptx</resource-type>
+                <resource-description>PPT slides on Functional Programming</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xquery/Functional-Programming.pptx</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>8</id>
+        <name>XQuery Functions</name>
+        <length>30</length>
+        <description>The core method of building highly reusable code is to create libraries of
+            XQuery functions and group these together in XQuery modules. This module introduces the
+            concept of XQuery functions and how they take inputs and return outputs.</description>
+        <depends-on>
+            <topic-id>3</topic-id>
+            <topic-id>4</topic-id>
+            <topic-id>5</topic-id>
+        </depends-on>
+        <resources>
+            <resource>
+                <resource-name>XML Data Types Slides</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>Powerpoint slides on XML datatypes.</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xquery/05-XQuery-Functions.ppt</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>8a</id>
+        <name>XQuery Modules</name>
+        <length>30</length>
+        <description>The core method of building highly reusable code is to create libraries of
+            XQuery functions and group these together in XQuery modules. This module introduces the
+            concept of XQuery functions and how they take inputs and return outputs.</description>
+        <depends-on>
+            <topic-id>8</topic-id>
+        </depends-on>
+        <resources>
+            <resource>
+                <resource-name>XML Data Types Slides</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>Powerpoint slides on XML datatypes.</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xquery/05-XQuery-Functions.ppt</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>9</id>
+        <name>XQuery Builtin Data Types</name>
+        <length>60</length>
+        <description>XQuery has a wide variety of data types for strings, integers and dates. This
+            topic covers these data types and how they are used.</description>
+        <depends-on>
+            <topic-id>3</topic-id>
+        </depends-on>
+        <status/>
+        <resources>
+            <resource>
+                <name>PPT Slides</name>
+                <type>ppt</type>
+                <description>Slides on XQuery data types.</description>
+                <status>to-be-done</status>
+                <url>http://www.danmccreary.com/training/xquery/TDB</url>
+            </resource>
+            <resource>
+                <resource-name>Wikibook</resource-name>
+                <resource-type>wikibook</resource-type>
+                <resource-status>to-be-done</resource-status>
+                <resource-description/>
+                <resource-url>http://en.wikibooks.org/wiki/XQuery/</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>10</id>
+        <name>Strongly Typed Languages</name>
+        <description>Description</description>
+        <status>XQuery allows you to optionally perform fine grained checking of all inputs and
+            outputs of XQuery functions. This feature combined with simple validation functions can
+            make XQuery very robust at checking data quality. We discuss how XQuery functions can
+            and should check for incoming and outgoing data types.</status>
+        <resources>
+            <dependancies>
+                <topic>8</topic>
+            </dependancies>
+            <resource>
+                <name>PPT Slides</name>
+                <type>ppt</type>
+                <description>Slides on strongly typed checking.</description>
+                <status>to-be-done</status>
+                <url>http://www.danmccreary.com/training/xquery</url>
+            </resource>
+            <resource>
+                <resource-name>Wikibook</resource-name>
+                <resource-type>wikibook</resource-type>
+                <resource-status>to-be-done</resource-status>
+                <resource-description/>
+                <resource-url>http://en.wikibooks.org/wiki/XQuery</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>11</id>
+        <name>Integration Patterns</name>
+        <description>The terminology in many XML-centric systems is focused on the flow of data
+            between systems, not just about how data sits in objects or tables. So we usually
+            introduce integration pattern terminology early in the class.</description>
+        <depends-on>
+            <topic-id/>
+        </depends-on>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>PPT Slides</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description/>
+                <resource-status>to-be-done</resource-status>
+                <resource-url>http://www.danmccreary.com/training/xquery</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Wikibook</resource-name>
+                <resource-type>wikibook</resource-type>
+                <resource-description/>
+                <resource-url>http://en.wikibooks.org/wiki/XQuery/</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>12</id>
+        <name>oXygen setup</name>
+        <length>30</length>
+        <description>Setup of oXygen IDE, syntax highlighting and autocompleation</description>
+        <depends-on>
+            <topic-id/>
+        </depends-on>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>PPT Slides</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description/>
+                <resource-url>http://www.danmccreary.com/training/xquery/oXygen.ppt</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>13</id>
+        <name>Encapsulation with XQuery Modules</name>
+        <length>30</length>
+        <description>Object oriented systems gain their strength by providing interface “methods” to
+            complex data structures. With XQuery we do this by providing subscribers interfaces to
+            our data.</description>
+        <status>development</status>
+        <depends-on>
+            <topic-id>3</topic-id>
+        </depends-on>
+        <resources>
+            <resource>
+                <resource-name>PPT Slides</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description/>
+                <resource-url>http://www.danmccreary.com/training/xquery</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Wikibook</resource-name>
+                <resource-type>wikibook</resource-type>
+                <resource-description/>
+                <resource-url>http://en.wikibooks.org/wiki/XQuery/</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>14</id>
+        <name>Recursion</name>
+        <length>60</length>
+        <description>Recursion is used frequently in XML.</description>
+        <depends-on>
+            <topic-id>5</topic-id>
+        </depends-on>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>PPT Slides on Recursion</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description/>
+                <resource-url>http://www.danmccreary.com/training/xquery/06-Recursive-Functions.ppt</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Recursion Examples</resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description>Samples of Recusive Math Functions</resource-description>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/index.xq?collection=recursion</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Recursion Lab 1 - Sum the numbers in a Sequence</resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description>Samples of Recusive Math Functions</resource-description>
+                <resource-url>https://docs.google.com/document/pub?id=1HMefioUWRIrplSDNNGku2IY3kIJCx0ZXFETzVrJHDR8</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Fiboancci Lab </resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description>Fiboancci Function with Primer and Recursive
+                    Functions</resource-description>
+                <resource-url>https://docs.google.com/document/d/1WvwjWFGPaN-O8CG3AkA_w5xUChqN2VW2AquTTrOM8SE/edit?hl=en#</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>15</id>
+        <name>Namespaces</name>
+        <length>30</length>
+        <description>How to take multiple namespaces into consideration when writing XML
+        Queries.</description>
+        <depends-on>
+            <topic-id>5</topic-id>
+        </depends-on>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>PPT Slides</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>Slides on namespaces</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xquery/namespaces.pptx</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>16</id>
+        <name>XQuery Injection</name>
+        <length>30</length>
+        <description>How to prevent XQuery injection attacks.</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>XML Prague Session</resource-name>
+                <resource-type>presentation</resource-type>
+                <resource-description/>
+                <resource-url>http://www.xmlprague.cz/2011/sessions.html#XQuery-injection</resource-url>
+            </resource>
+            <resource>
+                <resource-name>XML Prague Presentation</resource-name>
+                <resource-type>xhtml-presentation</resource-type>
+                <resource-description>Slides from Eric van der Vlist</resource-description>
+                <resource-url>http://www.xmlprague.cz/2011/presentations/eric-vdv-xquery-injection/xquery-injection.xhtml</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>17</id>
+        <name>Basic Search</name>
+        <length>60</length>
+        <description>Search Functions with eXist and XQuery</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>Basic Search Lab</resource-name>
+                <resource-type>google-docs</resource-type>
+                <resource-description>Building basic search form and and search
+                    service.</resource-description>
+                <resource-url>https://docs.google.com/document/pub?id=181VmW6XbKiGyCduDTSjPCe25czqtZCJnQBGEShfUHwg</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Basic Search Lab Resources</resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description>Basic Search Lab Resources</resource-description>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/basic-search</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>18</id>
+        <name>Lucene Fulltext Serch</name>
+        <length>60</length>
+        <description>Lucene is the fulltext search engine used by eXist.</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>Lucene Search</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>Building basic search form and and search
+                    service.</resource-description>
+                <resource-url>TBD</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>19</id>
+        <name>Typeswitch Transforms</name>
+        <length>60</length>
+        <description>Transforming complex documents with XQuery Typeswitch</description>
+        <prerequsites>
+            <!-- depends on recursion -->
+            <topic>14</topic>
+        </prerequsites>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>Wikibook on Complex Document Processing</resource-name>
+                <resource-type>wikibook</resource-type>
+                <resource-description>How to use the XQUery typeswitch function to process complex
+                    documents.</resource-description>
+                <resource-url>http://en.wikibooks.org/wiki/XQuery#Processing_Complex_XML_documents</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>20</id>
+        <name>Conditionals</name>
+        <length>30</length>
+        <description>Use of if/then/else in XQuery</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <name>Checkerboard Lab</name>
+                <type>google-docs</type>
+                <description>Generate an 8x8 Checkboard in HTML and SVG.</description>
+                <url>https://docs.google.com/document/pub?id=1-_RNyT-hQOWWAnBJ7RR4dKOxu507yUor9-QijAIqSec</url>
+            </resource>
+            <resource>
+                <resource-name>Chessboard Lab</resource-name>
+                <resource-type>google-doc</resource-type>
+                <resource-description/>
+                <resource-url>https://docs.google.com/document/pub?id=1-_RNyT-hQOWWAnBJ7RR4dKOxu507yUor9-QijAIqSec</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Chessboard Demo SVG With Parameters</resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description/>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/index.xq?collection=chess-board</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Big Chess Board</resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description/>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/chess-board/chessboard-svg.xq?rows=12&amp;cols=12&amp;size=40</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>21</id>
+        <name>Code Tables</name>
+        <length>30</length>
+        <description>Use of code tables to seperate model from presentation layers.</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>Code Table Lab</resource-name>
+                <resource-type>google-docs</resource-type>
+                <resource-description>Code tables</resource-description>
+                <resource-url>https://docs.google.com/document/pub?id=1gQzRffrTEBYrJEfWhLnnRZHs3IKsiWx0b2G89-LYUyY</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>22</id>
+        <name>Breadcrumb Function</name>
+        <length>30</length>
+        <description>Use of an XQuery function to create a breadcrumb.</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>Breadcrumb Lab</resource-name>
+                <resource-type>google-docs</resource-type>
+                <resource-description>Unit testing with an XML file</resource-description>
+                <resource-url>https://docs.google.com/document/pub?id=1l73LFz3KCVe0JAUE1iK4JzYQlkSuZdW411ENEQM4a48</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Breadcrumb Resources</resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description>XQuery resources</resource-description>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/index.xq?collection=breadcrumbs</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>23</id>
+        <name>Page Assembler</name>
+        <length>30</length>
+        <description>Use of an XQuery function to assemble a page.</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>Page Assembler Lab</resource-name>
+                <resource-type>google-docs</resource-type>
+                <resource-description>Unit testing with an XML file</resource-description>
+                <resource-url>https://docs.google.com/document/pub?id=17MT39UvRq_tHXxOEGQkVA-qqx6STQWcaQe7usYu_ixY</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Page Assembler Resources</resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description>XQuery resources</resource-description>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/index.xq?collection=page-assembler</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>24</id>
+        <name>Unit Testing</name>
+        <length>30</length>
+        <description>Use of simple XML files for simple function testing.</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>Unit Test Lab</resource-name>
+                <resource-type>google-docs</resource-type>
+                <resource-description>Unit testing with an XML file</resource-description>
+                <resource-url>https://docs.google.com/document/pub?id=1YWzGdWECnVdd8BxIEbKqkBeTmvC3nqBgMiQb83RHC3I</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Unit Test Resources</resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description>XQuery resources</resource-description>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/index.xq?collection=unit-test</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>25</id>
+        <name>Validation</name>
+        <length>60</length>
+        <description>Use of the validation functions to validate XML documents</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>Validation Lab</resource-name>
+                <resource-type>google-docs</resource-type>
+                <resource-description>XML Schema Valiation</resource-description>
+                <resource-url>https://docs.google.com/document/pub?id=1G14XBAD42UwcP3k99LISRrLQantisbNB4WJOUX3B_Wg</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Validation Resources</resource-name>
+                <resource-type>xquery</resource-type>
+                <resource-description>XQuery resources</resource-description>
+                <resource-url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/index.xq?collection=validation</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>26</id>
+        <name>Complex Search</name>
+        <length>60</length>
+        <description>Use of the validation functions to validate XML documents</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>Complex Search Lab</resource-name>
+                <resource-type>google-docs</resource-type>
+                <resource-description>Complex Search Lab</resource-description>
+                <resource-url>TBD</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>27</id>
+        <name>Complex Documents</name>
+        <length>60</length>
+        <description>We define complex documents and their attributes and how XQuery has tools to
+            manage complex documents.</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <resource-name>Complex Documents</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>Complex Search Lab</resource-description>
+                <resource-url>TBD</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>100</id>
+        <name>Template</name>
+        <length>30</length>
+        <description>Description</description>
+        <status>development</status>
+        <resources>
+            <resource>
+                <name>PPT Slides</name>
+                <type>ppt</type>
+                <description/>
+                <url>http://www.danmccreary.com/training/xquery</url>
+            </resource>
+            <resource>
+                <resource-name>Wikibook</resource-name>
+                <resource-type>wikibook</resource-type>
+                <resource-description/>
+                <resource-url>http://en.wikibooks.org/wiki/XQuery/</resource-url>
+            </resource>
+        </resources>
+    </topic>
+</training-topics>

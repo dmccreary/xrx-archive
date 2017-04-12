@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>actor-code</name>
+    <description>This is a description of a sample set of category codes.</description>
+    <items>
+        <item>
+            <label>Business Analysist</label>
+            <value>category-one</value>
+            <definition>Definition of when to use code category one.</definition>
+        </item>
+        <item>
+            <label>Category Two</label>
+            <value>category-two</value>
+            <definition>Definition of when to use category two.</definition>
+        </item>
+        <item>
+            <label>Category Three</label>
+            <value>category-three</value>
+            <definition>Definition of when to use category three.</definition>
+        </item>
+    </items>
+</code-table>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg-demo>
+    <id>1</id>
+    <name>Hello World</name>
+    <description>Demonstration of "Hello World" text running with SVGWeb on all
+        browsers.</description>
+    <category>medium</category>
+    <status>draft</status>
+    <tag>tag-1</tag>
+    <css/>
+    <script/>
+    <svg id="mySVG" width="250" height="150" style="border: 1px solid black;">
+        <g id="myGroup">
+            <circle class="ornament" cx="40" cy="40" r="25" fill="red"/>
+            <text id="myText" x="60" y="100" font-family="Helvetica" font-size="24" font-weight="bold" fill="blue">Hello World!</text>
+        </g>
+    </svg>
+    <expected-image>hello-world.png</expected-image>
+</svg-demo>

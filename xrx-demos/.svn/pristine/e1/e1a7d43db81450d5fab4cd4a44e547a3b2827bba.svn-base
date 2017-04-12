@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg-demo>
+    <id>7</id>
+    <name>Sine wave with amplitude and frequence controls</name>
+    <description>Sine wave with amplitude and frequence controls.</description>
+    <category>medium</category>
+    <status>draft</status>
+    <tag>tag-1</tag>
+    <jquery>true</jquery>
+    <style>
+        body {font-family: Helvetica,Ariel,sans-serif;}
+        .content label {font-weight:bold; font-size: 1em;}
+        svg {border: solid 1px black; margin-left: 10px;}
+        .slider, svg {width: 300px;}
+    </style>
+    <script>
+      window.onload = function() {
+           document.getElementById('ampText').lastChild.nodeValue = $('#ampSlider').slider('value') / 50 ;
+           document.getElementById('periodText').lastChild.nodeValue = $('#periodSlider').slider('value') / 50; 
+       }
+    
+        $(
+          function() {
+             $('#ampSlider').slider(
+                  {
+                    min: 1,
+                    max: 100,
+                    value: 50,
+                    slide: function(event, ui) {                         
+                         document.getElementById('ampText').lastChild.nodeValue = $('#ampSlider').slider('value') / 50;
+                         makeGraph(event, $('#ampSlider').slider('value') / 50, $('#periodSlider').slider('value'));
+                    }
+             });
+             
+             $('#periodSlider').slider(
+                  {
+                    min: 1,
+                    max: 100,
+                    value: 50,
+                    slide: function(event, ui) {      
+                         document.getElementById('periodText').lastChild.nodeValue = $('#periodSlider').slider('value') ;
+                         makeGraph(event, $('#ampSlider').slider('value') / 50 , $('#periodSlider').slider('value'));                   
+                    }
+             });
+             
+          });
+    </script>
+    <script-src>7.js</script-src>
+    <svg onload="makeGraph(evt, 1, 50)" width="300" height="200">
+        <text x="10" y="160">y=sin(x)</text>
+        <text x="10" y="175">Amplitude:</text>
+        <text id="ampText" x="70" y="175">1</text>
+        <text x="10" y="190">Period:</text>
+        <text id="periodText" x="70" y="190">1</text>
+        
+            <!-- Pattern Definition -->
+        <defs>
+            <pattern id="rulerPattern" patternUnits="userSpaceOnUse" x="0" y="0" width="10" height="10" viewBox="0 0 10 10">
+                <line x1="0" y1="0" x2="10" y2="0" stroke="lightblue" fill="none" stroke-dasharray="2,2"/>
+                <line x1="0" y1="0" x2="0" y2="10" stroke="lightblue" fill="none" stroke-dasharray="2,2"/>
+            </pattern>
+        </defs>
+            
+        <!-- Thin Blue Dash Graph Background -->
+        <rect x="0" y="0" width="300" height="200" fill="url(#rulerPattern)"/>
+        <g opacity="0.5">
+            <line x1="0" y1="100" x2="300" y2="100" fill="none" stroke="red"/>
+            <line x1="1" y1="1" x2="0" y2="200" fill="none" stroke="red"/>
+        </g>
+        <g id="draw-line" transform="translate(0, 100)"/>
+    </svg>
+    <content>
+        <label for="ampSlider">Amplitude:</label>
+        <div id="ampSlider" class="slider"/>
+        <label for="periodSlider">Period:</label>
+        <div id="periodSlider" class="slider"/>
+        <p>Move the slider to change the value of the input value in the input text.</p>
+    </content>
+    <expected-image/>
+</svg-demo>

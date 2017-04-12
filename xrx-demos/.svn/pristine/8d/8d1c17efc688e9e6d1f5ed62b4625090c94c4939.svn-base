@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>RequirementPriorityCode</code-table-name>
+    <file-name>RequirementPriorityCode.xml</file-name>
+    <items>
+        <item>
+            <label>Very Low</label>
+            <value>very-low</value>
+            <rank>6</rank>
+        </item>
+        <item>
+            <label>Low</label>
+            <value>low</value>
+            <rank>5</rank>
+        </item>
+        <item>
+            <label>Medium</label>
+            <value>medium</value>
+            <rank>4</rank>
+        </item>
+        <item>
+            <label>High</label>
+            <value>high</value>
+            <rank>3</rank>
+        </item>
+        <item>
+            <label>Very High</label>
+            <value>very-high</value>
+            <rank>2</rank>
+        </item>
+        <item>
+            <label>Critical</label>
+            <value>critical</value>
+            <rank>1</rank>
+        </item>
+    </items>
+</code-table>

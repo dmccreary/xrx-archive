@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/101/trunk/17-generate-application/apps/template-01/views
+END
+list-items.xq
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/101/trunk/17-generate-application/apps/template-01/views/list-items.xq
+END
+xrx-test.xq
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/101/trunk/17-generate-application/apps/template-01/views/xrx-test.xq
+END
+list-categories.xq
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/101/trunk/17-generate-application/apps/template-01/views/list-categories.xq
+END
+view-item.xq
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/101/trunk/17-generate-application/apps/template-01/views/view-item.xq
+END
+metrics.xq
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/101/trunk/17-generate-application/apps/template-01/views/metrics.xq
+END

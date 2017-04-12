@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg-demo>
+    <id>2</id>
+    <name>Range Controls Circle Radius</name>
+    <description>Demonstration of "Hello World" text running with SVGWeb on all
+        browsers.</description>
+    <category>medium</category>
+    <status>draft</status>
+    <tag>tag-1</tag>
+    <jquery>true</jquery>
+    <style>
+        body {font-family: Helvetica,Ariel,sans-serif;}
+        input, label {font-weight:bold; font-size: 2em;}
+        svg {border: solid 1px black; margin-left: 10px;}
+        .slider, svg {width: 300px;}
+    </style>
+    <script>
+        
+        window.onload = function() {
+           var circle = document.getElementById('myCircle');
+           circle.setAttribute('r',$('#slider').slider('value'));
+       }
+    
+        $(
+          function() {
+             $('#slider').slider(
+                  {
+                    min: 1,
+                    max: 100,
+                    value: 50,
+                    slide: function(event, ui) {                      
+                         document.getElementById('myCircle').setAttribute('r', $('#slider').slider('value'));                       
+                    }
+             });
+             
+          });
+    </script>
+    <svg width="300" height="200">
+        <g id="myGroup" fill="blue">
+            <circle id="myCircle" cx="150" cy="100" r="50"/>
+        </g>
+    </svg>
+    <content>
+        <div id="slider" class="slider"/>
+        <p>Move the slider to change the size of the circle.</p>
+    </content>
+    <expected-image>hello-world.png</expected-image>
+</svg-demo>

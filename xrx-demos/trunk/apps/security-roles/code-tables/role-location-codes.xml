@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>role-location-code</name>
+    <description>This is a description of where the role applies (Intranet or Public Web Site).</description>
+    <items>
+        <item>
+            <label>Public Web Site</label>
+            <value>public-web-site</value>
+            <definition>This role applies to the public web site.</definition>
+        </item>
+        <item>
+            <label>Intranet</label>
+            <value>intranet</value>
+            <definition>This role applies to the internal web site (Intranet) and does not allow public access.</definition>
+        </item>
+    </items>
+</code-table>

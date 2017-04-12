@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>47</id>
+    <Classifier>Messaging Endpoints</Classifier>
+    <PatternName>Durable Subscriber</PatternName>
+    <Image>DurableSubscriptionIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/DurableSubscription.html</Reference>
+    <Description>How can a subscriber avoid missing messages while it’s not listening for
+    them?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

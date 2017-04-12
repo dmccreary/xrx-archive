@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Requirement>
+    <id>62</id>
+    <RequirementParentID>3</RequirementParentID>
+    <RequirementShortName>Define Partner Profile Instance</RequirementShortName>
+    <RequirementDescriptionText>There is a base file structure out there that was used for a demo last summer.  I think it could be modified for use here.  The estimate below is based on the notion that there are not many changes. </RequirementDescriptionText>
+    <ProjectID>1</ProjectID>
+    <RequirementLevelCode>0</RequirementLevelCode>
+    <RequirementPriorityCode>medium</RequirementPriorityCode>
+    <RequirementCompletionStatusCode>new</RequirementCompletionStatusCode>
+    <RequirementRequestedBy>dan</RequirementRequestedBy>
+    <RequirementApprovedBy/>
+    <RequirementApprovalDate/>
+    <RequirementTestableCode>unknown</RequirementTestableCode>
+    <RequirementClassifierCode/>
+    <RequirementTag/>
+    <RequirementAssignedToPersonID/>
+    <RequirmentBusinessRuleID/>
+    <RequirmentBusinessAnalists/>
+    <RequirementEstimatedDevelopmentDays>2</RequirementEstimatedDevelopmentDays>
+    <RequirementCostEstimateAmount>200</RequirementCostEstimateAmount>
+    <RequirementCompletionPercent>75</RequirementCompletionPercent>
+    <RequirementCertaintyLevel>50</RequirementCertaintyLevel>
+    <RequirementReleaseCode>version-1</RequirementReleaseCode>
+    <RequirementDepends/>
+    <RequirementNoteText/>
+    <Resources>
+        <Resource>
+            <ResourceTypeCode>unit-test</ResourceTypeCode>
+            <ResourceLabelText>Label</ResourceLabelText>
+            <ResourceURL>http://</ResourceURL>
+        </Resource>
+    </Resources>
+    <created-by>dan@danmccreary.com</created-by>
+    <created-datetime>2012-01-26T15:44:44.593Z</created-datetime>
+    <last-modified-by>admin</last-modified-by>
+    <last-modified-datetime>2012-01-26T15:45:38.229Z</last-modified-datetime>
+</Requirement>

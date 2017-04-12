@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>37</id>
+    <name>Site Map</name>
+    <description>In this lab students create a site-map for a content management system.</description>
+    <programlisting/>
+    <resources>
+        <resource>
+            <name>Site Map Lab</name>
+            <type>google-doc</type>
+            <url>https://docs.google.com/document/pub?id=1Q1uxwlzL6300Ka16W2BWDemPdtyowFxgBmFucjKR4rE</url>
+        </resource>
+        <resource>
+            <name>Wikibook Sitemap Page</name>
+            <type>wikibook</type>
+            <url>http://en.wikibooks.org/wiki/XQuery/Sitemap_for_Content_Management_System</url>
+        </resource>
+        <resource>
+            <name>Count Collections</name>
+            <type>xquery-executable</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/site-map/01-count-collections.xq</url>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

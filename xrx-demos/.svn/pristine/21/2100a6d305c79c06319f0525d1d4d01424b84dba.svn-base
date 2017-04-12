@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML xmlns="http://www.dmg.org/PMML-4_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.1">
+    <Header copyright="MIPA UGM">
+        <Application name="KNIME" version="2.2"/>
+    </Header>
+    <DataDictionary numberOfFields="5">
+        <DataField name="sepal_length" optype="continuous" dataType="double">
+            <Interval closure="closedClosed" leftMargin="4.3" rightMargin="7.9"/>
+        </DataField>
+        <DataField name="sepal_width" optype="continuous" dataType="double">
+            <Interval closure="closedClosed" leftMargin="2.0" rightMargin="4.4"/>
+        </DataField>
+        <DataField name="petal_length" optype="continuous" dataType="double">
+            <Interval closure="closedClosed" leftMargin="1.0" rightMargin="6.9"/>
+        </DataField>
+        <DataField name="petal_width" optype="continuous" dataType="double">
+            <Interval closure="closedClosed" leftMargin="0.1" rightMargin="2.5"/>
+        </DataField>
+        <DataField name="class" optype="categorical" dataType="string">
+            <Value value="Iris-setosa"/>
+            <Value value="Iris-versicolor"/>
+            <Value value="Iris-virginica"/>
+        </DataField>
+    </DataDictionary>
+    <TreeModel modelName="DecisionTree" functionName="classification" splitCharacteristic="binarySplit" missingValueStrategy="lastPrediction">
+        <MiningSchema>
+            <MiningField name="sepal_length"/>
+            <MiningField name="sepal_width"/>
+            <MiningField name="petal_length"/>
+            <MiningField name="petal_width"/>
+            <MiningField name="class" usageType="predicted"/>
+        </MiningSchema>
+        <Node id="0" score="Iris-setosa" recordCount="150.0">
+            <True/>
+            <ScoreDistribution value="Iris-setosa" recordCount="50.0"/>
+            <ScoreDistribution value="Iris-versicolor" recordCount="50.0"/>
+            <ScoreDistribution value="Iris-virginica" recordCount="50.0"/>
+            <Node id="1" score="Iris-setosa" recordCount="50.0">
+                <SimplePredicate field="petal_width" operator="lessOrEqual" value="0.6"/>
+                <ScoreDistribution value="Iris-setosa" recordCount="50.0"/>
+                <ScoreDistribution value="Iris-versicolor" recordCount="0.0"/>
+                <ScoreDistribution value="Iris-virginica" recordCount="0.0"/>
+            </Node>
+            <Node id="2" score="Iris-versicolor" recordCount="100.0">
+                <SimplePredicate field="petal_width" operator="greaterThan" value="0.6"/>
+                <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                <ScoreDistribution value="Iris-versicolor" recordCount="50.0"/>
+                <ScoreDistribution value="Iris-virginica" recordCount="50.0"/>
+                <Node id="3" score="Iris-versicolor" recordCount="54.0">
+                    <SimplePredicate field="petal_width" operator="lessOrEqual" value="1.7"/>
+                    <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                    <ScoreDistribution value="Iris-versicolor" recordCount="49.0"/>
+                    <ScoreDistribution value="Iris-virginica" recordCount="5.0"/>
+                    <Node id="4" score="Iris-versicolor" recordCount="48.0">
+                        <SimplePredicate field="petal_length" operator="lessOrEqual" value="4.9"/>
+                        <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                        <ScoreDistribution value="Iris-versicolor" recordCount="47.0"/>
+                        <ScoreDistribution value="Iris-virginica" recordCount="1.0"/>
+                        <Node id="5" score="Iris-versicolor" recordCount="47.0">
+                            <SimplePredicate field="petal_width" operator="lessOrEqual" value="1.6"/>
+                            <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                            <ScoreDistribution value="Iris-versicolor" recordCount="47.0"/>
+                            <ScoreDistribution value="Iris-virginica" recordCount="0.0"/>
+                        </Node>
+                        <Node id="6" score="Iris-virginica" recordCount="1.0">
+                            <SimplePredicate field="petal_width" operator="greaterThan" value="1.6"/>
+                            <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                            <ScoreDistribution value="Iris-versicolor" recordCount="0.0"/>
+                            <ScoreDistribution value="Iris-virginica" recordCount="1.0"/>
+                        </Node>
+                    </Node>
+                    <Node id="7" score="Iris-virginica" recordCount="6.0">
+                        <SimplePredicate field="petal_length" operator="greaterThan" value="4.9"/>
+                        <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                        <ScoreDistribution value="Iris-versicolor" recordCount="2.0"/>
+                        <ScoreDistribution value="Iris-virginica" recordCount="4.0"/>
+                        <Node id="8" score="Iris-virginica" recordCount="3.0">
+                            <SimplePredicate field="petal_width" operator="lessOrEqual" value="1.5"/>
+                            <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                            <ScoreDistribution value="Iris-versicolor" recordCount="0.0"/>
+                            <ScoreDistribution value="Iris-virginica" recordCount="3.0"/>
+                        </Node>
+                        <Node id="9" score="Iris-versicolor" recordCount="3.0">
+                            <SimplePredicate field="petal_width" operator="greaterThan" value="1.5"/>
+                            <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                            <ScoreDistribution value="Iris-versicolor" recordCount="2.0"/>
+                            <ScoreDistribution value="Iris-virginica" recordCount="1.0"/>
+                            <Node id="10" score="Iris-versicolor" recordCount="2.0">
+                                <SimplePredicate field="petal_length" operator="lessOrEqual" value="5.1"/>
+                                <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                                <ScoreDistribution value="Iris-versicolor" recordCount="2.0"/>
+                                <ScoreDistribution value="Iris-virginica" recordCount="0.0"/>
+                            </Node>
+                            <Node id="11" score="Iris-virginica" recordCount="1.0">
+                                <SimplePredicate field="petal_length" operator="greaterThan" value="5.1"/>
+                                <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                                <ScoreDistribution value="Iris-versicolor" recordCount="0.0"/>
+                                <ScoreDistribution value="Iris-virginica" recordCount="1.0"/>
+                            </Node>
+                        </Node>
+                    </Node>
+                </Node>
+                <Node id="12" score="Iris-virginica" recordCount="46.0">
+                    <SimplePredicate field="petal_width" operator="greaterThan" value="1.7"/>
+                    <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                    <ScoreDistribution value="Iris-versicolor" recordCount="1.0"/>
+                    <ScoreDistribution value="Iris-virginica" recordCount="45.0"/>
+                    <Node id="13" score="Iris-virginica" recordCount="3.0">
+                        <SimplePredicate field="petal_length" operator="lessOrEqual" value="4.8"/>
+                        <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                        <ScoreDistribution value="Iris-versicolor" recordCount="1.0"/>
+                        <ScoreDistribution value="Iris-virginica" recordCount="2.0"/>
+                        <Node id="14" score="Iris-virginica" recordCount="2.0">
+                            <SimplePredicate field="sepal_width" operator="lessOrEqual" value="3.0"/>
+                            <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                            <ScoreDistribution value="Iris-versicolor" recordCount="0.0"/>
+                            <ScoreDistribution value="Iris-virginica" recordCount="2.0"/>
+                        </Node>
+                        <Node id="15" score="Iris-versicolor" recordCount="1.0">
+                            <SimplePredicate field="sepal_width" operator="greaterThan" value="3.0"/>
+                            <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                            <ScoreDistribution value="Iris-versicolor" recordCount="1.0"/>
+                            <ScoreDistribution value="Iris-virginica" recordCount="0.0"/>
+                        </Node>
+                    </Node>
+                    <Node id="16" score="Iris-virginica" recordCount="43.0">
+                        <SimplePredicate field="petal_length" operator="greaterThan" value="4.8"/>
+                        <ScoreDistribution value="Iris-setosa" recordCount="0.0"/>
+                        <ScoreDistribution value="Iris-versicolor" recordCount="0.0"/>
+                        <ScoreDistribution value="Iris-virginica" recordCount="43.0"/>
+                    </Node>
+                </Node>
+            </Node>
+        </Node>
+    </TreeModel>
+</PMML>

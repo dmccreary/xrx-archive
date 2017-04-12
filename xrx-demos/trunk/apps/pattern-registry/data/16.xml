@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>16</id>
+    <Classifier>Message Construction</Classifier>
+    <PatternName>Command Message</PatternName>
+    <Image>CommandMessageIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/CommandMessage.html</Reference>
+    <Description>How can messaging be used to invoke a procedure in another
+    application?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

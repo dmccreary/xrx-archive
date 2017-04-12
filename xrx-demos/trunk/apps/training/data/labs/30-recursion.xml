@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>21</id>
+    <name>Recursion</name>
+    <description>In this lab students will use the tail recursion template to create small
+        recursive functions on sets of numbers.
+    </description>
+    <programlisting>
+        
+    </programlisting>
+    <resources>
+        <resource>
+            <name>Google Doc on Recursion</name>
+            <type>google-doc</type>
+            <url>https://docs.google.com/document/pub?id=1WvwjWFGPaN-O8CG3AkA_w5xUChqN2VW2AquTTrOM8SE</url>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security-role>
+    <id>12</id>
+    <name>model-builder</name>
+    <label>Model Builder</label>
+    <description>A user within a business unit that is responsible for building risk models that will be
+        approved and audited by a Risk Management Specialist.</description>
+    <category>intranet</category>
+    <status>draft</status>
+    <tag/>
+    <created-datetime/>
+    <created-by/>
+    <last-modified-datetime/>
+    <last-modified-by/>
+</security-role>

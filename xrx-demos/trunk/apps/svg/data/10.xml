@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg-demo>
+    <id>10</id>
+    <name>Dual range controls with text updates</name>
+    <description>Demonstration of spline function.</description>
+    <category>medium</category>
+    <status>draft</status>
+    <tag>tag-1</tag>
+    <jquery>true</jquery>
+    <style>
+        body {font-family: Helvetica,Ariel,sans-serif;}
+        input, .content label {font-weight:bold;}
+        svg {border: solid 1px black; margin-left: 10px;}
+        .slider, svg {width: 300px;}
+    </style>
+    <script>
+      window.onload = function() {
+           var rect = document.getElementById('myRect');
+           rect.setAttribute('x',$('#height').slider('value'));
+           rect.setAttribute('y',$('#width').slider('value'));
+           rect.setAttribute('height',$('#height').slider('value'));
+           rect.setAttribute('width',$('#width').slider('value'));
+           document.getElementById('heightText').lastChild.nodeValue = $('#height').slider('value');
+           document.getElementById('widthText').lastChild.nodeValue = $('#width').slider('value'); 
+       }
+    
+        $(
+          function() {
+             $('#height').slider(
+                  {
+                    min: 1,
+                    max: 120,
+                    value: 50,
+                    slide: function(event, ui) {                         
+                         document.getElementById('myRect').setAttribute('width', $('#height').slider('value'));
+                         document.getElementById('heightText').lastChild.nodeValue = $('#height').slider('value');
+                    }
+             });
+             
+             $('#width').slider(
+                  {
+                    min: 1,
+                    max: 75,
+                    value: 50,
+                    slide: function(event, ui) {
+                         document.getElementById('myRect').setAttribute('height', $('#width').slider('value'));                                
+                         document.getElementById('widthText').lastChild.nodeValue = $('#width').slider('value');            
+                    }
+             });
+             
+          });
+    </script>
+    <svg width="300" height="200" style="border: solid 1px black; margin-left: 10px;">
+        <g id="legend" fill="black">
+            <text x="10" y="15">Height:</text>
+            <text id="heightText" x="50" y="15">1</text>
+            <text x="10" y="30">Width:</text>
+            <text id="widthText" x="50" y="30">1</text>
+        </g>
+        <g id="myGroup" fill="blue">
+            <rect id="myRect" x="50" y="50" height="50" width="50"/>
+        </g>
+    </svg>
+    <content>
+        <span>width:</span>
+        <div id="height" class="slider"/>
+        <span>height:</span>
+        <div id="width" class="slider"/>
+        <p>Move the slider to change the position and size of the rectangle.</p>
+    </content>
+    <expected-image>hello-world.png</expected-image>
+</svg-demo>

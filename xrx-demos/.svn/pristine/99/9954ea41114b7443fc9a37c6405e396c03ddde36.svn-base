@@ -1,0 +1,16 @@
+path {
+  fill: blue;
+  stroke: green;
+}
+
+polygon {
+  fill: blue;
+  stroke: green;
+  stroke-width: 3px;
+}
+
+circle {
+  fill: blue;
+  stroke: green;
+  stroke-width: 3px;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>36</id>
+    <Classifier>Message Transformation</Classifier>
+    <PatternName>Content Enricher</PatternName>
+    <Image>DataEnricherIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/DataEnricher.html</Reference>
+    <Description>How do we communicate with another system if the message originator does not have
+      all the required data items available?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

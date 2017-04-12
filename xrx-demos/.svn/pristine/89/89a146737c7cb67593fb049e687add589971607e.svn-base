@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>StaffCode</code-table-name>
+    <file-name>staff.xml</file-name>
+    <items>
+        <item>
+            <label>Dan McCreary</label>
+            <value>dan@danmccreary.com</value>
+        </item>
+    </items>
+</code-table>

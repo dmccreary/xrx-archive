@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>app-classifier-code</name>
+    <description>A way to classify applications.  Each XRX application may have one to many classifiers.</description>
+    <items>
+        <item>
+            <label>Admin</label>
+            <value>administration</value>
+            <definition>Administration Applications</definition>
+        </item>
+        <item>
+            <label>Capabilities</label>
+            <value>capabilities</value>
+            <definition>Administration Applications</definition>
+        </item>
+        <item>
+            <label>Content Managment</label>
+            <value>content-management</value>
+            <definition>Administration Applications</definition>
+        </item>
+        <item>
+            <label>Dashboard</label>
+            <value>dashboard</value>
+            <definition>Applications that manage the display of tables, charts, graphs and other tools
+            to allow the management of digital dashboards.</definition>
+        </item>
+        <item>
+            <label>Library</label>
+            <value>library</value>
+            <definition>Media collection management like books, articles, blogs, newspapers.</definition>
+        </item>
+        <item>
+            <label>Security</label>
+            <value>security</value>
+            <definition>Applications that manage user authentication, user authorization, encription and auditing.</definition>
+        </item>
+        <item>
+            <label>Semantic Web</label>
+            <value>semantic-web</value>
+            <definition>Applications that manage semantic web data.</definition>
+        </item>
+        <item>
+            <label>TEI</label>
+            <value>tei</value>
+            <definition>Applications that manage user authentication, user authorization, encription and auditing.</definition>
+        </item>
+        <item>
+            <label>Metadata Registry</label>
+            <value>metadata</value>
+            <definition>Metadata management applications.</definition>
+        </item>
+        <item>
+            <label>Software Development Lifecycle</label>
+            <value>software-development-lifecycle</value>
+            <definition>Applications that manage the software development process.</definition>
+        </item>
+        <item>
+            <label>Training</label>
+            <value>training</value>
+            <definition>Applications that can be used to teach XRX or manage the training process.</definition>
+        </item>
+    </items>
+</code-table>

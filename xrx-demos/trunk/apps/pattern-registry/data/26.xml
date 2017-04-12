@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>26</id>
+    <Classifier>Message Routing</Classifier>
+    <PatternName>Dynamic Router</PatternName>
+    <Image>DynamicRouterIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/DynamicRouter.html</Reference>
+    <Description>How can you avoid the dependency of the router on all possible destinations while
+      maintaining its efficiency?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

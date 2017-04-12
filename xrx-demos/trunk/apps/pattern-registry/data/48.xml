@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>48</id>
+    <Classifier>Messaging Endpoints</Classifier>
+    <PatternName>Service Activator</PatternName>
+    <Image>MessagingAdapterIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessagingAdapter.html</Reference>
+    <Description>How can an application design a service to be invoked both via various messaging
+      technologies and via non-messaging techniques?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

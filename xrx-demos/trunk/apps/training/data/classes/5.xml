@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+    <id>5</id>
+    <name>Intermediate XQuery</name>
+    <description>This class is designed as second course in the XQuery lanaguge.</description>
+    <category>intermediate</category>
+    <prerequsites>
+        <id>2</id>
+    </prerequsites>
+    <status/>
+    <tag/>
+    <tag/>
+</class>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<header>
+    <logo src="logo.jpg"/>
+    <title>eXist-db Open Source Native XML Database</title>
+    <author email="wolfgang@exist-db.org">Wolfgang M. Meier</author>
+    <version>1.5.0dev-rev:0000-20100919</version>
+</header>

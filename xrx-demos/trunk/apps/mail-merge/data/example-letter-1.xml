@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail-merge>
+    <template>
+        <div class="letter">
+            <p>Dear <fname/>,<br/>
+                Thank you for taking the time to visit our web site and download the whitepaper.</p>
+            <p>We are excited to know that you are interested in using <product/>
+            to solve problems in the <industry/>.
+            </p>
+            <p>If we can help you in the future, please let us know.</p>
+            <p>Thanks<br/>
+            <rep-name/>
+            </p>
+        </div>
+    </template>
+    <data>
+        <item>
+            <fname>Fred</fname>
+            <product>NoSQL Evaluator</product>
+            <industry>Solar Energy</industry>
+            <rep-name>Dan McCreary</rep-name>
+        </item>
+        <item>
+            <fname>Beth</fname>
+            <product>Call Graph</product>
+            <industry>Insurance</industry>
+            <rep-name>Dan McCreary</rep-name>
+        </item>
+        <item>
+            <fname>Marko</fname>
+            <product>Quality Tree</product>
+            <industry>Banking</industry>
+            <rep-name>Dan McCreary</rep-name>
+        </item>
+    </data>
+</mail-merge>

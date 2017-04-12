@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>project-role-code</code-table-name>
+    <description>List of the roles in an information sharing project.</description>
+    <items>
+        <item>
+            <label>Select a Value...</label>
+            <value/>
+        </item>
+        <item>
+            <label>Sponsor</label>
+            <value>sponsor</value>
+        </item>
+        <item>
+            <label>Owner</label>
+            <value>owner</value>
+        </item>
+        <item>
+            <label>Approver</label>
+            <value>approver</value>
+        </item>
+        <item>
+            <label>Project Manager</label>
+            <value>pm</value>
+        </item>
+        <item>
+            <label>Business Analysist</label>
+            <value>ba</value>
+        </item>
+        <item>
+            <label>Subject Matter Expert</label>
+            <value>sme</value>
+        </item>
+        <item>
+            <label>Other</label>
+            <value>other</value>
+        </item>
+    </items>
+</code-table>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archiveFile>
+    <recordID>4</recordID>
+    <itemID>
+        <itemIDType>HF</itemIDType>
+        <itemIDNumber>HF 1.4</itemIDNumber>
+    </itemID>
+    <title> Base Map of Prospect Hill, Tom Swamp, and Slab City Tracts</title>
+    <creator>
+        <nameElement>Spurr?, S.H.</nameElement>
+        <role>Researcher</role>
+        <source>Local</source>
+    </creator>
+    <temporalCoverage>
+        <startDate>1945</startDate>
+        <endDate>1945</endDate>
+        <dateDescription>1945</dateDescription>
+    </temporalCoverage>
+    <spatialCoverage>
+        <geographicDescription>Prospect Hill</geographicDescription>
+    </spatialCoverage>
+    <spatialCoverage>
+        <geographicDescription>Tom Swamp</geographicDescription>
+    </spatialCoverage>
+    <spatialCoverage>
+        <geographicDescription>Slab City</geographicDescription>
+    </spatialCoverage>
+    <keyword>Harvard Forest Properties</keyword>
+    <workType>Maps</workType>
+    <physicalDescription>
+        <media>Paper</media>
+        <extent>Numerous copies</extent>
+        <scale>1" = 1000'</scale>
+    </physicalDescription>
+    <abstract>Boundaries, base maps, surveys</abstract>
+    <date>1945</date>
+    <publicationStatus>unpublished</publicationStatus>
+    <archivesLocation>Map Room Stack #1</archivesLocation>
+    <administrativeNotes>Author not verified, duplicates in same drawer</administrativeNotes>
+    <access>on-site only</access>
+    <repositoryName>Harvard Forest Library</repositoryName>
+</archiveFile>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<terms>
+    <term>
+        <id>100</id>
+        <term-name>Bullet Bars</term-name>
+        <definition>A compact indicator type favoured by presentation designers that efficiently uses screen real estate.
+        </definition>
+        <resource>
+            <type>url</type>
+            <url>http://broadcast.oreilly.com/2008/11/creating-bullet-bars-with-goog.html</url>
+        </resource>
+    </term>
+    <term>
+        <id>101</id>
+        <term-name>Cascading Style Sheet</term-name>
+        <abbreviation>CSS</abbreviation>
+        <definition>A W3C standard file format (usually .css) that defines many of the layout
+            characteristics of
+            a web site including colors, fonts, typography, spacing and alignment.</definition>
+    </term>
+    <term>
+        <id>102</id>
+        <term-name>Digital Dashboard</term-name>
+        <definition>A single-page summary of a set of metrics that is designed to communicate important
+            information clearly and accurately.  Digital dashboards have
+            two main functions, one is to display complex data summarized on a single page and the other
+            is to permit the user to drill down for further information.</definition>
+    </term>
+    <term>
+        <id>103</id>
+        <term-name>Drill Down</term-name>
+        <definition>In the context of a web-based dashboard, this is the process of allowing
+            a user to click on an area of the screen to investigate further details of the topic.</definition>
+    </term>
+    <term>
+        <id>104</id>
+        <term-name>Item Lister</term-name>
+        <definition>This is a page that will be used to list a series of items, such as a list
+            of models for the user.  Traditionally a HTML table view is used with the first row containing the
+            definition of each column. The chief items to be consered with include the columns to be included, a
+            definition of how the user will drill down on each item in a row, the sort order of items, and 
+            the default maximum number of items be displayed.  The list of models will be call a model-lister page 
+            and the page that the users see when they drill down
+            is called an item viewer.</definition>
+    </term>
+    <term>
+        <id>105</id>
+        <term-name>Item Viewer</term-name>
+        <definition>After a user select a specific row is another page will be show that will
+            focus on a high-level view of that item.  For a specific model this will be called a model-viewer.</definition>
+    </term>
+    <term>
+        <id>106</id>
+        <term-name>Key Performance Indicator</term-name>
+        <abbreviation>KPI</abbreviation>
+        <definition>A measure of how well an organization is doing on an activity that is
+            strategic to the organization.  Each KPI is often associated with a requirement and a technical specification
+            for calculation of the KPI metric.</definition>
+    </term>
+    <term>
+        <id>107</id>
+        <term-name>Indicator Type</term-name>
+        <definition>Each KPI can be displayed within a specific graphical disply object.  When
+            we are building dashboards, the highest level of display is called an indicator.  The list of indicator types
+            is determined by software system, but typical indicator types include stoplights, bars and radial gauges.  Indicators are designed so that acceptable values do not draw attention to the user that is visually scanning a large number of indicators.  When out of acceptable range an indicator should draw the users attention and invite them to click on the indicator to drill down for further investigation.</definition>
+    </term>
+    <term>
+        <id>108</id>
+        <term-name>Landing Page</term-name>
+        <definition>This is the page that users are directed to after a successful login.
+            For new users this is frequently a site welcome page.</definition>
+    </term>
+    <term>
+        <id>109</id>
+        <term-name>Metric</term-name>
+        <definition>This is a single decimal number that is frequently used within a KPI.  The goal
+            is to have a background process that consistently calculates metrics over time and accross organizational
+            boundaries..</definition>
+    </term>
+    <term>
+        <id>110</id>
+        <term-name>Maximize Portlet</term-name>
+        <definition>This function allows a portlet to fill the entire web page.  It is
+        usually represented by an icon in the upper right corner of the portlet.</definition>
+    </term>
+    <term>
+        <id>111</id>
+        <term-name>Metric</term-name>
+        <definition>This is a single decimal number that is frequently used within a KPI.  The goal
+            is to have a background process that consistently calculates metrics over time and accross organizational
+            boundaries..</definition>
+    </term>
+    <term>
+        <id>112</id>
+        <term-name>Welcome Page</term-name>
+        <definition>This is the page that is traditionally presented to new users.
+            This page usually has a single paragraph description of the purpose of the site
+            as well as links to get more information.</definition>
+    </term>
+    <term>
+        <id>113</id>
+        <term-name>Wireframe Mockup Process</term-name>
+        <definition>This is the process of creating a mockup of a web site where
+            each page has the minimal amount of information needed to give the reviewers
+            a sense of how the site could be navigated.</definition>
+    </term>
+    <term>
+        <id>232</id>
+        <term-name>test term</term-name>
+        <definition>testing the delete function in the term manager</definition>
+    </term>
+</terms>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-group>
+    <unit-test>
+        <name>concat</name>
+        <desc>Test of concatenating  two strings.</desc>
+        <test>concat('a', 'b')</test>
+        <expected>ab</expected>
+    </unit-test>
+    <unit-test>
+        <name>sum</name>
+        <desc>Test of suming two integers.</desc>
+        <test>sum((1,2))</test>
+        <expected>3</expected>
+    </unit-test>
+    <unit-test>
+        <name>substring-after</name>
+        <desc>Test of substring-after function</desc>
+        <test>substring-after('ab-c', '-')</test>
+        <expected>c</expected>
+    </unit-test>
+    <unit-test>
+        <name>substring-after</name>
+        <desc>Test of substring-after function</desc>
+        <test>substring-after('ab-c', '-')</test>
+        <expected>x</expected>
+    </unit-test>
+    <unit-test>
+        <name>sum</name>
+        <desc>Test of suming two integers.</desc>
+        <test>sum((1,2))</test>
+        <expected>4</expected>
+    </unit-test>
+</test-group>

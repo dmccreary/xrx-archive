@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <filename>test.xml</filename>
+    <element>
+        <name>Super</name>
+        <prefix>uc</prefix>
+        <definition>The root of all data elements.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>AircraftFuselageColor</name>
+        <definition>A color of the main body of an aircraft.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>AircraftFuselageColorCode</name>
+        <definition>A color of the main body of an aircraft.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>AircraftFuselageColorText</name>
+        <definition>A color of the main body of an aircraft.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>AircraftWingColor</name>
+        <definition>A color of the wings on an aircraft.</definition>
+    </element>
+</data>

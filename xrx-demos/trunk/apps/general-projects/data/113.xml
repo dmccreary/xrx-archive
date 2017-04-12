@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeneralProject>
+    <id>113</id>
+    <ProjectName>Testing of Demo Site</ProjectName>
+    <ProjectScopeText>Create a checklist with documented results of the status of each demo application on the danmccreary.com website</ProjectScopeText>
+    <ProjectBusinessObjectivesText>Bring all demo applications into compliance with requirements so that packaging and distribution can be done.</ProjectBusinessObjectivesText>
+    <ProjectBusinessGoalsText/>
+    <ProjectHowToUseText/>
+    <ProjectImplementationStratagyText>test implementation </ProjectImplementationStratagyText>
+    <ProjectMemoOfUnderstandingsText/>
+    <ProjectSponsorUserID/>
+    <ProjectOwnerUserID/>
+    <ProjectContactUserID/>
+    <ProjectApproverUserID/>
+    <PersonRoles>
+        <Role>
+            <PersonRoleCode>pm</PersonRoleCode>
+            <UserID>guest</UserID>
+        </Role>
+    </PersonRoles>
+    <Requirements>
+        <Requirement>
+            <RequirementID>1</RequirementID>
+            <RequirementName>Test Requirement 1</RequirementName>
+        </Requirement>
+    </Requirements>
+    <DevelopmentStatusCode/>
+    <created-datetime>2011-10-24T17:01:37.508Z</created-datetime>
+    <created-by>admin</created-by>
+    <last-modified-datetime>2011-10-24T18:42:12.21Z</last-modified-datetime>
+    <last-modified-by>admin</last-modified-by>
+</GeneralProject>

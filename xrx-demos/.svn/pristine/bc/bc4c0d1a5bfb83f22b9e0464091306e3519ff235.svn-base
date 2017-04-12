@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>EmployeeContractorStatusCode</code-table-name>
+    <documentation>Is this person a full-time employee or a contractor?</documentation>
+    <items>
+        <item>
+            <label>Employee FT</label>
+            <value>employee</value>
+        </item>
+        <item>
+            <label>Employee PT</label>
+            <value>employee</value>
+        </item>
+        <item>
+            <label>Contractor FT</label>
+            <value>contractor</value>
+        </item>
+        <item>
+            <label>Contractor PT</label>
+            <value>contractor</value>
+        </item>
+    </items>
+</code-table>

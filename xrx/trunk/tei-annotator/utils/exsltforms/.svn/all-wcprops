@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/131/trunk/tei-annotator/utils/exsltforms
+END
+changelog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/131/trunk/tei-annotator/utils/exsltforms/changelog.txt
+END
+documentation.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/131/trunk/tei-annotator/utils/exsltforms/documentation.txt
+END
+eXSLTFormsConfigOptions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/131/trunk/tei-annotator/utils/exsltforms/eXSLTFormsConfigOptions.xml
+END
+exsltforms.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/131/trunk/tei-annotator/utils/exsltforms/exsltforms.xsl
+END
+installation.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/131/trunk/tei-annotator/utils/exsltforms/installation.txt
+END
+exsltforms.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/131/trunk/tei-annotator/utils/exsltforms/exsltforms.js
+END

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>USStateCode</code-table-name>
+    <documentation>Where is this employee located?</documentation>
+    <items>
+        <item>
+            <label>Minnesota</label>
+            <value>MN</value>
+        </item>
+        <item>
+            <label>Virgina</label>
+            <value>VA</value>
+        </item>
+        <item>
+            <label>California</label>
+            <value>CA</value>
+        </item>
+        <item>
+            <label>Florida</label>
+            <value>FL</value>
+        </item>
+        <item>
+            <label>Illinois</label>
+            <value>IL</value>
+        </item>
+        <item>
+            <label>North Carolina</label>
+            <value>NC</value>
+        </item>
+        <item>
+            <label>New York</label>
+            <value>NY</value>
+        </item>
+        <item>
+            <label>Pennsylvania</label>
+            <value>PA</value>
+        </item>
+        <item>
+            <label>Texas</label>
+            <value>TX</value>
+        </item>
+    </items>
+</code-table>

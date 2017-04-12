@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/134/trunk/apps/schema-to-svn/modules
+END
+schema-utils.xqm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/134/trunk/apps/schema-to-svn/modules/schema-utils.xqm
+END
+schema-typeswitch.xqm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/134/trunk/apps/schema-to-svn/modules/schema-typeswitch.xqm
+END
+schema-typeswitch-test.xq
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/134/trunk/apps/schema-to-svn/modules/schema-typeswitch-test.xq
+END
+svg-util.xqm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/134/trunk/apps/schema-to-svn/modules/svg-util.xqm
+END
+schema-to-svg.xqm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/134/trunk/apps/schema-to-svn/modules/schema-to-svg.xqm
+END

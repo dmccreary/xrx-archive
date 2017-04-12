@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<training-topics>
+    <id>oxygen</id>
+    <name>oXygen</name>
+    <description>Training on using the oXygen XML IDE.</description>
+    <topic>
+        <id>oxygen-setup</id>
+        <name>Setup of oXygen for eXist</name>
+        <length>15</length>
+        <description>Setup of oXygen IDE and configuration for eXist</description>
+        <resources>
+            <resource>
+                <resource-name>oXygen for XQuery</resource-name>
+                <resource-type>web</resource-type>
+                <resource-description>How to setup and use oXygen to use XQuery</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xquery/03-oXygen-for-XQuery.ppt</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>oxygen-customization</id>
+        <name>Customization of windows and user interfaces in oXygen</name>
+        <length>15</length>
+        <description>How to use oXygen windows and configure perspectives.</description>
+        <resources>
+            <resource>
+                <resource-name>oXygen for XQuery</resource-name>
+                <resource-type>web</resource-type>
+                <resource-description>How to setup and use oXygen to use XQuery</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xquery/03-oXygen-for-XQuery.ppt</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+    <id>oxygen-for-xquery</id>
+    <name>oXygen for XQuery</name>
+    <length>15</length>
+    <description>Setup of oXygen IDE and configuration for eXist</description>
+    <resources>
+        <resource>
+            <resource-name>oXygen for XQuery</resource-name>
+            <resource-type>web</resource-type>
+            <resource-description>How to setup and use oXygen to use XQuery</resource-description>
+            <resource-url>http://www.danmccreary.com/training/xquery/03-oXygen-for-XQuery.ppt</resource-url>
+        </resource>
+    <resource>
+            <resource-name/>
+            <resource-type/>
+            <resource-description>How to setup and use oXygen to use XQuery</resource-description>
+            <resource-url>http://www.danmccreary.com/training/xquery/oXygen-12-xquery.ppt</resource-url>
+        </resource>
+    </resources>
+</topic>
+</training-topics>

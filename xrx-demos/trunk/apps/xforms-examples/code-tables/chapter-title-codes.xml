@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>my-code</name>
+    <description>This is a description of my code items and values.</description>
+    <items>
+        <item>
+            <label>Introduction</label>
+            <value>01-intro</value>
+            <order>1</order>
+            <definition>Introduction to XForms - the business case and architecture.</definition>
+        </item>
+        <item>
+            <label>Controls</label>
+            <value>02-controls</value>
+            <order>1</order>
+            <definition>A tour of the basic user interface controls.</definition>
+        </item>
+        <item>
+            <label>Dynamic Forms</label>
+            <value>03-dynamic-forms</value>
+            <order>3</order>
+            <definition>Forms that change as you use them.</definition>
+        </item>
+        <item>
+            <label>Output</label>
+            <value>03-output</value>
+            <order>4</order>
+            <definition>Forms that change as you use them.</definition>
+        </item>
+        <item>
+            <label>Repeating Data</label>
+            <value>04-repeating-data</value>
+            <order>5</order>
+            <definition>Forms that include repeating data items.</definition>
+        </item>
+        <item>
+            <label>Validation</label>
+            <value>05-validation</value>
+            <order>6</order>
+            <definition>Validating fields and the entire form.</definition>
+        </item>
+        <item>
+            <label>Binding</label>
+            <value>06-bind</value>
+            <order>7</order>
+            <definition>Binding controls and rules to your form</definition>
+        </item>
+        <item>
+            <label>Events</label>
+            <value>07-events</value>
+            <order>8</order>
+            <definition>Generalized Events</definition>
+        </item>
+    </items>
+</code-table>

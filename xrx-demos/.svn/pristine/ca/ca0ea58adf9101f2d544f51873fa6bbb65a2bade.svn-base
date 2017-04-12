@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UseCase>
+    <id/>
+    <UseCaseName/>
+    <UseCaseVersion/>
+    <UseCaseGoalText/>
+    <UseCaseSummaryText/>
+    <UseCaseActor/>
+    <UseCasePreconditionsText/>
+    <UseCaseTriggersText/>
+    <UseCaseEventsText/>
+    <UseCaseAlternatePathsText/>
+    <UseCasePostconditionsText/>
+    <BusinessRulesText/>
+    <UseCaseNotesText/>
+    <UseCaseAuthorName/>
+    <UseCaseCreationDate/>
+    <created-datetime/>
+    <created-by/>
+    <last-modified-datetime/>
+    <last-modified-by/>
+</UseCase>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>35</id>
+    <Classifier>Message Transformation</Classifier>
+    <PatternName>Envelope Wrapper</PatternName>
+    <Image>EnvelopeWrapperIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/EnvelopeWrapper.html</Reference>
+    <Description>How can existing systems participate in a messaging exchange that places specific
+      requirements on the message format, such as message header fields or encryption?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

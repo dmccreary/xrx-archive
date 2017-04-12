@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unit-tests>
+    <unit-test>
+        <file>all-nosql-tweets.html</file>
+        <desc>All tweets with the #nosql hash tag and behavior=all.</desc>
+    </unit-test>
+    <unit-test>
+        <file>dmccreary-tweets.html</file>
+        <desc>All tweets with the @dmccreary hash tag.</desc>
+    </unit-test>
+    <unit-test>
+        <file>no-sql-now-all.html</file>
+        <desc>All tweets with the #nosqlnow hash tag.</desc>
+    </unit-test>
+    <unit-test>
+        <file>format-from-now-sql-now-homepage.html</file>
+        <desc>The format form the NowSQLNow Home page with the #nosql query.</desc>
+    </unit-test>
+</unit-tests>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomy>
+    <taxonomy-name>Surescripts Security Documents</taxonomy-name>
+    <category>
+        <category-name>ISO 27001 Domains</category-name>
+        <category-id>iso-27001</category-id>
+        <category>
+            <category-name>Risk Assessment</category-name>
+            <category-id>risk-assessment</category-id>
+        </category>
+        <category>
+            <category-name>Security Policy</category-name>
+            <category-id>general-sec-pol</category-id>
+        </category>
+        <category>
+            <category-name>Organization Security</category-name>
+            <category-id>org-sec-pol</category-id>
+        </category>
+        <category>
+            <category-name>Asset Control</category-name>
+            <category-id>asset-control</category-id>
+        </category>
+        <category>
+            <category-name>Personal Security</category-name>
+            <category-id>personal-security</category-id>
+        </category>
+        <category>
+            <category-name>Physical and Environmental Security</category-name>
+            <category-id>physical-environmental-security</category-id>
+        </category>
+        <category>
+            <category-name>Operations and Communication</category-name>
+            <category-id>operations-communication</category-id>
+        </category>
+        <category>
+            <category-name>System Development, Maintenance and Acquisition</category-name>
+            <category-id>sys-dev</category-id>
+        </category>
+        <category>
+            <category-name>Security Incident Response</category-name>
+            <category-id>incident-response</category-id>
+        </category>
+        <category>
+            <category-name>BCP and DRP</category-name>
+            <category-id>bcpadrp</category-id>
+        </category>
+        <category>
+            <category-name>Regulatory Compliance</category-name>
+            <category-id>compliance</category-id>
+        </category>
+    </category>
+    <category>
+        <category-name>Security Policies</category-name>
+        <category-id>security-policies</category-id>
+        <category>
+            <category-name>Risk Management Policy</category-name>
+            <category-id>risk-mgmt</category-id>
+        </category>
+        <category>
+            <category-name>Information Security Policy</category-name>
+            <category-id>info-sec-pol</category-id>
+        </category>
+        <category>
+            <category-name>Organizational Security Policy – External</category-name>
+            <category-id>ospe</category-id>
+        </category>
+        <category>
+            <category-name>Asset Management Policy</category-name>
+            <category-id>am</category-id>
+        </category>
+        <category>
+            <category-name>Personnel Security Policy</category-name>
+            <category-id>personal-sec-pol</category-id>
+        </category>
+        <category>
+            <category-name>Physical - Facility Security Policy</category-name>
+            <category-id>physical-sec-pol</category-id>
+        </category>
+        <category>
+            <category-name>Physical - Device and Media Security Policy</category-name>
+            <category-id>physical-device-media-sec-pol</category-id>
+        </category>
+        <category>
+            <category-name>Operations Security Policy</category-name>
+            <category-id>ops-sec-pol</category-id>
+        </category>
+        <category>
+            <category-name>Access Management</category-name>
+            <category-id>access-mgmt</category-id>
+        </category>
+        <category>
+            <category-name>Information Systems Acquisition, Development and Maintenance
+            Policy</category-name>
+            <category-id>inof-sys-adamp</category-id>
+        </category>
+        <category>
+            <category-name>Information Security Incident Management Policy</category-name>
+            <category-id>incident-mgmt</category-id>
+        </category>
+        <category>
+            <category-name> Business Continuity Management Policy</category-name>
+            <category-id>continuity-mgmt</category-id>
+        </category>
+        <category>
+            <category-name>Security and Privacy Compliance Policy</category-name>
+            <category-id>privacy-compliance</category-id>
+        </category>
+    </category>
+</taxonomy>

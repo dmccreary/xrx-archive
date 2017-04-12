@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>license-type-code</name>
+    <description>This code describes how this application licensed.</description>
+    <items>
+        <item>
+            <label>Apache 2.0</label>
+            <value>apache-2.0</value>
+            <definition>Definition of when to use code value one.</definition>
+        </item>
+        <item>
+            <label>GPL</label>
+            <value>gpl</value>
+            <definition>Definition of when to use code value two,</definition>
+        </item>
+        <item>
+            <label>LGPL</label>
+            <value>lgpl</value>
+            <definition>Definition of when to use code value two,</definition>
+        </item>
+        <item>
+            <label>Commercial</label>
+            <value>commercial</value>
+            <definition>Definition of when to use code value two,</definition>
+        </item>
+    </items>
+</code-table>

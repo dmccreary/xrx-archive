@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/43/trunk/02-faq/edit
+END
+next-id.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/41/trunk/02-faq/edit/next-id.xml
+END
+update.xq
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/38/trunk/02-faq/edit/update.xq
+END
+delete.xq
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/38/trunk/02-faq/edit/delete.xq
+END
+new-instance.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/41/trunk/02-faq/edit/new-instance.xml
+END
+edit.xq
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/43/trunk/02-faq/edit/edit.xq
+END
+save-new.xq
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/38/trunk/02-faq/edit/save-new.xq
+END
+delete-confirm.xq
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/38/trunk/02-faq/edit/delete-confirm.xq
+END

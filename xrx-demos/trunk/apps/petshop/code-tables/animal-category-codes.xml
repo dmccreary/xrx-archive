@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>animal-category-code</name>
+    <description>A list of the types of animals in the pet shop.</description>
+    <items>
+        <item>
+            <label>Dogs</label>
+            <value>dogs</value>
+            <definition>Things that go woof.</definition>
+        </item>
+        <item>
+            <label>Cats</label>
+            <value>cats</value>
+            <definition>Things that go meow.</definition>
+        </item>
+        <item>
+            <label>Birds</label>
+            <value>birds</value>
+            <definition>Things with wings.</definition>
+        </item>
+        <item>
+            <label>Fish</label>
+            <value>fish</value>
+            <definition>Things with fins.</definition>
+        </item>
+        <item>
+            <label>Reptiles</label>
+            <value>reptiles</value>
+            <definition>Things with scales.</definition>
+        </item>
+    </items>
+</code-table>

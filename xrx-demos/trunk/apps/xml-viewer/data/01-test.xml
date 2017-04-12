@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aaa a1="A1" a2="A2" a3="A3">
+    <bbb b1="B1" b2="B2" b3="B3">BBB</bbb>
+    <ccc c1="C1" c2="C2" c3="C3">
+        <ddd d1="D1" d2="D2" d3="D3">DDD</ddd>
+        <eee>
+            <fff>FFF</fff>
+        </eee>
+    </ccc>
+</aaa>

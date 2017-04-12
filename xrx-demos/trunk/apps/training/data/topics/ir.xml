@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<training-topics>
+    <id>ir</id>
+    <name>Information Retrieval</name>
+    <description>General XQuery topics that are not eXist specific.</description>
+    <topic>
+        <id>ir-reverse-index</id>
+        <name>What is a reverse index</name>
+        <length>30</length>
+        <description>What is a reverse index and how does it help fast keyword search.</description>
+        <resources>
+            <resource>
+                <resource-name>IR Book on Term Vocabulary</resource-name>
+                <resource-type>web</resource-type>
+                <resource-description>The major steps in inverted index construction</resource-description>
+                <resource-url>http://nlp.stanford.edu/IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1.html</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>ir-structured-search</id>
+        <name>Structured Search</name>
+        <length>30</length>
+        <description>How document structure can be used to aid search precision and recall.</description>
+        <resources>
+            <resource>
+                <resource-name>Powerpoint Slides on Strutured Search</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>Materials from Dan McCreary's presentation to Enterpise Data World 2010</resource-description>
+                <resource-url>http://www.danmccreary.com/presentations/structured-search/</resource-url>
+            </resource>
+            <resource>
+                <resource-name>Chapter 10 in the IR Book</resource-name>
+                <resource-type>web</resource-type>
+                <resource-description>Chapter 10 is on XML retrieval.</resource-description>
+                <resource-url>http://nlp.stanford.edu/IR-book/html/htmledition/xml-retrieval-1.html</resource-url>
+            </resource>
+        </resources>
+    </topic>
+</training-topics>

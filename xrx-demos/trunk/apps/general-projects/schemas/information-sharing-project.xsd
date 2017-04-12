@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" finalDefault="" blockDefault="">
+    <xs:element name="InformationSharingProject" nillable="false" abstract="false">
+        <xs:annotation>
+            <xs:documentation>Comment describing your root element</xs:documentation>
+        </xs:annotation>
+        <xs:complexType mixed="false">
+            <xs:sequence minOccurs="1" maxOccurs="1">
+                <xs:element name="id" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectName" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectDescriptionText" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectScopeText" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectBusinessObjectivesText" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectBusinessGoalsText" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectHowToUseText" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectImplementationStratagyText" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectMemoOfUnderstandingsText" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectSponsorUserID" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectOwnerUserID" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectContactUserID" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="ProjectApproverUserID" minOccurs="1" maxOccurs="1" nillable="false"/>
+                <xs:element name="PersonRoles" minOccurs="1" maxOccurs="1" nillable="false">
+                    <xs:complexType mixed="false">
+                        <xs:sequence minOccurs="1" maxOccurs="1">
+                            <xs:element name="Role" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType mixed="false">
+                                    <xs:sequence minOccurs="1" maxOccurs="1">
+                                        <xs:element name="ProjectRoleCode" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                        <xs:element name="UserID" minOccurs="1" maxOccurs="1" nillable="false"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="DevelopmentStatusCode" minOccurs="1" maxOccurs="1" nillable="false"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

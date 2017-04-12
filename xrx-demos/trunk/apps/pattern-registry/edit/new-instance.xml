@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id/>
+    <Classifier/>
+    <PatternName/>
+    <Image/>
+    <Reference/>
+    <Description/>
+    <Question/>
+    <Answer/>
+    <Context/>
+    <Usages>
+        <Usage>
+            <ProjectCode/>
+            <ProjectUsageText/>
+        </Usage>
+    </Usages>
+    <NoteText/>
+</Pattern>

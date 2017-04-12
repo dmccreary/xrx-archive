@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>32</id>
+    <Classifier>Message Routing</Classifier>
+    <PatternName>Routing Slip</PatternName>
+    <Image>RoutingTableIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/RoutingTable.html</Reference>
+    <Description>How do we route a message consecutively through a series of processing steps when
+      the sequence of steps is not known at design-time and may vary for each message?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

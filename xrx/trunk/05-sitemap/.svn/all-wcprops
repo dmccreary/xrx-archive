@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/58/trunk/05-sitemap
+END
+06-titles.xq
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/58/trunk/05-sitemap/06-titles.xq
+END
+01-test-get-child-collections.xq
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/58/trunk/05-sitemap/01-test-get-child-collections.xq
+END
+06-collection-titles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/58/trunk/05-sitemap/06-collection-titles.xml
+END
+index.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/58/trunk/05-sitemap/index.xhtml
+END
+02-for-loop.xq
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/58/trunk/05-sitemap/02-for-loop.xq
+END
+05-links.xq
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/58/trunk/05-sitemap/05-links.xq
+END
+03-sitemap.xq
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/58/trunk/05-sitemap/03-sitemap.xq
+END
+04-html-sitemap.xq
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/58/trunk/05-sitemap/04-html-sitemap.xq
+END

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>20</id>
+    <Classifier>Message Construction</Classifier>
+    <PatternName>Return Address</PatternName>
+    <Image>ReturnAddressIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/ReturnAddress.html</Reference>
+    <Description>How does a replier know where to send the reply?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>7</id>
+    <Classifier>Messaging Channels</Classifier>
+    <PatternName>Point-to-Point Channel</PatternName>
+    <Image>PointToPointIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/PointToPointChannel.html</Reference>
+    <Description>How can the caller be sure that exactly one receiver will receive the document or
+      perform the call?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

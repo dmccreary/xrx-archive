@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>document-type-code</name>
+    <items>
+        <item>
+            <label>Google Docs Document</label>
+            <value>google-doc</value>
+        </item>
+        <item>
+            <label>PowerPoint Slides</label>
+            <value>ppt</value>
+            <value>pptx</value>
+        </item>
+        <item>
+            <label>Wikibook Article</label>
+            <value>wikibook-article</value>
+            <value>wikibook</value>
+        </item>
+        <item>
+            <label>XQuery Program</label>
+            <value>xquery</value>
+            <value>xquery-executable</value>
+        </item>
+        <item>
+            <label>Sample Resources</label>
+            <value>sample-resources</value>
+        </item>
+        <item>
+            <label>Sample XML Data</label>
+            <value>sample-data</value>
+            <value>sample-xml-data</value>
+        </item>
+    </items>
+</code-table>

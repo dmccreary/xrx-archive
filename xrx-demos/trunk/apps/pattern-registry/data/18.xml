@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>18</id>
+    <Classifier>Message Construction</Classifier>
+    <PatternName>Event Message</PatternName>
+    <Image>EventMessageIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/EventMessage.html</Reference>
+    <Description>How can messaging be used to transmit events from one application to
+    another?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

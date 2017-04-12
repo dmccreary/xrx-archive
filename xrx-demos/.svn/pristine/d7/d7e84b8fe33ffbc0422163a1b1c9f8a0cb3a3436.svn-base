@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>8</id>
+    <Classifier>Messaging Channels</Classifier>
+    <PatternName>Publish-Subscribe Channel</PatternName>
+    <Image>PublishSubscribeIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/PublishSubscribeChannel.html</Reference>
+    <Description>How can the sender broadcast an event to all interested receivers?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

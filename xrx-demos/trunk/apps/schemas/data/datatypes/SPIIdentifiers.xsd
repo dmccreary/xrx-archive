@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Identifiers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice>
+                    <xs:element minOccurs="0" name="NonSPI" type="NonSPIType"/>
+                </xs:choice>
+                <xs:sequence>
+                    <xs:element name="SPI"/>
+                </xs:sequence>
+                <xs:choice>
+                    <xs:element minOccurs="0" name="NonSPI" type="NonSPIType"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="NonSPIType">
+        <xs:choice>
+            <xs:element name="a"/>
+            <xs:element name="b"/>
+            <xs:element name="c"/>
+        </xs:choice>
+    </xs:complexType>
+</xs:schema>

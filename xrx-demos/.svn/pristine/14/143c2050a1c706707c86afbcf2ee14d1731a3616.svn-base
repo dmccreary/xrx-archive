@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>15</id>
+    <Classifier>Messaging Channels</Classifier>
+    <PatternName>Message Bus</PatternName>
+    <Image>MessageBusIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessageBus.html</Reference>
+    <Description>What is an architecture that enables separate applications to work together, but in
+      a decoupled fashion such that applications can be easily added or removed without affecting
+      the others?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

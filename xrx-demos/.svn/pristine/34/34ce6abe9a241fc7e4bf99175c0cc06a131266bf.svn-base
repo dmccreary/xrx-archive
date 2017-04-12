@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>10</id>
+    <name>XML Element and Attributes</name>
+    <description>In this lab students will learn about XML elements and attributes.</description>
+    <classes>
+        <id>1</id>
+    </classes>
+    <resources>
+        <resource>
+            <name/>
+            <type/>
+            <url/>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

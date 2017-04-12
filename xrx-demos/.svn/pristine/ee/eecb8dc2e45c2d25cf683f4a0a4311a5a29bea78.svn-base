@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>sitemap-labels</code-table-name>
+    <item>
+        <path>/db/crossflo</path>
+        <title>Crossflo</title>
+    </item>
+    <item>
+        <path>/db/crossflo/training</path>
+        <title>Training</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/faqs</path>
+        <title>Frequently Asked Questions</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/training</path>
+        <title>Training Application</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/data-elements</path>
+        <title>Data Element Manager</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/glossary</path>
+        <title>Glossary of Terms</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/glossary/admin</path>
+        <title>Administrative Tools for Glossary of Terms</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/iepds</path>
+        <title>Information Exchange Packages</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/namespace</path>
+        <title>Namespace Manager</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/niem</path>
+        <title>National Information Exchange Model</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/reports</path>
+        <title>Ad-Hoc Reporting Application</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/search</path>
+        <title>Federated Search</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/training/xforms</path>
+        <title>XForms Training</title>
+    </item>
+    <item>
+        <path>/db/crossflo/training/rest</path>
+        <title>ReST Training</title>
+    </item>
+    <item>
+        <path>/db/crossflo/training/xquery</path>
+        <title>XQuery Training</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps</path>
+        <title>Crossflo Applications</title>
+    </item>
+    <item>
+        <path>/db/cust</path>
+        <title>Crossflo Customers</title>
+    </item>
+    <item>
+        <path>/db/crossflo/products</path>
+        <title>Products</title>
+    </item>
+    <item>
+        <path>/db/crossflo/resources</path>
+        <title>Shared Application Resources</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/requirements</path>
+        <title>Requirements Managment</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/rules</path>
+        <title>Rule Managment</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/schemas</path>
+        <title>XML Schema Managment</title>
+    </item>
+    <item>
+        <path>/db/crossflo/support</path>
+        <title>Support</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/services</path>
+        <title>Web Service Management</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/shop</path>
+        <title>Data Element Shopping Cart Tool</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/wantlist</path>
+        <title>Wantlist Registry</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/sitemap</path>
+        <title>Tool for Display of Sitemaps</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/subscriptions</path>
+        <title>Subscription Notification Rules Registry</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/tasks</path>
+        <title>Task List Manager</title>
+    </item>
+    <item>
+        <path>/db/crossflo/apps/template</path>
+        <title>Application Template for Auto Generation of New Applications</title>
+    </item>
+    <item>
+        <path>/db/crossflo/test</path>
+        <title>Test XQueires</title>
+    </item>
+    <item>
+        <path>/db/crossflo/modules</path>
+        <title>Crossflo Support Modules</title>
+    </item>
+</code-table>

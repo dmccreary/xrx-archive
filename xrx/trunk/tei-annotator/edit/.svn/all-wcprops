@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/131/trunk/tei-annotator/edit
+END
+get-entities.xq
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/131/trunk/tei-annotator/edit/get-entities.xq
+END
+get-instance.xq
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/131/trunk/tei-annotator/edit/get-instance.xq
+END
+search-test.xq
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/131/trunk/tei-annotator/edit/search-test.xq
+END
+get-nth-p.xq
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/131/trunk/tei-annotator/edit/get-nth-p.xq
+END
+edit.xq
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/131/trunk/tei-annotator/edit/edit.xq
+END

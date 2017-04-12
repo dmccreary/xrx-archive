@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>AnyChart Sample</title>
+        <script type="text/javascript" language="javascript" src="/db/dma/resources/js/anychart/js/AnyChart.js"/>
+    </head>
+    <body>
+        <script type="text/javascript" language="javascript">
+    //<![CDATA[
+    var chart = new AnyChart('/db/dma/resources/js/anychart/swf/AnyChart.swf');
+    chart.width = 700;
+    chart.height = 300;
+    chart.setXMLFile('./01-hello-world.xml');
+    chart.write();
+    //]]></script>
+    </body>
+</html>

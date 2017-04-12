@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>resource type codes</name>
+    <description>This is a description of a sample set of resource type codes.</description>
+    <items>
+        <item>
+            <value/>
+            <label>Select a Resource Type...</label>
+        </item>
+        <item>
+            <value>url</value>
+            <label>Web URL</label>
+        </item>
+        <item>
+            <value>wikipedia-page</value>
+            <label>Wikipedia Page</label>
+        </item>
+        <item>
+            <value>image</value>
+            <label>Images</label>
+        </item>
+        <item>
+            <value>chart</value>
+            <label>Chart</label>
+        </item>
+        <item>
+            <value>ppt</value>
+            <label>PPT</label>
+        </item>
+        <item>
+            <value>spreadsheet</value>
+            <label>Spreadsheet</label>
+        </item>
+        <item>
+            <value>google-doc</value>
+            <label>Google Document</label>
+        </item>
+    </items>
+</code-table>

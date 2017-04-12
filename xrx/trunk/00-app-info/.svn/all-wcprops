@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/115/trunk/00-app-info
+END
+sample-instance-min.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/95/trunk/00-app-info/sample-instance-min.xml
+END
+app-info.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/113/trunk/00-app-info/app-info.xsd
+END
+sample-instance-all-ns.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/95/trunk/00-app-info/sample-instance-all-ns.xml
+END
+app-info-spy-project.spp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/95/trunk/00-app-info/app-info-spy-project.spp
+END
+README.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/115/trunk/00-app-info/README.xhtml
+END
+sample-instance-all-default-ns.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/95/trunk/00-app-info/sample-instance-all-default-ns.xml
+END
+sample-instance-all.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/95/trunk/00-app-info/sample-instance-all.xml
+END
+app-info.xqm
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/104/trunk/00-app-info/app-info.xqm
+END
+app-info-test.xq
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/103/trunk/00-app-info/app-info-test.xq
+END
+sample-instance-min-ns.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/95/trunk/00-app-info/sample-instance-min-ns.xml
+END

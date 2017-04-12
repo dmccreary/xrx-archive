@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <filename>person-name.xml</filename>
+    <element>
+        <name>Super</name>
+        <prefix>uc</prefix>
+        <definition>The root of all data elements.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>Person</name>
+        <definition>A human being.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonName</name>
+        <definition>A combination of names and/or titles by which a person is known.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonNamePrefixText</name>
+        <definition>A title or honorific used by a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonNameSuffixText</name>
+        <definition>A term appended after the family name that qualifies the name.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonRaceCode</name>
+        <definition>A classification of a person based on factors such as geographical locations and genetics.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonSexCode</name>
+        <definition>A gender or sex of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonSurName</name>
+        <definition>A last name or family name of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonGivenName</name>
+        <definition>A first name of a person.</definition>
+    </element>
+</data>

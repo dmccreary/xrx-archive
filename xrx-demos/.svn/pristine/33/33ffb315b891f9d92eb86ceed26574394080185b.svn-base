@@ -1,0 +1,63 @@
+@namespace xf url("http://www.w3.org/2002/xforms");
+/* this is a general-purpose CSS file for all XForms files */
+/* do not put form-specific formatting or table-specific formatting in this file */
+ .block-form xf|label {
+     display: inline-block;
+     width: 28ex;
+     text-align: right;
+     margin-right: 1ex;
+     vertical-align: middle;
+     font-weight: bold;
+ }
+
+.block-form xf|input,
+.block-form xf|secret,
+.block-form xf|select,
+.block-form xf|select1,
+.block-form xf|ouptut, 
+.block-form xf|textarea 
+{
+       display: block;
+       margin: 1ex;
+  }
+
+/* This line puts a black border around all specified xforms groups and gives them both margin and padding */
+xf|group {
+   border:1px solid black;
+   margin:15px 5px;
+   padding:5px;
+}
+
+/* Differentiate between required fields and non-required fields */
+xf|input:required {font-weight: bold;}
+xf|input:required .xf-value {background-color:#fff6af;}
+
+/* This adds a red asterisk after the required input fields */
+*:required::after {font-weight:bold; font-size:1.5em; content: "*"; color: red; }
+
+xf|group > xf|label {background:#fff; font-weight:bold; padding:5px;}
+
+/* This marks the "selected" point within a set of repeated elements */
+xf|repeat .xf-repeat-item {background:#999; border:none;}
+
+/* the background of the selected cell under a repeated group must be a light yellow FFFF90 */
+xf|repeat .xf-repeat-index  {background: #FFFF90; border:none;}
+
+.error-message {font-size:1.5em; background:pink; border:1px dashed red; padding:5px;}
+
+/* default allignment for numeric fields */
+.amount .xf-value, .count .xf-value {text-align:right;}
+
+/*  delete confirmation box */
+.background {position:fixed; top:0; left:0; background:#888; width:100%; height:110%; opacity:0.9; z-index:2;}
+.delete-confirm-box {width:500px; height:250px; border:3px dotted #1c5180; background:#fff; margin:auto; margin-top:200px; z-index:3;}
+.delete-option-triggers {text-align:center; width:100%; margin-top:-70px;}
+.translucent-background {position:absolute; top:0; left:0; width:500px; height:250px; background-color:blue; margin:auto; margin-top:200px;}
+
+.inline-control {display: inline}
+
+xf|trigger {margin-right:20px;} 
+
+.content-for-deletion {float:left; width:340px; position:relative; top:0; left:0; padding:10px;}
+.content-for-deletion p {padding:0; margin-bottom:10px; font-weight:bold; font-size:1.2em;}
+.delete-confirm-box h2 {font-size:1.5em; margin:0; padding:5px; color:#fff; font-family:Century Gothic; text-align:center; background:#3e7c8f;}

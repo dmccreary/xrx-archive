@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>4</id>
+    <Classifier>Messaging Systems</Classifier>
+    <PatternName>Message Router</PatternName>
+    <Image>ContentBasedRouterIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessageRouter.html</Reference>
+    <Description>How can you decouple individual processing steps so that messages can be passed to
+      different filters depending on a set of conditions?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>12</id>
+    <name>Intro to XPath</name>
+    <description>In this lab students will execute basic XPath
+    queries on a books sample data file..</description>
+    <depends>
+        <topic-id/>
+    </depends>
+    <programlisting><![CDATA[
+xquery version "1.0";
+let $books := doc('/db/apps/training/data/books.xml')//books
+ 
+return count($books)
+
+        ]]></programlisting>
+    <resources>
+        <resource>
+            <name>XPath Lab</name>
+            <type>google-doc</type>
+            <url>https://docs.google.com/document/pub?id=106sITDEG3FRVe9G2mBgQt0guTZpIpVsVcsOZdwGOBx4</url>
+        </resource>
+        <resource>
+            <name>XQuery Wikibook</name>
+            <type>wikibook</type>
+            <url>http://en.wikibooks.org/wiki/XQuery/XPath_examples</url>
+        </resource>
+    </resources>
+    <category>intro</category>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

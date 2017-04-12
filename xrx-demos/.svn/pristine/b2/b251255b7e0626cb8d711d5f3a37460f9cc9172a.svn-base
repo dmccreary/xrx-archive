@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>55</id>
+    <Classifier>System Management</Classifier>
+    <PatternName>Channel Purger</PatternName>
+    <Image>ChannelPurgerIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/ChannelPurger.html</Reference>
+    <Description>How can you keep 'left-over' messages on a channel from disturbing tests or running systems?</Description>
+    <Question/>
+    <Answer>Use a Channel Purger to remove unwanted messages from a channel.</Answer>
+    <NoteText>A simple Channel Purger simply remove all the messages from a channel. This may be sufficient for test scenarios where we want to reset the system into a consistent state. If we are debugging a production system we may need to remove individual message or a set of messages based on specific criteria, such as the message ID or the values of specific message fields.</NoteText>
+</Pattern>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>4</id>
+    <name>The Joy of Sequences</name>
+    <description>Tools for manipulating sequences of items.</description>
+    <depends>
+        <topic-id/>
+    </depends>
+    <program-code><![CDATA[
+        xquery version "1.0";
+        
+        let $sequence := ('a', 'b', 'c', 'd', 'e', 'f')
+        
+        let $count := count($sequence)
+        
+        return
+        <results>
+            <count>{$count}</count>
+            <items>
+                {for $item in $sequence
+                return
+                <item>{$item}</item>
+                }
+            </items>
+        </results>
+        
+    ]]></program-code>
+    <status/>
+    <resources>
+        <resource>
+            <name>Wikibook Article on Sequences</name>
+            <type>wikibook</type>
+            <description>Wikibook Article on Sequences</description>
+            <url>http://en.wikibooks.org/wiki/XQuery/Sequences</url>
+        </resource>
+    </resources>
+    <category>intro</category>
+    <tag/>
+    <tag/>
+</lab>

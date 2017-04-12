@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>5</id>
+    <name>Listing Items</name>
+    <description>Converting a sequence of items to an HTML list.</description>
+    <classes>
+        <id>2</id>
+    </classes>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

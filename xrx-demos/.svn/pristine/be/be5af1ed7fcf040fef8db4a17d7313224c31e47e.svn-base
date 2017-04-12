@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archiveFile>
+    <recordID>2</recordID>
+    <itemID>
+        <itemIDType>HF</itemIDType>
+        <itemIDNumber>HF 1.2</itemIDNumber>
+    </itemID>
+    <title>Harvard Forest Properties</title>
+    <workType>Maps</workType>
+    <physicalDescription>
+        <media>Paper</media>
+        <physicalDescriptionNote/>
+        <extent>2 (1 original, 1 copy)</extent>
+        <scale>1" = 0.5 mi</scale>
+    </physicalDescription>
+    <abstract>Boundaries, base maps, surveys</abstract>
+    <date>1937</date>
+    <publicationStatus>Unpublished</publicationStatus>
+    <archivesLocation>Map Room Stack #1</archivesLocation>
+    <administrativeNotes>dupllicates in same drawer</administrativeNotes>
+    <access>on-site only</access>
+    <repositoryName>Harvard Forest Library</repositoryName>
+</archiveFile>

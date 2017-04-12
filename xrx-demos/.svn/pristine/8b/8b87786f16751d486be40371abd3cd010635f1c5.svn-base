@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>purple-people-codes</code-table-name>
+    <description>Purple People</description>
+    <data-source>In my head.</data-source>
+    <items>
+        <item>
+            <label>Green</label>
+            <numeric-id>18</numeric-id>
+            <value>green</value>
+        </item>
+        <item>
+            <label>Purple</label>
+            <numeric-id>22</numeric-id>
+            <value>purple</value>
+        </item>
+    </items>
+</code-table>

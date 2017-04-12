@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animal>
+    <id>3</id>
+    <animal-category-code>cats</animal-category-code>
+    <animal-type-code>ally</animal-type-code>
+    <animal-name>Fluffy</animal-name>
+    <pruchase-amount>100.00</pruchase-amount>
+    <status>available</status>
+    <description>A very friendly..</description>
+    <image>cat.jpg</image>
+</animal>

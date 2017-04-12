@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>RequirementReleaseCode</code-table-name>
+    <file-name>RequirementReleaseCodes.xml</file-name>
+    <items>
+        <item>
+            <label>Pre-Alpha</label>
+            <value>pre-alpha</value>
+            <rank>1</rank>
+        </item>
+        <item>
+            <label>Alpha</label>
+            <value>alpha</value>
+            <rank>2</rank>
+        </item>
+        <item>
+            <label>Beta 1</label>
+            <value>beta-1</value>
+            <rank>3</rank>
+        </item>
+        <item>
+            <label>Beta 2</label>
+            <value>beta-1</value>
+            <rank>4</rank>
+        </item>
+        <item>
+            <label>Version 1.0</label>
+            <value>version-1</value>
+            <rank>5</rank>
+        </item>
+        <item>
+            <label>Version 2.0</label>
+            <value>version-2</value>
+            <rank>6</rank>
+        </item>
+        <item>
+            <label>Version 3.0</label>
+            <value>version-3</value>
+            <rank>7</rank>
+        </item>
+        <item>
+            <label>Unassigned</label>
+            <value>version-2</value>
+            <rank>6</rank>
+        </item>
+    </items>
+</code-table>

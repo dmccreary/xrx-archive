@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <filename>e-mail-test.xml</filename>
+    <element>
+        <name>Super</name>
+        <prefix>uc</prefix>
+        <definition>The root of all data elements.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>AddressPrivateMailboxText</name>
+        <definition>A private mailbox within a company.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>ContactEmailID</name>
+        <definition>An electronic mailing address by which a person or organization may be contacted.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>DeviceReceivedEmail</name>
+        <definition>An email message received by a computer.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>DeviceSentEmail</name>
+        <definition>An email message sent from a computer.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>Email</name>
+        <definition>An electronic form of communication that can be exchanged asynchronously.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailAttachment</name>
+        <definition>A file which is sent along with an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailAttachmentBinary</name>
+        <definition>A binary file which is attached to an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailAttachmentDocument</name>
+        <definition>A document which is attached to an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailAttachmentImage</name>
+        <definition>An image file which is attached to an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailID</name>
+        <definition>An identifier that references an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailMessageText</name>
+        <definition>A body or main content of an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailReceivedDate</name>
+        <definition>A date on which an email message is received.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailRecipient</name>
+        <definition>A recipient of an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailRecipientAddressID</name>
+        <definition>An email address of a recipient of an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailRecipientEntity</name>
+        <definition>An entity which receives an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailRecipientName</name>
+        <definition>A name of an entity which receives an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailSender</name>
+        <definition>A sender of an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailSenderEntity</name>
+        <definition>An entity which sends an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailSenderName</name>
+        <definition>A name of an entity which sends an email message.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailSentDate</name>
+        <definition>A date on which an email message is sent.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>EmailSubjectText</name>
+        <definition>A summary of the contents on an email message.</definition>
+    </element>
+</data>

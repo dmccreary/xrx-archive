@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Domains Home</title>
+        <link rel="stylesheet" type="text/css" href="../resources/css/thrivent.css"/>
+        <style type="text/css">
+            body li {line-height: 1.3em;}
+        </style>
+    </head>
+    <body>
+        <img src="../resources/images/thrivent_logo.jpg" alt="logo"/>
+        <hr class="thrivent-red"/>
+        <hr class="thrivent-gold"/>
+        <a class="breadcrumb" href="../index.xhtml">Metadata Registry Home</a>
+        <h1>Metadata Registry Tasks</h1>
+        <p>Tasks are items of work that are assigned to resources.</p>
+        <h3>Reports</h3>
+        <ul>
+            <li>
+                <a href="views/list-open-tasks.xq">Open Tasks</a> All Open Tasks by Priority
+            </li>
+            <li>
+                <a href="views/list-tasks.xq">All Tasks Priority</a> An listing of open tasks.
+            </li>
+        </ul>
+        <h3>Search</h3>
+        <ul>
+            <li>
+                <a href="search/search.xhtml">Search Tasks</a> Search all tasks.</li>
+        </ul>
+        <h3>New</h3>
+        <ul>
+            <li>
+                <a href="edit/edit.xq?new=true">Create New Task</a> Create a new task.</li>
+        </ul>
+        <h3>Services</h3>
+        <ul>
+            <li>
+                <a href="views/list-tasks-xml.xq">Raw XML</a> Raw XML data of all tasks used for data dumps
+            </li>
+            <li>
+                <a href="search/search.xq?string=add">Search</a> A search service.  Use a sting= parameter on the URL
+            </li>
+            <li>
+                <a href="views/metrics.xq">Task Metrics</a> Metrics including the counts of number of tasks
+            </li>
+        </ul>
+        <h3>Training and User Guide</h3>
+        <ul>
+            <li>
+                <a href="Task-Manager-User-Guide.ppt">Task Manager User Guide</a> A training and user guide for new task managers.
+            </li>
+        </ul>
+        <h3>View Code Tables</h3>
+        <p>Use XML editors to modify these code tables.</p>
+        <ul>
+            <li>
+                <a href="edit/task-type-code.xml">Task Type Codes</a> List of task types such as defect, enhanment, document, training or other
+            </li>
+            <li>
+                <a href="edit/task-priority-code.xml">Task Priority Codes</a> A list of the task priorities (Critical, High, Medium, Low).  We use alpha (a, b, c, d) in the values so they can be easily sorted.
+            </li>
+            <li>
+                <a href="edit/task-completion-status-code.xml">Task Completion Status Code</a> View list of task completion status codes such as new, assigned, closed or reopened.  Open tasks are any that are not closed.  These are the same task status codes used by the trac system.  Do not change unless you understand the workflow rules associated with these codes.
+            </li>
+            <li>
+                <a href="edit/task-assigned-to-code.xml">Task Assignment</a> A list of the people or organizations that can be assigned a task.  Useful for sorting tasks.
+            </li>
+        </ul>
+    </body>
+</html>

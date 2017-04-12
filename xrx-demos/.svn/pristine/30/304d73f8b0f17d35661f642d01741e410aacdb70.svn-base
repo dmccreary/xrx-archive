@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xf="http://www.w3.org/2002/xforms"><?import namespace="xf" implementation="#default#pxf"?>
+    <head>
+        <title>Seach Patterns</title>
+        <link rel="stylesheet" type="text/css" href="../../../resources/css/thrivent.css"/>
+        <style type="text/css">
+               @namespace xf url("http://www.w3.org/2002/xforms");
+               xf|label {
+                    font-weight: bold;
+               }
+               hr {margin: 0; padding: 0; line-height: 0}
+               img.logo {border-bottom: * }
+               
+        </style>
+        <xf:model>
+            <xf:instance xmlns="">
+                <data>
+                    <q/>
+                </data>
+            </xf:instance>
+            <xf:submission id="search" method="get" action="search.xq" replace="all"/>
+            <xf:action ev:event="xforms-ready">
+                <xf:setfocus control="search-input"/>
+            </xf:action>
+        </xf:model>
+    </head>
+    <body>
+        <img src="../../../resources/images/thrivent_logo.jpg" alt="logo"/>
+        <hr class="thrivent-red"/>
+        <hr class="thrivent-gold"/>
+        <a class="breadcrumb" href="../../../index.xhtml">Metadata Registry</a> &gt;
+         <a class="breadcrumb" href="../../index.xhtml">Patterns</a>  &gt;
+         <a class="breadcrumb" href="../index.xhtml">Integration Patterns</a>
+        <h1>Search Patterns</h1>
+        <p>This will search all fields of a Business Term including notes fields.</p>
+        <xf:input ref="q" id="search-input" incremental="true">
+            <xf:label>Search string:</xf:label>
+            <xf:action ev:event="DOMActivate">
+                <xf:send submission="search"/>
+            </xf:action>
+        </xf:input>
+        <xf:submit submission="search">
+            <xf:label>Search</xf:label>
+        </xf:submit>
+        <!-- <a href="advanced-search.xhtml">Advanced Search</a> -->
+        <xf:switch>
+            <xf:case id="default"/>
+            <xf:case id="case-busy">
+                <p>searching...</p>
+            </xf:case>
+            <xf:case id="case-submit-error">
+                <p>submit-error</p>
+            </xf:case>
+        </xf:switch>
+    </body>
+</html>

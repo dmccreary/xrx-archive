@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>risk-status-codes</name>
+    <description>Provides the status of the identified risk.</description>
+    <items>
+        <item>
+            <label>Open</label>
+            <value>1</value>
+            <definition>Contingency Plan in operation.</definition>
+        </item>
+        <item>
+            <label>Resolved</label>
+            <value>2</value>
+            <definition>Risk item has been resolved, no further action required.</definition>
+        </item>
+        <item>
+            <label>Monitor</label>
+            <value>3</value>
+            <definition>Risk item has not occured, monitoring.</definition>
+        </item>
+    </items>
+</code-table>

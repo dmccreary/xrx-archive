@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<example-queries>
+    <id>3</id>
+    <description>Test XQuery Examples</description>
+    <author>dan</author>
+    <query>
+        <description>Hello World</description>
+        <code><![CDATA[let $message := 'Hello World!'
+   return $message]]></code>
+    </query>
+</example-queries>

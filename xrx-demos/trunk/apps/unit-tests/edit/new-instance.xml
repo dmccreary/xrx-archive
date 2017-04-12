@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-set>
+    <id/>
+    <test-set-name/>
+    <setup/>
+    <imports/>
+    <functions/>
+    <tear-down/>
+    <test output="text">
+        <id/>
+        <test-name/>
+        <description/>
+        <task/>
+        <code/>
+        <expected desc=""/>
+    </test>
+    <test output="text">
+        <id/>
+        <description/>
+        <task/>
+        <code/>
+        <expected desc=""/>
+    </test>
+</test-set>

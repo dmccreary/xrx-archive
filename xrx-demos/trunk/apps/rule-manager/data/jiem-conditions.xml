@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conditions>
+    <condition predicate="is a felony" subject="charge"/>
+    <condition predicate="is a misdemeanor" subject="charge"/>
+    <condition predicate="is domestic violence" subject="charge"/>
+    <condition predicate="is reportable to motor vehicles" subject="charge"/>
+    <condition predicate="is reportable to the FBI" subject="charge"/>
+    <condition predicate="is reportable to the state repository" subject="charge"/>
+    <condition predicate="accepts custody of subject" subject="corrections"/>
+    <condition predicate="releases subject to parole" subject="corrections"/>
+    <condition predicate="amends charge" subject="court"/>
+    <condition predicate="appoints defense counsel" subject="court"/>
+    <condition description="Court approves charges filed by prosecutor" predicate="approves charge" subject="court"/>
+    <condition predicate="approves protection order" subject="court"/>
+    <condition predicate="authorizes detention beyond the statutory limit" subject="court"/>
+    <condition predicate="binds case over" subject="court"/>
+    <condition predicate="closes case" subject="court"/>
+    <condition predicate="denies post-conviction relief" subject="court"/>
+    <condition predicate="determines that subject action does not require sentence modification" subject="court"/>
+    <condition predicate="determines that subject action requires sentence modification" subject="court"/>
+    <condition predicate="discharges state prison sentence" subject="court"/>
+    <condition predicate="dismisses charges" subject="court"/>
+    <condition predicate="diverts subject" subject="court"/>
+    <condition predicate="does not bind case over" subject="court"/>
+    <condition predicate="does not find probable cause to issue a warrant" subject="court"/>
+    <condition predicate="does not find probable cause to proceed" subject="court"/>
+    <condition predicate="does not grant new trial" subject="court"/>
+    <condition predicate="entered a final disposition" subject="court"/>
+    <condition predicate="finds non-appearance justified" subject="court"/>
+    <condition predicate="finds non-appearance unjustified" subject="court"/>
+    <condition predicate="finds probable cause to issue a summons" subject="court"/>
+    <condition predicate="finds probable cause to issue a warrant" subject="court"/>
+    <condition predicate="finds probable cause to proceed" subject="court"/>
+    <condition predicate="grants a new trial" subject="court"/>
+    <condition predicate="grants motion for a continuance" subject="court"/>
+    <condition predicate="grants post-conviction relief" subject="court"/>
+    <condition predicate="has not entered a final disposition" subject="court"/>
+    <condition predicate="has opened a case" subject="court"/>
+    <condition predicate="issues a protection order" subject="court"/>
+    <condition predicate="modifies state prison sentence to probation" subject="court"/>
+    <condition predicate="orders expungement of subject records" subject="court"/>
+    <condition predicate="orders pre-plea investigation" subject="court"/>
+    <condition predicate="orders pre-sentence investigation" subject="court"/>
+    <condition predicate="orders pretrial supervision" subject="court"/>
+    <condition predicate="orders subject held without bail" subject="court"/>
+    <condition predicate="orders subject released" subject="court"/>
+    <condition predicate="orders subject released on own recognizance" subject="court"/>
+    <condition predicate="orders subject released pending formal charges" subject="court"/>
+    <condition predicate="previously sentenced subject to jail" subject="court"/>
+    <condition predicate="previously sentenced subject to prison" subject="court"/>
+    <condition predicate="recalls warrant" subject="court"/>
+    <condition predicate="remands subject for violating terms of conditional release" subject="court"/>
+    <condition predicate="remands subject into custody" subject="court"/>
+    <condition predicate="requires subject to be booked" subject="court"/>
+    <condition predicate="revokes probation" subject="court"/>
+    <condition predicate="rules on motion" subject="court"/>
+    <condition predicate="schedules first appearance" subject="court"/>
+    <condition predicate="schedules pretrial hearing" subject="court"/>
+    <condition predicate="schedules subsequent appearance" subject="court"/>
+    <condition predicate="sentences subject" subject="court"/>
+    <condition predicate="sentences subject on a traffic case" subject="court"/>
+    <condition predicate="sentences subject to a work release program" subject="court"/>
+    <condition predicate="sentences subject to jail" subject="court"/>
+    <condition predicate="sentences subject to pay fees/fines/costs" subject="court"/>
+    <condition predicate="sentences subject to prison" subject="court"/>
+    <condition predicate="sentences subject to probation" subject="court"/>
+    <condition predicate="sets conditions for release" subject="court"/>
+    <condition predicate="terminates probation" subject="court"/>
+    <condition predicate="believes subject meets criteria for early release" subject="defense"/>
+    <condition predicate="determines that witness testimony required" subject="defense"/>
+    <condition predicate="filed a pretrial motion" subject="defense"/>
+    <condition predicate="represents subject" subject="defense"/>
+    <condition predicate="requested a subpoena" subject="defense"/>
+    <condition predicate="requests a hearing to consider sentence modification" subject="defense"/>
+    <condition predicate="requests a new trial" subject="defense"/>
+    <condition predicate="seeks a court ruling on substantive issue of law or fact" subject="defense"/>
+    <condition predicate="seeks discovery from prosecutor" subject="defense"/>
+    <condition predicate="seeks expungement of subject records" subject="defense"/>
+    <condition predicate="seeks post-conviction relief" subject="defense"/>
+    <condition predicate="finds no true bill" subject="grand jury"/>
+    <condition predicate="finds true bill" subject="grand jury"/>
+    <condition predicate="accepts custody of subject" subject="jail"/>
+    <condition predicate="determines release time approaching" subject="jail"/>
+    <condition predicate="releases subject" subject="jail"/>
+    <condition predicate="requests a criminal history" subject="jail"/>
+    <condition predicate="finds subject guilty of one or more charges" subject="jury"/>
+    <condition predicate="finds subject not guilty on all charges" subject="jury"/>
+    <condition predicate="arrests subject on a bench warrant" subject="law enforcement"/>
+    <condition predicate="arrests subject on a new charge" subject="law enforcement"/>
+    <condition predicate="arrests subject on a warrant" subject="law enforcement"/>
+    <condition predicate="arrests subject on an arrest warrant" subject="law enforcement"/>
+    <condition predicate="arrests subject on probable cause" subject="law enforcement"/>
+    <condition predicate="collects latent fingerprints" subject="law enforcement"/>
+    <condition predicate="considers subject dangerous" subject="law enforcement"/>
+    <condition predicate="determines it not necessary to detain or arrest subject" subject="law enforcement"/>
+    <condition predicate="determines that a crime was committed" subject="law enforcement"/>
+    <condition predicate="diverts subject" subject="law enforcement"/>
+    <condition predicate="does not consider subject dangerous" subject="law enforcement"/>
+    <condition predicate="does not take subject into custody" subject="law enforcement"/>
+    <condition predicate="files a citation" subject="law enforcement"/>
+    <condition predicate="finds probable cause to refer case to prosecutor" subject="law enforcement"/>
+    <condition predicate="finds probable cause to request a summons" subject="law enforcement"/>
+    <condition predicate="finds probable cause to request a warrant" subject="law enforcement"/>
+    <condition predicate="has not referred case to prosecutor" subject="law enforcement"/>
+    <condition predicate="issues a citation" subject="law enforcement"/>
+    <condition predicate="requests a criminal history" subject="law enforcement"/>
+    <condition predicate="requests a driver history" subject="law enforcement"/>
+    <condition predicate="seeks to identify subject" subject="law enforcement"/>
+    <condition predicate="suspects that an offense was committed" subject="law enforcement"/>
+    <condition predicate="suspects that subject committed domestic battery" subject="law enforcement"/>
+    <condition predicate="takes subject into custody" subject="law enforcement"/>
+    <condition predicate="unable to serve a summons" subject="law enforcement"/>
+    <condition predicate="specified" subject="no condition"/>
+    <condition predicate="negotiated plea agreement" subject="parties"/>
+    <condition predicate="determines that subject qualifies for release" subject="pretrial services"/>
+    <condition predicate="completes the pre-plea investigation" subject="probation"/>
+    <condition predicate="completes the pre-sentence investigation" subject="probation"/>
+    <condition predicate="refers subject to a treatment provider" subject="probation"/>
+    <condition predicate="revokes parole" subject="probation and parole"/>
+    <condition predicate="amends charge" subject="prosecutor"/>
+    <condition predicate="closes case" subject="prosecutor"/>
+    <condition predicate="determines that a subpoena is necessary to acquire evidence" subject="prosecutor"/>
+    <condition predicate="determines that law enforcement testimony is required" subject="prosecutor"/>
+    <condition predicate="determines that property should be returned to its rightful owner" subject="prosecutor"/>
+    <condition predicate="determines that witness testimony is required" subject="prosecutor"/>
+    <condition predicate="diverts subject after filing charges" subject="prosecutor"/>
+    <condition predicate="diverts subject without filing charges" subject="prosecutor"/>
+    <condition predicate="finds insufficient evidence to file charges" subject="prosecutor"/>
+    <condition predicate="finds probable cause to file a probation violation" subject="prosecutor"/>
+    <condition predicate="finds probable cause to request a summons" subject="prosecutor"/>
+    <condition predicate="finds probable cause to request a warrant" subject="prosecutor"/>
+    <condition predicate="finds sufficient evidence to file charges" subject="prosecutor"/>
+    <condition predicate="has filed a pretrial motion" subject="prosecutor"/>
+    <condition predicate="has filed charges" subject="prosecutor"/>
+    <condition predicate="has not filed charges" subject="prosecutor"/>
+    <condition predicate="reinstates charges" subject="prosecutor"/>
+    <condition predicate="requested a subpoena" subject="prosecutor"/>
+    <condition predicate="requests a hearing to consider sentence modification" subject="prosecutor"/>
+    <condition predicate="requests a protection order as part of a criminal case" subject="prosecutor"/>
+    <condition predicate="requires additional information" subject="prosecutor"/>
+    <condition predicate="review is not required" subject="prosecutor"/>
+    <condition predicate="seeks a court ruling on a substantive issue of law or fact" subject="prosecutor"/>
+    <condition predicate="wants evidence brought to court" subject="prosecutor"/>
+    <condition predicate="wants subject to be booked" subject="prosecutor"/>
+    <condition predicate="relocates" subject="registered offender"/>
+    <condition predicate="serves a subpoena" subject="sheriff"/>
+    <condition predicate="positively identifies subject" subject="state repository"/>
+    <condition predicate="brought to court on a warrant" subject="subject"/>
+    <condition predicate="cannot be positively identified" subject="subject"/>
+    <condition predicate="cannot meet conditions for release" subject="subject"/>
+    <condition predicate="cannot post bond" subject="subject"/>
+    <condition predicate="captured" subject="subject"/>
+    <condition predicate="comes to court out of custody" subject="subject"/>
+    <condition predicate="completed prison term" subject="subject"/>
+    <condition predicate="complied with all other terms of supervision" subject="subject"/>
+    <condition predicate="complies with conditions of supervision" subject="subject"/>
+    <condition predicate="currently is on parole" subject="subject"/>
+    <condition predicate="currently is on probation" subject="subject"/>
+    <condition predicate="currently is on supervised release from jail" subject="subject"/>
+    <condition predicate="dies in custody" subject="subject"/>
+    <condition predicate="enters a guilty plea" subject="subject"/>
+    <condition predicate="enters a not guilty plea" subject="subject"/>
+    <condition predicate="escapes from custody" subject="subject"/>
+    <condition predicate="escapes from state prison" subject="subject"/>
+    <condition predicate="fails diversion" subject="subject"/>
+    <condition predicate="fails to appear" subject="subject"/>
+    <condition predicate="fails to appear for sex offender registration" subject="subject"/>
+    <condition predicate="fails to comply with a court order" subject="subject"/>
+    <condition predicate="fails to comply with sentencing terms" subject="subject"/>
+    <condition predicate="fails to comply with terms of work release" subject="subject"/>
+    <condition predicate="fails to make court-ordered payments" subject="subject"/>
+    <condition predicate="fails to report" subject="subject"/>
+    <condition predicate="has a detainer" subject="subject"/>
+    <condition predicate="has a valid protection order from outside state jurisdiction" subject="subject"/>
+    <condition predicate="has not been booked" subject="subject"/>
+    <condition predicate="is a sex offender" subject="subject"/>
+    <condition predicate="is an alien" subject="subject"/>
+    <condition predicate="is eligible for parole" subject="subject"/>
+    <condition predicate="is from out of state" subject="subject"/>
+    <condition predicate="is in custody" subject="subject"/>
+    <condition predicate="is in custody on a probation violation" subject="subject"/>
+    <condition predicate="is incarcerated at state prison" subject="subject"/>
+    <condition predicate="is not in custody" subject="subject"/>
+    <condition predicate="is not present in court" subject="subject"/>
+    <condition predicate="is returned to state prison" subject="subject"/>
+    <condition predicate="is taken into custody" subject="subject"/>
+    <condition predicate="is to remain in custody" subject="subject"/>
+    <condition predicate="is transferred to another jurisdiction" subject="subject"/>
+    <condition predicate="is transferred to local custody" subject="subject"/>
+    <condition predicate="makes court-ordered payments" subject="subject"/>
+    <condition predicate="posts bond" subject="subject"/>
+    <condition predicate="qualifies for release" subject="subject"/>
+    <condition predicate="registers as a sex offender" subject="subject"/>
+    <condition predicate="successfully completes diversion" subject="subject"/>
+    <condition predicate="successfully completes parole" subject="subject"/>
+    <condition predicate="successfully completes probation" subject="subject"/>
+    <condition predicate="successfully complies with terms of probation" subject="subject"/>
+    <condition predicate="violates conditions of supervision" subject="subject"/>
+    <condition predicate="violates terms of parole" subject="subject"/>
+    <condition predicate="violates terms of probation" subject="subject"/>
+    <condition predicate="waives right to a jury trial" subject="subject"/>
+    <condition predicate="was already in custody" subject="subject"/>
+    <condition predicate="whereabouts are unknown" subject="subject"/>
+    <condition predicate="has been identified" subject="victim"/>
+</conditions>

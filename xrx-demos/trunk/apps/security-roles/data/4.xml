@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security-role>
+    <id>4</id>
+    <name>registered-user</name>
+    <label>Registered User</label>
+    <description>A user with an profile or OpenID login who can save user-specific settings, including search terms, e-mail/notification settings, and print-on-demand requests.</description>
+    <category>public-web-site</category>
+    <category>intranet</category>
+    <status>draft</status>
+    <tag/>
+    <created-datetime/>
+    <created-by/>
+    <last-modified-datetime/>
+    <last-modified-by/>
+</security-role>

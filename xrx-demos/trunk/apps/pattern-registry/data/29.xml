@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>29</id>
+    <Classifier>Message Routing</Classifier>
+    <PatternName>Aggregator</PatternName>
+    <Image>AggregatorIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/Aggregator.html</Reference>
+    <Description>How do we combine the results of individual, but related messages so that they can
+be processed as a whole?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

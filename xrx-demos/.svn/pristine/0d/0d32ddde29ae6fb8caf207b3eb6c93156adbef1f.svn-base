@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400">
+    <defs>
+        <linearGradient id="gradientDefinition" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" style="stop-color:#FF0000"/>
+            <stop offset="100%" style="stop-color:#000000"/>
+        </linearGradient>
+        <pattern id="checkerPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+            <rect fill="url(#gradientDefinition)" stroke="yellow" stroke-dasharray="4 4 4 4" x="0" y="0" width="40" height="40"/>
+        </pattern>
+    </defs>
+    <rect fill="url(#checkerPattern)" style="stroke:red" x="0" y="0" width="800" height="400"/>
+</svg>

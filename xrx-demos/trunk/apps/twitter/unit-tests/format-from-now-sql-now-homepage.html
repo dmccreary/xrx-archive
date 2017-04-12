@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+    <head>
+        <title/>
+    </head>
+    <body>
+        <div class="content">
+            Twitter Feed with search of #nosql and behavior=default
+        </div>
+        <script src="http://widgets.twimg.com/j/2/widget.js"/>
+        <script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#nosql',
+  interval: 6000,
+  title: 'NoSQLNow',
+  subject: 'What\'\s Everyone Saying about NoSQL Now?',
+  width: 473,
+  height: 200,
+  theme: {
+    shell: {
+      background: '#2B8D95',
+      color: '#ffffff',
+      display: 'block',
+      margin:'10px 0px'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+    </body>
+</html>

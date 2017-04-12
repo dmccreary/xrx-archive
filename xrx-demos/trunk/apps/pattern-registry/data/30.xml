@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>30</id>
+    <Classifier>Message Routing</Classifier>
+    <PatternName>Resequencer</PatternName>
+    <Image>ResequencerIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/Resequencer.html</Reference>
+    <Description>How can we get a stream of related but out-of-sequence messages back into the
+      correct order?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kpi-range>
+    <id>1</id>
+    <name>Standard 100 Point Three Interval Fail, Warn, OK Range</name>
+    <description>Tyicpally used in workflow processing where if over 90 percent of items pass without errors.</description>
+    <intervals>
+        <interval>
+            <relationship>lt</relationship>
+            <!-- note the fist value is always null -->
+            <value/>
+            <label>Failing</label>
+            <color>red</color>
+        </interval>
+        <interval>
+            <relationship>gt</relationship>
+            <value>75</value>
+            <label>Warning</label>
+            <color>yellow</color>
+        </interval>
+        <interval>
+            <relationship>gt</relationship>
+            <value>90</value>
+            <label>Passing</label>
+            <color>green</color>
+        </interval>
+    </intervals>
+</kpi-range>

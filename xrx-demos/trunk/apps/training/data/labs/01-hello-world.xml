@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>1</id>
+    <name>Hello World in XQuery</name>
+    <description>In this lab students will create a simple XQuery program
+    that will return the string "Hello World!".</description>
+    <depends>
+        <topic-id/>
+    </depends>
+    <resources>
+        <resource>
+            <name>Hello World With Wikibook</name>
+            <type>wikibook</type>
+            <url>http://en.wikibooks.org/wiki/XQuery/HelloWorld</url>
+        </resource>
+        <resource>
+            <name>Output of Hello World Script</name>
+            <type>xquery-example</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/01-basic-syntax/01-hello-world.xq</url>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

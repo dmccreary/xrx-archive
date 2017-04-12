@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archiveFile>
+    <recordID/>
+    <itemID>
+        <itemIDType/>
+        <itemIDNumber/>
+    </itemID>
+    <title/>
+    <creator>
+        <nameElement persCorp="personal"/>
+        <role/>
+        <source/>
+    </creator>
+    <temporalCoverage>
+        <startDate/>
+        <endDate/>
+        <dateDescription/>
+    </temporalCoverage>
+    <spatialCoverage>
+        <geographicDescription/>
+    </spatialCoverage>
+    <keyword/>
+    <keyword/>
+    <keyword/>
+    <workType/>
+    <physicalDescription>
+        <media/>
+        <physicalDescriptionNote/>
+        <extent/>
+        <scale/>
+    </physicalDescription>
+    <abstract/>
+    <placeOfCreation/>
+    <publisher/>
+    <date>
+        <startDate/>
+    </date>
+    <publicationStatus/>
+    <archivesLocation/>
+    <administrativeNotes/>
+    <access/>
+    <repositoryName/>
+</archiveFile>

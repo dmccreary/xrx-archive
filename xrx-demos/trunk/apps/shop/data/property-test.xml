@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <filename>property-test.xml</filename>
+    <element>
+        <name>Super</name>
+        <prefix>uc</prefix>
+        <definition>The root of all data elements.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>InsuranceCoveredProperty</name>
+        <definition>A property item that is covered by an insurance policy.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>IntellectualProperty</name>
+        <definition>A property that results from original thought or creativity.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>IntellectualPropertyCreationDate</name>
+        <definition>A date that a piece of intellectual property came into existence.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>IntellectualPropertyCreationEventText</name>
+        <definition>An event that led to the creation of intellectual property.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>IntellectualPropertyRegistrationDate</name>
+        <definition>A date when intellectual property rights began for the registered owner.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>IntellectualPropertyRegistrationIdentification</name>
+        <definition>An identification of a piece of intellectual property.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>IntellectualPropertyTerminationDate</name>
+        <definition>A date when intellectual property is destroyed and/or property or registration rights cease to exist.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>IntellectualPropertyTerminationEventText</name>
+        <definition>An event that led to the destruction of a piece of intellectual property and/or the termination of registration rights.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PropertyReference</name>
+        <definition>A tangible or intangible item that can be owned or used.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>Property</name>
+        <definition>A tangible or intangible item that can be owned or used.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PropertyCurrentLocationAssociation</name>
+        <definition>An association between a property and its current location.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PropertyCurrentResaleValue</name>
+        <definition>An amount of money for which an item could currently be sold.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PropertyDispositionLocationAssociation</name>
+        <definition>An association between a property and disposition location.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PropertyHolding</name>
+        <definition>A temporary possession of an item for official purposes.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PropertyRecoveredValue</name>
+        <definition>An amount of money a previously missing item is worth after having been found.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PropertyRegistrationAssociation</name>
+        <definition>An association between a property and its registration information.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PropertySeizedLocation</name>
+        <definition>A location where an item was removed from the possession of the owner for official purposes.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PropertySeizer</name>
+        <definition>An entity which removes an item from the possession of the owner for official purposes.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PropertyStyleText</name>
+        <definition>A style of a property item.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>ReferralProperty</name>
+        <definition>A property item to which a person has been directed.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>ReleaseProperty</name>
+        <definition>A property item which is released from holding.</definition>
+    </element>
+</data>

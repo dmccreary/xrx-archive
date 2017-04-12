@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+    <id>44</id>
+    <Extension>2242</Extension>
+    <EmployeeName>Ann Kelly</EmployeeName>
+    <Title>Developer</Title>
+    <DirectDial>555-555-1212</DirectDial>
+    <CellPhone>555-555-1212</CellPhone>
+    <Home>555-555-5555</Home>
+    <State>CA</State>
+    <EMail>ann@example.com</EMail>
+    <EmployeeContractorStatusCode>contractor</EmployeeContractorStatusCode>
+    <Classifiers>
+        <Classifier>testing</Classifier>
+        <Classifier>development</Classifier>
+    </Classifiers>
+    <Notes> </Notes>
+    <created-datetime>2011-10-20T17:52:20.347Z</created-datetime>
+    <created-by>admin</created-by>
+    <last-modified-datetime>2011-10-24T15:02:25.327Z</last-modified-datetime>
+    <last-modified-by>admin</last-modified-by>
+</person>

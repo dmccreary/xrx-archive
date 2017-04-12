@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>51</id>
+    <Classifier>System Management</Classifier>
+    <PatternName>Wire Tap</PatternName>
+    <Image>WireTapIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/WireTap.html</Reference>
+    <Description>How do you inspect messages that travel on a point-to-point channel?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

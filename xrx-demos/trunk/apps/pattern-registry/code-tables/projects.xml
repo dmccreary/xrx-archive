@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>ProjectCode</code-table-name>
+    <description>List of projects that a pattern can be used in.</description>
+    <items>
+        <item>
+            <label>Metadata Registry</label>
+            <value>mdr</value>
+        </item>
+        <item>
+            <label>Enterprise Service Bus</label>
+            <value>esb</value>
+        </item>
+        <item>
+            <label>Other</label>
+            <value>other</value>
+        </item>
+    </items>
+</code-table>

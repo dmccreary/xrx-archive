@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <filename>eye-test.xml</filename>
+    <element>
+        <name>Super</name>
+        <prefix>uc</prefix>
+        <definition>The root of all data elements.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonEyeColor</name>
+        <definition>A color of the eyes of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonEyeColorCode</name>
+        <definition>A color of the eyes of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonEyeColorText</name>
+        <definition>A color of the eyes of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonEyewearDescriptionText</name>
+        <definition>A description of glasses or other eyewear a person wears.</definition>
+    </element>
+</data>

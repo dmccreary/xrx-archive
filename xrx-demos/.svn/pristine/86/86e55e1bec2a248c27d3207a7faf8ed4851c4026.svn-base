@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anychart>
+    <desc>A sample bar chart that disables on the "chart junk" that does not promote trend pattern recognition.
+      Note that these best practices can be placed in an AnyChart template file.</desc>
+    <!-- no AnyChart margin.  We use CSS to control this. -->
+    <margin all="0"/>
+    <charts>
+        <chart>
+            <data_plot_settings default_series_type="Bar">
+                <bar_series>
+                    <tooltip_settings enabled="true">
+                        <format>Date={%Name} Count={%YValue}{numDecimals:0}</format>
+                    </tooltip_settings>
+                </bar_series>
+            </data_plot_settings>
+            <chart_settings>
+                <!-- no Title.  We use HTML to generate this. -->
+                <title enabled="false">
+                    <text>SMS Standard Clean Layout Template</text>
+                </title>
+                <!-- no background broder - we use whitespace to seperate charts -->
+                <chart_background enabled="false"/>
+                <axes>
+                    <x_axis enabled="false">
+                        <major_grid enabled="false"/>
+                        <labels rotation="90"/>
+                        <!-- this disables the x-axis label -->
+                        <title enabled="false"/>
+                    </x_axis>
+                    <y_axis enabled="false">
+                        <major_grid enabled="false"/>
+                        <minor_grid enabled="false"/>
+                        <minor_tickmark enabled="false"/>
+                        <labels>
+                            <!-- this removes the two precision decimal formats -->
+                            <format>{%Value}{numDecimals:0}</format>
+                        </labels>
+                        <title>
+                            <text>Count</text>
+                        </title>
+                    </y_axis>
+                </axes>
+            </chart_settings>
+            <data>
+                <series>
+                    <point name="Jan 10" y="4"/>
+                    <point name="Feb 10" y="5"/>
+                    <point name="Mar 10" y="4"/>
+                    <point name="Apr 10" y="3"/>
+                    <point name="May 10" y="1"/>
+                    <point name="Jun 10" y="5"/>
+                </series>
+            </data>
+        </chart>
+    </charts>
+</anychart>

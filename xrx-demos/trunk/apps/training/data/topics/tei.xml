@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<training-topics>
+    <id>t-1</id>
+    <name>Text Encoding Initiative</name>
+    <description>General TEI Topics.</description>
+    <topic>
+        <id>tei-overview</id>
+        <name>What is TEI?</name>
+        <length>30</length>
+        <description>What is TEI format and what structures TEU contains.</description>
+        <resources>
+            <resource>
+                <resource-name>TEI Web Site</resource-name>
+                <resource-type>web-site</resource-type>
+                <resource-description>The TEI Consortium Home Page</resource-description>
+                <resource-url>http://www.tei-c.org/index.xml</resource-url>
+            </resource>
+            <resource>
+                <resource-name>TEI Elements</resource-name>
+                <resource-type>web-site</resource-type>
+                <resource-description>List of TEI Elements</resource-description>
+                <resource-url>http://www.tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html</resource-url>
+            </resource>
+        </resources>
+    </topic>
+    <topic>
+        <id>t-2</id>
+        <name>TEI Dates</name>
+        <length>30</length>
+        <description>How to use XPath to find all the dates in a TEI file.</description>
+        <resources>
+            <resource>
+                <resource-name>Powerpoint Slides on Dates</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description/>
+                <resource-url>http://www.danmccreary.com/</resource-url>
+            </resource>
+            <resource>
+                <resource-name>TEI Dates</resource-name>
+                <resource-type>web-site</resource-type>
+                <resource-description>How to code dates in TEI</resource-description>
+                <resource-url>http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.w3c.html</resource-url>
+            </resource>
+        </resources>
+    </topic>
+</training-topics>

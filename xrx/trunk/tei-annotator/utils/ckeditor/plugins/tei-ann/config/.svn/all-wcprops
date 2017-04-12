@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/config
+END
+generalConfigOptions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/config/generalConfigOptions.xml
+END
+tei-ann_UI.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/config/tei-ann_UI.xsd
+END
+Annotator-Specifications.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/config/Annotator-Specifications.xml
+END
+paho-tei-for-annotator.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/config/paho-tei-for-annotator.xsd
+END
+tei-entities.css
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/config/tei-entities.css
+END
+paho-tei-for-annotator.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/131/trunk/tei-annotator/utils/ckeditor/plugins/tei-ann/config/paho-tei-for-annotator.xml
+END

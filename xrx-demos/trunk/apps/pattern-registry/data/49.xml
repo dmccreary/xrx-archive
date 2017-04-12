@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>49</id>
+    <Classifier>System Management</Classifier>
+    <PatternName>Control Bus</PatternName>
+    <Image>ControlBusIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/ControlBus.html</Reference>
+    <Description>How can we effectively administer a messaging system that is distributed across
+      multiple platforms and a wide geographic area?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

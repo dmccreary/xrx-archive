@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>DevelopmentStatusCode</code-table-name>
+    <definition>The stage of software development of this item (project, task or resource).</definition>
+    <items>
+        <item>
+            <value>concept</value>
+            <label>Concept</label>
+            <definition>This item (task or project) is only in the concept stage a no efforts have been taken to get
+                approval for this item.</definition>
+        </item>
+        <item>
+            <value>pending-approval</value>
+            <label>Pending Approval</label>
+            <definition>This item is pending approval by the business and finanacial teams.</definition>
+        </item>
+        <item>
+            <value>approved</value>
+            <label>Approved</label>
+            <definition>This item is approved for development.</definition>
+        </item>
+        <item>
+            <value>scheduled</value>
+            <label>Scheduled</label>
+            <definition>The development of this item is currently being scheduled</definition>
+        </item>
+        <item>
+            <value>requirements</value>
+            <label>Requirments</label>
+            <definition>This item is currently having requirements gathered</definition>
+        </item>
+        <item>
+            <value>design</value>
+            <label>Design</label>
+            <definition>This item is in the a design phase.</definition>
+        </item>
+        <item>
+            <value>development</value>
+            <label>Development</label>
+            <definition>This item is under development.</definition>
+        </item>
+        <item>
+            <value>test</value>
+            <label>Testing</label>
+            <definition>This item is in the testing or quality assurance phase.</definition>
+        </item>
+        <item>
+            <value>production</value>
+            <label>Production</label>
+            <definition>This item is in production and is being used by customers.</definition>
+        </item>
+        <item>
+            <value>obsolete</value>
+            <label>Obsolete</label>
+            <definition>This item is no longer supported and should not be used.</definition>
+        </item>
+    </items>
+</code-table>

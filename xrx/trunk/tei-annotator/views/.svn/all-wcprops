@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/131/trunk/tei-annotator/views
+END
+view-annotator.xq
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/131/trunk/tei-annotator/views/view-annotator.xq
+END
+toolbar-tags.xq
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/131/trunk/tei-annotator/views/toolbar-tags.xq
+END
+list-annotators.xq
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/131/trunk/tei-annotator/views/list-annotators.xq
+END
+view-panel.xq
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/131/trunk/tei-annotator/views/view-panel.xq
+END

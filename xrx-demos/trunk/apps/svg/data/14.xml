@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg-demo xmlns:xlink="www.w3.org/1999/xlink">
+    <id>14</id>
+    <name>Quadratic Spline</name>
+    <description>Quadratic Spline M, C and S points on a Path.</description>
+    <category>medium</category>
+    <status>draft</status>
+    <tag>tag-1</tag>
+    <jquery>true</jquery>
+    <style>
+        body {font-family: Helvetica,Ariel,sans-serif;}
+        input, label {font-weight:bold; font-size: 2em;}
+        svg {border: solid 1px black; margin-left: 10px;}
+        .slider, svg {width: 300px;}
+    </style>
+    <script>
+       window.onload = function() {
+           var path = document.getElementById('path');
+           var pathData = 'M10 100 C75 50     100 50     150 100       S225 150   290 100'
+           path.setAttribute('d', pathData);
+       };
+       
+
+       function makePath(s1, s2, s3, s4) {
+          var data = 'M10 100 C75 ' + s1 + ' 150 ' + s2 + ' S225  ' + s3 + ' 290 ' + s4 + ' 100';
+       }
+
+    
+        $(
+          function() {
+             $('#slider1').slider(
+                  {
+                    min: 1,
+                    max: 200,
+                    value: 50,
+                    slide: function(event, ui) {                      
+                         document.getElementById('rect-2').setAttribute('y', $('#slider1').slider('value'));                         
+                    }
+             });
+             
+             $('#slider2').slider(
+                  {
+                    min: 1,
+                    max: 200,
+                    value: 100,
+                    slide: function(event, ui) {                      
+                         document.getElementById('rect-3').setAttribute('y', $('#slider2').slider('value'));                        
+                    }
+             });
+             
+             $('#slider3').slider(
+                  {
+                    min: 1,
+                    max: 200,
+                    value: 150,
+                    slide: function(event, ui) {                      
+                         document.getElementById('rect-4').setAttribute('y', $('#slider3').slider('value'));                          
+                    }
+             });
+             
+             $('#slider4').slider(
+                  {
+                    min: 1,
+                    max: 200,
+                    value: 100,
+                    slide: function(event, ui) {                      
+                         document.getElementById('rect-5').setAttribute('y', $('#slider4').slider('value'));                         
+                    }
+             });
+             
+          });
+
+    </script>
+    <svg width="300" height="200" style="border: solid blue 1px;">
+        <path id="path" fill="none" stroke="black" d=""/>
+        <rect id="rect-1" x="10" y="100" width="10" height="10" fill="green" stroke="none"/>
+        <rect id="rect-2" x="75" y="50" width="5" height="5" fill="orange" stroke="none"/>
+        <rect id="rect-3" x="150" y="100" width="5" height="5" fill="blue" stroke="none"/>
+        <rect id="rect-4" x="250" y="150" width="7" height="5" fill="purple" stroke="none"/>
+        <rect id="rect-5" x="290" y="100" width="10" height="10" fill="red" stroke="none"/>
+        <text font-family="Arial" font-size="12" x="150" y="50">M, C, S</text>
+    </svg>
+    <content>
+        <span class="label">Point 2 Y:</span>
+        <div id="slider1" class="slider"/>
+        <span class="label">Point 3 Y:</span>
+        <div id="slider2" class="slider"/>
+        <span class="label">Point 4 Y:</span>
+        <div id="slider3" class="slider"/>
+        <span class="label">Point 5 Y:</span>
+        <div id="slider4" class="slider"/>
+        <p>Move the slider to change the position and size of the rectangle.</p>
+    </content>
+    <expected-image/>
+</svg-demo>

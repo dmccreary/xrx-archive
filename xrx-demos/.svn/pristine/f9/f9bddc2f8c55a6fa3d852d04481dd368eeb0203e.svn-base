@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>resource-type-code</name>
+    <description>This is a description of a sample set of resource type codes.</description>
+    <items>
+        <item>
+            <value/>
+            <label>Select a Resource Type...</label>
+        </item>
+        <item>
+            <value>url</value>
+            <label>Web URL</label>
+        </item>
+        <item>
+            <value>image</value>
+            <label>Images</label>
+        </item>
+        <item>
+            <value>chart</value>
+            <label>Chart</label>
+        </item>
+        <item>
+            <value>ppt</value>
+            <label>PPT</label>
+        </item>
+        <item>
+            <value>spreadsheet</value>
+            <label>Spreadsheet</label>
+        </item>
+        <item>
+            <value>google-doc</value>
+            <value>google-docs</value>
+            <label>Google Document</label>
+        </item>
+        <item>
+            <value>wikibook-page</value>
+            <value>wikibook</value>
+            <label>Wikibook Article</label>
+        </item>
+        <item>
+            <label>XQuery Program</label>
+            <value>xquery</value>
+            <value>xquery-executable</value>
+        </item>
+        <item>
+            <value>wikipedia-page</value>
+            <label>Wikipedia Article</label>
+        </item>
+        <item>
+            <label>Sample Resources</label>
+            <value>sample-resources</value>
+        </item>
+        <item>
+            <label>Sample XML Data</label>
+            <value>sample-data</value>
+            <value>sample-xml-data</value>
+        </item>/item&gt;
+        
+    </items>
+</code-table>

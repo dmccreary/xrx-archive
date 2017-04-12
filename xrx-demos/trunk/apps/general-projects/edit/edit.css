@@ -1,0 +1,101 @@
+@namespace xf url("http://www.w3.org/2002/xforms");
+body {font-family: Arial, Helvetica; sans-serif;}
+
+
+.link-to-requirement {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* Makes the labels right aligned in a column that floats to the left of the input controls. */
+xf|output > xf|label,
+xf|input > xf|label,
+xf|secret > xf|label,
+xf|select > xf|label,
+xf|select1 > xf|label,
+xf|textarea > xf|label
+{text-align:right; padding-right:10px; width:220px; float:left;}
+
+/* the input values are left aligned */
+xf|value {
+   text-align: left;
+}
+
+.ProjectName .xf-value {
+      width: 50ex;
+}
+
+.ProjectDescriptionText textarea,  
+.RiskDescriptionText textarea, 
+.ProjectScopeText textarea,
+.ProjectBusinessObjectivesText textarea,
+.ProjectBusinessObjectivesText textarea,
+.ProjectHowToUseText textarea,
+.ProjectImplementationStratagyText textarea,
+.ProjectMemoOfUnderstandingsText textarea,
+.RiskMitigationPlan textarea,
+.ProjectNotesText textarea
+ { 
+     height: 4em; /* a bit less than four lines to demonstrate scrolling */
+     width: 500px;
+}
+
+.project-roles {
+   margin-left: 10px;
+   border: solid blue 1px;
+}
+
+.project-requirements {
+   margin-left: 10px;
+   border: solid blue 1px;
+}
+
+.repeat {
+   border: blue 1px solid;
+   margin-left: 10px;
+   padding: 3px;
+}
+
+.repeat-label, .group-label {
+   font-weight: bold;
+   padding: 5px;
+}
+
+/* use this to make the width align */
+table thead tr td {
+   font-size: 0.4em;
+}
+
+.RequirementID, .RequirementID .xf-value {
+      width: 3ex;
+}
+ 
+.RequirementName, .RequirementName .xf-value{
+      width: 60ex;
+}
+
+.RequirementLink {
+      width: 112px;
+}
+
+/*  select requirment box */
+#add-requirment-background {
+   position:fixed; top:0; left:0;
+   background: sliver; width:90%; height:90%;
+   color: black;
+ }
+ 
+ /*  put the buttons in the center */
+#add-requirment-background .center {
+   margin-left: 300px;
+ }
+ 
+#add-requirment-box {
+   width:600px; 
+   border:3px solid blue; 
+   color: black;
+   background: white;
+   margin:auto; 
+   margin-top:100px;
+   }
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>role-status-code</name>
+    <description>This is a description of the workflow of getting a role approved for use in the system.</description>
+    <items>
+        <item>
+            <label>Select a Security Role...</label>
+            <value/>
+            <definition>Null Value.</definition>
+        </item>
+        <item>
+            <label>New Proposed Role</label>
+            <value>proposed</value>
+            <definition/>
+        </item>
+        <item>
+            <label>Draft Role In Development</label>
+            <value>draft</value>
+            <definition/>
+        </item>
+        <item>
+            <label>Testing of Roles</label>
+            <value>testing</value>
+            <definition/>
+        </item>
+        <item>
+            <label>Production Role</label>
+            <value>production</value>
+            <definition/>
+        </item>
+        <item>
+            <label>Disabled Role</label>
+            <value>disabled</value>
+            <definition/>
+        </item>
+    </items>
+</code-table>

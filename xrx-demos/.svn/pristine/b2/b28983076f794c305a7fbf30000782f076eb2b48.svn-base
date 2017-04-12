@@ -1,0 +1,4 @@
+.speaker, stage {
+   font-weight:bold;    
+}
+

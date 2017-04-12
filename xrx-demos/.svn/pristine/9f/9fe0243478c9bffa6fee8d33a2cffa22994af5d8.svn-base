@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg-demo>
+    <id>6</id>
+    <name>Range and Input Text Field</name>
+    <description>Demonstration of spline function.</description>
+    <category>medium</category>
+    <status>draft</status>
+    <tag>tag-1</tag>
+    <jquery>true</jquery>
+    <style>
+        body {font-family: Helvetica,Ariel,sans-serif;}
+        input, label {font-weight:bold; font-size: 1.5em;}
+        svg {border: solid 1px black; margin-left: 10px;}
+        .slider, svg {width: 300px;}
+    </style>
+    <script>
+       $(
+          function() {
+             $('#slider').slider(
+                  {
+                    min: 1,
+                    max: 100,
+                    value: 50,
+                    slide: function(event, ui) {                      
+                         $('#amount').val(ui.value);                       
+                    }
+             });
+             
+             /* this updates the value of the input value */
+             $('#amount').val($('#slider').slider('value'));
+          });
+    </script>
+    <content>
+        <label for="amount">Slider Value:</label>
+        <input type="text" id="amount" style="color:blue;" size="2"/>
+        <div id="slider" class="slider"/>
+        <p>Move the slider to change the value of the input value in the input text.</p>
+    </content>
+    <expected-image>hello-world.png</expected-image>
+</svg-demo>

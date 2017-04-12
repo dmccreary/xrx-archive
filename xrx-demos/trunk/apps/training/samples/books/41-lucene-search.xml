@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>41</id>
+    <name>Lucene Search</name>
+    <description>In this lab students will create an XML search services uses a the Lucene fulltext indexes.
+    </description>
+    <programlisting>
+        
+    </programlisting>
+    <resources>
+        <resource>
+            <name>Lucene Search Lab</name>
+            <type>google-doc</type>
+            <url>https://docs.google.com/document/pub?id=1u7FFJsio4rsTsSZA2xhZP_KBDUg-L3fhb2SyV04BCUE</url>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

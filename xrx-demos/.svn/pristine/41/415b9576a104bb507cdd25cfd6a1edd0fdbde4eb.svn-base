@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>object-property-code</code-table-name>
+    <description>These codes classify...</description>
+    <data-source>This data was imported from....</data-source>
+    <items>
+        <item>
+            <label/>
+            <numeric-id/>
+            <value/>
+        </item>
+    </items>
+</code-table>

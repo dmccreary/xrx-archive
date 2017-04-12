@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="EMailAddresses">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="EMailAddress" type="MailAddressType" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="MailAddressType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="mailto:(((\d{10}|\d{13})\.(spi|npi))|((\d{7})\.(ncpdp))|(([a-zA-Z0-9]\.*)\.(tp))|(([a-zA-Z0-9]{6})\.(dp)))@surescripts\.com"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

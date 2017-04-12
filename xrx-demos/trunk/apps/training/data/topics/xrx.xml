@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<training-topics>
+    <id>xrx</id>
+    <name>Information Retrieval</name>
+    <description>General XQuery topics that are not eXist specific.</description>
+    <topic>
+        <id>xrx-cruds</id>
+        <name>Create, Read, Update and Delete with XRX</name>
+        <length>30</length>
+        <description>The full lifecycle for XRX applications.</description>
+        <resources>
+            <resource>
+                <resource-name>PowerPoint Slides</resource-name>
+                <resource-type>ppt</resource-type>
+                <resource-description>The major steps in building an XRX applications.</resource-description>
+                <resource-url>http://www.danmccreary.com/training/xrx/11-XRX-CRUDS.ppt</resource-url>
+            </resource>
+        </resources>
+    </topic>
+</training-topics>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>43</id>
+    <Classifier>Messaging Endpoints</Classifier>
+    <PatternName>Event-Driven Consumer</PatternName>
+    <Image>EventDrivenConsumerIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/EventDrivenConsumer.html</Reference>
+    <Description>How can an application automatically consume messages as they become
+    available?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

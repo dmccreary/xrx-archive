@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>task-assigned-to-code</name>
+    <item>
+        <label>Dan McCreary</label>
+        <value>dan-mccreary</value>
+    </item>
+    <item>
+        <label>Ann Kelly</label>
+        <value>ann-kelly</value>
+    </item>
+</code-table>

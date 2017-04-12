@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>46</id>
+    <Classifier>Messaging Endpoints</Classifier>
+    <PatternName>Selective Consumer</PatternName>
+    <Image>MessageSelectorIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessageSelector.html</Reference>
+    <Description>How can a message consumer select which messages it wishes to
+    receive?</Description>
+    <Question/>
+    <Answer>Make the consumer a Selective Consumer, one that filteres the messages delivered by its channel so that it only receives the ones that match its criteria.</Answer>
+    <NoteText>An application is using Messaging. It consumes Messages from a Message Channel, but it does not necessarily want to consume all of the messages on that channel, just some of them.</NoteText>
+</Pattern>

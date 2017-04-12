@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>9</id>
+    <Classifier>Messaging Channels</Classifier>
+    <PatternName>Datatype Channel</PatternName>
+    <Image>DatatypeChannelIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/DatatypeChannel.html</Reference>
+    <Description>How can the application send a data item such that the receiver will know how to
+      process it?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

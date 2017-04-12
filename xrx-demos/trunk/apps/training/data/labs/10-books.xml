@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>10</id>
+    <name>Books Lab</name>
+    <description>In this lab students will create a small file of unit tests and a test runner.
+    </description>
+    <programlisting/>
+    <resources>
+        <resource>
+            <name>Google Doc Books Lab</name>
+            <type>google-doc</type>
+            <url>https://docs.google.com/document/pub?id=1QF574YqrpLjfcYhFdchFjJWPQrKhKwPA1xvQxy4tGuE</url>
+            <description>All the steps to create HMTL tables using the books sample data.</description>
+        </resource>
+        <resource>
+            <name>List Books</name>
+            <type>xquery-executable</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/books/list-books.xq</url>
+            <description>HTML listing of the books.</description>
+        </resource>
+        <resource>
+            <name>Extra Credit for Books Lab</name>
+            <type>xquery-executable</type>
+            <url>http://demo.danmccreary.com/rest/db/dma/apps/training/samples/books/list-books-extra.xq</url>
+            <description>All the steps to create HMTL tables plus sorting and drill down by category.</description>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

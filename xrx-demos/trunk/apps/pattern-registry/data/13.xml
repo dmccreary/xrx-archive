@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>13</id>
+    <Classifier>Messaging Channels</Classifier>
+    <PatternName>Channel Adapter</PatternName>
+    <Image>ChannelAdapterIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/ChannelAdapter.html</Reference>
+    <Description>Access the application's API or data and publish messages on a channel based on this data</Description>
+    <Question>How can you connect an application to the messaging system so that it can send and
+receive messages?</Question>
+    <Answer>Use a Channel Adapter that can access the application's API or data and publish messages on a channel based on this data, and that likewise can receive messages and invoke functionality inside the application.</Answer>
+    <NoteText>The adapter acts as a messaging client to the messaging system and invokes applications functions via an application-supplied interface. This way, any application can connect to the messaging system and be integrated with other applications as long as it has a proper Channel Adapter.</NoteText>
+</Pattern>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeneralProject>
+    <id/>
+    <ProjectName/>
+    <ProjectScopeText/>
+    <ProjectBusinessObjectivesText/>
+    <ProjectBusinessGoalsText/>
+    <ProjectHowToUseText/>
+    <ProjectImplementationStratagyText/>
+    <ProjectMemoOfUnderstandingsText/>
+    <ProjectSponsorUserID/>
+    <ProjectOwnerUserID/>
+    <ProjectContactUserID/>
+    <ProjectApproverUserID/>
+    <PersonRoles>
+        <Role>
+            <PersonRoleCode/>
+            <UserID/>
+        </Role>
+    </PersonRoles>
+    <Requirements>
+        <Requirement>
+            <RequirementID>1</RequirementID>
+            <RequirementName>Test Requirement 1</RequirementName>
+        </Requirement>
+    </Requirements>
+    <DevelopmentStatusCode/>
+    <created-datetime/>
+    <created-by/>
+    <last-modified-datetime/>
+    <last-modified-by/>
+</GeneralProject>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/61/trunk/06-item-manager/edit
+END
+delete-confirm.xq
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/59/trunk/06-item-manager/edit/delete-confirm.xq
+END
+next-id.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/59/trunk/06-item-manager/edit/next-id.xml
+END
+update.xq
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/61/trunk/06-item-manager/edit/update.xq
+END
+delete.xq
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/59/trunk/06-item-manager/edit/delete.xq
+END
+new-instance.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/59/trunk/06-item-manager/edit/new-instance.xml
+END
+edit.xq
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/59/trunk/06-item-manager/edit/edit.xq
+END
+save-new.xq
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/59/trunk/06-item-manager/edit/save-new.xq
+END

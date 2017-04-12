@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process-steps>
+    <id/>
+    <process-name>Authenticate and Store</process-name>
+    <process-description>Sample two step process.</process-description>
+    <activity>
+        <activity-name>Authenticate</activity-name>
+        <activity-type-code>authenticate</activity-type-code>
+        <webservice-id/>
+        <ruleset-id/>
+        <schema-id/>
+    </activity>
+    <activity>
+        <activity-name>Validate</activity-name>
+        <activity-type-code>validate</activity-type-code>
+        <webservice-id/>
+        <ruleset-id/>
+        <schema-id/>
+    </activity>
+    <created-by/>
+    <created-datetime/>
+    <last-modified-by/>
+    <last-modified-datetime/>
+</process-steps>

@@ -1,0 +1,9 @@
+/* CSS file for person search results table */
+@namespace xf url("http://www.w3.org/2002/xforms");
+
+/* this sets the with of the input text boxes */
+.uri  .xf-value  {width: 60ex;}
+.pattern  .xf-value  {width: 40ex;}
+.context  .xf-value  {width: 40ex;}
+.test  .xf-value  {width: 60ex;}
+.error-message  .xf-value  {width: 40ex;}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>14</id>
+    <Classifier>Messaging Channels</Classifier>
+    <PatternName>Messaging Bridge</PatternName>
+    <Image>MessagingBridgeIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessagingBridge.html</Reference>
+    <Description>How can multiple messaging systems be connected so that messages available on one
+      are also available on the others?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

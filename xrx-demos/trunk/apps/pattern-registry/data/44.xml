@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>44</id>
+    <Classifier>Messaging Endpoints</Classifier>
+    <PatternName>Competing Consumers</PatternName>
+    <Image>CompetingConsumersIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/CompetingConsumers.html</Reference>
+    <Description>How can a messaging client process multiple messages concurrently?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

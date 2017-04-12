@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>EmployeeRoleCode</code-table-name>
+    <documentation>The role a person plays in this organization.</documentation>
+    <items>
+        <item>
+            <label>Select an item ...</label>
+            <value/>
+        </item>
+        <item>
+            <label>Implementation</label>
+            <value>implementation</value>
+        </item>
+        <item>
+            <label>Development</label>
+            <value>development</value>
+        </item>
+        <item>
+            <label>Management</label>
+            <value>management</value>
+        </item>
+        <item>
+            <label>Testing</label>
+            <value>testing</value>
+        </item>
+        <item>
+            <label>Operations</label>
+            <value>operations</value>
+        </item>
+        <item>
+            <label>Support</label>
+            <value>support</value>
+        </item>
+    </items>
+</code-table>

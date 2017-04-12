@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <id/>
+    <user-id/>
+    <first-name/>
+    <last-name/>
+    <labs>
+        <lab>
+            <lab-id/>
+            <progress-percent/>
+        </lab>
+    </labs>
+    <created-by/>
+    <created-datetime/>
+    <last-modified-by/>
+    <last-modified-datetime/>
+</student>

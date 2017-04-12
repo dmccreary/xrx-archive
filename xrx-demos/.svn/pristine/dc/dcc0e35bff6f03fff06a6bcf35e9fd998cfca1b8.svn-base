@@ -1,0 +1,39 @@
+/* CSS file for person search results table */
+@namespace xf url("http://www.w3.org/2002/xforms");
+
+/* Makes the labels right aligned in a 200px wide column that floats to the left of the input controls. */
+xf|input > xf|label, xf|select > xf|label, xf|select1 > xf|label, xf|textarea > xf|label 
+{text-align:right; padding-right:10px; width:170px; float:left; text-align:right;}
+
+.group-label {text-align:left;font-weight:bold;font-size:10pt; background-color: #D6D6DA; margin: 0px; padding 0px; top: 5px;}
+
+/* this sets the with of the input text boxes */
+.TermName  .xf-value  {width: 40ex;}
+.Synonym  .xf-value  {width: 40ex;}
+.SeeAlso  .xf-value  {width: 40ex;}
+.Keyword  .xf-value  {width: 40ex;}
+.DataElementName  .xf-value  {width: 40ex;}
+
+xf|repeat {
+   padding: 10px;
+}
+
+xf|group {
+   border: silver solid 1px;
+}
+
+xf|repeat xf|trigger {display: inline;}
+
+/* add this to all inputs where you do not  want the delete to appear on a new line */
+
+.inline-delete {display: inline;}
+
+.definition textarea { 
+   height: 6em;
+   width: 650px;
+}
+
+.Notes textarea { 
+   height: 8em;
+   width: 650px;
+}

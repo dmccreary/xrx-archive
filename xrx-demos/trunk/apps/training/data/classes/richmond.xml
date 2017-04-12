@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+    <id>7</id>
+    <name>University of Richmond 5 Day Class</name>
+    <description>This class is designed as an introduction course for XQuery
+        on eXist for a wide range of students in three areas of campus.</description>
+    <category>intermediate</category>
+    <length>35 hours</length>
+    <schedule>
+        <!-- day 1 -->
+        <day>
+            <topic>
+                <topic-id>0</topic-id>
+                <notes>Class Introduction</notes>
+            </topic>
+            <topic>
+                <topic-id>x-1</topic-id>
+                <adjusted-length>15</adjusted-length>
+                <notes>We will assume most people have a strong XML background.</notes>
+            </topic>
+            <topic>
+                <topic-id>oxygen-for-xquery</topic-id>
+            </topic>
+            <topic>
+                <topic-id>2</topic-id>
+                <adjusted-length>15</adjusted-length>
+                <notes>We will assume most people have a strong XHTML background.</notes>
+            </topic>
+            <topic>
+                <topic-id>3</topic-id>
+                <notes/>
+            </topic>
+            <topic>
+                <!-- XPath -->
+                <topic-id>5</topic-id>
+            </topic>
+            <topic>
+                !-- Sequences --&gt;
+                <topic-id>4</topic-id>
+                <notes/>
+            </topic>
+            <topic>
+                <topic-id>xml-to-html</topic-id>
+            </topic>
+            <topic>
+                <!-- collections -->
+                <topic-id>e1</topic-id>
+            </topic>
+            <topic>
+                <!-- conditionals -->
+                <topic-id>20</topic-id>
+            </topic>
+            <labs>
+                <length>60</length>
+            </labs>
+        </day>
+        <day>
+            <!-- day 2 -->
+            <review-quiz>2</review-quiz>
+            <topic>
+                <topic-id>7</topic-id>
+                <notes>I would like to have the main lecture on Functional Progrmming the first topic
+                on Tuesday morning.  This is a very key concept that we want to make sure
+                that everyone is fresh.</notes>
+            </topic>
+            <topic>
+                <!-- functions -->
+                <topic-id>8</topic-id>
+            </topic>
+            <topic>
+                <!-- breadcrumbs -->
+                <topic-id>22</topic-id>
+            </topic>
+            <topic>
+                <!-- page assembler -->
+                <topic-id>23</topic-id>
+            </topic>
+            <topic>
+                <!-- code tables -->
+                <topic-id>24</topic-id>
+            </topic>
+            <topic>
+                <!-- Basic Search -->
+                <topic-id>17</topic-id>
+            </topic>
+            <topic>
+                <!-- modules -->
+                <topic-id>8a</topic-id>
+            </topic>
+            <labs>
+                <length>60</length>
+            </labs>
+        </day>
+        <day>
+            <!-- day 3 -->
+            <review-quiz>3</review-quiz>
+            <topic>
+                <topic-id>27</topic-id>
+                <notes>We will begin day 3 with a discussion of how to work with complex documents.</notes>
+            </topic>
+            <topic>
+                <topic-id>14</topic-id>
+                <notes>Recursion is a key tool for managing complex documents.</notes>
+            </topic>
+            <topic>
+                <topic-id>14</topic-id>
+                <notes>We will begin day 3 with a discussion of how to work with complex documents.</notes>
+            </topic>
+            <topic>
+                <topic-id>10</topic-id>
+            </topic>
+            <topic>
+                <topic-id>15</topic-id>
+            </topic>
+            <topic>
+                <topic-id>18</topic-id>
+            </topic>
+            <topic>
+                <!-- validation -->
+                <topic-id>25</topic-id>
+            </topic>
+            <labs>
+                <length>90</length>
+            </labs>
+        </day>
+        <day>
+            <!-- day 4 -->
+            <review-quiz>4</review-quiz>
+            <topic>
+                <topic-id>19</topic-id>
+            </topic>
+            <labs>
+                <length>60</length>
+            </labs>
+        </day>
+        <day>
+            <!-- day 5 -->
+            <review-quiz>5</review-quiz>
+            <topic>
+                <topic-id>e1</topic-id>
+            </topic>
+            <topic>
+                <topic-id>16</topic-id>
+            </topic>
+            <labs>
+                <length>120</length>
+            </labs>
+        </day>
+        <labs>
+            <length>120</length>
+        </labs>
+    </schedule>
+    <status>development</status>
+    <tag/>
+    <tag/>
+</class>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <filename>hair-test.xml</filename>
+    <element>
+        <name>Super</name>
+        <prefix>uc</prefix>
+        <definition>The root of all data elements.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonFacialHairText</name>
+        <definition>A kind of facial hair of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonHairAppearanceText</name>
+        <definition>An overall appearance of the hair of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonHairCategoryText</name>
+        <definition>A kind of hair of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonHairColor</name>
+        <definition>A color of the hair of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonHairColorCode</name>
+        <definition>A color of the hair of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonHairColorText</name>
+        <definition>A color of the hair of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonHairLengthText</name>
+        <definition>A length of hair of a person.</definition>
+    </element>
+    <element>
+        <prefix>uc</prefix>
+        <name>PersonHairStyleText</name>
+        <definition>A style or cut of hair worn by a person.</definition>
+    </element>
+</data>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-info xmlns="http://code.google.com/p/xrx">
+    <app-id>rule-manager</app-id>
+    <app-name>Rule Manager</app-name>
+    <app-version-id>1.0</app-version-id>
+    <app-description-text>Sample of Business Rules</app-description-text>
+    <app-creator-text>Dan McCreary</app-creator-text>
+    <app-license-type-code>commercial</app-license-type-code>
+    <app-license-uri>http://www.apache.org/licenses/LICENSE-2.0.html</app-license-uri>
+    <breadcrumb-label>Rule Manager</breadcrumb-label>
+    <data-collection>data</data-collection>
+    <app-icon-path>images/rules.png</app-icon-path>
+    <main-menu-order>20</main-menu-order>
+    <include-in-search-indicator>true</include-in-search-indicator>
+    <doc-root-path>conditions</doc-root-path>
+    <doc-viewer-path>views/view-item.xq</doc-viewer-path>
+    <search-order-weight>1</search-order-weight>
+    <app-notes-text>Demonstration of rule managment.</app-notes-text>
+    <classifiers>
+        <classifier>software-development-lifecycle</classifier>
+    </classifiers>
+    <permissions>
+        <!-- by default, admin will have all permissions -->
+        <permission>
+            <role>developer</role>
+            <action>edit</action>
+        </permission>
+        <permission>
+            <role>editor</role>
+            <action>edit</action>
+        </permission>
+        <permission>
+            <role>content-approver</role>
+            <action>publish</action>
+        </permission>
+        <permission>
+            <role>auditor</role>
+            <action>view</action>
+        </permission>
+    </permissions>
+</app-info>

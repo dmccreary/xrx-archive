@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/107/trunk/17-generate-application/apps/app-gen
+END
+create-app-collections.xq
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/101/trunk/17-generate-application/apps/app-gen/create-app-collections.xq
+END
+search-form-xforms.xq
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/101/trunk/17-generate-application/apps/app-gen/search-form-xforms.xq
+END
+remove-app.xq
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/101/trunk/17-generate-application/apps/app-gen/remove-app.xq
+END
+generate-application.xq
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/107/trunk/17-generate-application/apps/app-gen/generate-application.xq
+END
+site.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/101/trunk/17-generate-application/apps/app-gen/site.xml
+END

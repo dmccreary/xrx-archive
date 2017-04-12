@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/45/trunk/03-forecast-subscriptions/views
+END
+list-items.xq
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/45/trunk/03-forecast-subscriptions/views/list-items.xq
+END
+list-areas.xq
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/45/trunk/03-forecast-subscriptions/views/list-areas.xq
+END
+view-item.xq
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/45/trunk/03-forecast-subscriptions/views/view-item.xq
+END

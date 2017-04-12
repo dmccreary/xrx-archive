@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg-demo xmlns:xlink="www.w3.org/1999/xlink">
+    <id>16</id>
+    <name>Bullet Bars</name>
+    <description>Range control moves the value of a bullet bar.</description>
+    <category>medium</category>
+    <status>draft</status>
+    <tag>tag-1</tag>
+    <jquery>true</jquery>
+    <style>
+        body {font-family: Helvetica,Ariel,sans-serif;}
+        input, label {font-weight:bold; font-size: 2em;}
+        svg {border: solid 1px black; margin-left: 10px;}
+        .slider, svg {width: 300px;}
+    </style>
+    <script>
+       var s = 100;
+       
+       window.onload = function() {
+           var rect = document.getElementById('bullet-bar-value-1');
+           rect.setAttribute('width',$('#slider1').slider('value'));
+       }
+    
+        $(
+          function() {
+             $('#slider1').slider(
+                  {
+                    min: 1,
+                    max: 200,
+                    value: s,
+                    slide: function(event, ui) {
+                         s = $('#slider1').slider('value');     
+                         document.getElementById('bullet-bar-value-1').setAttribute('width', s);
+                         document.getElementById('bullet-bar-value-2').setAttribute('width', s);
+                         document.getElementById('bullet-bar-value-3').setAttribute('width', s);
+                         transform = 'translate(' + s + ' 0)';
+                         document.getElementById('marker-1').setAttribute('transform', transform);
+                         document.getElementById('marker-value-text').lastChild.nodeValue = s;                         
+                    }
+             });
+             
+          });
+
+    </script>
+    <svg width="300" height="200" style="border: solid blue 1px;">
+        <g class="grayscale-bar-data" transform="translate(10 10)">
+            <text x="0" y="20" font-size="16" font-weight="bold" fill="black">Label:</text>
+            <g class="bar-data" transform="translate(50 0)">
+                <rect x="0" y="0" height="20" width="66.66" fill="gray"/>
+                <rect x="66.66" y="0" height="20" width="66.66" fill="silver"/>
+                <rect x="133.33" y="0" height="20" width="66.66" fill="#DDD"/>
+                
+                <!-- move down for the axis -->
+                <g class="axis" transform="translate(0 20)">
+                    <line x1="0" x2="0" y1="0" y2="5" stroke="black"/>
+                    <text x="-5" y="15">0</text>
+                    <line x1="100" x2="100" y1="0" y2="5" stroke="black"/>
+                    <text x="95" y="15">50</text>
+                    <line x1="200" x2="200" y1="0" y2="5" stroke="black"/>
+                    <text x="188" y="15">100</text>
+                </g>
+                <rect id="bullet-bar-value-1" x="0" y="7" height="6" width="100" fill="black"/>
+            </g>
+        </g>
+        <g class="bullet-bar" transform="translate(10 50)">
+            <text x="0" y="20" font-size="16" font-weight="bold" fill="black">Label:</text>
+            
+            <!-- move over from the left label for the actual bar -->
+            <g class="grayscale-bar-data" transform="translate(50 0)">
+                <rect class="bullet-bar-region bad" x="0" y="0" height="20" width="66.66" fill="gray"/>
+                <rect class="bullet-bar-region warn" x="66.66" y="0" height="20" width="66.66" fill="silver"/>
+                <rect class="bullet-bar-region good" x="133.33" y="0" height="20" width="66.66" fill="#DDD"/>
+                
+                <!-- move down for the axis -->
+                <g class="axis" transform="translate(0 20)">
+                    <line x1="0" x2="0" y1="0" y2="5" stroke="black"/>
+                    <text x="-5" y="15">0</text>
+                    <line x1="66.66" x2="66.66" y1="0" y2="5" stroke="black"/>
+                    <text x="55" y="15">33.3</text>
+                    <line x1="133.33" x2="133.33" y1="0" y2="5" stroke="black"/>
+                    <text x="122" y="15">66.6</text>
+                    <line x1="200" x2="200" y1="0" y2="5" stroke="black"/>
+                    <text x="188" y="15">100</text>
+                </g>
+            </g>
+            <rect id="bullet-bar-value-2" x="50" y="7" height="6" width="100" fill="black"/>
+        </g>
+        <g class="color-bullet-bar" transform="translate(10 90)">
+            <text x="0" y="20" font-size="16" font-weight="bold" fill="black">Label:</text>
+            <!-- move over from the left label for the actual bar -->
+            <g class="bar-data" transform="translate(50 0)">
+                <!-- bug in image scaling - should only need one -->
+                <image x="0" y="0" width="200" height="30" xlink:href="../images/color-band-green-to-red.png"/>
+                <image x="0" y="-10" width="200" height="30" xlink:href="../images/color-band-green-to-red.png"/>
+                <rect id="bullet-bar-value-3" x="0" y="7" height="6" width="100" fill="black"/>
+                <!-- move down for the axis -->
+                <g class="axis" transform="translate(0 20)">
+                    <line x1="0" x2="0" y1="0" y2="5" stroke="black"/>
+                    <text x="-5" y="15">0</text>
+                    <line x1="66.66" x2="66.66" y1="0" y2="5" stroke="black"/>
+                    <text x="55" y="15">33.3</text>
+                    <line x1="133.33" x2="133.33" y1="0" y2="5" stroke="black"/>
+                    <text x="122" y="15">66.6</text>
+                    <line x1="200" x2="200" y1="0" y2="5" stroke="black"/>
+                    <text x="188" y="15">100</text>
+                </g>
+            </g>
+        </g>
+        <g class="color-bullet-bar" transform="translate(10 140)">
+            <text x="0" y="20" font-size="16" font-weight="bold" fill="black">Label:</text>
+            <!-- move over from the left label for the actual bar -->
+            <g class="bar-data" transform="translate(50 0)">
+                <!-- bug in image scaling - should only need one -->
+                <image x="0" y="0" width="200" height="30" xlink:href="../images/color-band-green-to-red.png"/>
+                <image x="0" y="-10" width="200" height="30" xlink:href="../images/color-band-green-to-red.png"/>
+                <g id="marker-1" class="triangle-value-marker" transform="translate(100 0)">
+                    <polygon points="-10,0 0,20 10,0" fill="black"/>
+                    <text id="marker-value-text" x="15" y="15" style="font-size: 12pt">100</text>
+                </g>
+
+                <!-- move down for the axis -->
+                <g class="axis" transform="translate(0 20)">
+                    <line x1="0" x2="0" y1="0" y2="5" stroke="black"/>
+                    <text x="-5" y="15">0</text>
+                    <line x1="100" x2="100" y1="0" y2="5" stroke="black"/>
+                    <text x="95" y="15">100</text>
+                    <line x1="200" x2="200" y1="0" y2="5" stroke="black"/>
+                    <text x="188" y="15">200</text>
+                </g>
+            </g>
+        </g>
+    </svg>
+    <content>
+        <span class="label">Value:</span>
+        <div id="slider1" class="slider"/>
+        <p>Move the slider to change the position and size of the rectangle.</p>
+    </content>
+    <expected-image/>
+</svg-demo>

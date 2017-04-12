@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-status>
+    <test>
+        <file>simile-timeline-example.xq</file>
+        <desc>Test using JavaScript block inline</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file>simile-timeline-example2.xq</file>
+        <desc>Test using external JavaScript file that we import</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file/>
+        <desc/>
+        <status/>
+    </test>
+    <test>
+        <file/>
+        <desc/>
+        <status/>
+    </test>
+    <test>
+        <file/>
+        <desc/>
+        <status/>
+    </test>
+</test-status>

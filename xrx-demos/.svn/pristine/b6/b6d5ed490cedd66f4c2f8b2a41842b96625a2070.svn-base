@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+    <head>
+        <title>Test of Twitter Feeds Widget</title>
+    </head>
+    <body>
+        <div class="content">
+            Twitter Search with behavior=all for @dmccreary
+        </div>
+        <script src="http://widgets.twimg.com/j/2/widget.js"/>
+        <script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '@dmccreary',
+  interval: 6000,
+  title: 'Dan McCreary',
+  subject: 'All Tweets',
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'all'
+  }
+}).render().start();
+</script>
+    </body>
+</html>

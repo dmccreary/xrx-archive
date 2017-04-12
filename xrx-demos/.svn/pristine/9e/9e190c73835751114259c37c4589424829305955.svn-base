@@ -1,0 +1,13 @@
+body {font-family: arial, helvetica, sans-serif;}
+
+/* Begin and end tag Delimiters including gt, element name, lt and / */
+.t {color: blue;}
+
+/* Attribute Name and equal sign */
+.an {color: orange;}
+
+/* Attribute quotes Values and equal sign */
+.av {color: maroon;}
+
+/* Element Data Content */
+.d {color: black;}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-results>
+    <test>
+        <file>01-insert-css-link.xq</file>
+        <desc>Test of the style-svg:add-css-link() function that will insert a CSS link to a generic icon for styling.</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file>02-border.xq</file>
+        <desc>Test of adding an app-icon background border.</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file>03-icon-wrap.xq</file>
+        <desc>Test of using the icon-wrap() style-svg:function</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file>04-wrap-all.xq</file>
+        <desc>Test of using the icon-wrap on all the icons in the database.</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file>04-wrap-all-2.xq</file>
+        <desc>Test of wrapping all icons using the icon-wrap function.</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file>05-drop-shadow-test.xq</file>
+        <desc>Test of adding a drop shadow to a SVG icon using an SVG filter.</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file>06-gradient-fill-test-2.xq</file>
+        <desc>Test of using a gradient fill on an SVG object.</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file>06-gradient-fill-test.xq</file>
+        <desc>Test of using the gradient-fill on an icon behind the SVG and in front of the app-icon wrapper.</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file>06-gradient-fill-test-3.xq</file>
+        <desc>Test of using a gradient fill on an SVG object</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file>07-mini-icons.xq</file>
+        <desc>Test of rendering all the icons using a the style-svg:mini-icon-wrap() function</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file>08-multi-size-test.xq</file>
+        <desc>Test of using the style-svg:icon-wrap($node, $size) with sizes = (16, 24, 32, 50, 100, 200)</desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file> </file>
+        <desc> </desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file> </file>
+        <desc> </desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file> </file>
+        <desc> </desc>
+        <status>pass</status>
+    </test>
+    <test>
+        <file/>
+        <desc/>
+        <status/>
+        <params>
+            <param name="" value=""/>&gt;
+        </params>
+    </test>
+</test-results>

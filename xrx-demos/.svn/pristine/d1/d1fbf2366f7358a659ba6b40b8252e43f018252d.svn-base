@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-set>
+    <id>6</id>
+    <test-set-name>Format Dates</test-set-name>
+    <test-set-description>Tests of XSL Format Date Functions including format-date(), format-time() and format-dateTime().
+        see <a href="http://www.w3.org/TR/xslt20/#date-picture-string">here</a> for a description of the W3C picture format characters.</test-set-description>
+    <module id="url">
+        <module-namespace>xsl</module-namespace>
+        <module-namespace-uri>http://www.w3.org/1999/XSL/Transform</module-namespace-uri>
+    </module>
+    <test>
+        <id>6-1</id>
+        <description>Get the date in YY-MM-DD format</description>
+        <code>xsl:format-date(xs:date('2010-12-31'), 'Y-M-D')</code>
+        <expected>10-12-31</expected>
+    </test>
+    <test>
+        <id>6-2</id>
+        <description>Get the date in mm/dd/yyyy format</description>
+        <code>xsl:format-date(xs:date('2010-12-31'), 'MM/DD/YYYY')</code>
+        <expected>12/31/2010</expected>
+    </test>
+    <test>
+        <id>6-3</id>
+        <description>Get the mm dd yyyy format - spaced not slashes</description>
+        <code>xsl:format-date(xs:date('2010-12-31'), 'MM DD YYYY')</code>
+        <expected>12 31 2010</expected>
+    </test>
+    <test>
+        <id>6-4</id>
+        <description>Get the date using the three letter month string such as Dec 31 2010</description>
+        <code>xsl:format-date(xs:date('2010-12-31'), 'MMM DD, YYYY')</code>
+        <expected>Dec 31, 2010</expected>
+    </test>
+    <test>
+        <id>6-5</id>
+        <description>Get the date using the full name of the month string such as December 31, 2010</description>
+        <code>xsl:format-date(xs:date('2010-12-31'), 'MMMMM DD, YYYY')</code>
+        <expected>December 31, 2010</expected>
+    </test>
+    <test>
+        <id>6-6</id>
+        <description>Get the date the AD in front ot the date such as AD December 31, 2010</description>
+        <code>xsl:format-date(xs:date('2010-12-31'), 'G MMMM DD, YYYY')</code>
+        <expected>AD December 31, 2010</expected>
+    </test>
+    <test>
+        <id>6-7</id>
+        <description>Put the date the AD in front ot the date such as AD December 31, 2010</description>
+        <code>xsl:format-dateTime(xs:dateTime('2010-12-31T00:00:00'), 'Y-M-D')</code>
+        <expected>10-12-31</expected>
+    </test>
+    <test>
+        <id>6-8</id>
+        <description>Format Time in standard US format using AM/PM</description>
+        <code>xsl:format-time(xs:time('10:31:45'), 'h:m P')</code>
+        <expected>10:31 AM</expected>
+    </test>
+    <test>
+        <id>6-9</id>
+        <description>Format Time in standard US format converting 24 time to PM</description>
+        <code>xsl:format-time(xs:time('13:31:45'), 'h:m P')</code>
+        <expected>1:31 PM</expected>
+    </test>
+    <test>
+        <id>6-10</id>
+        <description>Format Time in standard US format with timezone</description>
+        <code>xsl:format-time(xs:time('10:31:45'), 'h:m:s P z')</code>
+        <expected>10:31:45 AM CST</expected>
+    </test>
+    <test>
+        <id>6-11</id>
+        <description>Format Time in standard US format with timezone</description>
+        <code>xsl:format-time(xs:time('10:31:45+01:00'), 'h:m:s P z')</code>
+        <expected>3:31:45 AM CST</expected>
+    </test>
+    <test>
+        <id>6-12</id>
+        <description>Format Time in standard US format with timezone</description>
+        <code>xsl:format-time(xs:time('10:31:45+01:00'), "h:m:s P 'GMT'Z")</code>
+        <expected>3:31:45 AM GMT-0600</expected>
+    </test>
+    <test>
+        <id>6-13</id>
+        <description>Format Time in standard US format with timezone</description>
+        <code>xsl:format-time(xs:time('10:31:45+01:00'), 'h:m:s P z')</code>
+        <expected>3:31:45 AM CST</expected>
+    </test>
+    <test>
+        <id>6-14</id>
+        <description>Format Time in standard US format with seconds</description>
+        <code>xsl:format-time(xs:time('10:31:45'), 'h:m:s P')</code>
+        <expected>10:31:45 AM</expected>
+    </test>
+    <test>
+        <id>6-15</id>
+        <description>Time then day of week then day then month</description>
+        <code>xsl:format-dateTime(xs:dateTime('2010-12-31T08:59:58'), "h:m P 'on' F MMMM DD, YYYY")</code>
+        <expected>8:59 AM on Fri December 31, 2010</expected>
+    </test>
+</test-set>

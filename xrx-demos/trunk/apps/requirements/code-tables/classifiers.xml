@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>ClassifierCode</code-table-name>
+    <file-name>classifiers.xml</file-name>
+    <items>
+        <item>
+            <label>Architecturally Significant</label>
+            <value>architecturally-significant</value>
+            <description>A requirement that will directly influence the overall system
+                architecture.</description>
+        </item>
+        <item>
+            <label>General Requirement</label>
+            <value>general</value>
+            <description>A general requirement used in most projects. Should be included by
+                default.</description>
+        </item>
+        <item>
+            <label>Security</label>
+            <value>security</value>
+            <description>A requirement related to application security.  Canidate for audit process.</description>
+        </item>
+        <item>
+            <label>Statuatory</label>
+            <value>statuatory</value>
+            <description>A requirement governed by a specific federal or state
+                statute.</description>
+        </item>
+        <item>
+            <label>Subjective</label>
+            <value>subjective</value>
+            <description>A requirement that is dependant on the interpretation of an individual
+                where no clear test plan can be written.</description>
+        </item>
+    </items>
+</code-table>

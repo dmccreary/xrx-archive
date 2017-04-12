@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>24</id>
+    <Classifier>Message Routing</Classifier>
+    <PatternName>Content-Based Router</PatternName>
+    <Image>ContentBasedRouterIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/ContentBasedRouter.html</Reference>
+    <Description>How do we handle a situation where the implementation of a single logical function
+      (e.g., inventory check) is spread across multiple physical systems?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

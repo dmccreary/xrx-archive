@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.oasis-open.org/docbook/xml/5.0/rng/docbook.rng" type="xml"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+    <info>
+        <title>Docbook Article</title>
+        <author>
+            <orgname>Organization Name</orgname>
+            <address>
+                <city>City</city>
+                <street>Street</street>
+                <postcode>000000</postcode>
+                <country>Country</country>
+            </address>
+            <email>user@example.com</email>
+        </author>
+    </info>
+    <section>
+        <title>Section Title 1</title>
+        <subtitle>Section1 Subtitle 1</subtitle>
+        <para>This is the text for section 1.</para>
+        <section>
+            <title>Section1 Title 1.1</title>
+            <subtitle>Section 1.1 Subtitle</subtitle>
+            <para>This is the text for section 1.1.</para>
+        </section>
+        <section>
+            <title>Section1 Title 1.2</title>
+            <subtitle>Section 1.2 Subtitle</subtitle>
+            <para>This is the text for section 1.2.</para>
+        </section>
+    </section>
+    <section>
+        <title>Section Title 2</title>
+        <subtitle>Section1 Subtitle 2</subtitle>
+        <para>This is the text for section 2.</para>
+        <section>
+            <title>Section1 Title 2.1</title>
+            <subtitle>Section 2.1 Subtitle</subtitle>
+            <para>This is the text for section 2.1.</para>
+        </section>
+        <section>
+            <title>Section1 Title 2.2</title>
+            <subtitle>Section 2.2 Subtitle</subtitle>
+            <para>This is the text for section 2.2.</para>
+        </section>
+    </section>
+</article>

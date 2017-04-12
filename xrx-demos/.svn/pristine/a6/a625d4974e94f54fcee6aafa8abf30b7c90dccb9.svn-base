@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-plan xmlns="http://kuberam.ro/ns/kert">
+    <description>Test results for cryptographic XQuery extension module of eXist XMLDB</description>
+    <results>
+        <result id="passed" xml:id="passed" font-color="white" background-color="green" score="0">Passed</result>
+        <result id="partial" xml:id="partial" font-color="white" background-color="yellow" score="0">Partial</result>
+        <result id="failed" xml:id="failed" font-color="white" background-color="red" score="0">Failed</result>
+        <result id="unknown" xml:id="unknown" font-color="black" background-color="white" score="0">Unknown</result>
+        <result id="deprecated" xml:id="deprecated" font-color="white" background-color="green" score="0">Deprecated</result>
+        <result id="timeout" xml:id="timeout" font-color="white" background-color="green" score="0">Timeout</result>
+        <!--start of standard results - do not remove them-->
+        <result id="unfound" xml:id="unfound" font-color="white" background-color="black" score="0">Unfound</result>
+        <result id="undefined" xml:id="undefined" font-color="white" background-color="black" score="0">Undefined result token</result>
+        <!--end of standard results - do not remove them-->
+    </results>
+    <traceability-matrix/>
+</test-plan>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lab>
+    <id>40</id>
+    <name>Search With Contains</name>
+    <description>In this lab students will create an XML search services that checks to
+        see if a given field contains a string.
+    </description>
+    <programlisting>
+        
+    </programlisting>
+    <resources>
+        <resource>
+            <name>Google Doc</name>
+            <type>google-doc</type>
+            <url>https://docs.google.com/document/pub?id=1WvwjWFGPaN-O8CG3AkA_w5xUChqN2VW2AquTTrOM8SE</url>
+        </resource>
+    </resources>
+    <category/>
+    <status/>
+    <tag/>
+    <tag/>
+</lab>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>my-code</name>
+    <description>This is a description of my code items and values.</description>
+    <items>
+        <item>
+            <label>Label One</label>
+            <value>value-one</value>
+            <definition>Definition of when to use code value one.</definition>
+        </item>
+        <item>
+            <label>Label Two</label>
+            <value>value-two</value>
+            <definition>Definition of when to use code value two,</definition>
+        </item>
+    </items>
+</code-table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>50</id>
+    <Classifier>System Management</Classifier>
+    <PatternName>Detour</PatternName>
+    <Image>DetourIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/Detour.html</Reference>
+    <Description>Conditional message routing.</Description>
+    <Question>How can you route a message through intermediate steps to perform validation,
+testing or debugging functions?</Question>
+    <Answer>Construct a Detour with a context-based router controlled via the Control Bus. In one state the router routes incoming messages through additional steps while in the other it routes messages directly to the destination channel.</Answer>
+    <NoteText>The Detour uses a simple context-based router with two output channels. One output channel passes the unmodified message to the original destination. When instructed by the Control Bus, the Detour routes messages to a different channel. This channel sends the message to additional components that can inspect and/or modify the message. Ultimately, these components route the message to the same destination.</NoteText>
+</Pattern>

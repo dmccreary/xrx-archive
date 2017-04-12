@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kpi-range>
+    <id>2</id>
+    <name>Critical Resource Availability</name>
+    <description>Tyicpally used in operational run-time such as free disk space.</description>
+    <intervals>
+        <interval>
+            <relationship>lt</relationship>
+            <!-- note the fist value is always null -->
+            <value/>
+            <label>Acceptable</label>
+            <color>Green</color>
+        </interval>
+        <interval>
+            <relationship>gt</relationship>
+            <value>80</value>
+            <label>Warning</label>
+            <color>Yellow</color>
+        </interval>
+        <interval>
+            <relationship>gt</relationship>
+            <value>95</value>
+            <label>Error</label>
+            <color>Red</color>
+        </interval>
+    </intervals>
+</kpi-range>

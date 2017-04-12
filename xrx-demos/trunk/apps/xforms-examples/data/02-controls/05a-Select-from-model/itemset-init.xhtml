@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <title>Using xf:itemset to load code values into a xf:select1 control.</title>
+        <xf:model>
+            <xf:instance xmlns="">
+                <data>
+                    <color-code>red</color-code>
+                </data>
+            </xf:instance>
+            <xf:instance xmlns="" id="codes">
+                <codes>
+                    <item>
+                        <label>Red</label>
+                        <value>red</value>
+                    </item>
+                    <item>
+                        <label>Green</label>
+                        <value>green</value>
+                    </item>
+                    <item>
+                        <label>Blue</label>
+                        <value>blue</value>
+                    </item>
+                </codes>
+            </xf:instance>
+        </xf:model>
+    </head>
+    <body>
+        <h1>Select1 initialization using an itemset</h1>
+        <h2>Get Codes from Itemset</h2>
+        <xf:select1 ref="color-code">
+            <xf:label>Color:</xf:label>
+            <xf:itemset nodeset="instance('codes')/item">
+                <xf:label ref="label"/>
+                <xf:value ref="value"/>
+            </xf:itemset>
+        </xf:select1>
+        <p>Note that the current value is not being displayed</p>
+        <h2>Get Codes Inline</h2>
+        <xf:select1 ref="color-code">
+            <xf:label>Color:</xf:label>
+            <xf:item>
+                <xf:label>Red</xf:label>
+                <xf:value>red</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Green</xf:label>
+                <xf:value>green</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Blue</xf:label>
+                <xf:value>blue</xf:value>
+            </xf:item>
+        </xf:select1>
+        <h1>Output</h1>
+        <xf:output ref="color-code"/>
+    </body>
+</html>

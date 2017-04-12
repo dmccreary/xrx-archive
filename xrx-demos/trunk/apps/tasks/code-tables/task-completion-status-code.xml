@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>task-completion-status-code</name>
+    <item>
+        <label>New</label>
+        <value>new</value>
+    </item>
+    <item>
+        <label>Assigned</label>
+        <value>assigned</value>
+    </item>
+    <item>
+        <label>Closed</label>
+        <value>closed</value>
+    </item>
+    <item>
+        <label>Reopended</label>
+        <value>reopened</value>
+    </item>
+</code-table>

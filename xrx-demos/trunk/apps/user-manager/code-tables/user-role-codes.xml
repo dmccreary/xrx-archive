@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <code-table-name>user-role-codes</code-table-name>
+    <items>
+        <item>
+            <label>Select a role...</label>
+            <value/>
+        </item>
+        <item>
+            <label>Site Admin</label>
+            <value>1</value>
+        </item>
+        <item>
+            <label>Account Manager</label>
+            <value>2</value>
+        </item>
+        <item>
+            <label>Release Manager</label>
+            <value>3</value>
+        </item>
+    </items>
+</code-table>

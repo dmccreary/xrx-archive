@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>1</id>
+    <Classifier>Messaging Systems</Classifier>
+    <PatternName>Message Channel</PatternName>
+    <Image>ChannelIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/MessageChannel.html</Reference>
+    <Description>How one application communicates with another using messaging.</Description>
+    <Question>How does one application communicate with another using messaging?</Question>
+    <Answer>Connect the applications using a Message Channel, where one application writes information to the channel and the other one reads that information from the channel.</Answer>
+    <Usages>
+        <Usage>
+            <ProjectCode>project-1</ProjectCode>
+            <ProjectUsageText>This is how the pattern is used on project 1.</ProjectUsageText>
+        </Usage>
+        <Usage>
+            <ProjectCode>project-2</ProjectCode>
+            <ProjectUsageText>This is how the pattern is used on project 2.</ProjectUsageText>
+        </Usage>
+    </Usages>
+    <NoteText>When an application has information to communicate, it doesn't just fling the information into the messaging system, it adds the information to a particular Message Channel. An application receiving information doesn't just pick it up at random from the messaging system; it retrieves the information from a particular Message Channel.</NoteText>
+</Pattern>

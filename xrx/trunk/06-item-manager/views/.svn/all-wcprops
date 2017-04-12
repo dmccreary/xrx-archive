@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/59/trunk/06-item-manager/views
+END
+list-items.xq
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/59/trunk/06-item-manager/views/list-items.xq
+END
+list-categories.xq
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/59/trunk/06-item-manager/views/list-categories.xq
+END
+view-item.xq
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/59/trunk/06-item-manager/views/view-item.xq
+END
+metrics.xq
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/59/trunk/06-item-manager/views/metrics.xq
+END

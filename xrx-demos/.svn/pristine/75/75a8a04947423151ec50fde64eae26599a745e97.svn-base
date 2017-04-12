@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>3</id>
+    <Classifier>Messaging Systems</Classifier>
+    <PatternName>Pipes and Filters</PatternName>
+    <Image>PipesAndFiltersIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/PipesAndFilters.html</Reference>
+    <Description>How can we perform complex processing on a message while maintaining independence
+      and flexibility?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

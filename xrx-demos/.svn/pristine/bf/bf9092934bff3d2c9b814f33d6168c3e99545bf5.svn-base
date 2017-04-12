@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>38</id>
+    <Classifier>Message Transformation</Classifier>
+    <PatternName>Claim Check</PatternName>
+    <Image>StoreInLibraryIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/StoreInLibrary.html</Reference>
+    <Description>How can we reduce the data volume of message sent across the system without
+      sacrificing information content?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

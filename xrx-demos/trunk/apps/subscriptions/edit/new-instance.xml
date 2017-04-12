@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Subscription>
+    <id/>
+    <UserID/>
+    <SubscrtionEnabledIndicator>true</SubscrtionEnabledIndicator>
+    <SubscriptionName/>
+    <SubscriptionDescriptionText/>
+    <XPathExpression/>
+    <Notifications>
+        <Notification>
+            <id>1</id>
+            <NotificationTypeCode>copy</NotificationTypeCode>
+            <CopyDestinationPath/>
+        </Notification>
+    </Notifications>
+    <Logs>
+        <LogEntry>
+            <EventDateTime/>
+            <LogDocumentPath/>
+        </LogEntry>
+    </Logs>
+    <LogRetentionPeriodDays/>
+    <created-datetime/>
+    <created-by/>
+    <last-modified-datetime/>
+    <last-modified-by/>
+</Subscription>

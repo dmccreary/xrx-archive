@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-info xmlns="http://code.google.com/p/xrx">
+    <app-id>security-roles</app-id>
+    <app-name>Security Role Manager</app-name>
+    <app-classifier>admin</app-classifier>
+    <app-verstion-id>1.0</app-verstion-id>
+    <app-subversion-revision-number>0000</app-subversion-revision-number>
+    <app-description-text>The Role Manager manages security roles.  Each role is granted
+    rights to operations on functions or application operations.</app-description-text>
+    <app-creator-text>Dan McCreary</app-creator-text>
+    <app-license-type-code>apache-2.0</app-license-type-code>
+    <app-license-uri>text</app-license-uri>
+    <breadcrumb-label>Role Manager</breadcrumb-label>
+    <data-collection>data</data-collection>
+    <app-icon-path>images/role-manager.jpg</app-icon-path>
+    <main-menu-order>12</main-menu-order>
+    <include-in-search-indicator>true</include-in-search-indicator>
+    <doc-root-path>task</doc-root-path>
+    <doc-id-path>id/text()</doc-id-path>
+    <doc-title-path>text</doc-title-path>
+    <list-items-uri>views/list-items.xq</list-items-uri>
+    <doc-viewer-path>views/view-item.xq?id=</doc-viewer-path>
+    <search-order-weight>5</search-order-weight>
+    <app-notes-text>text</app-notes-text>
+    <app-icon-uri>text</app-icon-uri>
+    <app-help-uri>help/index.xhtml</app-help-uri>
+    <include-in-new-indicator>true</include-in-new-indicator>
+    <app-new-uri>text</app-new-uri>
+    <actions>
+        <action>create</action>
+        <action>edit</action>
+        <action>approve</action>
+        <action>associate-role-with-policy</action>
+        <action>delete</action>
+    </actions>
+    <classifier>administration</classifier>
+</app-info>

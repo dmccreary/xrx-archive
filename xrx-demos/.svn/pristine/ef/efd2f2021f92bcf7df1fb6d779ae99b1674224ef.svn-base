@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <title>XForms Message</title>
+        <xf:model id="myModel">
+            <xf:instance>
+                <data xmlns="">
+            </data>
+            </xf:instance>
+        </xf:model>
+    </head>
+    <body>
+        <p>A standard and intrusive modal message that must be dismissed:</p>
+        <xf:trigger>
+            <xf:label>Press for a modal message</xf:label>
+            <xf:message level="modal" ev:event="DOMActivate">This is a model message.
+                The user must press a button to dismiss the message.</xf:message>
+        </xf:trigger>
+    </body>
+</html>

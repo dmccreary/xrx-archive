@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pattern>
+    <id>21</id>
+    <Classifier>Message Construction</Classifier>
+    <PatternName>Correlation Identifier</PatternName>
+    <Image>CorrelationIdentifierIcon.gif</Image>
+    <Reference>http://www.eaipatterns.com/CorrelationIdentifier.html</Reference>
+    <Description>How does a requestor that has received a reply know which request this is the reply
+      for?</Description>
+    <Question/>
+    <Answer/>
+    <NoteText/>
+</Pattern>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code-table>
+    <name>task-type-code</name>
+    <item>
+        <label>Defect</label>
+        <value>defect</value>
+    </item>
+    <item>
+        <label>Enhancement</label>
+        <value>enhancement</value>
+    </item>
+    <item>
+        <label>Documentation</label>
+        <value>documentation</value>
+    </item>
+    <item>
+        <label>Training</label>
+        <value>training</value>
+    </item>
+    <item>
+        <label>Other</label>
+        <value>other</value>
+    </item>
+</code-table>

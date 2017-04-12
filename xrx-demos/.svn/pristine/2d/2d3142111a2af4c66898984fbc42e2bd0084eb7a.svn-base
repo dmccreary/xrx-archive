@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<w:WantList xmlns:w="http://niem.gov/niem/wantlist/2" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" w:release="2.1" w:product="NIEM">
+    <w:Attribute w:name="nc:confidenceNumeric"/>
+    <w:Attribute w:name="nc:currencyCode"/>
+    <w:Attribute w:name="nc:currencyText"/>
+    <w:Attribute w:name="nc:formCode"/>
+    <w:Attribute w:name="nc:languageCode"/>
+    <w:Attribute w:name="nc:partialIndicator"/>
+    <w:Attribute w:name="nc:personNameCommentText"/>
+    <w:Attribute w:name="nc:personNameInitialIndicator"/>
+    <w:Attribute w:name="nc:pointValueMargin"/>
+    <w:Attribute w:name="nc:quantityUnitText"/>
+    <w:Attribute w:name="nc:scriptCode"/>
+    <w:Attribute w:name="nc:toleranceNumeric"/>
+    <w:Attribute w:name="nc:transliterationCode"/>
+    <w:Attribute w:name="nc:truncationIndicator"/>
+    <w:Element w:name="nc:Activity" w:isReference="true"/>
+    <w:Element w:name="nc:Activity" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityConveyanceAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityDate" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityDateRange" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityDateRepresentation" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityDisposition" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityDocumentAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityIdentification" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityItemAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityName" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityReasonText" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityRelationText" w:isReference="false"/>
+    <w:Element w:name="nc:ActivityStatus" w:isReference="false"/>
+    <w:Element w:name="nc:Address" w:isReference="true"/>
+    <w:Element w:name="nc:Address" w:isReference="false"/>
+    <w:Element w:name="nc:AddressBuildingText" w:isReference="false"/>
+    <w:Element w:name="nc:AddressDeliveryPoint" w:isReference="false"/>
+    <w:Element w:name="nc:AddressDeliveryPointID" w:isReference="false"/>
+    <w:Element w:name="nc:AddressFullText" w:isReference="false"/>
+    <w:Element w:name="nc:AddressGrid" w:isReference="false"/>
+    <w:Element w:name="nc:AddressGridID" w:isReference="false"/>
+    <w:Element w:name="nc:AddressGridText" w:isReference="false"/>
+    <w:Element w:name="nc:AddressRepresentation" w:isReference="false"/>
+    <w:Element w:name="nc:AddressSecondaryUnitText" w:isReference="false"/>
+    <w:Element w:name="nc:AdministrativeID" w:isReference="false"/>
+    <w:Element w:name="nc:Agency" w:isReference="false"/>
+    <w:Element w:name="nc:AngularDegreeValue" w:isReference="false"/>
+    <w:Element w:name="nc:AngularMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:AngularMinute" w:isReference="false"/>
+    <w:Element w:name="nc:AngularMinuteValue" w:isReference="false"/>
+    <w:Element w:name="nc:AngularSecond" w:isReference="false"/>
+    <w:Element w:name="nc:AngularSecondValue" w:isReference="false"/>
+    <w:Element w:name="nc:AreaCircularDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:AreaCircularRegion" w:isReference="false"/>
+    <w:Element w:name="nc:AreaDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:AreaPolygonDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:AreaPolygonGeographicCoordinate" w:isReference="false"/>
+    <w:Element w:name="nc:Association" w:isReference="false"/>
+    <w:Element w:name="nc:AssociationBeginDate" w:isReference="false"/>
+    <w:Element w:name="nc:AssociationEndDate" w:isReference="false"/>
+    <w:Element w:name="nc:Binary" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryAvailableIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryAvailableLocationText" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryBase64Object" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryCaptureDate" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryCapturer" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryFormatID" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryFormatStandardName" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryHexObject" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryID" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryLocationURI" w:isReference="false"/>
+    <w:Element w:name="nc:BinaryObject" w:isReference="false"/>
+    <w:Element w:name="nc:BinarySizeValue" w:isReference="false"/>
+    <w:Element w:name="nc:Biometric" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricAccuracyDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricBinary" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricCaptureDate" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricCaptureDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricCaptureSourceText" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricCapturer" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricEncodingMethodText" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricID" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricImage" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricLabAnalysisText" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricRepositoryDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricRepositoryOrganization" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricStatus" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricTestDate" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricTestDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricTestMethodText" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricTester" w:isReference="false"/>
+    <w:Element w:name="nc:BiometricValueText" w:isReference="false"/>
+    <w:Element w:name="nc:CalendarDate" w:isReference="false"/>
+    <w:Element w:name="nc:CaseCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:CaseDispositionDecision" w:isReference="false"/>
+    <w:Element w:name="nc:CaseDispositionFinalDate" w:isReference="false"/>
+    <w:Element w:name="nc:CaseResolutionText" w:isReference="false"/>
+    <w:Element w:name="nc:CaseTitleText" w:isReference="false"/>
+    <w:Element w:name="nc:CaseTrackingID" w:isReference="false"/>
+    <w:Element w:name="nc:CaseYearDate" w:isReference="false"/>
+    <w:Element w:name="nc:CaveatText" w:isReference="false"/>
+    <w:Element w:name="nc:CommentText" w:isReference="false"/>
+    <w:Element w:name="nc:CommentTitleText" w:isReference="false"/>
+    <w:Element w:name="nc:ContactEmailID" w:isReference="false"/>
+    <w:Element w:name="nc:ContactEntity" w:isReference="false"/>
+    <w:Element w:name="nc:ContactEntityDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:ContactFaxNumber" w:isReference="false"/>
+    <w:Element w:name="nc:ContactInformation" w:isReference="true"/>
+    <w:Element w:name="nc:ContactInformation" w:isReference="false"/>
+    <w:Element w:name="nc:ContactInformationDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:ContactInformationIsDayIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:ContactInformationIsEmergencyIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:ContactInformationIsEveningIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:ContactInformationIsHomeIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:ContactInformationIsNightIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:ContactInformationIsPrimaryIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:ContactInformationIsWorkIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:ContactInstantMessenger" w:isReference="false"/>
+    <w:Element w:name="nc:ContactMailingAddress" w:isReference="false"/>
+    <w:Element w:name="nc:ContactMeans" w:isReference="false"/>
+    <w:Element w:name="nc:ContactMobileTelephoneNumber" w:isReference="false"/>
+    <w:Element w:name="nc:ContactPagerNumber" w:isReference="false"/>
+    <w:Element w:name="nc:ContactTelephoneNumber" w:isReference="false"/>
+    <w:Element w:name="nc:ContactWebsiteURI" w:isReference="false"/>
+    <w:Element w:name="nc:ConveyanceMotorizedIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:CreatorName" w:isReference="false"/>
+    <w:Element w:name="nc:CrossStreetDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:CrossStreetRelativeLocation" w:isReference="false"/>
+    <w:Element w:name="nc:Date" w:isReference="false"/>
+    <w:Element w:name="nc:DateAccuracyCode" w:isReference="false"/>
+    <w:Element w:name="nc:DateRange" w:isReference="false"/>
+    <w:Element w:name="nc:DateRepresentation" w:isReference="false"/>
+    <w:Element w:name="nc:DateTime" w:isReference="false"/>
+    <w:Element w:name="nc:DescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:DispositionCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:DispositionDate" w:isReference="false"/>
+    <w:Element w:name="nc:DispositionDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:DispositionEntity" w:isReference="false"/>
+    <w:Element w:name="nc:DispositionReasonText" w:isReference="false"/>
+    <w:Element w:name="nc:DispositionReportedAuthorityText" w:isReference="false"/>
+    <w:Element w:name="nc:DispositionText" w:isReference="false"/>
+    <w:Element w:name="nc:DistributionText" w:isReference="false"/>
+    <w:Element w:name="nc:Document" w:isReference="true"/>
+    <w:Element w:name="nc:Document" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentAlternativeTitleText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentAuthor" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentBinary" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentContributor" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentCopyrightIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentCountryCode" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentCoverage" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentCoverageTextAddress" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentCoverageTextDate" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentCoverageTextText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentCreationDate" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentCreator" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentEffectiveDate" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentEntrySubmitter" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentExpirationDate" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentFileControlID" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentFileExtensionText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentFileName" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentFiledDate" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentFormatCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentFormatText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentIdentification" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentKeywordText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentLanguage" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentLanguageCode" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentLastModifiedDate" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentLocation" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentLocationURI" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentMediumText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentPostDate" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentReceivedDate" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentRecipient" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentSource" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentSourceText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentStatus" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentSubjectText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentSubmissionFee" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentSubmitter" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentSummaryText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentSupplementalMarkingText" w:isReference="false"/>
+    <w:Element w:name="nc:DocumentTitleText" w:isReference="false"/>
+    <w:Element w:name="nc:EffectiveDate" w:isReference="false"/>
+    <w:Element w:name="nc:EmploymentContactInformation" w:isReference="true"/>
+    <w:Element w:name="nc:EndDate" w:isReference="false"/>
+    <w:Element w:name="nc:Entity" w:isReference="true"/>
+    <w:Element w:name="nc:Entity" w:isReference="false"/>
+    <w:Element w:name="nc:EntityOrganization" w:isReference="true"/>
+    <w:Element w:name="nc:EntityOrganization" w:isReference="false"/>
+    <w:Element w:name="nc:EntityPerson" w:isReference="true"/>
+    <w:Element w:name="nc:EntityPerson" w:isReference="false"/>
+    <w:Element w:name="nc:EntityRepresentation" w:isReference="false"/>
+    <w:Element w:name="nc:ExpirationDate" w:isReference="false"/>
+    <w:Element w:name="nc:Facility" w:isReference="true"/>
+    <w:Element w:name="nc:Facility" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityCommercialIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityContactInformation" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityContainsItem" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityDocumentAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityIdentification" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityImageAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityLocation" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityName" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityOrganizationAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:FacilityPersonAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:FamilyAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:FamilyKinshipCategory" w:isReference="false"/>
+    <w:Element w:name="nc:FamilyKinshipCode" w:isReference="false"/>
+    <w:Element w:name="nc:FamilyKinshipText" w:isReference="false"/>
+    <w:Element w:name="nc:Fee" w:isReference="true"/>
+    <w:Element w:name="nc:Fee" w:isReference="false"/>
+    <w:Element w:name="nc:FullTelephoneNumber" w:isReference="false"/>
+    <w:Element w:name="nc:GeographicCoordinateLatitude" w:isReference="false"/>
+    <w:Element w:name="nc:GeographicCoordinateLongitude" w:isReference="false"/>
+    <w:Element w:name="nc:GeographicDatumCode" w:isReference="false"/>
+    <w:Element w:name="nc:GeographicElevationDatumID" w:isReference="false"/>
+    <w:Element w:name="nc:GeographicElevationMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:Identification" w:isReference="false"/>
+    <w:Element w:name="nc:IdentificationCategory" w:isReference="false"/>
+    <w:Element w:name="nc:IdentificationCategoryDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:IdentificationCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:IdentificationEffectiveDate" w:isReference="false"/>
+    <w:Element w:name="nc:IdentificationExpirationDate" w:isReference="false"/>
+    <w:Element w:name="nc:IdentificationID" w:isReference="false"/>
+    <w:Element w:name="nc:IdentificationJurisdiction" w:isReference="false"/>
+    <w:Element w:name="nc:IdentificationJurisdictionText" w:isReference="false"/>
+    <w:Element w:name="nc:IdentificationSourceText" w:isReference="false"/>
+    <w:Element w:name="nc:IdentificationStatus" w:isReference="false"/>
+    <w:Element w:name="nc:Image" w:isReference="true"/>
+    <w:Element w:name="nc:Image" w:isReference="false"/>
+    <w:Element w:name="nc:ImageHeightValue" w:isReference="false"/>
+    <w:Element w:name="nc:ImageLocation" w:isReference="false"/>
+    <w:Element w:name="nc:ImageOperator" w:isReference="false"/>
+    <w:Element w:name="nc:ImageWidthValue" w:isReference="false"/>
+    <w:Element w:name="nc:InstantMessengerClientName" w:isReference="false"/>
+    <w:Element w:name="nc:InstantMessengerScreenID" w:isReference="false"/>
+    <w:Element w:name="nc:IntangibleItem" w:isReference="false"/>
+    <w:Element w:name="nc:InternationalTelephoneNumber" w:isReference="false"/>
+    <w:Element w:name="nc:ItemAgeMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:ItemBinary" w:isReference="false"/>
+    <w:Element w:name="nc:ItemBrandName" w:isReference="false"/>
+    <w:Element w:name="nc:ItemCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:ItemColor" w:isReference="false"/>
+    <w:Element w:name="nc:ItemColorDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:ItemDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:ItemHeightMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:ItemImage" w:isReference="false"/>
+    <w:Element w:name="nc:ItemLengthMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:ItemLocationAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:ItemMakeName" w:isReference="false"/>
+    <w:Element w:name="nc:ItemModelName" w:isReference="false"/>
+    <w:Element w:name="nc:ItemModelYearDate" w:isReference="false"/>
+    <w:Element w:name="nc:ItemName" w:isReference="false"/>
+    <w:Element w:name="nc:ItemOwner" w:isReference="false"/>
+    <w:Element w:name="nc:ItemOwnerAppliedID" w:isReference="false"/>
+    <w:Element w:name="nc:ItemPurchasePriceValue" w:isReference="false"/>
+    <w:Element w:name="nc:ItemRFIdentification" w:isReference="false"/>
+    <w:Element w:name="nc:ItemStatus" w:isReference="false"/>
+    <w:Element w:name="nc:ItemValue" w:isReference="false"/>
+    <w:Element w:name="nc:ItemValueAmount" w:isReference="false"/>
+    <w:Element w:name="nc:ItemValueAssigningMethodText" w:isReference="false"/>
+    <w:Element w:name="nc:ItemValueDate" w:isReference="false"/>
+    <w:Element w:name="nc:ItemValueDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:ItemValueTaxIncludedIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:ItemVisibleID" w:isReference="false"/>
+    <w:Element w:name="nc:ItemWeightMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:ItemWidthMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:Jurisdiction" w:isReference="true"/>
+    <w:Element w:name="nc:Jurisdiction" w:isReference="false"/>
+    <w:Element w:name="nc:JurisdictionText" w:isReference="false"/>
+    <w:Element w:name="nc:Language" w:isReference="false"/>
+    <w:Element w:name="nc:LanguageCode" w:isReference="false"/>
+    <w:Element w:name="nc:LanguageName" w:isReference="false"/>
+    <w:Element w:name="nc:LanguageText" w:isReference="false"/>
+    <w:Element w:name="nc:LastUpdatedDate" w:isReference="false"/>
+    <w:Element w:name="nc:LastVerifiedDate" w:isReference="false"/>
+    <w:Element w:name="nc:LatitudeCoordinate" w:isReference="false"/>
+    <w:Element w:name="nc:LatitudeDegreeValue" w:isReference="false"/>
+    <w:Element w:name="nc:LatitudeMinuteValue" w:isReference="false"/>
+    <w:Element w:name="nc:LatitudeSecondValue" w:isReference="false"/>
+    <w:Element w:name="nc:LengthUnitCode" w:isReference="false"/>
+    <w:Element w:name="nc:Locale" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleCensusBlockID" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleCensusTractID" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleCommunityName" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleDistrictName" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleEmergencyServicesCityName" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleEmergencyServicesJurisdictionID" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleFireJurisdictionID" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleJudicialDistrictName" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleNeighborhoodName" w:isReference="false"/>
+    <w:Element w:name="nc:LocalePoliceBeatText" w:isReference="false"/>
+    <w:Element w:name="nc:LocalePoliceGridText" w:isReference="false"/>
+    <w:Element w:name="nc:LocalePoliceJurisdictionID" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleRegionName" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleSubdivisionName" w:isReference="false"/>
+    <w:Element w:name="nc:LocaleZoneName" w:isReference="false"/>
+    <w:Element w:name="nc:Location" w:isReference="true"/>
+    <w:Element w:name="nc:Location" w:isReference="false"/>
+    <w:Element w:name="nc:LocationAddress" w:isReference="false"/>
+    <w:Element w:name="nc:LocationAddressGrid" w:isReference="false"/>
+    <w:Element w:name="nc:LocationAltitudeMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:LocationArea" w:isReference="false"/>
+    <w:Element w:name="nc:LocationCategory" w:isReference="false"/>
+    <w:Element w:name="nc:LocationCategoryCode" w:isReference="false"/>
+    <w:Element w:name="nc:LocationCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:LocationCityName" w:isReference="false"/>
+    <w:Element w:name="nc:LocationContactInformation" w:isReference="false"/>
+    <w:Element w:name="nc:LocationContactInformationAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:LocationContainsOrganizationAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:LocationCountry" w:isReference="false"/>
+    <w:Element w:name="nc:LocationCountryName" w:isReference="false"/>
+    <w:Element w:name="nc:LocationCounty" w:isReference="false"/>
+    <w:Element w:name="nc:LocationCountyCode" w:isReference="false"/>
+    <w:Element w:name="nc:LocationCountyName" w:isReference="false"/>
+    <w:Element w:name="nc:LocationCrossStreet" w:isReference="false"/>
+    <w:Element w:name="nc:LocationDepthMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:LocationDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:LocationGeographicElevation" w:isReference="false"/>
+    <w:Element w:name="nc:LocationHighway" w:isReference="false"/>
+    <w:Element w:name="nc:LocationLandmarkText" w:isReference="false"/>
+    <w:Element w:name="nc:LocationLocale" w:isReference="false"/>
+    <w:Element w:name="nc:LocationMGRSCoordinate" w:isReference="false"/>
+    <w:Element w:name="nc:LocationMapLocation" w:isReference="false"/>
+    <w:Element w:name="nc:LocationName" w:isReference="false"/>
+    <w:Element w:name="nc:LocationOrganizationAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:LocationPostalCode" w:isReference="false"/>
+    <w:Element w:name="nc:LocationPostalExtensionCode" w:isReference="false"/>
+    <w:Element w:name="nc:LocationRangeDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:LocationRelativeLocation" w:isReference="false"/>
+    <w:Element w:name="nc:LocationState" w:isReference="false"/>
+    <w:Element w:name="nc:LocationStateName" w:isReference="false"/>
+    <w:Element w:name="nc:LocationStreet" w:isReference="false"/>
+    <w:Element w:name="nc:LocationSurroundingAreaDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:LocationTwoDimensionalGeographicCoordinate" w:isReference="false"/>
+    <w:Element w:name="nc:LocationUTMCoordinate" w:isReference="false"/>
+    <w:Element w:name="nc:LongitudeCoordinate" w:isReference="false"/>
+    <w:Element w:name="nc:LongitudeDegreeValue" w:isReference="false"/>
+    <w:Element w:name="nc:LongitudeMinuteValue" w:isReference="false"/>
+    <w:Element w:name="nc:LongitudeSecondValue" w:isReference="false"/>
+    <w:Element w:name="nc:MGRSCoordinate" w:isReference="false"/>
+    <w:Element w:name="nc:MGRSCoordinateID" w:isReference="false"/>
+    <w:Element w:name="nc:MGRSCoordinateSquareID" w:isReference="false"/>
+    <w:Element w:name="nc:MapCoordinateFullText" w:isReference="false"/>
+    <w:Element w:name="nc:MapDate" w:isReference="false"/>
+    <w:Element w:name="nc:MapElevationCoordinateText" w:isReference="false"/>
+    <w:Element w:name="nc:MapHorizontalCoordinateText" w:isReference="false"/>
+    <w:Element w:name="nc:MapLocation" w:isReference="false"/>
+    <w:Element w:name="nc:MapLocationDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:MapName" w:isReference="false"/>
+    <w:Element w:name="nc:MapPageID" w:isReference="false"/>
+    <w:Element w:name="nc:MapQuadrantText" w:isReference="false"/>
+    <w:Element w:name="nc:MapVersionID" w:isReference="false"/>
+    <w:Element w:name="nc:MapVerticalCoordinateText" w:isReference="false"/>
+    <w:Element w:name="nc:MarginDuration" w:isReference="false"/>
+    <w:Element w:name="nc:MarriageAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:Measure" w:isReference="false"/>
+    <w:Element w:name="nc:MeasureCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:MeasureDate" w:isReference="false"/>
+    <w:Element w:name="nc:MeasureEstimatedIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:MeasureMetadata" w:isReference="false"/>
+    <w:Element w:name="nc:MeasurePointValue" w:isReference="false"/>
+    <w:Element w:name="nc:MeasureRangeValue" w:isReference="false"/>
+    <w:Element w:name="nc:MeasureText" w:isReference="false"/>
+    <w:Element w:name="nc:MeasureUnitText" w:isReference="false"/>
+    <w:Element w:name="nc:MeasureValue" w:isReference="false"/>
+    <w:Element w:name="nc:Measurer" w:isReference="false"/>
+    <w:Element w:name="nc:MedicalConditionCauseText" w:isReference="false"/>
+    <w:Element w:name="nc:MedicalConditionDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:MedicalConditionPresentIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:MedicalConditionSeverityText" w:isReference="false"/>
+    <w:Element w:name="nc:MedicalConditionText" w:isReference="false"/>
+    <w:Element w:name="nc:Metadata" w:isReference="false"/>
+    <w:Element w:name="nc:NANPTelephoneNumber" w:isReference="false"/>
+    <w:Element w:name="nc:Obligation" w:isReference="true"/>
+    <w:Element w:name="nc:Obligation" w:isReference="false"/>
+    <w:Element w:name="nc:ObligationDue" w:isReference="false"/>
+    <w:Element w:name="nc:ObligationDueAmount" w:isReference="false"/>
+    <w:Element w:name="nc:ObligationDueDuration" w:isReference="false"/>
+    <w:Element w:name="nc:ObligationPaid" w:isReference="false"/>
+    <w:Element w:name="nc:ObligationPaidAmount" w:isReference="false"/>
+    <w:Element w:name="nc:ObligationPaidDuration" w:isReference="false"/>
+    <w:Element w:name="nc:ObligationTotal" w:isReference="false"/>
+    <w:Element w:name="nc:ObligationTotalAmount" w:isReference="false"/>
+    <w:Element w:name="nc:ObligationTotalDuration" w:isReference="false"/>
+    <w:Element w:name="nc:Organization" w:isReference="true"/>
+    <w:Element w:name="nc:Organization" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationAbbreviationText" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationActivityText" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationBranchName" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationCategory" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationContactInformationAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationDayContactInformation" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationDoingBusinessAsName" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationEmergencyContactInformation" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationEstablishedDate" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationEveningContactInformation" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationFacilityAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationIdentification" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationIncorporatedIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationItemAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationLocalIdentification" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationLocation" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationName" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationNightContactInformation" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationOperatesFacilityAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationOwnsItemAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationStatus" w:isReference="false"/>
+    <w:Element w:name="nc:OrganizationSupervisesFacilityAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:Percentage" w:isReference="false"/>
+    <w:Element w:name="nc:Person" w:isReference="true"/>
+    <w:Element w:name="nc:Person" w:isReference="false"/>
+    <w:Element w:name="nc:PersonAgeMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:PersonAlternateName" w:isReference="false"/>
+    <w:Element w:name="nc:PersonAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:PersonBirthDate" w:isReference="false"/>
+    <w:Element w:name="nc:PersonBirthLocation" w:isReference="false"/>
+    <w:Element w:name="nc:PersonCitizenship" w:isReference="false"/>
+    <w:Element w:name="nc:PersonCitizenshipText" w:isReference="false"/>
+    <w:Element w:name="nc:PersonComprehendsSpokenLanguageIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:PersonContactInformationAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:PersonConveyanceAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:PersonDeathDate" w:isReference="false"/>
+    <w:Element w:name="nc:PersonDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:PersonFullName" w:isReference="false"/>
+    <w:Element w:name="nc:PersonGivenName" w:isReference="false"/>
+    <w:Element w:name="nc:PersonHeightMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:PersonItemAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:PersonLicenseIdentification" w:isReference="false"/>
+    <w:Element w:name="nc:PersonMaidenName" w:isReference="false"/>
+    <w:Element w:name="nc:PersonMiddleName" w:isReference="false"/>
+    <w:Element w:name="nc:PersonName" w:isReference="false"/>
+    <w:Element w:name="nc:PersonNamePrefixText" w:isReference="false"/>
+    <w:Element w:name="nc:PersonNameSuffixText" w:isReference="false"/>
+    <w:Element w:name="nc:PersonNameText" w:isReference="false"/>
+    <w:Element w:name="nc:PersonOrganizationAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:PersonOwnsItemAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:PersonPossessesItemAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:PersonReadsLanguageIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:PersonSSNIdentification" w:isReference="false"/>
+    <w:Element w:name="nc:PersonSex" w:isReference="false"/>
+    <w:Element w:name="nc:PersonSpeaksLanguageIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:PersonSurName" w:isReference="false"/>
+    <w:Element w:name="nc:PersonWeightMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:PersonWritesLanguageIndicator" w:isReference="false"/>
+    <w:Element w:name="nc:ProbabilityNumeric" w:isReference="false"/>
+    <w:Element w:name="nc:Property" w:isReference="true"/>
+    <w:Element w:name="nc:Property" w:isReference="false"/>
+    <w:Element w:name="nc:PropertyCurrentLocationAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:PropertyDispositionLocationAssociation" w:isReference="false"/>
+    <w:Element w:name="nc:PublisherName" w:isReference="false"/>
+    <w:Element w:name="nc:QualityCommentText" w:isReference="false"/>
+    <w:Element w:name="nc:QualityCommentTitleText" w:isReference="false"/>
+    <w:Element w:name="nc:QualityValidityCode" w:isReference="false"/>
+    <w:Element w:name="nc:RangeMaximumValue" w:isReference="false"/>
+    <w:Element w:name="nc:RangeMinimumValue" w:isReference="false"/>
+    <w:Element w:name="nc:RelativeLocationDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:RelativeLocationDirection" w:isReference="false"/>
+    <w:Element w:name="nc:RelativeLocationDistanceText" w:isReference="false"/>
+    <w:Element w:name="nc:RelativeLocationHeadingValue" w:isReference="false"/>
+    <w:Element w:name="nc:RelativeLocationReferencePoint" w:isReference="false"/>
+    <w:Element w:name="nc:ReleaseDate" w:isReference="false"/>
+    <w:Element w:name="nc:ReliabilityNumeric" w:isReference="false"/>
+    <w:Element w:name="nc:ReportedDate" w:isReference="false"/>
+    <w:Element w:name="nc:ReportingOrganizationText" w:isReference="false"/>
+    <w:Element w:name="nc:ReportingPersonRoleText" w:isReference="false"/>
+    <w:Element w:name="nc:ReportingPersonText" w:isReference="false"/>
+    <w:Element w:name="nc:RepositoryID" w:isReference="false"/>
+    <w:Element w:name="nc:RoleOf" w:isReference="false"/>
+    <w:Element w:name="nc:RoleOfItem" w:isReference="true"/>
+    <w:Element w:name="nc:RoleOfOrganization" w:isReference="true"/>
+    <w:Element w:name="nc:RoleOfPerson" w:isReference="true"/>
+    <w:Element w:name="nc:SensitivityText" w:isReference="false"/>
+    <w:Element w:name="nc:SourceContactPersonText" w:isReference="false"/>
+    <w:Element w:name="nc:SourceIDText" w:isReference="false"/>
+    <w:Element w:name="nc:SourceText" w:isReference="false"/>
+    <w:Element w:name="nc:SpeedMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:SpeedUnitCode" w:isReference="false"/>
+    <w:Element w:name="nc:StartDate" w:isReference="false"/>
+    <w:Element w:name="nc:Status" w:isReference="false"/>
+    <w:Element w:name="nc:StatusDate" w:isReference="false"/>
+    <w:Element w:name="nc:StatusDescriptionText" w:isReference="false"/>
+    <w:Element w:name="nc:StatusIssuerIdentification" w:isReference="false"/>
+    <w:Element w:name="nc:StatusIssuerText" w:isReference="false"/>
+    <w:Element w:name="nc:StatusText" w:isReference="false"/>
+    <w:Element w:name="nc:StreetCategoryText" w:isReference="false"/>
+    <w:Element w:name="nc:StreetExtensionText" w:isReference="false"/>
+    <w:Element w:name="nc:StreetFullText" w:isReference="false"/>
+    <w:Element w:name="nc:StreetName" w:isReference="false"/>
+    <w:Element w:name="nc:StreetNumberText" w:isReference="false"/>
+    <w:Element w:name="nc:StreetPostdirectionalText" w:isReference="false"/>
+    <w:Element w:name="nc:StreetPredirectionalText" w:isReference="false"/>
+    <w:Element w:name="nc:StructuredAddress" w:isReference="false"/>
+    <w:Element w:name="nc:TangibleItem" w:isReference="false"/>
+    <w:Element w:name="nc:TelephoneAreaCodeID" w:isReference="false"/>
+    <w:Element w:name="nc:TelephoneCountryCodeID" w:isReference="false"/>
+    <w:Element w:name="nc:TelephoneExchangeID" w:isReference="false"/>
+    <w:Element w:name="nc:TelephoneLineID" w:isReference="false"/>
+    <w:Element w:name="nc:TelephoneNumber" w:isReference="true"/>
+    <w:Element w:name="nc:TelephoneNumber" w:isReference="false"/>
+    <w:Element w:name="nc:TelephoneNumberFullID" w:isReference="true"/>
+    <w:Element w:name="nc:TelephoneNumberFullID" w:isReference="false"/>
+    <w:Element w:name="nc:TelephoneNumberID" w:isReference="false"/>
+    <w:Element w:name="nc:TelephoneNumberRepresentation" w:isReference="false"/>
+    <w:Element w:name="nc:TelephoneSuffixID" w:isReference="false"/>
+    <w:Element w:name="nc:TimeUnitCode" w:isReference="false"/>
+    <w:Element w:name="nc:UTMCoordinate" w:isReference="false"/>
+    <w:Element w:name="nc:UTMCoordinateID" w:isReference="false"/>
+    <w:Element w:name="nc:UTMDatumID" w:isReference="false"/>
+    <w:Element w:name="nc:UTMEastingValue" w:isReference="false"/>
+    <w:Element w:name="nc:UTMGridZoneID" w:isReference="false"/>
+    <w:Element w:name="nc:UTMGridZoneSquareID" w:isReference="false"/>
+    <w:Element w:name="nc:UTMNorthingValue" w:isReference="false"/>
+    <w:Element w:name="nc:Vehicle" w:isReference="true"/>
+    <w:Element w:name="nc:Vehicle" w:isReference="false"/>
+    <w:Element w:name="nc:VehicleAxleQuantity" w:isReference="false"/>
+    <w:Element w:name="nc:VehicleCurrentWeightMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:VehicleGrossLadenSumWeightMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:VehicleGrossLadenUnitWeightMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:VehicleMaximumLoadWeightMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:VehicleUnladenWeightMeasure" w:isReference="false"/>
+    <w:Element w:name="nc:WeightUnitCode" w:isReference="false"/>
+    <w:Element w:name="nc:Year" w:isReference="false"/>
+    <w:Element w:name="nc:YearMonth" w:isReference="false"/>
+    <w:Type w:name="nc:ActivityConveyanceAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Activity" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Conveyance" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ActivityDocumentAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Activity" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Document" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ActivityItemAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Activity" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Item" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ActivityOrganizationAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Activity" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Organization" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ActivityPersonAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Activity" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Person" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ActivityType" w:isRequested="true">
+        <w:ElementInType w:name="nc:ActivityCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ActivityDateRepresentation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ActivityDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ActivityDisposition" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ActivityIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ActivityName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ActivityReasonText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ActivityStatus" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:AddressGridType" w:isRequested="true">
+        <w:ElementInType w:name="nc:AddressGridID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:AddressGridText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:AddressType" w:isRequested="true">
+        <w:ElementInType w:name="nc:AddressRepresentation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:AmountType" w:isRequested="true">
+        <w:AttributeInType w:name="nc:currencyCode"/>
+        <w:AttributeInType w:name="nc:currencyText"/>
+    </w:Type>
+    <w:Type w:name="nc:AngularMeasureType" w:isRequested="true">
+        <w:ElementInType w:name="nc:AngularDegreeValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:AngularMinuteValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:AngularSecondValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:AngularMinuteSimpleType" w:isRequested="true"/>
+    <w:Type w:name="nc:AngularMinuteType" w:isRequested="true"/>
+    <w:Type w:name="nc:AngularSecondSimpleType" w:isRequested="true"/>
+    <w:Type w:name="nc:AngularSecondType" w:isRequested="true"/>
+    <w:Type w:name="nc:AreaType" w:isRequested="true">
+        <w:ElementInType w:name="nc:AreaCircularDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:AreaCircularRegion" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:AreaDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:AreaGeographicCode" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:AreaPolygonDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:AreaPolygonGeographicCoordinate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:AssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:AssociationBeginDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:AssociationEndDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:BinaryType" w:isRequested="true">
+        <w:ElementInType w:name="nc:BinaryAvailableIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BinaryAvailableLocationText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BinaryCaptureDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BinaryCapturer" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BinaryCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BinaryDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BinaryFormatID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BinaryFormatStandardName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BinaryID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BinaryLocationURI" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BinaryObject" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BinarySizeValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:BiometricType" w:isRequested="true">
+        <w:ElementInType w:name="nc:BiometricAccuracyDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricBinary" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricCaptureDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricCaptureDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricCaptureSourceText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricCapturer" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricEncodingMethodText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricImage" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricLabAnalysisText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricRepositoryDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricRepositoryOrganization" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricStatus" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricTestDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricTestDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricTestMethodText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricTester" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:BiometricValueText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:CaseDispositionType" w:isRequested="true">
+        <w:ElementInType w:name="nc:CaseDispositionDecision" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CaseDispositionFinalDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:CaseType" w:isRequested="true">
+        <w:ElementInType w:name="nc:CaseCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CaseDocketID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CaseFiling" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CaseGeneralCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CaseResolutionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CaseSubCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CaseTitleText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CaseTrackingID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CaseYearDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:CommercialVehicleType" w:isRequested="true">
+        <w:ElementInType w:name="nc:VehicleAxleQuantity" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:VehicleCurrentWeightMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:VehicleGrossLadenSumWeightMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:VehicleGrossLadenUnitWeightMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:VehicleMaximumLoadWeightMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:VehicleUnladenWeightMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ContactInformationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:ContactEntity" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactEntityDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactMeans" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactResponder" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ConveyanceType" w:isRequested="true">
+        <w:ElementInType w:name="nc:ConveyanceCargoText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ConveyanceEngineQuantity" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ConveyanceMotorizedIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ConveyanceRegistrationPlateIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ConveyanceSalesTaxPercentage" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ConveyanceTowedIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ConveyanceUse" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:CrossStreetType" w:isRequested="true">
+        <w:ElementInType w:name="nc:CrossStreetDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CrossStreetRelativeLocation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:DateRangeType" w:isRequested="true">
+        <w:ElementInType w:name="nc:EndDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:StartDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:DateType" w:isRequested="true">
+        <w:ElementInType w:name="nc:DateAccuracyCode" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DateRepresentation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MarginDuration" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:DirectionCodeSimpleType" w:isRequested="true">
+        <w:Facet w:facet="enumeration" w:value="E"/>
+        <w:Facet w:facet="enumeration" w:value="ENE"/>
+        <w:Facet w:facet="enumeration" w:value="ESE"/>
+        <w:Facet w:facet="enumeration" w:value="N"/>
+        <w:Facet w:facet="enumeration" w:value="NE"/>
+        <w:Facet w:facet="enumeration" w:value="NNE"/>
+        <w:Facet w:facet="enumeration" w:value="NNW"/>
+        <w:Facet w:facet="enumeration" w:value="NW"/>
+        <w:Facet w:facet="enumeration" w:value="S"/>
+        <w:Facet w:facet="enumeration" w:value="SE"/>
+        <w:Facet w:facet="enumeration" w:value="SSE"/>
+        <w:Facet w:facet="enumeration" w:value="SSW"/>
+        <w:Facet w:facet="enumeration" w:value="SW"/>
+        <w:Facet w:facet="enumeration" w:value="W"/>
+        <w:Facet w:facet="enumeration" w:value="WNW"/>
+        <w:Facet w:facet="enumeration" w:value="WSW"/>
+    </w:Type>
+    <w:Type w:name="nc:DirectionCodeType" w:isRequested="true"/>
+    <w:Type w:name="nc:DispositionType" w:isRequested="true">
+        <w:ElementInType w:name="nc:DispositionCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DispositionDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DispositionDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DispositionEntity" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DispositionInstrument" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DispositionReasonText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DispositionReportedAuthorityText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DispositionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:DocumentType" w:isRequested="true">
+        <w:ElementInType w:name="nc:CaveatText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentAlternativeTitleText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentApplicationName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentApprovedIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentAuthor" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentBinary" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentCategoryDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentCategoryID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentCategoryName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentContentListText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentContributor" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentCopyrightIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentCountryCode" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentCoverage" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentCreationDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentCreator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentDispositionAuthorityName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentDispositionInstructionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentDisputedIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentDisputedReasonText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentEffectiveDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentEntrySubmitter" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentExpirationDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentFileControlID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentFileExtensionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentFileName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentFiledDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentFormatCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentFormatText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentGroupID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentInformationCutOffDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentIntelligenceCategoryCode" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentKeywordText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentLanguage" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentLastModifiedDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentLocation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentLocationURI" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentManagementCyclePeriodText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentMediaCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentMediumText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentOtherAddresseeName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentPermanentRecordIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentPostDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentPrivacyActIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentPublicationDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentReceivedDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentRecipient" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentRelatedResourceText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentRelationText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentRightsText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentSequenceID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentSource" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentSourceText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentStatus" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentSubjectCode" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentSubjectText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentSubmissionFee" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentSubmitter" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentSummaryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentSupplementalMarkingText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentTitleText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DocumentVitalIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:SecurityLevelText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:EntityType" w:isRequested="true">
+        <w:ElementInType w:name="nc:EntityRepresentation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:FacilityAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Facility" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:FacilityDocumentAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Document" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Facility" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:FacilityImageAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Facility" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Image" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:FacilityOrganizationAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Facility" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Organization" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:FacilityPersonAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Facility" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Person" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:FacilityType" w:isRequested="true">
+        <w:ElementInType w:name="nc:FacilityCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:FacilityCommercialIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:FacilityContactInformation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:FacilityContainsItem" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:FacilityIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:FacilityLocation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:FacilityName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:FullTelephoneNumberType" w:isRequested="true">
+        <w:ElementInType w:name="nc:TelephoneNumberFullID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:TelephoneSuffixID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:GeographicElevationMeasureType" w:isRequested="true">
+        <w:ElementInType w:name="nc:GeographicElevationDatumID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:IdentificationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:IdentificationCategory" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:IdentificationCategoryDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:IdentificationEffectiveDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:IdentificationExpirationDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:IdentificationID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:IdentificationJurisdiction" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:IdentificationSourceText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:IdentificationStatus" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ImageType" w:isRequested="true">
+        <w:ElementInType w:name="nc:ImageHeightValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ImageLocation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ImageOperator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ImageWidthValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ImmediateFamilyAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:FamilyKinshipCategory" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonChild" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonParent" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:InstantMessengerType" w:isRequested="true">
+        <w:ElementInType w:name="nc:InstantMessengerClientName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:InstantMessengerScreenID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:IntangibleItemType" w:isRequested="true">
+        <w:ElementInType w:name="nc:IntellectualItemBusinessAreaText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:InternationalTelephoneNumberType" w:isRequested="true">
+        <w:ElementInType w:name="nc:TelephoneCountryCodeID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:TelephoneNumberID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:TelephoneSuffixID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ItemLocationAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Item" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Location" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ItemType" w:isRequested="true">
+        <w:ElementInType w:name="nc:ItemActionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemBarCodeIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemConditionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemDealerIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemDisposition" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemOtherIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemOwner" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemOwnerAppliedID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemOwnerPurchasedValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemPossessionDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemPossessor" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemRFIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemReceiptIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemSerialIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemStateIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemStatus" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemUsageText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemVisibleID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:WeaponIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:WeaponUsageIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ItemValueType" w:isRequested="true">
+        <w:ElementInType w:name="nc:ItemValueAmount" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemValueAssigner" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemValueAssigningMethodText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemValueDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemValueDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemValueTaxIncludedIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:JurisdictionType" w:isRequested="true">
+        <w:ElementInType w:name="nc:JurisdictionIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:JurisdictionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationCityName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationCountry" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationCounty" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationState" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:LatitudeCoordinateType" w:isRequested="true">
+        <w:ElementInType w:name="nc:LatitudeDegreeValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LatitudeMinuteValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LatitudeSecondValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:LatitudeDegreeSimpleType" w:isRequested="true"/>
+    <w:Type w:name="nc:LatitudeDegreeType" w:isRequested="true"/>
+    <w:Type w:name="nc:LengthMeasureType" w:isRequested="true">
+        <w:ElementInType w:name="nc:LengthUnitCode" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:LocaleType" w:isRequested="true">
+        <w:ElementInType w:name="nc:LocaleCensusBlockID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleCensusTractID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleCommunityName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleDistrictName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleEmergencyServicesCityName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleEmergencyServicesJurisdictionID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleFireJurisdictionID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleJudicialDistrictCode" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleJudicialDistrictName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleNeighborhoodName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocalePoliceBeatText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocalePoliceGridText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocalePoliceJurisdictionID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleRegionName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleSubdivisionName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocaleZoneName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:LocationContactInformationAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:ContactInformation" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Location" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:LocationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:LocationAddress" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationAddressGrid" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationAltitudeMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationArea" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationCategory" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationContactInformation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationCrossStreet" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationDepthMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationGeographicElevation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationHighway" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationLandmarkText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationLocale" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationMGRSCoordinate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationMapLocation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationRangeDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationRelativeLocation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationSurroundingAreaDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationTwoDimensionalGeographicCoordinate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LocationUTMCoordinate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:LongitudeCoordinateType" w:isRequested="true">
+        <w:ElementInType w:name="nc:LongitudeDegreeValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LongitudeMinuteValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LongitudeSecondValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:LongitudeDegreeSimpleType" w:isRequested="true"/>
+    <w:Type w:name="nc:LongitudeDegreeType" w:isRequested="true"/>
+    <w:Type w:name="nc:MGRSCoordinateType" w:isRequested="true">
+        <w:ElementInType w:name="nc:MGRSCoordinateID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MGRSCoordinateSquareID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:MapLocationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:MapCoordinateFullText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MapDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MapElevationCoordinateText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MapHorizontalCoordinateText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MapLocationDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MapName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MapPageID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MapQuadrantText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MapVersionID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MapVerticalCoordinateText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:MeasureMetadataType" w:isRequested="true">
+        <w:ElementInType w:name="nc:MeasureDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Measurer" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:MeasurePointValueType" w:isRequested="true">
+        <w:AttributeInType w:name="nc:pointValueMargin"/>
+    </w:Type>
+    <w:Type w:name="nc:MeasureRangeValueType" w:isRequested="true">
+        <w:ElementInType w:name="nc:RangeMaximumValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:RangeMinimumValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:MeasureType" w:isRequested="true">
+        <w:ElementInType w:name="nc:MeasureCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MeasureEstimatedIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MeasureUnitText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MeasureValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:MedicalConditionType" w:isRequested="true">
+        <w:ElementInType w:name="nc:MedicalConditionCauseText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MedicalConditionDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MedicalConditionPresentIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MedicalConditionSeverityText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:MedicalConditionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:MetadataType" w:isRequested="true">
+        <w:ElementInType w:name="nc:AdministrativeID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CommentText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CommentTitleText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:CreatorName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:DistributionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:EffectiveDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ExpirationDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LanguageText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LastUpdatedDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:LastVerifiedDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ProbabilityNumeric" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PublisherName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:QualityCommentText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:QualityCommentTitleText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:QualityValidityCode" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ReleaseDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ReliabilityNumeric" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ReportedDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ReportingOrganizationText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ReportingPersonRoleText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ReportingPersonText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:RepositoryID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:SensitivityText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:SourceContactPersonText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:SourceIDText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:SourceText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:NANPTelephoneNumberType" w:isRequested="true">
+        <w:ElementInType w:name="nc:TelephoneAreaCodeID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:TelephoneExchangeID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:TelephoneLineID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:TelephoneSuffixID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:NonNegativeDecimalSimpleType" w:isRequested="true"/>
+    <w:Type w:name="nc:NonNegativeDecimalType" w:isRequested="true"/>
+    <w:Type w:name="nc:NumericType" w:isRequested="true">
+        <w:AttributeInType w:name="nc:confidenceNumeric"/>
+        <w:AttributeInType w:name="nc:toleranceNumeric"/>
+    </w:Type>
+    <w:Type w:name="nc:OrganizationAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Organization" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:OrganizationContactInformationAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:ContactInformation" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsDayIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsEmergencyIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsEveningIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsNightIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsPrimaryIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Organization" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:OrganizationFacilityAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Facility" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Person" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:OrganizationItemAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Item" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Organization" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:OrganizationLocationAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Location" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Organization" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:OrganizationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:OrganizationAbbreviationText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationActivityText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationBranchName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationCategory" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationDayContactInformation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationDoingBusinessAsName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationEmergencyContactInformation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationEstablishedDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationEveningContactInformation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationIncorporatedIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationLocalIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationLocation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationNightContactInformation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationOtherIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationParent" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationPrimaryContactInformation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationPrincipalOfficial" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationStatus" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationSubUnit" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationSubUnitName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationTaxIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationTerminationDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:OrganizationUnitName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:PercentageSimpleType" w:isRequested="true"/>
+    <w:Type w:name="nc:PercentageType" w:isRequested="true"/>
+    <w:Type w:name="nc:PersonAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Person" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:PersonContactInformationAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:ContactInformation" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsDayIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsEmergencyIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsEveningIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsHomeIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsNightIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsPrimaryIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ContactInformationIsWorkIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Person" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:PersonConveyanceAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Conveyance" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Person" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:PersonDocumentAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Document" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Person" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:PersonItemAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Item" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Person" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:PersonLanguageType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Language" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonComprehendsSpokenLanguageIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonReadsLanguageIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonSpeaksLanguageIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonWritesLanguageIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:PersonLocationAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Location" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Person" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:PersonNameTextType" w:isRequested="true">
+        <w:AttributeInType w:name="nc:personNameInitialIndicator"/>
+        <w:AttributeInType w:name="s:sequenceID"/>
+    </w:Type>
+    <w:Type w:name="nc:PersonNameType" w:isRequested="true">
+        <w:AttributeInType w:name="nc:personNameCommentText"/>
+        <w:ElementInType w:name="nc:PersonFullName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonGivenName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonMaidenName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonMiddleName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonNamePrefixText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonNameSuffixText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonSurName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:PersonOrganizationAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Organization" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:Person" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:PersonType" w:isRequested="true">
+        <w:ElementInType w:name="nc:PersonAccentText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonAgeDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonAgeMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonAlternateName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonBirthDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonBirthLocation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonBloodType" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonBodyXRaysAvailable" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonBuildText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonCapability" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonCircumcisionIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonCitizenship" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonClothing" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonComplexionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonDNA" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonDeathDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonDependentQuantity" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonDigitalImage" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonDigitizedSignatureImage" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonDisguiseDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonDonorOrgan" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonEducationLevelText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonEthnicity" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonEyeColor" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonEyewearDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonFacialHairText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonFingerprintSet" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonGeneralAppearanceDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonHairAppearanceText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonHairCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonHairColor" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonHairLengthText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonHairStyleText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonHandednessText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonHeightDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonHeightMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonHumanResourceIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonInjury" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonIntoxication" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonJewelryDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonLanguageEnglishIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonLearningDisabilityText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonLicenseIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonLivingIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonMaritalStatusText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonMedicalCondition" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonMedicalDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonMedicalFileIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonMedicationRequiredText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonMentalStateText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonMilitarySummary" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonMoodDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonNationalIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonNationality" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonNationalityText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonOrganDonatorIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonOtherIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonPassportIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonPhysicalDisabilityText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonPhysicalFeature" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonPrimaryLanguage" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonRace" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonReligionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonResident" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonSSNIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonSecondaryLanguage" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonSecurityClearance" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonSex" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonSexualOrientationText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonSkinTone" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonSpeechDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonStateIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonTaxIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonTooth" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonUSCitizenIndicator" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonVisionPrescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonWeightDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonWeightMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PersonXRayImage" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:ProperNameTextType" w:isRequested="true">
+        <w:AttributeInType w:name="nc:formCode"/>
+        <w:AttributeInType w:name="nc:scriptCode"/>
+        <w:AttributeInType w:name="nc:transliterationCode"/>
+    </w:Type>
+    <w:Type w:name="nc:PropertyType" w:isRequested="true">
+        <w:ElementInType w:name="nc:PropertyCurrentResaleValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PropertyHolding" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PropertyRecoveredValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PropertySeizedLocation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:PropertySeizer" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:RoleOfItem" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:QuantityType" w:isRequested="true">
+        <w:AttributeInType w:name="nc:quantityUnitText"/>
+    </w:Type>
+    <w:Type w:name="nc:RelatedActivityAssociationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:Activity" w:isReference="true" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ActivityRelationText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:RelativeLocationHeadingSimpleType" w:isRequested="true"/>
+    <w:Type w:name="nc:RelativeLocationHeadingType" w:isRequested="true"/>
+    <w:Type w:name="nc:RelativeLocationType" w:isRequested="true">
+        <w:ElementInType w:name="nc:RelativeLocationDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:RelativeLocationDirection" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:RelativeLocationDistanceText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:RelativeLocationHeadingValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:RelativeLocationReferencePoint" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:StatusType" w:isRequested="true">
+        <w:ElementInType w:name="nc:StatusDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:StatusDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:StatusIssuerIdentification" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:StatusIssuerText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:StatusText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:StreetType" w:isRequested="true">
+        <w:ElementInType w:name="nc:StreetCategoryText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:StreetExtensionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:StreetFullText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:StreetName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:StreetNumberText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:StreetPostdirectionalText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:StreetPredirectionalText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:TangibleItemType" w:isRequested="true">
+        <w:ElementInType w:name="nc:ItemAgeMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemBinary" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemBrandName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemCategory" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemColor" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemHeightMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemImage" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemLengthMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemMakeName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemModelName" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemModelYearDate" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemQuantity" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemSizeDescriptionText" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemStyle" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemWeightMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:ItemWidthMeasure" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:TelephoneNumberType" w:isRequested="true">
+        <w:ElementInType w:name="nc:TelephoneNumberRepresentation" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:TextType" w:isRequested="true">
+        <w:AttributeInType w:name="nc:languageCode"/>
+        <w:AttributeInType w:name="nc:partialIndicator"/>
+        <w:AttributeInType w:name="nc:truncationIndicator"/>
+    </w:Type>
+    <w:Type w:name="nc:TimeMeasureType" w:isRequested="true">
+        <w:ElementInType w:name="nc:TimeUnitCode" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:TwoDimensionalGeographicCoordinateType" w:isRequested="true">
+        <w:ElementInType w:name="nc:GeographicCoordinateLatitude" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:GeographicCoordinateLongitude" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:GeographicDatumCode" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:UTMCoordinateType" w:isRequested="true">
+        <w:ElementInType w:name="nc:UTMCoordinateID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:UTMDatumID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:UTMEastingValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:UTMGridZoneID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:UTMGridZoneSquareID" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+        <w:ElementInType w:name="nc:UTMNorthingValue" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+    <w:Type w:name="nc:WeightMeasureType" w:isRequested="true">
+        <w:ElementInType w:name="nc:WeightUnitCode" w:isReference="false" w:minOccurs="0" w:maxOccurs="unbounded"/>
+    </w:Type>
+</w:WantList>

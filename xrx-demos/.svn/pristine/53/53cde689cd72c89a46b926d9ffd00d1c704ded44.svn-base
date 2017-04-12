@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <title>XForms POST Example</title>
+        <xf:model>
+            <xf:instance xmlns="">
+                <MyData>
+                    <Data1>One</Data1>
+                    <Data2>Two</Data2>
+                    <Data3>Three</Data3>
+                </MyData>
+            </xf:instance>
+            <xf:submission id="save" method="post" action="../unit-tests/echo-post.xq" ref="/MyData"/>
+        </xf:model>
+    </head>
+    <body>
+        <xf:input ref="Data1">
+            <xf:label>Data 1:</xf:label>
+        </xf:input>
+        <xf:input ref="Data2">
+            <xf:label>Data 2:</xf:label>
+        </xf:input>
+        <xf:input ref="Data3">
+            <xf:label>Data 3:</xf:label>
+        </xf:input>
+        <br/>
+        <xf:submit submission="save">
+            <xf:label>POST</xf:label>
+        </xf:submit>
+    </body>
+</html>

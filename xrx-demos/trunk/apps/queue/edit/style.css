@@ -1,0 +1,9 @@
+<null>
+@namespace xf url("http://www.w3.org/2002/xforms");
+
+.row {display: inline-block; width: 200px; text-align: left; font-weight: bold; margin-right: 5px;}
+.row1 {margin: 5px 0;}
+.id .xforms-value {width: 5ex;}
+xf|input {margin-right: 3ex;}
+.xforms-repeat-item-selected {color: blue; background-color: silver;} 
+</null>

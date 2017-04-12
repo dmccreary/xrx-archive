@@ -1,0 +1,16 @@
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>XRX Template Application</description>
+    <author>Dan McCreary</author>
+    <website>http://danmccreary.com</website>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <!-- set this to application for system that have a GUI -->
+    <type>application</type>
+    <target>/db/apps/template</target>
+    <prepare></prepare>
+    <finish></finish>
+    <permissions user="admin" password="" group="dba" mode="rw-rw-r--"/>
+    <!-- this tag is added automatically by the deployment tool -->
+
+</meta>

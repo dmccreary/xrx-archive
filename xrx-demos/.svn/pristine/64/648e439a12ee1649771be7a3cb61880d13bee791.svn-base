@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animal>
+    <id/>
+    <animal-category-code/>
+    <animal-type-code/>
+    <animal-name/>
+    <pruchase-amount/>
+    <status>available</status>
+    <description/>
+    <image/>
+</animal>

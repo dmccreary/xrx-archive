@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg-demo xmlns:xlink="www.w3.org/1999/xlink">
+    <id>15</id>
+    <name>Quadratic Spline</name>
+    <description>Quadratic Spline with control points.</description>
+    <category>medium</category>
+    <status>draft</status>
+    <tag>tag-1</tag>
+    <jquery>true</jquery>
+    <style>
+        body {font-family: Helvetica,Ariel,sans-serif;}
+        input, label {font-weight:bold; font-size: 2em;}
+        svg {border: solid 1px black; margin-left: 10px;}
+        .slider, svg {width: 300px;}
+    </style>
+    <script>
+      // global variables
+      var pathData = 'M0 100 C75 50     100 50     150 100       S225 150   290 100'
+      var s1 = 100;
+      var s2 = 50;
+      var s3 = 100;
+      var s4 = 150;
+      var s5 = 100;
+      
+       window.onload = function() {
+           var path = document.getElementById('path');
+           path.setAttribute('d', pathData);
+       };
+       
+
+       function makePath(s1, s2, s3, s4, s5) {
+          pathData = 'M0 ' + s1 +  ' C75 ' + s2 + ' 100 ' + s3 + '  150 ' + s4 + '  S225 150   290 ' + s5;
+       }
+
+    
+        $(
+          function() {
+          $('#slider1').slider(
+                  {
+                    min: 1,
+                    max: 200,
+                    value: s1,
+                    slide: function(event, ui) {
+                       s1 = $('#slider1').slider('value');
+                       document.getElementById('rect-1').setAttribute('y', s1);
+                       makePath(s1, s2, s3, s4, s5);
+                       document.getElementById('path').setAttribute('d', pathData);                       
+                    }
+             });
+             
+          
+             $('#slider2').slider(
+                  {
+                    min: 1,
+                    max: 200,
+                    value: s2,
+                    slide: function(event, ui) {
+                       s2 = $('#slider2').slider('value');
+                       document.getElementById('rect-2').setAttribute('y', s2);
+                       makePath(s1, s2, s3, s4, s5);
+                       document.getElementById('path').setAttribute('d', pathData);                       
+                    }
+             });
+             
+             $('#slider3').slider(
+                  {
+                    min: 1,
+                    max: 200,
+                    value: s3,
+                    slide: function(event, ui) {                      
+                       s3 = $('#slider3').slider('value');
+                       document.getElementById('rect-3').setAttribute('y', s3);
+                       makePath(s1, s2, s3, s4, s5);
+                       document.getElementById('path').setAttribute('d', pathData);                      
+                    }
+             });
+             
+             $('#slider4').slider(
+                  {
+                    min: 1,
+                    max: 200,
+                    value: s4,
+                    slide: function(event, ui) {                      
+                       s4 = $('#slider4').slider('value');
+                       document.getElementById('rect-4').setAttribute('y', s4);
+                       makePath(s1, s2, s3, s4, s5);
+                       document.getElementById('path').setAttribute('d', pathData);                         
+                    }
+             });
+             
+             $('#slider5').slider(
+                  {
+                    min: 1,
+                    max: 200,
+                    value: s5,
+                    slide: function(event, ui) {                      
+                       s5 = $('#slider5').slider('value');
+                       document.getElementById('rect-5').setAttribute('y', s5);
+                       makePath(s1, s2, s3, s4, s5);
+                       document.getElementById('path').setAttribute('d', pathData);                          
+                    }
+             });
+             
+          });
+
+    </script>
+    <svg width="300" height="200" style="border: solid blue 1px;">
+        <path id="path" fill="none" stroke="black" d=""/>
+        <rect id="rect-1" x="0" y="100" width="10" height="10" fill="green" stroke="none"/>
+        <rect id="rect-2" x="75" y="50" width="5" height="5" fill="orange" stroke="none"/>
+        <rect id="rect-3" x="150" y="100" width="5" height="5" fill="blue" stroke="none"/>
+        <rect id="rect-4" x="225" y="150" width="7" height="5" fill="purple" stroke="none"/>
+        <rect id="rect-5" x="290" y="100" width="10" height="10" fill="red" stroke="none"/>
+        <text font-family="Arial" font-size="12" x="150" y="50">M, C, S</text>
+    </svg>
+    <content>
+        <span class="label">Point 1 Y:</span>
+        <div id="slider1" class="slider"/>
+        <span class="label">Point 2 Y:</span>
+        <div id="slider2" class="slider"/>
+        <span class="label">Point 3 Y:</span>
+        <div id="slider3" class="slider"/>
+        <span class="label">Point 4 Y:</span>
+        <div id="slider4" class="slider"/>
+        <span class="label">Point 5 Y:</span>
+        <div id="slider5" class="slider"/>
+        <p>Move the slider to change the position and size of the rectangle.</p>
+    </content>
+    <expected-image/>
+</svg-demo>

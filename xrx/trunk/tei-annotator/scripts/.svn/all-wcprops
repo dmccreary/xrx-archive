@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/131/trunk/tei-annotator/scripts
+END
+echo-post.xq
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/131/trunk/tei-annotator/scripts/echo-post.xq
+END
+suggest-person.xq
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/131/trunk/tei-annotator/scripts/suggest-person.xq
+END
+suggest-term.xq
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/131/trunk/tei-annotator/scripts/suggest-term.xq
+END
+suggest-location.xq
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/131/trunk/tei-annotator/scripts/suggest-location.xq
+END
+people-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/131/trunk/tei-annotator/scripts/people-test.xml
+END
+term-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/131/trunk/tei-annotator/scripts/term-test.xml
+END
+location-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/131/trunk/tei-annotator/scripts/location-test.xml
+END
